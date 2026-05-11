@@ -11896,7 +11896,7 @@ i.fa-brands.fa-instagram {
     gap: 25px;
     align-items: center;
     width: 100%;
-    padding: 18px 25px;
+    padding: 16px 25px;
     background-color: var(--white-color);
     border: none;
     border-radius: 16px;
@@ -11954,7 +11954,7 @@ i.fa-brands.fa-instagram {
 .banner-box-section .banner-box-image {
     aspect-ratio: 1728 / 549;
     border-radius: 30px;
-    padding: 24px 0 24px 30px
+    padding: 24px 30px;
 }
 
 .boujee-beachin-banner {
@@ -22859,7 +22859,7 @@ textarea::-ms-input-placeholder {
 	bottom: 30px;
 }
 
-.case-study-wrapper .main-box .box.active .title-items {
+.case-study-wrapper .main-box .box .title-items {
 	opacity: 0;
 	visibility: hidden;
 }

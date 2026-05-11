@@ -145,7 +145,7 @@
 <!-- End Key Highlights -->
 
 <!-- Start Case Studies -->
-<section class="banner-box-section text-white py-5">
+<section class="banner-box-section home-banner-box-section text-white py-5">
 	<div class="h-100 container">
 		<div class="mb-4 row">
 			<div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6 col-12">

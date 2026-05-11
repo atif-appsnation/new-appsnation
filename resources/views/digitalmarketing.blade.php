@@ -296,7 +296,7 @@
 <!-- End Services-->
 
 <!-- Start Services -->
-<section class="banner-box-section p-100 text-white py-5">
+<section class="banner-box-section dm-banner-box-section p-100 text-white py-5">
 	<div class="h-100 container">
 		<div class="mb-4 row">
 			<div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6 col-12">
