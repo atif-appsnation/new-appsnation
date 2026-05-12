@@ -22,16 +22,15 @@
 	<div class="rocket-shape">
 		<img src="images/hero/rocket.png" alt="img" class="float-bob-y" loading="lazy">
 	</div>
-	<div class="container-fluid">
+	<div class="container">
 		<div class="row g-4 align-items-center">
-			<div class="col-xl-4 col-lg-6">
-
+			<div class="col-lg-6 col-xl-4">
 				<div class="hero-content">
 					<h1 class="wow img-custom-anim-right text-white" data-wow-duration="1.5s" data-wow-delay="0.2s">Best SEO & Digital Marketing Services for Small Businesses</h1>
-					<p class="wow fadeInUp text-white" data-wow-delay=".3s">Partner with a leading digital marketing agency offering SEO services for small businesses, affordable SEO services for small business, Google Ads management, social media marketing services packages, and content creation all designed to deliver measurable growth.</p>
+					<p class="wow text-white" data-wow-delay=".3s">Partner with a leading digital marketing agency offering SEO services for small businesses, affordable SEO services for small business, Google Ads management, social media marketing services packages, and content creation all designed to deliver measurable growth.</p>
 				</div>
 			</div>
-			<div class="col-xl-4 col-lg-6">
+			<div class="col-lg-6 col-xl-4">
 				<div class="hero-image">
 					<img src="images/team/1.png" alt="img" class=" wow img-custom-anim-left"
 						data-wow-duration="1.5s" data-wow-delay="0.3s" loading="lazy">
@@ -40,7 +39,7 @@
 					</div>
 				</div>
 			</div>
-			<div class="col-xl-4 col-lg-6 mt-n4 mt-lg-0">
+			<div class="col-xl-4 mt-n4 mt-lg-0">
 				<div class="video-right">
 					<div class="niwax23form shadow">
 						<div class="common-heading text-l">
@@ -79,7 +78,7 @@
 							<div id="responseMessage" class="mt-3"></div>
 						</div>
 					</div>
-					<div class="client-items wow fadeInUp" data-wow-delay=".7s">
+					<div class="client-items wow" data-wow-delay=".7s">
 						<div class="client-logo">
 							<img src="images/hero/logo.png" alt="img" loading="lazy">
 						</div>
@@ -161,7 +160,6 @@
 </div>
 <!-- End Marquee-->
 
-
 <!-- Start Services -->
 <section class="case-study-section fix section-padding">
 	<div class="overlay-shape">
@@ -176,19 +174,19 @@
 	<div class="container">
 		<div class="section-title-area">
 			<div class="section-title">
-				<div class="sub-title wow fadeInUp">
+				<div class="sub-title wow">
 					<span>Our Services</span>
 				</div>
-				<h2 class="wow fadeInUp" data-wow-delay=".3s">Comprehensive Digital Marketing <br>Services
+				<h2 class="wow" data-wow-delay=".3s">Comprehensive Digital Marketing <br>Services
 				</h2>
 			</div>
 		</div>
-		<p class="mt-3 mt-md-0 wow fadeInUp" data-wow-delay=".5s">
+		<p class="mt-3 mt-md-0 wow" data-wow-delay=".5s">
 			Dubai’s market rewards precision. Our agency provides AI-driven SEO services in Houston for small businesses, expert SEO consulting services, and manual link building service that combine data-driven insights with creative strategies.
 		</p>
 		<div class="case-study-wrapper">
 			<div class="row">
-				<div class="col-xxl-6 wow fadeInUp">
+				<div class="col-xxl-6 wow">
 					<div class="case-study-box-items">
 						<div class="thumb">
 							<img src="images/services/digital-marketing/seo.webp" alt="img" loading="lazy">
@@ -223,7 +221,7 @@
 				</div>
 				<div class="col-xxl-6">
 					<div class="main-box">
-						<div class="box active wow fadeInUp">
+						<div class="box active wow">
 							<div class="title-items">
 								<h3>
 									<a href="javascript:void(0)">SEO</a>
@@ -236,7 +234,7 @@
 								<p>Increase your website visibility with best SEO services for small business and reach your target audience effectively.</p>
 							</div>
 						</div>
-						<div class="box bg-1 wow fadeInUp wow" data-wow-delay=".2s">
+						<div class="box bg-1 wow wow" data-wow-delay=".2s">
 							<div class="title-items">
 								<h3>
 									<a href="javascript:void(0)">SMM</a>
@@ -249,7 +247,7 @@
 								<p>Engage your audience with social media management, content creation, and advertising across all platforms.</p>
 							</div>
 						</div>
-						<div class="box bg-2  wow fadeInUp wow" data-wow-delay=".4s">
+						<div class="box bg-2  wow wow" data-wow-delay=".4s">
 							<div class="title-items">
 								<h3>
 									<a href="javascript:void(0)">Google Ads</a>
@@ -262,7 +260,7 @@
 								<p>Maximize your ROI with Google Ads management services near me and Google local service ads management.</p>
 							</div>
 						</div>
-						<div class="box bg-3 wow fadeInUp wow" data-wow-delay=".6s">
+						<div class="box bg-3 wow wow" data-wow-delay=".6s">
 							<div class="title-items">
 								<h3>
 									<a href="javascript:void(0)">Lead Generation</a>
@@ -279,7 +277,7 @@
 				</div>
 			</div>
 		</div>
-		<div class="d-flex justify-content-center gap-4 wow fadeInUp mt-4" data-wow-delay=".7s">
+		<div class="d-flex justify-content-center gap-4 wow mt-4" data-wow-delay=".7s">
 			<div class="main-button">
 				<a href="tel:+971543589543" class="btn-br bg-btn3 btshad-b2 lnk py-2">
 					<span>Call Us</span>
@@ -356,11 +354,11 @@
 		<div class="container my-2">
 			<div class="section-title-area">
 				<div class="section-title">
-					<div class="sub-title wow fadeInUp">
+					<div class="sub-title wow">
 						<span>Our Case Studys</span>
 					</div>
-					<h2 class="wow fadeInUp" data-wow-delay=".3s">Results That Speak: <br> <span>Our Client Success Stories</span></h2>
-					<p class="mt-3 mt-md-0 wow fadeInUp" data-wow-delay=".5s"> Discover how our AI-powered, data-driven marketing strategies helped businesses across Dubai achieve measurable growth through Meta and Google Ads campaigns optimized for performance, ROI, and lead generation. </p>
+					<h2 class="wow" data-wow-delay=".3s">Results That Speak: <br> <span>Our Client Success Stories</span></h2>
+					<p class="mt-3 mt-md-0 wow" data-wow-delay=".5s"> Discover how our AI-powered, data-driven marketing strategies helped businesses across Dubai achieve measurable growth through Meta and Google Ads campaigns optimized for performance, ROI, and lead generation. </p>
 				</div>
 			</div>
 		</div>
@@ -369,7 +367,7 @@
 			<div class="carousel-item active">
 				<div class="row align-items-center bg-white">
 					<div class="col-sm-12 col-md-12 col-lg-6 text-center p-4">
-						<img src="images/services/digital-marketing/digital-marketing-portfolio-01.png" class="img-fluid rounded-3" alt="Digital Marketing" loading="lazy">
+						<img src="images/services/digital-marketing/digital-marketing-portfolio-01.webp" class="img-fluid rounded-3" alt="Digital Marketing" loading="lazy">
 					</div>
 					<div class="col-sm-12 col-md-12 col-lg-6 p-4">
 						<h4 class="pt-3 case-study-heading">How Our <span>Google Ads</span> Generated 168 Qualified Leads for AED 8M+ Luxury Properties	</h4>
@@ -400,7 +398,7 @@
 			<div class="carousel-item">
 				<div class="row align-items-center bg-white">
 					<div class="col-sm-12 col-md-12 col-lg-6 text-center p-4">
-						<img src="images/services/digital-marketing/digital-marketing-portfolio-02.png" class="img-fluid rounded-3" alt="Digital Marketing" loading="lazy">
+						<img src="images/services/digital-marketing/digital-marketing-portfolio-02.webp" class="img-fluid rounded-3" alt="Digital Marketing" loading="lazy">
 					</div>
 					<div class="col-sm-12 col-md-12 col-lg-6 p-4">
 						<h4 class="pt-3 case-study-heading">How Apps Nation Generated 567+ Leads for a Leading  <span> Aesthetic Clinic</span>     </h4>
@@ -431,7 +429,7 @@
 			<div class="carousel-item">
 				<div class="row align-items-center bg-white">
 					<div class="col-sm-12 col-md-12 col-lg-6 text-center p-4">
-						<img src="images/services/digital-marketing/digital-marketing-portfolio-03.png" class="img-fluid rounded-3" alt="Digital Marketing" loading="lazy">
+						<img src="images/services/digital-marketing/digital-marketing-portfolio-03.webp" class="img-fluid rounded-3" alt="Digital Marketing" loading="lazy">
 					</div>
 					<div class="col-sm-12 col-md-12 col-lg-6 p-4">
 						<h4 class="pt-3 case-study-heading">152K+ Conversions Generated for a  <span>Rent-a-Car </span> Brand </h4>
@@ -462,7 +460,7 @@
 			<div class="carousel-item">
 				<div class="row align-items-center bg-white">
 					<div class="col-sm-12 col-md-12 col-lg-6 text-center p-4">
-						<img src="images/services/digital-marketing/digital-marketing-portfolio-04.png" class="img-fluid rounded-3" alt="Digital Marketing" loading="lazy">
+						<img src="images/services/digital-marketing/digital-marketing-portfolio-04.webp" class="img-fluid rounded-3" alt="Digital Marketing" loading="lazy">
 					</div>
 					<div class="col-sm-12 col-md-12 col-lg-6 p-4">
 						<h4 class="pt-3 case-study-heading">73+ High-Intent  <span> Spa Leads Generated Through </span> Meta Ads </h4>
@@ -493,7 +491,7 @@
 			<div class="carousel-item">
 				<div class="row align-items-center bg-white">
 					<div class="col-sm-12 col-md-12 col-lg-6 text-center p-4">
-						<img src="images/services/digital-marketing/digital-marketing-portfolio-05.png" class="img-fluid rounded-3" alt="Owl" loading="lazy">
+						<img src="images/services/digital-marketing/digital-marketing-portfolio-05.webp" class="img-fluid rounded-3" alt="Owl" loading="lazy">
 					</div>
 					<div class="col-sm-12 col-md-12 col-lg-6 p-4">
 						<h4 class="pt-3 case-study-heading">33 Qualified Luxury  <span>Real Estate Leads Generated </span> with Optimized Ad Spend</h4>
@@ -545,14 +543,14 @@
 	<div class="container">
 		<div class="section-title-area">
 			<div class="section-title">
-				<div class="sub-title wow fadeInUp">
+				<div class="sub-title wow">
 					<span>Industries We Serve</span>
 				</div>
-				<h2 class="wow fadeInUp" data-wow-delay=".3s">Digital Marketing Solutions for Every Industry</h2>
+				<h2 class="wow" data-wow-delay=".3s">Digital Marketing Solutions for Every Industry</h2>
 			</div>
 		</div>
-		<p class="mt-3 mt-md-0 wow fadeInUp" data-wow-delay=".5s">At <b>AppsNation</b>, we help businesses of all sizes and sectors grow online. From startups to established brands, our <b>AI-driven digital marketing services</b> deliver results across multiple industries.</p>
-		<div class="industries wow fadeInUp mt-4" data-wow-delay="0.7s">
+		<p class="mt-3 mt-md-0 wow" data-wow-delay=".5s">At <b>AppsNation</b>, we help businesses of all sizes and sectors grow online. From startups to established brands, our <b>AI-driven digital marketing services</b> deliver results across multiple industries.</p>
+		<div class="industries wow mt-4" data-wow-delay="0.7s">
 			<div class="row ">
 				<div class="col-6 col-md-4 col-lg-3 ">
 					<ul class="industries-point">
@@ -678,7 +676,7 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-12">
-				<div class="d-flex justify-content-center wow fadeInUp mt-4" data-wow-delay=".7s">
+				<div class="d-flex justify-content-center wow mt-4" data-wow-delay=".7s">
 					<div class="main-button">
 						<a href="tel:+971543589543" class="theme-btn">
 							<span>Call Us</span>
@@ -713,13 +711,13 @@
 				<div class="col-lg-6 mt-4 mt-lg-0">
 					<div class="team-content">
 						<div class="section-title">
-							<div class="sub-title wow fadeInUp">
+							<div class="sub-title wow">
 								<span>Marketing Pros</span>
 							</div>
-							<h2 class="wow fadeInUp" data-wow-delay=".3s">Let’s Grow Your Business with AI-Powered Digital Marketing</h2>
+							<h2 class="wow" data-wow-delay=".3s">Let’s Grow Your Business with AI-Powered Digital Marketing</h2>
 						</div>
-						<p class="mt-3 mt-md-0 wow fadeInUp" data-wow-delay=".5s">Partner with <b>AppsNation</b> to scale your business with performance-driven <b>SEO, Google Ads, Meta Ads, and social media marketing</b> solutions designed to increase<b> traffic, leads,  and conversions.</b></p>
-						<div class="list-items wow fadeInUp" data-wow-delay=".7s">
+						<p class="mt-3 mt-md-0 wow" data-wow-delay=".5s">Partner with <b>AppsNation</b> to scale your business with performance-driven <b>SEO, Google Ads, Meta Ads, and social media marketing</b> solutions designed to increase<b> traffic, leads,  and conversions.</b></p>
+						<div class="list-items wow" data-wow-delay=".7s">
 							<ul>
 								<li>
 									<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
@@ -749,16 +747,16 @@
 								</li>
 							</ul>
 						</div>
-						<!-- <div class="main-button wow fadeInUp" data-wow-delay=".5s">
+						<!-- <div class="main-button wow" data-wow-delay=".5s">
                                     <a href="team.html"> <span class="theme-btn"> EXPLORE MORE </span><span class="arrow-btn"><i class="fa-regular fa-arrow-up-right"></i></span></a>
                                 </div> -->
 						<div class="d-flex">
-							<div class="main-button wow fadeInUp" data-wow-delay=".3s">
+							<div class="main-button wow" data-wow-delay=".3s">
 								<a href="tel:+971543589543" class="theme-btn">
 									<span>Call Us</span>
 								</a>
 							</div>
-							<div class="main-button wow fadeInUp" data-wow-delay=".3s">
+							<div class="main-button wow" data-wow-delay=".3s">
 								<a data-bs-toggle="modal" data-bs-target="#myModal" class="ms-3">
 									<span class="theme-btn">Schedule A Call</span>
 								</a>
@@ -775,7 +773,7 @@
 <!-- Start Badges -->
 <section class="badges-section new-bages-section pt-5 section-padding">
 	<div class="container">
-		<div class="row wow fadeInUp" data-wow-delay=".3s">
+		<div class="row wow" data-wow-delay=".3s">
 			<div class="col-12">
 				<div class="common-heading w-tdxt text-center">
 					<div class="text-center">
@@ -784,185 +782,185 @@
 				</div>
 			</div>
 		</div>
-		<div class="row wow fadeInUp mt-5" data-wow-delay=".5s">
+		<div class="row wow mt-5" data-wow-delay=".5s">
 			<div class="col-12">
-				<div class="awards-slider owl-carousel owl-theme owl-loaded owl-drag">
-					<div class="award-item">
+				<div class="partners-slider owl-carousel owl-theme owl-loaded owl-drag">
+					<div class="partner-item">
 						<div class="item">
 							<div class="card">
 								<div class="card-body">
-									<img src="images/web-partners/icons-01.png" class="award-img" width="auto" height="auto" loading="lazy">
+									<img src="images/web-partners/icons-01.png" class="partner-img w-lg-75 d-block mx-auto" width="auto" height="auto" loading="lazy">
 								</div>
 							</div>
 						</div>
 					</div>
-					<div class="award-item">
+					<div class="partner-item">
 						<div class="item">
 							<div class="card">
 								<div class="card-body">
-									<img src="images/web-partners/icons-02.png" class="award-img" width="auto" height="auto" loading="lazy">
+									<img src="images/web-partners/icons-02.png" class="partner-img w-lg-75 d-block mx-auto" width="auto" height="auto" loading="lazy">
 								</div>
 							</div>
 						</div>
 					</div>
-					<div class="award-item">
+					<div class="partner-item">
 						<div class="item">
 							<div class="card">
 								<div class="card-body">
-									<img src="images/web-partners/icons-03.png" class="award-img" width="auto" height="auto" loading="lazy">
+									<img src="images/web-partners/icons-03.png" class="partner-img w-lg-75 d-block mx-auto" width="auto" height="auto" loading="lazy">
 								</div>
 							</div>
 						</div>
 					</div>
-					<div class="award-item">
+					<div class="partner-item">
 						<div class="item">
 							<div class="card">
 								<div class="card-body">
-									<img src="images/web-partners/icons-04.png" class="award-img" width="auto" height="auto" loading="lazy">
+									<img src="images/web-partners/icons-04.png" class="partner-img w-lg-75 d-block mx-auto" width="auto" height="auto" loading="lazy">
 								</div>
 							</div>
 						</div>
 					</div>
-					<div class="award-item">
+					<div class="partner-item">
 						<div class="item">
 							<div class="card">
 								<div class="card-body">
-									<img src="images/web-partners/icons-05.png" class="award-img" width="auto" height="auto" loading="lazy">
+									<img src="images/web-partners/icons-05.png" class="partner-img w-lg-75 d-block mx-auto" width="auto" height="auto" loading="lazy">
 								</div>
 							</div>
 						</div>
 					</div>
-					<div class="award-item">
+					<div class="partner-item">
 						<div class="item">
 							<div class="card">
 								<div class="card-body">
-									<img src="images/web-partners/icons-06.png" class="award-img" width="auto" height="auto" loading="lazy">
+									<img src="images/web-partners/icons-06.png" class="partner-img w-lg-75 d-block mx-auto" width="auto" height="auto" loading="lazy">
 								</div>
 							</div>
 						</div>
 					</div>
-					<div class="award-item">
+					<div class="partner-item">
 						<div class="item">
 							<div class="card">
 								<div class="card-body">
-									<img src="images/web-partners/icons-07.png" class="award-img" width="auto" height="auto" loading="lazy">
+									<img src="images/web-partners/icons-07.png" class="partner-img w-lg-75 d-block mx-auto" width="auto" height="auto" loading="lazy">
 								</div>
 							</div>
 						</div>
 					</div>
-					<div class="award-item">
+					<div class="partner-item">
 						<div class="item">
 							<div class="card">
 								<div class="card-body">
-									<img src="images/web-partners/icons-08.png" class="award-img" width="auto" height="auto" loading="lazy">
+									<img src="images/web-partners/icons-08.png" class="partner-img w-lg-75 d-block mx-auto" width="auto" height="auto" loading="lazy">
 								</div>
 							</div>
 						</div>
 					</div>
-					<div class="award-item">
+					<div class="partner-item">
 						<div class="item">
 							<div class="card">
 								<div class="card-body">
-									<img src="images/web-partners/icons-09.png" class="award-img" width="auto" height="auto" loading="lazy">
+									<img src="images/web-partners/icons-09.png" class="partner-img w-lg-75 d-block mx-auto" width="auto" height="auto" loading="lazy">
 								</div>
 							</div>
 						</div>
 					</div>
-					<div class="award-item">
+					<div class="partner-item">
 						<div class="item">
 							<div class="card">
 								<div class="card-body">
-									<img src="images/web-partners/icons-10.png" class="award-img" width="auto" height="auto" loading="lazy">
+									<img src="images/web-partners/icons-10.png" class="partner-img w-lg-75 d-block mx-auto" width="auto" height="auto" loading="lazy">
 								</div>
 							</div>
 						</div>
 					</div>
-					<div class="award-item">
+					<div class="partner-item">
 						<div class="item">
 							<div class="card">
 								<div class="card-body">
-									<img src="images/web-partners/icons-11.png" class="award-img" width="auto" height="auto" loading="lazy">
+									<img src="images/web-partners/icons-11.png" class="partner-img w-lg-75 d-block mx-auto" width="auto" height="auto" loading="lazy">
 								</div>
 							</div>
 						</div>
 					</div>
-					<div class="award-item">
+					<div class="partner-item">
 						<div class="item">
 							<div class="card">
 								<div class="card-body">
-									<img src="images/web-partners/icons-12.png" class="award-img" width="auto" height="auto" loading="lazy">
+									<img src="images/web-partners/icons-12.png" class="partner-img w-lg-75 d-block mx-auto" width="auto" height="auto" loading="lazy">
 								</div>
 							</div>
 						</div>
 					</div>
-					<div class="award-item">
+					<div class="partner-item">
 						<div class="item">
 							<div class="card">
 								<div class="card-body">
-									<img src="images/web-partners/icons-13.png" class="award-img" width="auto" height="auto" loading="lazy">
+									<img src="images/web-partners/icons-13.png" class="partner-img w-lg-75 d-block mx-auto" width="auto" height="auto" loading="lazy">
 								</div>
 							</div>
 						</div>
 					</div>
-					<div class="award-item">
+					<div class="partner-item">
 						<div class="item">
 							<div class="card">
 								<div class="card-body">
-									<img src="images/web-partners/icons-14.png" class="award-img" width="auto" height="auto" loading="lazy">
+									<img src="images/web-partners/icons-14.png" class="partner-img w-lg-75 d-block mx-auto" width="auto" height="auto" loading="lazy">
 								</div>
 							</div>
 						</div>
 					</div>
-					<div class="award-item">
+					<div class="partner-item">
 						<div class="item">
 							<div class="card">
 								<div class="card-body">
-									<img src="images/web-partners/icons-15.png" class="award-img" width="auto" height="auto" loading="lazy">
+									<img src="images/web-partners/icons-15.png" class="partner-img w-lg-75 d-block mx-auto" width="auto" height="auto" loading="lazy">
 								</div>
 							</div>
 						</div>
 					</div>
-					<div class="award-item">
+					<div class="partner-item">
 						<div class="item">
 							<div class="card">
 								<div class="card-body">
-									<img src="images/web-partners/icons-16.png" class="award-img" width="auto" height="auto" loading="lazy">
+									<img src="images/web-partners/icons-16.png" class="partner-img w-lg-75 d-block mx-auto" width="auto" height="auto" loading="lazy">
 								</div>
 							</div>
 						</div>
 					</div>
-					<div class="award-item">
+					<div class="partner-item">
 						<div class="item">
 							<div class="card">
 								<div class="card-body">
-									<img src="images/web-partners/icons-17.png" class="award-img" width="auto" height="auto" loading="lazy">
+									<img src="images/web-partners/icons-17.png" class="partner-img w-lg-75 d-block mx-auto" width="auto" height="auto" loading="lazy">
 								</div>
 							</div>
 						</div>
 					</div>
-					<div class="award-item">
+					<div class="partner-item">
 						<div class="item">
 							<div class="card">
 								<div class="card-body">
-									<img src="images/web-partners/icons-18.png" class="award-img" width="auto" height="auto" loading="lazy">
+									<img src="images/web-partners/icons-18.png" class="partner-img w-lg-75 d-block mx-auto" width="auto" height="auto" loading="lazy">
 								</div>
 							</div>
 						</div>
 					</div>
-					<div class="award-item">
+					<div class="partner-item">
 						<div class="item">
 							<div class="card">
 								<div class="card-body">
-									<img src="images/web-partners/icons-19.png" class="award-img" width="auto" height="auto" loading="lazy">
+									<img src="images/web-partners/icons-19.png" class="partner-img w-lg-75 d-block mx-auto" width="auto" height="auto" loading="lazy">
 								</div>
 							</div>
 						</div>
 					</div>
-					<div class="award-item">
+					<div class="partner-item">
 						<div class="item">
 							<div class="card">
 								<div class="card-body">
-									<img src="images/web-partners/icons-20.png" class="award-img" width="auto" height="auto" loading="lazy">
+									<img src="images/web-partners/icons-20.png" class="partner-img w-lg-75 d-block mx-auto" width="auto" height="auto" loading="lazy">
 								</div>
 							</div>
 						</div>
@@ -1211,11 +1209,11 @@
 
 					@if($item['heading'] == "Top Website design Agencies")
 					<a href="{{$item['comment']}}" target="_blank">
-						<div class="award-item">
+						<div class="awards-item">
 							<div class="item">
 								<div class="card">
 									<div class="card-body">
-										<img src="uploads/{{$item['image']}}" class="award-img" width="auto"
+										<img src="uploads/{{$item['image']}}" class="awards-img w-75 d-block mx-auto" width="auto"
 											height="auto" loading="lazy">
 										<h5 class="text-center pt-3">{{$item['heading']}}</h5>
 									</div>
@@ -1225,11 +1223,11 @@
 					</a>
 
 					@else
-					<div class="award-item">
+					<div class="awards-item">
 						<div class="item">
 							<div class="card">
 								<div class="card-body">
-									<img src="uploads/{{$item['image']}}" class="award-img" width="auto" height="auto" loading="lazy">
+									<img src="uploads/{{$item['image']}}" class="awards-img w-75 d-block mx-auto" width="auto" height="auto" loading="lazy">
 									<h5 class="text-center pt-3">{{$item['heading']}}</h5>
 								</div>
 							</div>
@@ -1240,11 +1238,11 @@
 					@else
 					@if($item['heading'] == "Top Website design Agencies")
 					<a href="{{$item['comment']}}" target="_blank">
-						<div class="award-item">
+						<div class="awards-item">
 							<div class="item">
 								<div class="card">
 									<div class="card-body">
-										<img src="uploads/{{$item['image']}}" class="award-img" width="auto"
+										<img src="uploads/{{$item['image']}}" class="awards-img w-75 d-block mx-auto" width="auto"
 											height="auto" loading="lazy">
 										<h5 class="text-center pt-3">{{$item['heading']}}</h5>
 									</div>
@@ -1253,11 +1251,11 @@
 						</div>
 					</a>
 					@else
-					<div class="award-item">
+					<div class="awards-item">
 						<div class="item">
 							<div class="card">
 								<div class="card-body">
-									<img src="uploads/{{$item['image']}}" class="award-img" width="auto" height="auto" loading="lazy">
+									<img src="uploads/{{$item['image']}}" class="awards-img w-75 d-block mx-auto" width="auto" height="auto" loading="lazy">
 									<h5 class="text-center pt-3">{{$item['heading']}}</h5>
 								</div>
 							</div>
@@ -1363,39 +1361,31 @@
 						<div class="card h-100">
 							<div class="card-body">
 								<a href="https://clutch.co/profile/appsnation#highlights" target="_blank">
-									<img src="images/reviews/clutch.webp" class="img-fluid d-block mx-auto" alt="Clutch"
-										width="auto" height="auto" loading="lazy">
-									<img src="images/reviews/star.webp" class="img-fluid d-block mx-auto" alt="Star"
-										width="auto" height="auto" loading="lazy">
-									<p class="text-center pt-2 text-black">Recognized as Top App Developers by Clutch
-									</p>
+									<img src="images/reviews/clutch.webp" class="img-fluid d-block mx-auto" alt="Clutch" width="auto" height="auto" loading="lazy">
+									<img src="images/reviews/star.webp" class="img-fluid d-block mx-auto" alt="Star" width="auto" height="auto" loading="lazy">
+									<p class="text-center pt-2 text-black">Recognized as Top App Developers by Clutch </p>
 								</a>
 							</div>
 						</div>
 					</div>
-					<div class="col-12 col-md-6 col-lg-4 col-xl-3">
+					<div class="col-12 col-md-6 col-lg-4 col-xl-3 mt-3 mt-md-0">
 						<div class="card h-100">
 							<div class="card-body">
 								<a href="https://www.bark.com/en/us/company/appsnation/wGVQn/" target="_blank">
-									<img src="images/reviews/bark.webp" class="img-fluid d-block mx-auto" alt="Bark"
-										width="auto" height="auto" loading="lazy">
-									<img src="images/reviews/star.webp" class="img-fluid d-block mx-auto" alt="Star"
-										width="auto" height="auto" loading="lazy">
+									<img src="images/reviews/bark.webp" class="img-fluid d-block mx-auto" alt="Bark" width="auto" height="auto" loading="lazy">
+									<img src="images/reviews/star.webp" class="img-fluid d-block mx-auto" alt="Star" width="auto" height="auto" loading="lazy">
 									<p class="text-center pt-2 text-black">Recognized as Top App Developers by Bark</p>
 								</a>
 							</div>
 						</div>
 					</div>
-					<div class="col-12 col-md-6 col-lg-4 col-xl-3 mt-3 mt-xl-0">
+					<div class="col-12 col-md-6 col-lg-4 col-xl-3 mt-3 mt-lg-0">
 						<div class="card h-100">
 							<div class="card-body">
 								<a href="https://www.designrush.com/agency/profile/appsnation" target="_blank">
-									<img src="images/reviews/designrush.webp" class="img-fluid d-block mx-auto"
-										alt="DesignRush" width="auto" height="auto" loading="lazy">
-									<img src="images/reviews/star.webp" class="img-fluid d-block mx-auto" alt="Star"
-										width="auto" height="auto" loading="lazy">
-									<p class="text-center pt-2 text-black">Recognized as Top App Developers by
-										DesignRush</p>
+									<img src="images/reviews/designrush.webp" class="img-fluid d-block mx-auto" alt="DesignRush" width="auto" height="auto" loading="lazy">
+									<img src="images/reviews/star.webp" class="img-fluid d-block mx-auto" alt="Star" width="auto" height="auto" loading="lazy">
+									<p class="text-center pt-2 text-black">Recognized as Top App Developers by DesignRush</p>
 								</a>
 							</div>
 						</div>
@@ -1404,12 +1394,9 @@
 						<div class="card h-100">
 							<div class="card-body">
 								<a href="https://www.goodfirms.co/company/appsnation-co" target="_blank">
-									<img src="images/reviews/goodfirms.webp" class="img-fluid d-block mx-auto"
-										alt="GoodFirms" width="auto" height="auto" loading="lazy">
-									<img src="images/reviews/star.webp" class="img-fluid d-block mx-auto" alt="Star"
-										width="auto" height="auto" loading="lazy">
-									<p class="text-center pt-2 text-black">Recognized as Top App Developers by GoodFirms
-									</p>
+									<img src="images/reviews/goodfirms.webp" class="img-fluid d-block mx-auto" alt="GoodFirms" width="auto" height="auto" loading="lazy">
+									<img src="images/reviews/star.webp" class="img-fluid d-block mx-auto" alt="Star" width="auto" height="auto" loading="lazy">
+									<p class="text-center pt-2 text-black">Recognized as Top App Developers by GoodFirms </p>
 								</a>
 							</div>
 						</div>
@@ -1418,12 +1405,9 @@
 						<div class="card h-100">
 							<div class="card-body">
 								<a href="https://www.trustpilot.com/review/appsnation.co" target="_blank">
-									<img src="images/reviews/trustpilot.webp" class="img-fluid d-block mx-auto"
-										alt="Trustpilot" width="auto" height="auto" loading="lazy">
-									<img src="images/reviews/star.webp" class="img-fluid d-block mx-auto" alt="Star"
-										width="auto" height="auto" loading="lazy">
-									<p class="text-center pt-2 text-black">Recognized as Top App Developers by
-										Trustpilot</p>
+									<img src="images/reviews/trustpilot.webp" class="img-fluid d-block mx-auto" alt="Trustpilot" width="auto" height="auto" loading="lazy">
+									<img src="images/reviews/star.webp" class="img-fluid d-block mx-auto" alt="Star" width="auto" height="auto" loading="lazy">
+									<p class="text-center pt-2 text-black">Recognized as Top App Developers by Trustpilot</p>
 								</a>
 							</div>
 						</div>
@@ -1432,12 +1416,9 @@
 						<div class="card h-100">
 							<div class="card-body">
 								<a href="https://www.sortlist.com/agency/appsnation" target="_blank">
-									<img src="images/reviews/sortlist.webp" class="img-fluid d-block mx-auto"
-										alt="Sortlist" width="auto" height="auto" loading="lazy">
-									<img src="images/reviews/star.webp" class="img-fluid d-block mx-auto" alt="Star"
-										width="auto" height="auto" loading="lazy">
-									<p class="text-center pt-2 text-black">Recognized as Top App Developers by Sortlist
-									</p>
+									<img src="images/reviews/sortlist.webp" class="img-fluid d-block mx-auto" alt="Sortlist" width="auto" height="auto" loading="lazy">
+									<img src="images/reviews/star.webp" class="img-fluid d-block mx-auto" alt="Star" width="auto" height="auto" loading="lazy">
+									<p class="text-center pt-2 text-black">Recognized as Top App Developers by Sortlist </p>
 								</a>
 							</div>
 						</div>
@@ -1446,12 +1427,9 @@
 						<div class="card h-100">
 							<div class="card-body">
 								<a href="https://upcity.com/profiles/appsnation" target="_blank">
-									<img src="images/reviews/upcity.webp" class="img-fluid d-block mx-auto" alt="UpCity"
-										width="auto" height="auto" loading="lazy">
-									<img src="images/reviews/star.webp" class="img-fluid d-block mx-auto" alt="Star"
-										width="auto" height="auto" loading="lazy">
-									<p class="text-center pt-2 text-black">Recognized as Top App Developers by UpCity
-									</p>
+									<img src="images/reviews/upcity.webp" class="img-fluid d-block mx-auto" alt="UpCity" width="auto" height="auto" loading="lazy">
+									<img src="images/reviews/star.webp" class="img-fluid d-block mx-auto" alt="Star" width="auto" height="auto" loading="lazy">
+									<p class="text-center pt-2 text-black">Recognized as Top App Developers by UpCity </p>
 								</a>
 							</div>
 						</div>
@@ -1460,12 +1438,9 @@
 						<div class="card h-100">
 							<div class="card-body">
 								<a href="https://www.sitejabber.com/reviews/appsnation.co" target="_blank">
-									<img src="images/reviews/sitejabber.webp" class="img-fluid d-block mx-auto"
-										alt="SiteJabber" width="auto" height="auto" loading="lazy">
-									<img src="images/reviews/star.webp" class="img-fluid d-block mx-auto" alt="Star"
-										width="auto" height="auto" loading="lazy">
-									<p class="text-center pt-2 text-black">Recognized as Top App Developers by
-										SiteJabber</p>
+									<img src="images/reviews/sitejabber.webp" class="img-fluid d-block mx-auto" alt="SiteJabber" width="auto" height="auto" loading="lazy">
+									<img src="images/reviews/star.webp" class="img-fluid d-block mx-auto" alt="Star" width="auto" height="auto" loading="lazy">
+									<p class="text-center pt-2 text-black">Recognized as Top App Developers by SiteJabber</p>
 								</a>
 							</div>
 						</div>
@@ -1474,9 +1449,9 @@
 			</div>
 			<div class="col-lg-12 fadeIn my-auto text-center">
 				<div class="review-title-ref mt40">
-					<a href="{{url('/testimonials')}}"
-						class="niwax-btn button-arounder btn wow fadeIn mt-3 py-2 px-3">Read More Reviews <i
-							class="fas fa-chevron-right fa-ani"></i></a>
+					<a href="{{url('/testimonials')}}" class="niwax-btn button-arounder btn wow fadeIn mt-3 py-2 px-3">Read More Reviews
+						<i class="fas fa-chevron-right fa-ani"></i>
+					</a>
 				</div>
 			</div>
 		</div>

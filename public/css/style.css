@@ -11986,7 +11986,7 @@ i.fa-brands.fa-instagram {
 
 .banner-box-image p {
     margin: 10px 0 10px 0;
-    font-size: 14px;
+    /* font-size: 14px; */
 }
 
 .banner-box-image .banner-btn {
@@ -18569,7 +18569,7 @@ textarea::-ms-input-placeholder {
 }
 
 .cost-calculator-new .wizard-form .wizard .actions ul .disabled {
-    opacity: 0;
+    opacity: 0.5;
 }
 
 .cost-calculator-new .wizard-form .wizard .actions ul .disabled a {
@@ -22167,17 +22167,55 @@ textarea::-ms-input-placeholder {
 }
 
 .map-new .distribution-map img {
-    filter:
-        grayscale(100%) sepia(100%) hue-rotate(120deg) saturate(500%) brightness(0.95);
+    filter: grayscale(100%) sepia(100%) hue-rotate(120deg) saturate(500%) brightness(0.95);
 }
 
+.distribution-map .map-point .content {
+    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
+    opacity: 0;
+    transition: opacity 0.25s ease-in-out;
+    width: 100%;
+    height: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    overflow: overlay;
+}
 
-.distribution-map .map-point:focus,
-.distribution-map .map-point:active {
+.distribution-map .map-point:active,
+.distribution-map .map-point:focus {
+    margin: 0;
+    padding: 0;
+    filter: progid:DXImageTransform.Microsoft.Alpha(enabled=false);
+    opacity: 1;
+    width: 300px;
+    height: 220px;
+    color: #e5e5e5;
+    z-index: 1;
+    transition: opacity 0.25s ease-in-out, width 0.25s ease-in-out, height 0.25s ease-in-out;
     width: 320px;
     height: 240px;
     border-radius: 12px;
     opacity: 1;
+}
+
+.distribution-map .map-point:active .content,
+.distribution-map .map-point:focus .content {
+    filter: progid:DXImageTransform.Microsoft.Alpha(enabled=false);
+    opacity: 1;
+    -moz-transition: opacity 0.25s ease-in-out 0.25s, height 0.25s ease-in-out, overflow 0.25s ease-in-out;
+    -o-transition: opacity 0.25s ease-in-out 0.25s, height 0.25s ease-in-out, overflow 0.25s ease-in-out;
+    -webkit-transition: opacity 0.25s ease-in-out, height 0.25s ease-in-out, overflow 0.25s ease-in-out;
+    -webkit-transition-delay: 0.25s, 0s, 0s;
+    transition: opacity 0.25s ease-in-out 0.25s, height 0.25s ease-in-out, overflow 0.25s ease-in-out;
+    overflow: hidden;
+    opacity: 1;
+}
+
+.distribution-map .map-point:active .content a:hover,
+.distribution-map .map-point:active .content a:active,
+.distribution-map .map-point:focus .content a:hover,
+.distribution-map .map-point:focus .content a:active {
+    color: #afe1fa;
 }
 
 .distribution-map .map-point i {
@@ -22246,11 +22284,6 @@ textarea::-ms-input-placeholder {
     opacity: 0;
     transition: opacity 0.25s ease 0.15s;
     overflow: hidden;
-}
-
-.distribution-map .map-point:focus .content,
-.distribution-map .map-point:active .content {
-    opacity: 1;
 }
 
 .distribution-map iframe {
@@ -22333,49 +22366,6 @@ textarea::-ms-input-placeholder {
     transition: opacity 0.25s ease-in-out 0.25s, width 0.25s ease-in-out 0.25s, height 0.25s ease-in-out 0.25s, z-index 0.25s ease-in-out 0.25s;
     background: transparent;
     border: none;
-}
-
-.distribution-map .map-point .content {
-    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
-    opacity: 0;
-    transition: opacity 0.25s ease-in-out;
-    width: 100%;
-    height: 100%;
-    left: 50%;
-    transform: translateX(-50%);
-    overflow: overlay;
-}
-
-.distribution-map .map-point:active,
-.distribution-map .map-point:focus {
-    margin: 0;
-    padding: 0;
-    filter: progid:DXImageTransform.Microsoft.Alpha(enabled=false);
-    opacity: 1;
-    width: 300px;
-    height: 220px;
-    color: #e5e5e5;
-    z-index: 1;
-    transition: opacity 0.25s ease-in-out, width 0.25s ease-in-out, height 0.25s ease-in-out;
-}
-
-.distribution-map .map-point:active .content,
-.distribution-map .map-point:focus .content {
-    filter: progid:DXImageTransform.Microsoft.Alpha(enabled=false);
-    opacity: 1;
-    -moz-transition: opacity 0.25s ease-in-out 0.25s, height 0.25s ease-in-out, overflow 0.25s ease-in-out;
-    -o-transition: opacity 0.25s ease-in-out 0.25s, height 0.25s ease-in-out, overflow 0.25s ease-in-out;
-    -webkit-transition: opacity 0.25s ease-in-out, height 0.25s ease-in-out, overflow 0.25s ease-in-out;
-    -webkit-transition-delay: 0.25s, 0s, 0s;
-    transition: opacity 0.25s ease-in-out 0.25s, height 0.25s ease-in-out, overflow 0.25s ease-in-out;
-    overflow: hidden;
-}
-
-.distribution-map .map-point:active .content a:hover,
-.distribution-map .map-point:active .content a:active,
-.distribution-map .map-point:focus .content a:hover,
-.distribution-map .map-point:focus .content a:active {
-    color: #afe1fa;
 }
 
 .connect-with-us .info-cards .cont-prt{
@@ -22734,7 +22724,7 @@ textarea::-ms-input-placeholder {
 .case-study-wrapper .main-box .box .title-items h3 {
 	position: absolute;
 	top: 40%;
-	left: 88%;
+	left: 90%;
 	transform: translate(-50%, -50%) rotate(-90deg);
 }
 
@@ -23144,7 +23134,7 @@ textarea::-ms-input-placeholder {
 	border-radius: 15px;
 	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 	padding: 50px 40px;
-	max-width: 600px;
+	/* max-width: 600px; */
 	width: 100%;
 	height: auto;
 }

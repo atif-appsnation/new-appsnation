@@ -1736,11 +1736,11 @@
 		margin-top: 20px;
 	}
 
-	.awards-slider .owl-item {
+	/* .awards-slider .owl-item {
 		margin-right: 11.5px !important;
 		width: 93vw !important;
 		margin-left: 2px !important;
-	}
+	} */
 
 	/* .awards-slider .owl-stage-outer {
 	    height: 400px;
@@ -2261,7 +2261,7 @@
 	}
 
 	.solutions-carousel .item {
-		min-height: 120vh;
+		min-height: 100vh;
 	}
 
 	.solutions-section .owl-nav {
@@ -2330,13 +2330,8 @@
 		margin: 40px 0 80px 0;
 	}
 
-	.distribution-map .map-point i {
-		font-size: 18px;
-	}
-
 	.home-banner-box-section .banner-box-image {
-		aspect-ratio: 1592 / 1600 ;
-		padding: 24px;
+		aspect-ratio: 1592 / 1600;
 	}
 
 	.process-btns {
@@ -2353,10 +2348,162 @@
 
 	.dm-banner-box-section .banner-box-image {
 		aspect-ratio: 1728 / 1149;
-		border-radius: 30px;
-		padding: 24px 30px;
 	}
 
+	/* MAP SECTION */
+	.distribution-map .map-point:focus {
+		left: 50% !important;
+	}
+
+	.distribution-map .map-point.map-button-five {
+		left: 18%;
+	}
+
+	.distribution-map .map-point.map-button-third {
+		top: 82%;
+		left: 84%;
+	}
+
+	.distribution-map .map-point.map-button-eight {
+		top: 53%;
+		left: 62%;
+	}
+
+	.distribution-map .map-point.map-button-seven {
+		top: 52%;
+		left: 58%;
+	}
+
+	.distribution-map .map-point i {
+		font-size: 18px;
+	}
+
+	.distribution-map .map-point.map-button-third:focus {
+		left: 70%;
+	}
+
+	.distribution-map .map-point.map-button-five:focus {
+		left: 55%
+	}
+
+
+	.cost-calculator .wizard-form .book-a-consultant-now .text-cont {
+		margin-left: 35%;
+	}
+
+	.cost-calculator-new .wizard-form .book-a-consultant-now .text-cont {
+		margin-left: 35%;
+	}
+
+	.cost-calculator-new .wizard-form .wizard .steps>ul li {
+		margin: 0;
+	}
+
+	.cost-calculator-new .wizard-form .wizard .steps>ul li:after {
+		width: 70px;
+	}
+
+	.cost-calculator-new .wizard-form .wizard .steps>ul li a {
+		padding: 13px 12px;
+	}
+
+	.cost-calculator .wizard-form .book-a-consultant-now .text-cont {
+		margin-left: 35%;
+	}
+
+	.cost-calculator-new .wizard-form .book-a-consultant-now .text-cont {
+		margin-left: 35%;
+	}
+
+	.cost-calculator-new .wizard-form .wizard .steps>ul li {
+		margin: 0;
+	}
+
+	.cost-calculator-new .wizard-form .wizard .steps>ul li:after {
+		width: 70px;
+	}
+
+	.cost-calculator-new .wizard-form .wizard .steps>ul li a {
+		padding: 13px 12px;
+	}
+
+	.cost-calculator .wizard-form .book-a-consultant-now img {
+		left: -5.5%;
+	}
+
+	.cost-calculator-new .wizard-form .book-a-consultant-now img {
+		left: -5.5%;
+	}
+
+	.cost-calculator-new .wizard-form {
+		margin-top: 0;
+	}
+
+	/*start service pages banner section */
+	.services-box-section .banner-box-image {
+		
+		border-radius: 30px;
+		padding: 24px 0 23px 63px;
+	}
+
+	/*End service pages banner section */
+
+	/*End banners section*/
+
+	/* start cse studys */
+
+	/* royal ride case study start */
+	.uiux-section-wrapper {
+		padding: 50px 0;
+		text-align: center;
+	}
+
+	.uiux-text-col {
+		margin-bottom: 40px;
+	}
+
+	.uiux-main-title {
+		font-size: 28px;
+	}
+
+	.uiux-subtitle {
+		font-size: 18px;
+	}
+
+	.uiux-paragraph {
+		font-size: 15px;
+	}
+
+	.uiux-image {
+		max-width: 100%;
+	}
+
+	.problem-left-container img {
+		max-width: 344px;
+	}
+
+	/* start royal relax spa case study */
+	.royal-relax-project-description-contant h2 {
+		text-align: start;
+		padding: 10px 0 10px 0;
+	}
+
+	.royal-relax-project-description-contant p {
+		color: white;
+		text-align: start;
+		font-size: 14px;
+	}
+
+	/* load board case study start */
+	.load-board-hero-section .logo img {
+		max-width: 200px;
+		padding-bottom: 10px;
+	}
+
+	.banner-box-image h2 {
+		font-size: 25px;
+		line-height: 32px;
+	}
 }
 
 @media only screen and (min-width:768px) and (max-width:1023px) {
@@ -3001,7 +3148,6 @@
 
 	.home-banner-box-section .banner-box-image {
 		aspect-ratio: 1592 / 740;
-		padding: 24px;
 	}
 
 	.process-btns {
@@ -3017,6 +3163,69 @@
 	.process-tabs .tabs .tabs-icons {
     	grid-template-columns: repeat(2, 1fr);
 	}
+
+	.dm-banner-box-section .banner-box-image {
+		aspect-ratio: 1728 / 600;
+	}
+
+	/* MAP SECTION */
+	.distribution-map .map-point.map-button-third:focus {
+		left: 70%;
+	}
+
+	.distribution-map .map-point.map-button-five:focus {
+		left: 55%
+	}
+
+	/* Cost Calculator */
+	.cost-calculator .wizard-form .wizard .steps>ul {
+		flex-wrap: wrap;
+		display: flex !important;
+		border-right: 0;
+		padding-right: 0;
+	}
+
+	.cost-calculator .wizard-form .wizard .steps {
+		width: 100%;
+	}
+
+	.cost-calculator .wizard-form .book-a-consultant-now .text-cont {
+		margin-left: 20%;
+	}
+
+	.cost-calculator .wizard-form .wizard .content {
+		width: 100%;
+		margin-top: 80px;
+	}
+
+	.cost-calculator .wizard-form .wizard .actions {
+		max-width: 100%;
+	}
+
+	.cost-calculator .wizard-form .wizard .actions ul {
+		margin: 50px 25px 80px;
+	}
+
+	.cost-calculator-new .wizard-form .wizard .steps>ul li {
+		margin: 0 10px;
+	}
+
+	.cost-calculator-new .wizard-form .wizard .steps>ul li:after {
+		width: 90px;
+	}
+
+	.cost-calculator .wizard-form .book-a-consultant-now img {
+		left: -4%;
+	}
+
+	.cost-calculator .rough-estimate {
+		margin-top: 0;
+	}
+
+	.cost-calculator-new .wizard-form {
+		margin-top: 20px;
+	}
+
 }
 
 @media only screen and (min-width:1024px) and (max-width:1439px) {
@@ -3605,8 +3814,6 @@
 
 	.home-banner-box-section .banner-box-image {
 		aspect-ratio: 1592 / 740;
-		padding: 24px;
-		border-radius: 30px;
 	}
 
 	.process-btns {
@@ -3631,8 +3838,11 @@
 	.tabBtn {
 		line-height: 1.8;
 	}
-}
 
+	.dm-banner-box-section .banner-box-image {
+		aspect-ratio: 1728 / 600;
+	}
+}
 
 @media only screen and (min-width:1440px) and (max-width:1599px) {
 
@@ -3954,8 +4164,6 @@
 
 	.home-banner-box-section .banner-box-image {
 		aspect-ratio: 1592 / 600;
-		padding: 24px;
-		border-radius: 30px;
 	}
 
 	.process-btns {
@@ -3979,6 +4187,20 @@
 
 	.tabBtn {
 		line-height: 1.8;
+	}
+
+	.case-study-wrapper .main-box .box .title-items {
+		opacity: 1;
+		visibility: visible;
+	}
+
+	.case-study-wrapper .main-box .box.active .title-items {
+		opacity: 0;
+		visibility: hidden;
+	}
+
+	.dm-banner-box-section .banner-box-image {
+		aspect-ratio: 1728 / 600;
 	}
 
 }
@@ -4307,8 +4529,6 @@
 
 	.home-banner-box-section .banner-box-image {
 		aspect-ratio: 1592 / 600;
-		padding: 24px;
-		border-radius: 30px;
 	}
 
 	.process-btns {
@@ -4334,6 +4554,10 @@
 		line-height: 3.8;
 	}
 
+
+	.dm-banner-box-section .banner-box-image {
+		aspect-ratio: 1728 / 600;
+	}
 }
 
 @media only screen and (min-width:1920px) {
@@ -4930,6 +5154,10 @@
 		line-height: 3.8;
 	}
 
+	.dm-banner-box-section .banner-box-image {
+		aspect-ratio: 1728 / 600;
+	}
+
 }
 
 @media screen and (max-width: 767px) {
@@ -4974,7 +5202,6 @@
 		width: 50%;
 	}
 
-	.service-section-app .owl-theme .owl-nav .owl-prev {}
 }
 
 @media (min-width: 355px) and (max-width: 399px) {
@@ -4997,14 +5224,6 @@
 		/* Smaller height for mobile */
 	}
 
-	/* MAP SECTION */
-	.distribution-map .map-point.map-button-third:focus {
-		left: 70%;
-	}
-
-	.distribution-map .map-point.map-button-five:focus {
-		left: 55%
-	}
 }
 
 @media (max-width: 480px) {
@@ -5016,48 +5235,13 @@
 	}
 }
 
-@media (max-width: 991.98px) {
-
-	.bg-img,
-	.login-wrap {
-		width: 100%;
-	}
-}
-
-@media (max-width: 767.98px) {
-	.wrap .bg-img {
-		height: 250px;
-	}
-}
-
 @media only screen and (min-width:1200px) {
 	.hire-developer-app-development {
 		margin: 200px 0px 50px;
 	}
 }
 
-@media (max-width: 1920px) {
-	.cost-calculator .wizard-form .book-a-consultant-now {
-		bottom: -30px;
-	}
-
-	.cost-calculator-new .wizard-form .book-a-consultant-now {
-		bottom: -30px;
-	}
-
-	.cost-calculator .wizard-form .book-a-consultant-now {
-		bottom: -30px;
-	}
-
-	.cost-calculator-new .wizard-form .book-a-consultant-now {
-		bottom: -30px;
-	}
-}
-
 @media (max-width: 1399px) {
-
-
-
 
 	.cost-calculator-new .wizard-form .wizard .steps>ul li {
 		margin: 0 13px;
@@ -5120,9 +5304,6 @@
 	.cost-calculator-new .business-analyst ul li:nth-child(1) {
 		bottom: -20px;
 	}
-
-
-
 
 	/* start case study  */
 	/* wood land case study start */
@@ -5368,318 +5549,7 @@
 	}
 }
 
-@media (max-width: 991px) {
-	.cost-calculator .wizard-form .wizard .steps>ul {
-		flex-wrap: wrap;
-		display: flex !important;
-		border-right: 0;
-		padding-right: 0;
-	}
 
-	.cost-calculator .wizard-form .wizard .steps {
-		width: 100%;
-	}
-
-	.cost-calculator .wizard-form .book-a-consultant-now .text-cont {
-		margin-left: 20%;
-	}
-
-	.cost-calculator .wizard-form .wizard .content {
-		width: 100%;
-		margin-top: 80px;
-	}
-
-	.cost-calculator .wizard-form .wizard .actions {
-		max-width: 100%;
-	}
-
-	.cost-calculator .wizard-form .wizard .actions ul {
-		margin: 50px 25px 80px;
-	}
-
-	.cost-calculator-new .wizard-form .book-a-consultant-now .text-cont {
-		margin-left: 20%;
-	}
-
-	.cost-calculator-new .wizard-form .wizard .steps {
-		width: 100%;
-	}
-
-	.cost-calculator-new .wizard-form .wizard .steps>ul {
-		flex-wrap: wrap;
-		display: flex !important;
-		border-right: 0;
-		padding-right: 0;
-	}
-
-	.cost-calculator-new .wizard-form .wizard .steps>ul li {
-		margin: 0 10px;
-	}
-
-	.cost-calculator-new .wizard-form .wizard .steps>ul li:after {
-		width: 90px;
-	}
-
-	.cost-calculator-new .wizard-form .wizard .content {
-		width: 100%;
-		margin-top: 10px;
-	}
-
-	.cost-calculator-new .wizard-form .wizard .actions {
-		max-width: 100%;
-	}
-
-	.cost-calculator-new .wizard-form .wizard .actions ul {
-		margin: 50px 25px 30px;
-	}
-
-	.cost-calculator .wizard-form .book-a-consultant-now .text-cont {
-		margin-left: 20%;
-	}
-
-	.cost-calculator .wizard-form .wizard .steps {
-		width: 100%;
-	}
-
-	.cost-calculator .wizard-form .wizard .steps>ul {
-		flex-wrap: wrap;
-		display: flex !important;
-		border-right: 0;
-		padding-right: 0;
-	}
-
-	.cost-calculator .wizard-form .wizard .content {
-		width: 100%;
-		margin-top: 80px;
-	}
-
-	.cost-calculator .wizard-form .wizard .actions {
-		max-width: 100%;
-	}
-
-	.cost-calculator .wizard-form .wizard .actions ul {
-		margin: 50px 25px 80px;
-	}
-
-	.cost-calculator-new .wizard-form .book-a-consultant-now .text-cont {
-		margin-left: 20%;
-	}
-
-	.cost-calculator-new .wizard-form .wizard .steps {
-		width: 100%;
-	}
-
-	.cost-calculator-new .wizard-form .wizard .steps>ul {
-		flex-wrap: wrap;
-		display: flex !important;
-		border-right: 0;
-		padding-right: 0;
-	}
-
-	.cost-calculator-new .wizard-form .wizard .steps>ul li {
-		margin: 0 10px;
-	}
-
-	.cost-calculator-new .wizard-form .wizard .steps>ul li:after {
-		width: 90px;
-	}
-
-	.cost-calculator-new .wizard-form .wizard .content {
-		width: 100%;
-		margin-top: 10px;
-	}
-
-	.cost-calculator-new .wizard-form .wizard .actions ul {
-		margin: 50px 25px 30px;
-	}
-
-	.cost-calculator-new .wizard-form .wizard .actions {
-		max-width: 100%;
-	}
-
-	.cost-calculator .wizard-form .book-a-consultant-now img {
-		left: -4%;
-	}
-
-	.cost-calculator .rough-estimate {
-		margin-top: 0;
-	}
-
-	.cost-calculator-new .wizard-form .book-a-consultant-now img {
-		left: -4%;
-	}
-
-	.cost-calculator-new .wizard-form {
-		margin-top: 20px;
-	}
-
-	.cost-calculator-new .rough-estimate {
-		margin-top: 0;
-	}
-
-	.cost-calculator .wizard-form .book-a-consultant-now img {
-		left: -4%;
-	}
-
-	.cost-calculator .rough-estimate {
-		margin-top: 0;
-	}
-
-	.cost-calculator-new .wizard-form {
-		margin-top: 20px;
-	}
-
-	.cost-calculator-new .wizard-form .book-a-consultant-now img {
-		left: -4%;
-	}
-
-	.cost-calculator-new .rough-estimate {
-		margin-top: 0;
-	}
-
-
-	.banner-box-image h2 {
-		font-size: 25px;
-		line-height: 32px;
-		width: 227px;
-	}
-
-	.banner-box-image p {
-		font-size: 13px !important;
-		word-spacing: 1px !important;
-	}
-
-	.banner-box-image .banner-btn a {
-		font-size: 12px;
-		line-height: 6px;
-	}
-
-	/*End banners section*/
-	/* home */
-	.solutions-carousel .item {
-		min-height: 150vh;
-	}
-
-	
-
-}
-
-@media (max-width: 767px) {
-	.cost-calculator .wizard-form .book-a-consultant-now .text-cont {
-		margin-left: 35%;
-	}
-
-	.cost-calculator-new .wizard-form .book-a-consultant-now .text-cont {
-		margin-left: 35%;
-	}
-
-	.cost-calculator-new .wizard-form .wizard .steps>ul li {
-		margin: 0;
-	}
-
-	.cost-calculator-new .wizard-form .wizard .steps>ul li:after {
-		width: 70px;
-	}
-
-	.cost-calculator-new .wizard-form .wizard .steps>ul li a {
-		padding: 13px 12px;
-	}
-
-	.cost-calculator .wizard-form .book-a-consultant-now .text-cont {
-		margin-left: 35%;
-	}
-
-	.cost-calculator-new .wizard-form .book-a-consultant-now .text-cont {
-		margin-left: 35%;
-	}
-
-	.cost-calculator-new .wizard-form .wizard .steps>ul li {
-		margin: 0;
-	}
-
-	.cost-calculator-new .wizard-form .wizard .steps>ul li:after {
-		width: 70px;
-	}
-
-	.cost-calculator-new .wizard-form .wizard .steps>ul li a {
-		padding: 13px 12px;
-	}
-
-	.cost-calculator .wizard-form .book-a-consultant-now img {
-		left: -5.5%;
-	}
-
-	.cost-calculator-new .wizard-form .book-a-consultant-now img {
-		left: -5.5%;
-	}
-
-	.cost-calculator-new .wizard-form {
-		margin-top: 0;
-	}
-
-	/*start service pages banner section */
-	.services-box-section .banner-box-image {
-		
-		border-radius: 30px;
-		padding: 24px 0 23px 63px;
-	}
-
-	/*End service pages banner section */
-
-
-
-	/*End banners section*/
-
-	/* start cse studys */
-
-	/* royal ride case study start */
-	.uiux-section-wrapper {
-		padding: 50px 0;
-		text-align: center;
-	}
-
-	.uiux-text-col {
-		margin-bottom: 40px;
-	}
-
-	.uiux-main-title {
-		font-size: 28px;
-	}
-
-	.uiux-subtitle {
-		font-size: 18px;
-	}
-
-	.uiux-paragraph {
-		font-size: 15px;
-	}
-
-	.uiux-image {
-		max-width: 100%;
-	}
-
-	.problem-left-container img {
-		max-width: 344px;
-	}
-
-	/* start royal relax spa case study */
-	.royal-relax-project-description-contant h2 {
-		text-align: start;
-		padding: 10px 0 10px 0;
-	}
-
-	.royal-relax-project-description-contant p {
-		color: white;
-		text-align: start;
-		font-size: 14px;
-	}
-
-	/* load board case study start */
-	.load-board-hero-section .logo img {
-		max-width: 200px;
-		padding-bottom: 10px;
-	}
-}
 
 @media (max-width: 575px) {
 
@@ -5698,112 +5568,6 @@
 		left: 245px;
 	}
 
-	.cost-calculator-new .wizard-form .wizard .content fieldset .radio-buttons {
-		justify-content: center;
-	}
-
-	.cost-calculator-new .wizard-form .wizard .actions ul {
-		display: block;
-	}
-
-	.cost-calculator-new .wizard-form .wizard .actions ul li {
-		margin-bottom: 15px;
-	}
-
-	.cost-calculator-new .wizard-form .wizard .content fieldset .radio-buttons {
-		justify-content: center;
-	}
-
-	.cost-calculator-new .wizard-form .wizard .actions ul {
-		display: block;
-	}
-
-	.cost-calculator-new .wizard-form .wizard .actions ul li {
-		margin-bottom: 15px;
-	}
-
-	.cost-calculator .wizard-form .book-a-consultant-now img {
-		left: 0;
-	}
-
-	.cost-calculator-new .wizard-form .book-a-consultant-now img {
-		left: 0;
-	}
-
-	.cost-calculator-new .business-analyst {
-		background-image: none;
-		background: linear-gradient(270deg, #089674 0.15%, #000 99.75%);
-		border-radius: 12px;
-		margin-top: 0;
-	}
-
-	.cost-calculator-new .business-analyst ul li {
-		width: 100%;
-		text-align: center;
-	}
-
-	.cost-calculator-new .business-analyst ul {
-		display: block;
-	}
-
-	.cost-calculator-new .business-analyst ul li:nth-child(1) {
-		position: static;
-	}
-
-	.cost-calculator-new .business-analyst ul li:nth-child(2) {
-		margin-left: 0;
-	}
-
-	.cost-calculator-new .business-analyst ul li:nth-child(3) {
-		position: static;
-	}
-
-	.cost-calculator-new .business-analyst ul li h5 {
-		margin-bottom: 10px;
-	}
-
-	.cost-calculator .wizard-form .book-a-consultant-now img {
-		left: 0;
-	}
-
-	.cost-calculator-new .wizard-form .book-a-consultant-now img {
-		left: 0;
-	}
-
-	.cost-calculator-new .business-analyst {
-		background-image: none;
-		background: linear-gradient(270deg, #089674 0.15%, #000 99.75%);
-		border-radius: 12px;
-		margin-top: 0;
-	}
-
-	.cost-calculator-new .business-analyst ul {
-		display: block;
-	}
-
-	.cost-calculator-new .business-analyst ul li {
-		width: 100%;
-		text-align: center;
-	}
-
-	.cost-calculator-new .business-analyst ul li:nth-child(1) {
-		position: static;
-	}
-
-	.cost-calculator-new .business-analyst ul li:nth-child(2) {
-		margin-left: 0;
-	}
-
-	.cost-calculator-new .business-analyst ul li:nth-child(3) {
-		position: static;
-	}
-
-	.cost-calculator-new .business-analyst ul li h5 {
-		margin-bottom: 10px;
-	}
-
-
-	/*End service pages banner section */
 
 }
 
@@ -5818,10 +5582,6 @@
 	.service-section-app .owl-theme .owl-nav .owl-next {
 		right: -475px;
 		font-size: 60px;
-	}
-
-	.cost-calculator .wizard-form .wizard .content fieldset .radio-buttons label {
-		width: 42% !important;
 	}
 
 	/* start case studys */
@@ -5878,10 +5638,6 @@
 	.service-section-app .owl-theme .owl-nav .owl-next {
 		right: -657px;
 		font-size: 60px;
-	}
-
-	.cost-calculator .wizard-form .wizard .content fieldset .radio-buttons label {
-		width: 28% !important;
 	}
 
 	/* start case studys */
@@ -6242,10 +5998,6 @@
 
 @media (max-width: 767px) {
 
-	/* Home */
-	.solutions-carousel .item {
-		min-height: 115vh;
-	}
 
 	/* start case study */
 	.hero-section-Boujee-beachin {
@@ -7053,14 +6805,7 @@
 
 @media (max-width:1024px) {
 
-	/* MAP SECTION */
-	.distribution-map .map-point.map-button-third:focus {
-		left: 70%;
-	}
-
-	.distribution-map .map-point.map-button-five:focus {
-		left: 55%
-	}
+	
 }
 
 @media (max-width: 576px) {
@@ -7272,12 +7017,6 @@
 
 @media (max-width: 480px) {
 
-
-	/* home */
-	.solutions-carousel .item {
-		min-height: 100vh;
-	}
-
 	.solutions-section .owl-nav {
 		bottom: 9.5%;
 		right: 67%;
@@ -7467,29 +7206,7 @@
 	}
 
 
-	/* MAP SECTION */
-	.distribution-map .map-point:focus {
-		left: 50% !important;
-	}
-
-	.distribution-map .map-point.map-button-five {
-		left: 18%;
-	}
-
-	.distribution-map .map-point.map-button-third {
-		top: 82%;
-		left: 84%;
-	}
-
-	.distribution-map .map-point.map-button-eight {
-		top: 53%;
-		left: 62%;
-	}
-
-	.distribution-map .map-point.map-button-seven {
-		top: 52%;
-		left: 58%;
-	}
+	
 }
 
 
