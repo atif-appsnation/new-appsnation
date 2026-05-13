@@ -5360,9 +5360,8 @@ h3 a {
 
 .service-section-app .servive-card-col .card {
     background: var(--light-grey);
-
     position: relative;
-    height: 470px;
+    height: 360px;
     overflow: hidden;
     border-radius: 25px;
 }
@@ -5482,15 +5481,13 @@ h3 a {
 }
 
 .services-card-rows .servive-card-col .card .services-text-div p {
-    font-family: 'Roboto', sans-serif;
-
-    color: black;
+    color: var(--black-color);
     font-weight: 500;
     word-spacing: 2px;
 }
 
 .services-card-rows .servive-card-col .card:hover .services-text-div p {
-    color: white;
+    color: var(--white-color);
     font-weight: 500;
     word-spacing: 2px;
 }
@@ -5498,20 +5495,20 @@ h3 a {
 .services-card-rows .servive-card-col .card:hover .service-heading h3 {
     font-size: 34px;
     line-height: 40px;
-    color: white;
+    color: var(--white-color);
 }
 
- .service-card:hover .service-heading h3 {
-     color: white;
-    }
-    .service-card:hover .services-img-div img{
+.service-card:hover .service-heading h3 {
+     color: var(--white-color);
+}
+
+.service-card:hover .services-img-div img{
         filter: invert(1);
-    }
+}
+
 .scale-up-services-section {
     background: var(--light-grey);
     /* background: linear-gradient(135deg, #FFFFFF 0%, var(--light-grey) 100%); */
-    font-family: 'Inter', sans-serif;
-
 }
 
 .scale-up-services-section img {
@@ -5520,7 +5517,7 @@ h3 a {
 }
 
 .scale-up-services-section .achievements-count {
-    background-color: white;
+    background-color: var(--white-color);
     border-radius: 30px;
 }
 
@@ -5534,7 +5531,7 @@ h3 a {
     display: flex;
     flex-direction: column;
     gap: 30px;
-    margin-top: 60px;
+    /* margin-top: 60px; */
 }
 
 .services-tital {
@@ -5717,7 +5714,7 @@ h3 a {
 .tcd {
     display: block;
     background: #1B1B1B;
-    color: white;
+    color: var(--white-color);
     box-shadow: 0 11px 20px rgb(123 149 162 / 15%);
     font-weight: 400;
     font-size: 14px;
@@ -5727,7 +5724,7 @@ h3 a {
 }
 
 .tcd h3 {
-    color: white;
+    color: var(--white-color);
 }
 
 .posiqut {
@@ -8096,7 +8093,7 @@ a.smllbtnn {
 }
 
 .switch-wrapper .slider {
-    background-color: white;
+    background-color: var(--white-color);
     bottom: 0;
     cursor: pointer;
     left: 0;
@@ -8304,7 +8301,7 @@ a.smllbtnn {
 
 .green-tag span {
     background-color: var(--first-color);
-    color: white;
+    color: var(--white-color);
 }
 
 .widebloktag span+span {
@@ -8325,7 +8322,7 @@ a.smllbtnn {
     font-size: 14px;
     word-spacing: 3px;
     font-weight: 500;
-    color: black;
+    color: var(--black-color);
 }
 
 .info-list-ul {
@@ -10017,7 +10014,7 @@ textarea#message::placeholder {
 }
 
 .accordion .item .item-header h2 button {
-    color: white;
+    color: var(--white-color);
     font-size: 20px;
     padding: 15px;
     display: block;
@@ -10156,14 +10153,11 @@ button.btn.btn-link[aria-expanded=false] .fa-minus {
 .awards-slider .owl-item .card img {
     transform: scaleY(1);
     transition: all 0.3s ease-in;
-
-
 }
 
 .awards-slider .owl-item .card:hover img {
-    transform: scaleY(1.1);
+    /* transform: scaleY(1.1); */
     transition: all 0.3s ease-in;
-
 }
 
 ul.order-list li {
@@ -10562,7 +10556,7 @@ color: var(--white-color); */
 
 /* 
 .game-icon:hover {
-    background-color: black;
+    background-color: var(--black-color);
 }
 */
 
@@ -10573,8 +10567,8 @@ color: var(--white-color); */
 
 .service_box li:hover h5 {
     /* transform: scale(1.5); */
-    /* background-color: black; */
-    color: white;
+    /* background-color: var(--black-color); */
+    color: var(--white-color);
 }
 
 
@@ -10584,10 +10578,10 @@ color: var(--white-color); */
 /* transform: scale(1.5); */
 
 
-/* background-color: black; */
+/* background-color: var(--black-color); */
 
 
-/* color: white; */
+/* color: var(--white-color); */
 
 
 /* } */
@@ -11952,7 +11946,7 @@ i.fa-brands.fa-instagram {
 }
 
 .banner-box-section .banner-box-image {
-    aspect-ratio: 1728 / 549;
+    /* aspect-ratio: 1728 / 549; */
     border-radius: 30px;
     padding: 24px 30px;
 }
@@ -11976,7 +11970,7 @@ i.fa-brands.fa-instagram {
 }
 
 .banner-box-image h2 {
-    color: white;
+    color: var(--white-color);
     font-weight: bolder;
 }
 
@@ -11996,26 +11990,26 @@ i.fa-brands.fa-instagram {
 
 .banner-box-image .banner-btn a {
     background-color: var(--first-color);
-    color: white;
+    color: var(--white-color);
     padding: 11px 9px 11px 9px;
     border-radius: 10px;
 }
 
 .banner-box-image .banner-btn a:hover {
     background-color: transparent;
-    color: white;
+    color: var(--white-color);
     border: 2px solid var(--first-color);
 }
 
 .banner-box-image .banner-btn a.active {
     background-color: transparent;
-    color: white;
+    color: var(--white-color);
     border: 2px solid var(--first-color);
 }
 
 .banner-box-image .banner-btn a.active:hover {
     background-color: var(--first-color);
-    color: white;
+    color: var(--white-color);
     border: none;
 }
 
@@ -12123,7 +12117,7 @@ i.fa-brands.fa-instagram {
 .process-tabs .tabs .tabs-icons .tabs-icons-wrapper span {
     display: block;
     padding: 10px 30px 0 30px;
-    color: black;
+    color: var(--black-color);
     text-align: center;
 }
 
@@ -12165,14 +12159,18 @@ i.fa-brands.fa-instagram {
     top: 2px;
 }
 
+.royal-banner-box-image {
+    background-image: url(../images/banner/royal-spa-banner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 /* End Home Page */
 
 /* Start About Us Page */
 
 .about-us-banner {
-    background-image:
-        linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-        url('../images/about-us/about-us-hero-background.png');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('../images/about-us/about-us-hero-background.png');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -12193,7 +12191,7 @@ i.fa-brands.fa-instagram {
 }
 
 .why-choose-us .choose-us:hover h3 {
-    color: white;
+    color: var(--white-color);
 }
 
 .main-timeline {
@@ -15125,7 +15123,7 @@ footer h4 {
 .challenges-heading span {
     font-size: 28px;
     font-weight: 700;
-    color: white;
+    color: var(--white-color);
     background-color: #007bff;
     margin: 10px;
     padding: 10px;
@@ -15260,11 +15258,11 @@ footer h4 {
     text-align: right;
     padding-right: 15px;
     width: 50%;
-    color: white;
+    color: var(--white-color);
 }
 
 .demog-value {
-    color: white;
+    color: var(--white-color);
     text-align: left;
 }
 
@@ -15480,7 +15478,7 @@ b {
 
 .wood-land-app h1,
 .wood-land-app p {
-    color: white;
+    color: var(--white-color);
     font-weight: bold;
 }
 
@@ -15492,7 +15490,7 @@ b {
 
 .wood-land-button {
     background-color: #58D39C;
-    color: black;
+    color: var(--black-color);
     padding: 10px 25px;
     border-radius: 10px;
     font-weight: bold;
@@ -15503,7 +15501,7 @@ b {
 
 .wood-land-button:hover {
     background-color: transparent;
-    color: white;
+    color: var(--white-color);
     border: 1px solid #58D39C;
     border-radius: 20px;
     transition: 0.3s ease-in-out;
@@ -15517,17 +15515,17 @@ b {
 
 .wood-land-client-overview h2,
 h6 {
-    color: black;
+    color: var(--black-color);
     padding-top: 10px;
 }
 
 .wood-land-client-overview h2 {
-    color: black;
+    color: var(--black-color);
     padding-bottom: 10px;
 }
 
 .wood-land-client-overview p {
-    color: black;
+    color: var(--black-color);
     padding-bottom: 13px;
 }
 
@@ -15652,7 +15650,7 @@ h6 {
 
 .wood-land-project-goals .green h5,
 .wood-land-project-goals .green p {
-    color: black;
+    color: var(--black-color);
 }
 
 .wood-land-project-goals .black {
@@ -15663,7 +15661,7 @@ h6 {
 
 .wood-land-project-goals .black h5,
 .wood-land-project-goals .black p {
-    color: white;
+    color: var(--white-color);
 }
 
 .wood-land-designs .container {
@@ -15682,7 +15680,7 @@ h6 {
 }
 
 .wood-land-designs .wood-land-text-theme {
-    color: black;
+    color: var(--black-color);
     font-weight: 600;
 }
 
@@ -15706,7 +15704,7 @@ h6 {
 
 .left-column-wood-land .wood-land-feature-box-group .wood-land-feature-box:nth-child(2) h4,
 .left-column-wood-land .wood-land-feature-box-group .wood-land-feature-box:nth-child(2) p {
-    color: white;
+    color: var(--white-color);
 }
 
 .right-column-wood-land .wood-land-feature-box-group .wood-land-feature-box {
@@ -15720,7 +15718,7 @@ h6 {
 }
 
 .right-column-wood-land .wood-land-text-theme {
-    color: white;
+    color: var(--white-color);
     font-weight: 600;
 }
 
@@ -15730,7 +15728,7 @@ h6 {
 
 .right-column-wood-land .wood-land-feature-box-group .wood-land-feature-box:nth-child(2) h4,
 .right-column-wood-land .wood-land-feature-box-group .wood-land-feature-box:nth-child(2) p {
-    color: black;
+    color: var(--black-color);
 }
 
 /* End Wood Land App  */
@@ -15759,7 +15757,7 @@ h6 {
 
 .wood-land-button:hover {
     background-color: transparent;
-    color: white;
+    color: var(--white-color);
     border: 1px solid #58D39C;
     border-radius: 20px;
     transition: 0.3s ease-in-out;
@@ -15797,7 +15795,7 @@ h6 {
 }
 
 .neuro-night-designs .neuro-night-text-theme {
-    color: white;
+    color: var(--white-color);
     font-weight: 600;
 }
 
@@ -15836,7 +15834,7 @@ h6 {
 .neuro-night-feature-box-group .neuro-night-feature-box h4,
 .left-column-neuro-night .neuro-night-feature-box-group .neuro-night-feature-box p,
 .right-column-neuro-night .neuro-night-feature-box-group .neuro-night-feature-box p {
-    color: white;
+    color: var(--white-color);
 }
 
 .Tech-Stack-section {
@@ -15878,7 +15876,7 @@ h6 {
     align-items: center;
     gap: 10px;
     background-color: #007599;
-    color: white;
+    color: var(--white-color);
     padding: 30px;
     border-radius: 20px;
 }
@@ -15886,7 +15884,7 @@ h6 {
 .neuro-night-project-card .card-number-circle {
     border: 4px white solid;
     background-color: #007599;
-    color: white;
+    color: var(--white-color);
     padding: 10px;
 }
 
@@ -19289,26 +19287,24 @@ textarea::-ms-input-placeholder {
 
 /* End Cost Calculator */
 
-/* royal ride case study by hassan */
-/*  hero section by hassan */
-.hero-section-royalRide {
+/* Start Royal Ride */
+
+.hero-section-royal-ride {
     background: linear-gradient(to bottom, #C39449 0%, #C39449 5%, transparent 20%);
-
-
-    padding-top: 295px;
+    padding-top: 180px;
     background-color: #f8f8f8;
 }
 
-.royalRideLogo p {
+.royal-ride-logo p {
     color: #C39449;
 }
 
-.royalRideLogo h1 {
+.royal-ride-logo h1 {
     font-size: 80px;
     line-height: 92px;
 }
 
-.royalRideLogo img {
+.royal-ride-logo img {
     width: 110px;
 }
 
@@ -19317,34 +19313,34 @@ textarea::-ms-input-placeholder {
     height: auto;
 }
 
-/* --- Base Styling --- */
-.Problem-section {
+/* .royal-ride-problem-section {
     padding: 60px 0;
-}
+} */
 
-/* Text Styles */
-.Problem-section h2 {
+/* .royal-ride-problem-section .text-col {
+    text-align: start;
+    margin-bottom: 30px;
+} */
+
+.royal-ride-problem-section h2 {
     font-size: 32px;
-    font-family: "Poppins", sans-serif;
     font-weight: 600;
     font-style: normal;
     margin-bottom: 20px;
 }
 
-.Problem-section p {
-    font-family: "Poppins", sans-serif;
+.royal-ride-problem-section p {
     font-weight: 300;
     font-style: normal;
     font-size: 19px;
 }
 
-
 /* by hassan Objectives & Goals section */
-.Objectives-section {
+.royal-ride-objectives-section {
     margin-top: 22px;
 }
 
-.Objectives-section .info-card {
+.royal-ride-objectives-section .info-card {
     background-color: #fff;
     border-radius: 15px;
     padding: 25px;
@@ -19353,7 +19349,7 @@ textarea::-ms-input-placeholder {
     transition: all 0.3s ease;
 }
 
-.Objectives-section .info-card:hover {
+.royal-ride-objectives-section .info-card:hover {
     transform: translateY(-5px);
     box-shadow: 0 8px 25px rgba(0, 0, 0, 0.12);
 }
@@ -19361,7 +19357,7 @@ textarea::-ms-input-placeholder {
 .card-number-circle {
     width: 45px;
     height: 45px;
-    background-color: white;
+    background-color: var(--white-color);
     border: 4px solid #ff7f00;
     color: #ff7f00;
     border-radius: 50%;
@@ -19480,13 +19476,13 @@ textarea::-ms-input-placeholder {
 
 
 .white-background {
-    background-color: white;
+    background-color: var(--white-color);
     border-radius: 20px;
 }
 
 
 .persona-section-wrapper {
-    background-color: white;
+    background-color: var(--white-color);
     padding: 20px;
     border: 1px #0000002e solid;
     border-radius: 20px;
@@ -19522,7 +19518,7 @@ textarea::-ms-input-placeholder {
 
 .persona-name-section h4 {
     font-size: 1.8rem;
-    font-family: "Poppins", sans-serif;
+    
     font-weight: 600;
     font-style: normal;
     color: #212529;
@@ -19531,7 +19527,7 @@ textarea::-ms-input-placeholder {
 .persona-name-section p {
     font-size: 1rem;
     color: #6c757d;
-    font-family: "Poppins", sans-serif;
+    
     font-weight: 200;
     font-style: normal;
     margin-bottom: 30px;
@@ -19598,7 +19594,7 @@ textarea::-ms-input-placeholder {
     padding: 70px 0;
 }
 
-.uiux-main-title {
+.royal-ride-problem-section .uiux-main-title {
     font-size: 32px;
     font-weight: 700;
     margin-bottom: 25px;
@@ -19608,9 +19604,9 @@ textarea::-ms-input-placeholder {
     margin-bottom: 25px;
 }
 
-.uiux-subtitle {
+.royal-ride-problem-section .subtitle {
     font-size: 20px;
-    font-family: "Poppins", sans-serif;
+    
     font-weight: 600;
     font-style: normal;
     margin-bottom: 8px;
@@ -19646,11 +19642,11 @@ textarea::-ms-input-placeholder {
 }
 
 
-.uiux-subtitle {
+.royal-ride-problem-section .subtitle {
     font-size: 1rem;
     font-weight: 700;
     text-transform: uppercase;
-    letter-spacing: 2px;
+    letter-spacing: 2196px;
     color: #c0a16b;
 }
 
@@ -19908,7 +19904,7 @@ textarea::-ms-input-placeholder {
     padding: 0px 26px;
     border-radius: 20px;
     font-size: 17px;
-    color: white;
+    color: var(--white-color);
     font-weight: bold;
     margin: 10px 0;
 }
@@ -19928,7 +19924,7 @@ textarea::-ms-input-placeholder {
 }
 
 .item-info-div .casestudyButton:hover a {
-    color: white;
+    color: var(--white-color);
 }
 
 .item-info-div p {
@@ -19961,7 +19957,7 @@ textarea::-ms-input-placeholder {
 
 .mike-mathis-app h1,
 .mike-mathis-app p {
-    color: white;
+    color: var(--white-color);
     font-weight: bold;
 }
 
@@ -20007,7 +20003,7 @@ textarea::-ms-input-placeholder {
     font-size: 54px;
     font-weight: bold;
     margin-bottom: 25px;
-    color: black;
+    color: var(--black-color);
     word-spacing: 8px;
 }
 
@@ -20015,7 +20011,7 @@ textarea::-ms-input-placeholder {
     font-size: 16px;
     line-height: 1.6;
     font-weight: bold;
-    color: black;
+    color: var(--black-color);
     margin-bottom: 10px;
 }
 
@@ -20044,14 +20040,14 @@ textarea::-ms-input-placeholder {
     font-size: 54px;
     font-weight: bold;
     margin-bottom: 15px;
-    color: white;
+    color: var(--white-color);
 }
 
 .Project-Description-titleparagraph {
     font-size: 14px;
     line-height: 1.9;
     font-weight: bold;
-    color: white;
+    color: var(--white-color);
 }
 
 /* ===== end Project-Description  ===== */
@@ -20142,13 +20138,13 @@ textarea::-ms-input-placeholder {
 }
 
 .mike-mathis-wireframe p {
-    color: white;
+    color: var(--white-color);
     padding-bottom: 30px;
 }
 
 .mike-mathis-wireframe h2,
 .mike-mathis-wireframe h4 {
-    color: white;
+    color: var(--white-color);
     padding-bottom: 30px;
 }
 
@@ -20190,10 +20186,6 @@ textarea::-ms-input-placeholder {
 }
 
 
-.uiux-text-col {
-    text-align: start;
-    margin-bottom: 30px;
-}
 
 /*End mike-mathi uiux design phase section */
 /* End mike miths case study */
@@ -20233,7 +20225,7 @@ textarea::-ms-input-placeholder {
 
 /* End hero section */
 
-/* Start  Problem-section  */
+/* Start  problem-section  */
 .grave-love-problem-section {
     background: url("../images/case-studies/grave-love-app/problem-backgrond.webp") center/cover no-repeat;
     background-size: 90% 60%;
@@ -20245,7 +20237,7 @@ textarea::-ms-input-placeholder {
 
 .grave-love-problem-contant h2,
 .grave-love-problem-contant p {
-    color: white;
+    color: var(--white-color);
 }
 
 /* End grave love problem-section  */
@@ -20255,7 +20247,7 @@ textarea::-ms-input-placeholder {
 .grave-problem-solution .card-connector-plus,
 .grave-problem-solution .start-plus-circle {
     background-color: #373631;
-    color: white;
+    color: var(--white-color);
 }
 
 .grave-problem-solution .section-wrapper::before,
@@ -20268,11 +20260,11 @@ textarea::-ms-input-placeholder {
 /* start grave love problem solution  */
 .bg-custom-gray {
     background-color: #373631;
-    color: white;
+    color: var(--white-color);
 }
 
 .bg-custom-gray h4 {
-    color: white;
+    color: var(--white-color);
 }
 
 .bg-custom-gray .number-circle {
@@ -20280,8 +20272,8 @@ textarea::-ms-input-placeholder {
 }
 
 .bg-custom-white {
-    background-color: white;
-    color: black;
+    background-color: var(--white-color);
+    color: var(--black-color);
     border: 1px solid #373631;
 }
 
@@ -20304,13 +20296,13 @@ textarea::-ms-input-placeholder {
 }
 
 .grave-love-wireframe p {
-    color: white;
+    color: var(--white-color);
     padding-bottom: 30px;
 }
 
 .grave-love-wireframe h2,
 .grave-love-wireframe h4 {
-    color: white;
+    color: var(--white-color);
     padding-bottom: 30px;
 }
 
@@ -20374,7 +20366,7 @@ textarea::-ms-input-placeholder {
 .grave-brown h5,
 .grave-brown h6,
 .grave-brown p {
-    color: white;
+    color: var(--white-color);
     padding: 0;
     margin: 0;
 }
@@ -20389,7 +20381,7 @@ textarea::-ms-input-placeholder {
 .grave-light h5,
 .grave-light h6,
 .grave-light p {
-    color: black;
+    color: var(--black-color);
     margin: 0;
 
 }
@@ -20469,7 +20461,7 @@ textarea::-ms-input-placeholder {
 
 .bomb-defuse-app .bread-titlev2 {
     text-align: center;
-    color: white;
+    color: var(--white-color);
 }
 
 .bomb-defuse-app .bread-titlev2 h1 {
@@ -20501,7 +20493,7 @@ textarea::-ms-input-placeholder {
 
 .introduction-bomb-squad .introduction-bomb-squad-content h2,
 .introduction-bomb-squad .introduction-bomb-squad-content p {
-    color: white;
+    color: var(--white-color);
     margin-bottom: 20px;
 }
 
@@ -20528,7 +20520,7 @@ textarea::-ms-input-placeholder {
 
 .project-idea-bomb-defuse .project-idea-content h2,
 .project-idea-bomb-defuse .project-idea-content p {
-    color: white;
+    color: var(--white-color);
 }
 
 .project-idea-bomb-defuse .project-idea-content h2 span,
@@ -20587,7 +20579,7 @@ textarea::-ms-input-placeholder {
 }
 
 .achievements-bomb-defuse p {
-    color: white;
+    color: var(--white-color);
     line-height: 40px;
 }
 
@@ -20607,7 +20599,7 @@ textarea::-ms-input-placeholder {
 }
 
 .bomb-defuse-result-section p {
-    color: white;
+    color: var(--white-color);
     line-height: 40px;
 }
 
@@ -20673,7 +20665,7 @@ textarea::-ms-input-placeholder {
 
 .couple-app-client-overview h2,
 .couple-app-client-overview h6 {
-    color: black;
+    color: var(--black-color);
     padding-top: 10px;
 }
 
@@ -20683,7 +20675,7 @@ textarea::-ms-input-placeholder {
 }
 
 .couple-app-client-overview p {
-    color: black;
+    color: var(--black-color);
     padding-bottom: 13px;
 }
 
@@ -20781,7 +20773,7 @@ textarea::-ms-input-placeholder {
     background: linear-gradient(#F4F4F4 0%, #FFFFFF 100%);
 }
 
-.couple-app-uiux-section-wrapper .uiux-subtitle {
+.couple-app-uiux-section-wrapper .royal-ride-problem-section .subtitle {
     font-size: 22px;
     color: #440414;
 
@@ -20813,7 +20805,7 @@ textarea::-ms-input-placeholder {
 }
 
 .couple-app-designs .neuro-night-text-theme {
-    color: white;
+    color: var(--white-color);
     font-weight: 600;
 }
 
@@ -20856,7 +20848,7 @@ textarea::-ms-input-placeholder {
 .couple-app-designs .neuro-night-feature-box-group .neuro-night-feature-box h4,
 .couple-app-designs .left-column-neuro-night .neuro-night-feature-box-group .neuro-night-feature-box p,
 .couple-app-designs .right-column-neuro-night .neuro-night-feature-box-group .neuro-night-feature-box p {
-    color: white;
+    color: var(--white-color);
 }
 
 /* End project design goal */
@@ -20879,11 +20871,11 @@ textarea::-ms-input-placeholder {
 
 .car-mechanic .bread-titlev2 {
     text-align: center;
-    color: white;
+    color: var(--white-color);
 }
 
 .car-mechanic .bread-titlev2 h1 {
-    color: white;
+    color: var(--white-color);
     margin-top: 20px;
 }
 
@@ -20906,7 +20898,7 @@ textarea::-ms-input-placeholder {
 }
 
 .car-mechanic .car-mechanic-hero-tag {
-    background-color: white;
+    background-color: var(--white-color);
     color: #FF5E00;
     padding: 20px 10px 20px 10px;
     text-align: center;
@@ -20923,7 +20915,7 @@ textarea::-ms-input-placeholder {
 
 .car-mehanic .car-mehanic-content h2,
 .car-mehanic .car-mehanic-content p {
-    color: white;
+    color: var(--white-color);
     margin-bottom: 20px;
 }
 
@@ -20950,7 +20942,7 @@ textarea::-ms-input-placeholder {
 
 .project-idea-car-mechanic .project-idea-content h2,
 .project-idea-car-mechanic .project-idea-content p {
-    color: white;
+    color: var(--white-color);
 }
 
 .project-idea-car-mechanic .project-idea-content h2 span,
@@ -20968,7 +20960,7 @@ textarea::-ms-input-placeholder {
 /*End project idea car mechanic Section*/
 .car-mechanic-result-section h2,
 .car-mechanic-result-section p {
-    color: white;
+    color: var(--white-color);
     text-align: center;
 }
 
@@ -20998,7 +20990,7 @@ textarea::-ms-input-placeholder {
 .toy-sort-puzzle .bread-titlev2 h1,
 .toy-sort-puzzle .bread-titlev2 p {
     text-align: center;
-    color: white;
+    color: var(--white-color);
 
 }
 
@@ -21043,7 +21035,7 @@ textarea::-ms-input-placeholder {
 
 .toy-sort-introduction .toy-sort-title,
 .toy-sort-introduction .toy-sort-paragraph {
-    color: white;
+    color: var(--white-color);
 }
 
 .toy-sort-introduction .toy-sort-title span,
@@ -21062,7 +21054,7 @@ textarea::-ms-input-placeholder {
 
 .toy-sort-project-idea .toy-sort-title,
 .toy-sort-project-idea .toy-sort-paragraph {
-    color: white;
+    color: var(--white-color);
 }
 
 .toy-sort-project-idea .toy-sort-title span,
@@ -21077,7 +21069,7 @@ textarea::-ms-input-placeholder {
 .toy-sort-audience-target h2,
 .toy-sort-audience-target p {
     text-align: center;
-    color: white;
+    color: var(--white-color);
 }
 
 .toy-sort-audience-target h2 span {
@@ -21095,7 +21087,7 @@ textarea::-ms-input-placeholder {
 
 /*start toy sort element section*/
 .toy-sort-Element h2 {
-    color: white;
+    color: var(--white-color);
     text-align: center;
 }
 
@@ -21115,7 +21107,7 @@ textarea::-ms-input-placeholder {
 
 /*start toy sort player feedback section */
 .toy-sort-player-feedback h2 {
-    color: white;
+    color: var(--white-color);
 }
 
 .toy-sort-player-feedback .imageFloteLeft img,
@@ -21147,7 +21139,7 @@ textarea::-ms-input-placeholder {
 }
 
 .royal-relax-spa h1 {
-    color: black;
+    color: var(--black-color);
     font-weight: bold;
     line-height: 60px;
 }
@@ -21219,7 +21211,7 @@ textarea::-ms-input-placeholder {
 
 .royal-relax-project-description-contant h2,
 .royal-relax-project-description-contant p {
-    color: white;
+    color: var(--white-color);
 }
 
 .royal-relax-project-description-img img {
@@ -21241,12 +21233,12 @@ textarea::-ms-input-placeholder {
 
 .royal-relax-spa-problem-solution .start-plus-circle {
     background-color: #6D5AE8;
-    color: white;
+    color: var(--white-color);
 }
 
 .royal-relax-spa-problem-solution .card-connector-plus {
     background-color: #6D5AE8;
-    color: white;
+    color: var(--white-color);
 }
 
 .royal-relax-spa-problem-solution .card-custom {
@@ -21302,7 +21294,7 @@ textarea::-ms-input-placeholder {
 .royal-relax-spa-wireframe h2,
 .royal-relax-spa-wireframe p,
 .royal-relax-spa-wireframe h4 {
-    color: white;
+    color: var(--white-color);
 }
 
 /*End royal relax spa wireframe section*/
@@ -21350,7 +21342,7 @@ textarea::-ms-input-placeholder {
 .load-board-hero-section h5,
 .load-board-hero-section p {
     text-align: center;
-    color: white;
+    color: var(--white-color);
     padding: 10 px 0 20px 0;
 }
 
@@ -21607,7 +21599,7 @@ textarea::-ms-input-placeholder {
 /* Step number circle */
 .load-board-step-number {
     background: #3F83F8;
-    color: white;
+    color: var(--white-color);
     width: 40px;
     height: 40px;
     border-radius: 50%;
@@ -21727,7 +21719,7 @@ textarea::-ms-input-placeholder {
 .all-traders-hero-content .tagcase {
     border: none;
     background: #ED000A;
-    color: white;
+    color: var(--white-color);
     width: fit-content;
     padding: 10px;
     border-radius: 10px;
@@ -21811,7 +21803,7 @@ textarea::-ms-input-placeholder {
     background-color: #007bff;
     padding: 5px;
     margin-right: 6px;
-    color: white;
+    color: var(--white-color);
     font-size: 12px;
     border-radius: 50%;
     display: inline;
@@ -21868,7 +21860,7 @@ textarea::-ms-input-placeholder {
 .all-tarders-wireframe .common-heading h5,
 .all-tarders-wireframe .common-heading {
     text-align: center;
-    color: white;
+    color: var(--white-color);
 }
 
 .challenges-turned-section .challenges-turned-box img {
@@ -21886,7 +21878,7 @@ textarea::-ms-input-placeholder {
 }
 
 .challenges-turned-section .challenges-turned-box .challenges-turned-contant p {
-    color: black;
+    color: var(--black-color);
     font-weight: 400;
 }
 
@@ -21903,7 +21895,7 @@ textarea::-ms-input-placeholder {
 
 .challenges-turned-section .challenges-turned-box .challenges-turned-contant .challenges-turned-tital span {
     background: #026DBF;
-    color: white;
+    color: var(--white-color);
     padding: 10px;
     border-radius: 50%;
 }
@@ -21923,7 +21915,7 @@ textarea::-ms-input-placeholder {
 .Alejandro-hero-section .bread-titlev2 h1,
 .Alejandro-hero-section .bread-titlev2 p {
     text-align: center;
-    color: white;
+    color: var(--white-color);
 }
 
 .Alejandro-hero-section .logo {
@@ -21959,7 +21951,7 @@ textarea::-ms-input-placeholder {
 .Alejandro-problem-solution .section-wrapper::before,
 .Alejandro-problem-solution .section-wrapper::after {
     background-color: #191463;
-    color: white;
+    color: var(--white-color);
     z-index: 10;
 }
 
@@ -21970,11 +21962,11 @@ textarea::-ms-input-placeholder {
 }
 
 
-.Alejandro-objectives-section {
+.Alejandro-royal-ride-objectives-section {
     position: relative;
 }
 
-.Alejandro-objectives-section .central-line {
+.Alejandro-royal-ride-objectives-section .central-line {
     position: absolute;
     background-color: #343536;
     width: 4px;
@@ -21986,11 +21978,11 @@ textarea::-ms-input-placeholder {
     z-index: 999;
 }
 
-.Alejandro-objectives-section .feature-box-group .feature-box {
+.Alejandro-royal-ride-objectives-section .feature-box-group .feature-box {
     border: 1px dotted #026DBF;
 }
 
-.Alejandro-objectives-section .feature-box {
+.Alejandro-royal-ride-objectives-section .feature-box {
     background: var(--white-color);
     border-radius: 12px;
     padding: 25px;
@@ -22000,19 +21992,19 @@ textarea::-ms-input-placeholder {
     border: 1px solid var(--gray-color-2);
 }
 
-.Alejandro-objectives-section .feature-box-group .text-theme {
+.Alejandro-royal-ride-objectives-section .feature-box-group .text-theme {
     color: #026DBF;
 }
 
 .Alejandro-wireframe {
     background: url("../images/case-studies/Alejandro-app/wireFram-background.webp") center/cover no-repeat;
     padding: 20px;
-    color: white;
+    color: var(--white-color);
 }
 
 .Alejandro-wireframe h2,
 .Alejandro-wireframe h4 {
-    color: white;
+    color: var(--white-color);
 
 }
 
@@ -22061,7 +22053,7 @@ textarea::-ms-input-placeholder {
     margin-top: 7%;
     border-right: 2px solid var(--first-color);
     line-height: 100px;
-    color: white;
+    color: var(--white-color);
     font-weight: 800;
     font-size: 18px;
 }
@@ -23220,7 +23212,7 @@ textarea::-ms-input-placeholder {
 }
 
 .modalCloseButton {
-	color: white;
+	color: var(--white-color);
 }
 
 .video-card {

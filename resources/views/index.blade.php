@@ -202,25 +202,21 @@
 				<div data-text="Our Services" class="light-bg-text bg-text text-start">
 					<div class="sctxt">Our Expertise</div>
 				</div>
-
 			</div>
 		</div>
-
 		<div class="row mt-md-5 wow fadeIn">
 			<div class="services-card-rows owl-carousel owl-theme">
 				<div class="col-12 fadeIn servive-card-col service-one">
 					<div class="card">
 						<div class="card-body">
 							<div class="services-tital">
-
 								<div class="services-img-div">
-									 <img loading="lazy" src="images/home/android-app-development-icon.svg" alt="Android App Development" class="img-fluid" width="100%" height="100%">
+									<img loading="lazy" src="images/home/android-app-development-icon.svg" alt="Android App Development" class="img-fluid" width="100%" height="100%">
 								</div>
 								<div class="service-heading">
 									<h3>Android App Development</h3>
 								</div>
 							</div>
-
 							<div class="services-text-div">
 								<p>Our Android app developers use the most up-to-date technologies to produce native apps with strong and adaptive architecture.</p>
 								<a href="{{url('/mr-app-development')}}" class="mt20 link-prbs">
@@ -235,7 +231,7 @@
 						<div class="card-body">
 							<div class="services-tital">
 								<div class="services-img-div">
-									 <img loading="lazy" src="images/home/ios-app-development-icon.svg" alt="iOS App Development" class="img-fluid" width="100%" height="100%">
+									<img loading="lazy" src="images/home/ios-app-development-icon.svg" alt="iOS App Development" class="img-fluid" width="100%" height="100%">
 								</div>
 								<div class="service-heading">
 									<h3>iOS App Development</h3>
@@ -251,12 +247,11 @@
 					</div>
 				</div>
 				<div class="col-12  fadeIn servive-card-col service-three">
-					<div class="card  ">
-
+					<div class="card">
 						<div class="card-body">
 							<div class="services-tital ">
 								<div class="services-img-div">
-									 <img loading="lazy" src="images/home/cross-platform-app-development-icon.svg" alt="Cross Platform App Development" class="img-fluid" width="100%" height="100%">
+									<img loading="lazy" src="images/home/cross-platform-app-development-icon.svg" alt="Cross Platform App Development" class="img-fluid" width="100%" height="100%">
 								</div>
 								<div class="service-heading">
 									<h3>Cross-Platform App Development</h3>
@@ -271,13 +266,12 @@
 						</div>
 					</div>
 				</div>
-
-				<div class="col-12   wow fadeIn servive-card-col service-four">
-					<div class="card ">
+				<div class="col-12 wow fadeIn servive-card-col service-four">
+					<div class="card">
 						<div class="card-body">
 							<div class="services-tital">
 								<div class="services-img-div">
-									 <img loading="lazy" src="images/home/game-app-development-icon.svg" alt="Game App Development" class="img-fluid" width="100%" height="100%">
+									<img loading="lazy" src="images/home/game-app-development-icon.svg" alt="Game App Development" class="img-fluid" width="100%" height="100%">
 								</div>
 								<div class="service-heading">
 									<h3>Game App Development</h3>
@@ -292,10 +286,10 @@
 						</div>
 					</div>
 				</div>
-				<div class="col-12   wow fadeIn servive-card-col service-five">
-					<div class="card ">
+				<div class="col-12 wow fadeIn servive-card-col service-five">
+					<div class="card">
 						<div class="card-body">
-							<div class="services-tital ">
+							<div class="services-tital">
 								<div class="services-img-div">
 									 <img loading="lazy" src="images/home/web-app-development-icon.svg" alt="Web App Development" class="img-fluid" width="100%" height="100%">
 								</div>
@@ -310,15 +304,14 @@
 								</a>
 							</div>
 						</div>
-
 					</div>
 				</div>
-				<div class="col-12  wow fadeIn servive-card-col service-six">
-					<div class="card  ">
+				<div class="col-12 wow fadeIn servive-card-col service-six">
+					<div class="card ">
 						<div class="card-body">
 							<div class="services-tital">
 								<div class="services-img-div">
-									 <img loading="lazy" src="images/home/wearable-app-development-icon.svg" alt="Wearable App Development" class="img-fluid" width="100%" height="100%">
+									<img loading="lazy" src="images/home/wearable-app-development-icon.svg" alt="Wearable App Development" class="img-fluid" width="100%" height="100%">
 								</div>
 								<div class="service-heading">
 									<h3>Wearable App Development</h3>
@@ -333,9 +326,8 @@
 						</div>
 					</div>
 				</div>
-
-				<div class="col-12  fadeIn servive-card-col service-seven">
-					<div class="card  ">
+				<div class="col-12 fadeIn servive-card-col service-seven">
+					<div class="card">
 						<div class="card-body">
 							<div class="services-tital">
 								<div class="services-img-div">
@@ -354,8 +346,8 @@
 						</div>
 					</div>
 				</div>
-				<div class="col-12   fadeIn servive-card-col service-eight">
-					<div class="card  ">
+				<div class="col-12 fadeIn servive-card-col service-eight">
+					<div class="card">
 						<div class="card-body">
 							<div class="services-tital">
 								<div class="services-img-div">
@@ -374,7 +366,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="col-12   fadeIn servive-card-col service-nine">
+				<div class="col-12 fadeIn servive-card-col service-nine">
 					<div class="card">
 						<div class="card-body">
 							<div class="services-tital">
@@ -1164,21 +1156,16 @@
 </section>
 <!-- End Why Choose -->
 
-
 <!--start banner section  -->
-<section class="banner-box-section common-heading text-white my-5 py-5">
-	<div class="h-100 container">
-		<div class="mb-4 row">
-			<div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6 col-12"></div>
-		</div>
-		<div class="banner-box-image" style="background-image: url(images/banner/royal-spa-banner.png); background-repeat: no-repeat; background-size: cover;">
+<section class="banner-box-section common-heading text-white py-5">
+	<div class="container">
+		<div class="banner-box-image royal-banner-box-image">
 			<div class="h-100 align-items-center row">
 				<div class="col-xxl-5 col-xl-6 col-lg-6 col-md-8 col-12">
 					<h2>Indulge in the <span> Royal Spa </span> Experience</h2>
 					<p>A luxurious well-being destination designed to rejuvenate your body and mind with premium treatments and tranquil ambiance. From soothing therapies to personalized care, Royal Spa is built to deliver unparalleled relaxation and pure serenity.</p>
 					<div class="banner-btn">
-						<a
-							href="#" target="_blank" aria-label="Appsnation Contact">Explore App</a>
+						<a href="#" target="_blank" aria-label="Appsnation Contact">Explore App</a>
 						<a data-bs-toggle="modal" data-bs-target="#menu-popup" class="process-btn-effect" class="active">Request A Quote</a>
 					</div>
 				</div>

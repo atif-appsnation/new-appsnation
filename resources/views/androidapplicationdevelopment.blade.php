@@ -75,9 +75,7 @@
 		</div>
 	</div>
 </section>
-
 <!--End About-->
-
 
 <!--Start Service-->
 <section class="service-section-app py-5 dark-bg2 overflow-x-hidden">

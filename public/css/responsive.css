@@ -1531,22 +1531,22 @@
 
 
 	/* royal ride app case study */
-	.hero-section-royalRide {
+	.hero-section-royal-ride {
 		margin-top: 140px;
 		margin-bottom: 32px;
 
 	}
 
-	.royalRideLogo p {
+	.royal-ride-logo p {
 		text-align: center;
 	}
 
-	.royalRideLogo h1 {
+	.royal-ride-logo h1 {
 		font-size: 50px;
 		line-height: 62px;
 	}
 
-	.royalRideLogo img {
+	.royal-ride-logo img {
 		width: 110px;
 	}
 
@@ -1773,10 +1773,6 @@
 
 	.quote-form {
 		margin-top: 25px;
-	}
-
-	.service-section-app {
-		padding-bottom: 3rem !important;
 	}
 
 	/* .techonology-used- .tab-body {
@@ -2279,16 +2275,16 @@
 		right: 55.1%;
 	}
 
-	.hero-section-royalRide {
+	.hero-section-royal-ride {
 		margin-top: 0;
 		margin-bottom: 100px;
 	}
 
-	.royalRideLogo p {
+	.royal-ride-logo p {
 		text-align: center;
 	}
 
-	.royalRideLogo h1 {
+	.royal-ride-logo h1 {
 		font-family: "Poppins", sans-serif;
 		font-weight: 600;
 		font-style: normal;
@@ -2296,7 +2292,7 @@
 		line-height: 62px;
 	}
 
-	.royalRideLogo img {
+	.royal-ride-logo img {
 		width: 110px;
 	}
 
@@ -2305,7 +2301,7 @@
 		height: auto;
 	}
 
-	.Problem-section {
+	.problem-section {
 		padding: 10px 0;
 		text-align: center;
 	}
@@ -2314,11 +2310,11 @@
 		margin-bottom: 30px;
 	}
 
-	.Problem-section h2 {
+	.problem-section h2 {
 		font-size: 26px;
 	}
 
-	.Problem-section p {
+	.problem-section p {
 		font-size: 15px;
 	}
 
@@ -2343,7 +2339,7 @@
 	}
 
 	.process-tabs .tabs .tabs-icons {
-    	grid-template-columns: repeat(1, 1fr);
+    	grid-template-columns: repeat(2, 1fr);
 	}
 
 	.dm-banner-box-section .banner-box-image {
@@ -2458,15 +2454,15 @@
 		text-align: center;
 	}
 
-	.uiux-text-col {
+	.royal-ride-problem-section .text-col {
 		margin-bottom: 40px;
 	}
 
-	.uiux-main-title {
+	.royal-ride-problem-section .uiux-main-title {
 		font-size: 28px;
 	}
 
-	.uiux-subtitle {
+	.royal-ride-problem-section .subtitle {
 		font-size: 18px;
 	}
 
@@ -3087,18 +3083,18 @@
 	/* start case studes */
 
 	/* royal ride case study start */
-	.hero-section-royalRide {
+	.hero-section-royal-ride {
 		margin-top: 0;
 		margin-bottom: 90px;
 
 	}
 
-	.royalRideLogo h1 {
+	.royal-ride-logo h1 {
 		font-size: 50px;
 		line-height: 62px;
 	}
 
-	.royalRideLogo img {
+	.royal-ride-logo img {
 		width: 110px;
 	}
 
@@ -3108,11 +3104,11 @@
 	}
 
 	/* royal ride case study start */
-	.Problem-section h2 {
+	.problem-section h2 {
 		font-size: 22px;
 	}
 
-	.Problem-section p {
+	.problem-section p {
 		font-size: 12px;
 	}
 
@@ -4203,6 +4199,10 @@
 		aspect-ratio: 1728 / 600;
 	}
 
+	.banner-box-section .banner-box-image {
+		aspect-ratio: 1728 / 550;
+	}
+
 }
 
 @media only screen and (min-width:1600px) and (max-width:1919px) {                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              
@@ -4554,9 +4554,12 @@
 		line-height: 3.8;
 	}
 
-
 	.dm-banner-box-section .banner-box-image {
 		aspect-ratio: 1728 / 600;
+	}
+
+	.banner-box-section .banner-box-image {
+		aspect-ratio: 1728 / 550;
 	}
 }
 
@@ -5158,6 +5161,10 @@
 		aspect-ratio: 1728 / 600;
 	}
 
+	.banner-box-section .banner-box-image {
+		aspect-ratio: 1728 / 550;
+	}
+
 }
 
 @media screen and (max-width: 767px) {
@@ -5204,37 +5211,6 @@
 
 }
 
-@media (min-width: 355px) and (max-width: 399px) {
-
-	/*End banner setion */
-	.card.h-120.h-100 {
-		height: 120% !important;
-	}
-
-	.row.pt-6.pt-3 {
-		padding-top: 4rem !important;
-	}
-}
-
-@media (max-width: 768px) {
-	.swiper-slide {
-		width: 90%;
-		/* Adjust width for smaller screens */
-		height: 50vh;
-		/* Smaller height for mobile */
-	}
-
-}
-
-@media (max-width: 480px) {
-	.swiper-slide {
-		width: 95%;
-		/* Maximize width for very small screens */
-		height: 40vh;
-		/* Adjust height further for smaller viewport */
-	}
-}
-
 @media only screen and (min-width:1200px) {
 	.hire-developer-app-development {
 		margin: 200px 0px 50px;
@@ -5243,67 +5219,6 @@
 
 @media (max-width: 1399px) {
 
-	.cost-calculator-new .wizard-form .wizard .steps>ul li {
-		margin: 0 13px;
-	}
-
-	.cost-calculator-new .wizard-form .wizard .steps>ul li:after {
-		width: 100px;
-	}
-
-	.cost-calculator-new .wizard-form .wizard .steps>ul li {
-		margin: 0 13px;
-	}
-
-	.cost-calculator-new .wizard-form .wizard .steps>ul li:after {
-		width: 100px;
-	}
-
-	.cost-calculator .wizard-form .book-a-consultant-now img {
-		left: -13%;
-	}
-
-	.cost-calculator-new .wizard-form .book-a-consultant-now img {
-		left: -13%;
-	}
-
-	.cost-calculator-new .business-analyst {
-		background-repeat: no-repeat;
-		background-size: cover;
-		padding: 20px 0;
-		margin-top: 5rem;
-		background-position: right;
-		border-radius: 15px;
-	}
-
-	.cost-calculator-new .business-analyst ul li:nth-child(1) {
-		bottom: -20px;
-	}
-
-	.cost-to-create-cta .img-cont img {
-		right: 0;
-	}
-
-	.cost-calculator .wizard-form .book-a-consultant-now img {
-		left: -13%;
-	}
-
-	.cost-calculator-new .wizard-form .book-a-consultant-now img {
-		left: -13%;
-	}
-
-	.cost-calculator-new .business-analyst {
-		background-repeat: no-repeat;
-		background-size: cover;
-		padding: 20px 0;
-		margin-top: 5rem;
-		background-position: right;
-		border-radius: 15px;
-	}
-
-	.cost-calculator-new .business-analyst ul li:nth-child(1) {
-		bottom: -20px;
-	}
 
 	/* start case study  */
 	/* wood land case study start */
@@ -5385,63 +5300,7 @@
 }
 
 @media (max-width: 1199px) {
-	.cost-calculator-new .wizard-form .wizard .steps>ul li {
-		margin: 0 25px;
-	}
 
-	.cost-calculator-new .wizard-form .wizard .steps>ul li:after {
-		width: 130px;
-	}
-
-	.cost-calculator-new .wizard-form .wizard .content {
-		min-height: auto;
-		margin-bottom: 20px;
-	}
-
-	.cost-calculator-new .wizard-form .wizard .steps>ul li {
-		margin: 0 25px;
-	}
-
-	.cost-calculator-new .wizard-form .wizard .steps>ul li:after {
-		width: 130px;
-	}
-
-	.cost-calculator-new .wizard-form .wizard .content {
-		min-height: auto;
-		margin-bottom: 20px;
-	}
-
-	.cost-calculator .wizard-form .book-a-consultant-now img {
-		left: -10%;
-	}
-
-	.cost-calculator .rough-estimate {
-		margin-top: 50px;
-	}
-
-	.cost-calculator-new .wizard-form .book-a-consultant-now img {
-		left: -10%;
-	}
-
-	.cost-calculator-new .rough-estimate {
-		margin-top: 50px;
-	}
-
-	.cost-calculator .wizard-form .book-a-consultant-now img {
-		left: -10%;
-	}
-
-	.cost-calculator .rough-estimate {
-		margin-top: 50px;
-	}
-
-	.cost-calculator-new .wizard-form .book-a-consultant-now img {
-		left: -10%;
-	}
-
-	.cost-calculator-new .rough-estimate {
-		margin-top: 50px;
-	}
 
 
 	.tcd h3 {
@@ -5481,14 +5340,9 @@
 	}
 
 	/* royal ride case study start */
-	.Problem-section {
+	.problem-section {
 		padding: 50px 0;
 	}
-
-	.problem-left-container img {
-		max-width: 420px;
-	}
-
 	.uiux-section-wrapper {
 		padding: 60px 0;
 	}
@@ -5551,39 +5405,7 @@
 
 
 
-@media (max-width: 575px) {
-
-	/* services card slider */
-	.service-section-app .owl-theme .owl-nav {
-		display: none;
-		/* top: 94%; */
-		/* padding: 10px 0 10px 0; */
-	}
-
-	.service-section-app .owl-theme .owl-nav .owl-next {
-		left: 255px;
-	}
-
-	.service-section-app .owl-theme .owl-nav .owl-prev {
-		left: 245px;
-	}
-
-
-}
-
 @media (max-width: 767px) {
-	/*Start services section banner */
-
-	.services-box-section .owl-theme .owl-nav.disabled+.owl-dots {
-		margin-top: -22px !important;
-	}
-
-	/* services card slider */
-	.service-section-app .owl-theme .owl-nav .owl-next {
-		right: -475px;
-		font-size: 60px;
-	}
-
 	/* start case studys */
 	/* car mechanic case study */
 	#car-mechanic-background {
@@ -5603,13 +5425,6 @@
 
 	/* awards section */
 
-
-	.award-img {
-		max-width: 200px;
-
-		display: block;
-		margin: 0 auto;
-	}
 
 	.awards-slider .owl-item .card img {
 		max-width: 150px;
@@ -5633,12 +5448,6 @@
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
-
-	/* services card slider */
-	.service-section-app .owl-theme .owl-nav .owl-next {
-		right: -657px;
-		font-size: 60px;
-	}
 
 	/* start case studys */
 	/* awards section */
@@ -5666,7 +5475,7 @@
 	}
 
 	/* royal ride case study start */
-	.hero-section-royalRide {
+	.hero-section-royal-ride {
 		background: linear-gradient(to bottom, #C39449 0%, #C39449 5%, transparent 20%);
 		padding-top: 90px;
 		margin-bottom: 2px;
@@ -5674,12 +5483,12 @@
 	}
 
 
-	.royalRideLogo h1 {
+	.royal-ride-logo h1 {
 		font-size: 50px;
 		line-height: 62px;
 	}
 
-	.royalRideLogo img {
+	.royal-ride-logo img {
 		width: 110px;
 	}
 
@@ -5723,16 +5532,6 @@
 
 @media (min-width:992px) and (max-width:1199px) {
 
-	/* services card slider */
-	.service-section-app .owl-theme .owl-nav .owl-next {
-		right: -881px;
-		font-size: 60px;
-	}
-
-	.service-section-app .owl-theme .owl-nav .owl-prev {
-		left: -35px;
-		font-size: 60px;
-	}
 
 	/* grave love case study */
 	.grave-love-problem-contant h2 {
@@ -5869,11 +5668,6 @@
 
 @media (min-width:1200px) and (max-width:1399px) {
 
-	/* services card slider */
-	.service-section-app .owl-theme .owl-nav .owl-next {
-		right: -1079px;
-		font-size: 60px;
-	}
 
 	.hire-developer-app-development img {
 		right: -250px;
@@ -6417,7 +6211,7 @@
 		max-width: 590px;
 	}
 
-	/* Start  Problem-section  */
+	/* Start  problem-section  */
 	.grave-love-problem-section {
 		background-size: 100% 100%;
 		border-radius: 40px;
@@ -7876,19 +7670,19 @@
 }
 
 @media (min-width: 768px) and (max-width: 992px) {
-    .hero-section-royalRide {
+    .hero-section-royal-ride {
         background: linear-gradient(to bottom, #C39449 0%, #C39449 5%, transparent 20%);
         padding-top: 90px;
         margin-bottom: 2px;
 
     }
 
-    .royalRideLogo h1 {
+    .royal-ride-logo h1 {
         font-size: 50px;
         line-height: 62px;
     }
 
-    .royalRideLogo img {
+    .royal-ride-logo img {
         width: 110px;
     }
 
@@ -7899,18 +7693,18 @@
 }
 
 @media (min-width:375px) and (max-width: 767px) {
-    .hero-section-royalRide {
+    .hero-section-royal-ride {
         background: linear-gradient(to bottom, #C39449 0%, #C39449 5%, transparent 10%);
         padding-top: 100px;
         margin-bottom: 2px;
 
     }
 
-    .royalRideLogo p {
+    .royal-ride-logo p {
         text-align: center;
     }
 
-    .royalRideLogo h1 {
+    .royal-ride-logo h1 {
         font-family: "Poppins", sans-serif;
         font-weight: 600;
         font-style: normal;
@@ -7918,7 +7712,7 @@
         line-height: 62px;
     }
 
-    .royalRideLogo img {
+    .royal-ride-logo img {
         width: 110px;
     }
 
@@ -7929,22 +7723,22 @@
 }
 
 @media (max-width: 374px) {
-    .hero-section-royalRide {
+    .hero-section-royal-ride {
         padding-top: 140px;
         margin-bottom: 32px;
 
     }
 
-    .royalRideLogo p {
+    .royal-ride-logo p {
         text-align: center;
     }
 
-    .royalRideLogo h1 {
+    .royal-ride-logo h1 {
         font-size: 50px;
         line-height: 62px;
     }
 
-    .royalRideLogo img {
+    .royal-ride-logo img {
         width: 110px;
     }
 
@@ -7954,29 +7748,11 @@
     }
 }
 
-@media (min-width: 1200px) {
 
-    .problem-left-container img,
-    .problem-right-container img {
-        width: 800px;
-        height: 600px;
-    }
-}
-
-@media (max-width: 1199px) {
-    .Problem-section {
-        padding: 50px 0;
-    }
-
-    .problem-left-container img,
-    .problem-right-container img {
-        max-width: 420px;
-    }
-}
 
 
 @media (max-width: 767px) {
-    .Problem-section {
+    .problem-section {
         padding: 10px 0;
         text-align: center;
     }
@@ -7986,11 +7762,11 @@
         margin-bottom: 30px;
     }
 
-    .Problem-section h2 {
+    .problem-section h2 {
         font-size: 26px;
     }
 
-    .Problem-section p {
+    .problem-section p {
         font-size: 15px;
     }
 
@@ -8052,7 +7828,7 @@
 
 
 @media (min-width: 1200px) {
-    .uiux-main-title {
+    .royal-ride-problem-section .uiux-main-title {
         font-size: 36px;
     }
 
@@ -8081,15 +7857,15 @@
         margin-bottom: 40px;
     }
 
-    .uiux-main-title {
+    .royal-ride-problem-section .main-title {
         font-size: 28px;
     }
 
-    .uiux-subtitle {
+    .royal-ride-problem-section .subtitle {
         font-size: 18px;
     }
 
-    .uiux-paragraph {
+    .royal-ride-problem-section .paragraph {
         font-size: 15px;
     }
 
