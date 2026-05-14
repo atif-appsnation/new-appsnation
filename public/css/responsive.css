@@ -1837,7 +1837,6 @@
 
 	.achievements-count {
 		padding: 20px 10px;
-
 	}
 
 	.achievements-count div:nth-child(1) {
@@ -2275,57 +2274,6 @@
 		right: 55.1%;
 	}
 
-	.hero-section-royal-ride {
-		margin-top: 0;
-		margin-bottom: 100px;
-	}
-
-	.royal-ride-logo p {
-		text-align: center;
-	}
-
-	.royal-ride-logo h1 {
-		font-family: "Poppins", sans-serif;
-		font-weight: 600;
-		font-style: normal;
-		font-size: 50px;
-		line-height: 62px;
-	}
-
-	.royal-ride-logo img {
-		width: 110px;
-	}
-
-	.hero-img-1 img {
-		max-width: 100%;
-		height: auto;
-	}
-
-	.problem-section {
-		padding: 10px 0;
-		text-align: center;
-	}
-
-	.problem-left-container {
-		margin-bottom: 30px;
-	}
-
-	.problem-section h2 {
-		font-size: 26px;
-	}
-
-	.problem-section p {
-		font-size: 15px;
-	}
-
-	.problem-left-container img {
-		max-width: 100%;
-	}
-
-	.royal-relax-spaceing {
-		margin: 40px 0 80px 0;
-	}
-
 	.home-banner-box-section .banner-box-image {
 		aspect-ratio: 1592 / 1600;
 	}
@@ -2346,7 +2294,6 @@
 		aspect-ratio: 1728 / 1149;
 	}
 
-	/* MAP SECTION */
 	.distribution-map .map-point:focus {
 		left: 50% !important;
 	}
@@ -2435,47 +2382,32 @@
 		margin-top: 0;
 	}
 
-	/*start service pages banner section */
 	.services-box-section .banner-box-image {
-		
 		border-radius: 30px;
 		padding: 24px 0 23px 63px;
 	}
 
-	/*End service pages banner section */
+	.hero-section-royal-ride {
+        background: linear-gradient(to bottom, #C39449 0%, #C39449 5%, transparent 10%);
+        padding-top: 100px;
+        margin-bottom: 0px;
+    }
 
-	/*End banners section*/
+    .hero-section-royal-ride .royal-ride-logo h1 {
+        line-height: 62px;
+    }
 
-	/* start cse studys */
-
-	/* royal ride case study start */
-	.uiux-section-wrapper {
-		padding: 50px 0;
-		text-align: center;
-	}
-
-	.royal-ride-problem-section .text-col {
-		margin-bottom: 40px;
-	}
-
-	.royal-ride-problem-section .uiux-main-title {
-		font-size: 28px;
-	}
-
-	.royal-ride-problem-section .subtitle {
-		font-size: 18px;
-	}
-
-	.uiux-paragraph {
-		font-size: 15px;
-	}
-
-	.uiux-image {
+	.hero-section-royal-ride .hero-img-1 img {
 		max-width: 100%;
+		height: auto;
 	}
 
-	.problem-left-container img {
-		max-width: 344px;
+	.royal-ride-analysis .start-connector, .royal-ride-analysis .card-connector-plus {
+		display: none;
+	}
+
+	.royal-ride-persona .persona-card {
+		height: auto;
 	}
 
 	/* start royal relax spa case study */
@@ -5347,9 +5279,6 @@
 		padding: 60px 0;
 	}
 
-	.uiux-image {
-		max-width: 450px;
-	}
 
 
 	.banner-box-image h2 {
@@ -5497,9 +5426,6 @@
 		height: auto;
 	}
 
-	.problem-left-container img {
-		max-width: 344px;
-	}
 
 	/* load board case study start */
 	.load-board-project-overview-section .load-board-project-overview-contant p {
@@ -6840,9 +6766,9 @@
 	}
 
 	/* royal ride case study start */
-	.persona-card {
+	/* .persona-card {
 		height: 50%;
-	}
+	} */
 
 	.persona-left-column-card {
 		height: 100%;
@@ -7692,36 +7618,6 @@
     }
 }
 
-@media (min-width:375px) and (max-width: 767px) {
-    .hero-section-royal-ride {
-        background: linear-gradient(to bottom, #C39449 0%, #C39449 5%, transparent 10%);
-        padding-top: 100px;
-        margin-bottom: 2px;
-
-    }
-
-    .royal-ride-logo p {
-        text-align: center;
-    }
-
-    .royal-ride-logo h1 {
-        font-family: "Poppins", sans-serif;
-        font-weight: 600;
-        font-style: normal;
-        font-size: 50px;
-        line-height: 62px;
-    }
-
-    .royal-ride-logo img {
-        width: 110px;
-    }
-
-    .hero-img-1 img {
-        max-width: 100%;
-        height: auto;
-    }
-}
-
 @media (max-width: 374px) {
     .hero-section-royal-ride {
         padding-top: 140px;
@@ -7770,10 +7666,6 @@
         font-size: 15px;
     }
 
-    .problem-left-container img,
-    .problem-right-container img {
-        max-width: 100%;
-    }
 }
 
 @media (max-width:992px) {
@@ -7823,54 +7715,6 @@
 
 	.persona-card {
         margin-bottom: 0;
-    }
-}
-
-
-@media (min-width: 1200px) {
-    .royal-ride-problem-section .uiux-main-title {
-        font-size: 36px;
-    }
-
-    .uiux-image {
-        max-width: 990px;
-    }
-}
-
-@media (max-width: 1199px) {
-    .uiux-section-wrapper {
-        padding: 60px 0;
-    }
-
-    .uiux-image {
-        max-width: 450px;
-    }
-}
-
-@media (max-width: 767px) {
-    .uiux-section-wrapper {
-        padding: 50px 0;
-        text-align: center;
-    }
-
-    .uiux-text-col {
-        margin-bottom: 40px;
-    }
-
-    .royal-ride-problem-section .main-title {
-        font-size: 28px;
-    }
-
-    .royal-ride-problem-section .subtitle {
-        font-size: 18px;
-    }
-
-    .royal-ride-problem-section .paragraph {
-        font-size: 15px;
-    }
-
-    .uiux-image {
-        max-width: 100%;
     }
 }
 

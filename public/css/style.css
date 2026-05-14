@@ -22,6 +22,7 @@
     --gray-color: #6c757d;
     --gray-color-2: #e9ecef;
     --wheat: #f5deb3;
+    --golden-color-2: #C39449;
     --dur: .15s;
     --delay: .15s;
     --radius: 10px;
@@ -6644,7 +6645,7 @@ h6 {
 }
 
 p {
-    font-size: 17px;
+    font-size: 16px;
     line-height: 28px;
 }
 
@@ -19290,13 +19291,13 @@ textarea::-ms-input-placeholder {
 /* Start Royal Ride */
 
 .hero-section-royal-ride {
-    background: linear-gradient(to bottom, #C39449 0%, #C39449 5%, transparent 20%);
+    background: linear-gradient(to bottom, var(--golden-color-2) 0%, var(--golden-color-2) 5%, transparent 20%);
     padding-top: 180px;
     background-color: #f8f8f8;
 }
 
 .royal-ride-logo p {
-    color: #C39449;
+    color: var(--golden-color-2);
 }
 
 .royal-ride-logo h1 {
@@ -19308,58 +19309,42 @@ textarea::-ms-input-placeholder {
     width: 110px;
 }
 
-.hero-img-1 img {
+.hero-section-royal-ride .hero-img-1 img {
     max-width: 90%;
     height: auto;
 }
 
-/* .royal-ride-problem-section {
-    padding: 60px 0;
-} */
-
-/* .royal-ride-problem-section .text-col {
-    text-align: start;
-    margin-bottom: 30px;
-} */
-
 .royal-ride-problem-section h2 {
-    font-size: 32px;
-    font-weight: 600;
-    font-style: normal;
     margin-bottom: 20px;
 }
 
-.royal-ride-problem-section p {
-    font-weight: 300;
-    font-style: normal;
-    font-size: 19px;
+.royal-ride-problem-section .subtitle {
+    font-size: 1rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    /* letter-spacing: 2196px; */
+    color: #c0a16b;
 }
 
-/* by hassan Objectives & Goals section */
-.royal-ride-objectives-section {
-    margin-top: 22px;
-}
-
-.royal-ride-objectives-section .info-card {
-    background-color: #fff;
+.royal-ride-objectives-section .info-card, .royal-ride-business-challenges .info-card {
+    background-color: var(--white-color);
     border-radius: 15px;
     padding: 25px;
     margin-bottom: 25px;
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     transition: all 0.3s ease;
 }
 
-.royal-ride-objectives-section .info-card:hover {
+.royal-ride-objectives-section .info-card:hover, .royal-ride-business-challenges .info-card:hover {
     transform: translateY(-5px);
-    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.12);
 }
 
-.card-number-circle {
+.royal-ride-card-number-circle {
     width: 45px;
     height: 45px;
     background-color: var(--white-color);
-    border: 4px solid #ff7f00;
-    color: #ff7f00;
+    border: 4px solid var(--golden-color-2);
+    color: var(--golden-color-2);
     border-radius: 50%;
     display: flex;
     align-items: center;
@@ -19369,28 +19354,22 @@ textarea::-ms-input-placeholder {
     margin-bottom: 15px;
 }
 
-.card-title {
+.royal-ride-card-title {
     font-size: 1.4rem;
     font-weight: 600;
-    color: #343a40;
     margin-bottom: 10px;
 }
 
-.card-description {
+.royal-ride-card-description {
     font-size: 0.95rem;
-    color: #6c757d;
     line-height: 1.6;
 }
 
-
-.phone-screen img {
-    width: 260px;
-
+.royal-ride-objectives-section .phone-screen img {
+    width: 330px;
 }
 
-
-
-.calendar-card {
+.royal-ride-objectives-section .calendar-card {
     background-color: #fff;
     border-radius: 15px;
     padding: 10px;
@@ -19398,7 +19377,7 @@ textarea::-ms-input-placeholder {
     text-align: center;
 }
 
-.calendar-header {
+.royal-ride-objectives-section .calendar-header {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -19408,374 +19387,107 @@ textarea::-ms-input-placeholder {
     color: #343a40;
 }
 
-.calendar-grid {
+.royal-ride-objectives-section .calendar-grid {
     display: grid;
     grid-template-columns: repeat(7, 1fr);
     gap: 10px;
 }
 
-.day-label,
-.date-number {
+.royal-ride-objectives-section .day-label, .royal-ride-objectives-section .date-number {
     padding: 8px;
     border-radius: 8px;
     color: #6c757d;
     font-size: 0.9rem;
 }
 
-.day-label {
+.royal-ride-objectives-section .day-label {
     font-weight: bold;
     color: #343a40;
 }
 
-.date-number.current-month {
+.royal-ride-objectives-section .date-number.current-month {
     background-color: #f0f2f5;
 }
 
-.date-number.selected {
-    background-color: #ff7f00;
+.royal-ride-objectives-section .date-number.selected {
+    background-color: var(--golden-color-2);
     color: #fff;
     font-weight: bold;
 }
 
-.date-number.other-month {
+.royal-ride-objectives-section .date-number.other-month {
     color: #ced4da;
 }
 
-/* end hassan Objectives & Goals section */
-
-/* by hassan Business Challenges */
-
-.busniess-img-paytem img,
-.busniess-img-phone img,
-.bussness-img-lady img {
-    width: 102%;
-    height: auto;
-    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
-
+.royal-ride-analysis .bg-gold {
+    background-color: var(--golden-color-2);
+    color: var(--black-color);
 }
 
-/* end hassan Business Challenges */
-
-/* by hassan USER PERSONA section */
-.persona-top-heading {
+.royal-ride-analysis .row {
     display: flex;
-    justify-content: space-around;
-    align-items: center;
-    padding: 50px;
-
+    flex-wrap: wrap;
 }
 
-.persona-top-heading h3 {
-
-    font-weight: 800;
-}
-
-.persona-top-heading p {
-    font-weight: 600;
-}
-
-
-.white-background {
-    background-color: var(--white-color);
-    border-radius: 20px;
-}
-
-
-.persona-section-wrapper {
-    background-color: var(--white-color);
-    padding: 20px;
-    border: 1px #0000002e solid;
-    border-radius: 20px;
-    margin: 0;
-}
-
-.persona-card {
-
-    background-color: #4e4a4a14;
-    border-radius: 15px;
-    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
-    padding: 10px;
-    display: flex;
-    flex-direction: column;
-}
-
-
-.persona-left-column-card {
-    text-align: center;
-    align-items: center;
-    height: 100%;
-
-}
-
-.persona-name-section img {
-    width: 120px;
-    height: 120px;
-    border-radius: 50%;
-    object-fit: cover;
-    border: 4px solid #ff7f00;
-    margin-bottom: 20px;
-}
-
-.persona-name-section h4 {
-    font-size: 1.8rem;
-    
-    font-weight: 600;
-    font-style: normal;
-    color: #212529;
-}
-
-.persona-name-section p {
-    font-size: 1rem;
-    color: #6c757d;
-    
-    font-weight: 200;
-    font-style: normal;
-    margin-bottom: 30px;
-}
-
-.persona-background-section h3,
-.persona-goals-section h3,
-.persona-painpoints-section h3 {
-    font-size: 1.6rem;
-    font-weight: 600;
-    color: #ff7f00;
-    border-bottom: 2px solid #ff7f00;
-    padding-bottom: 5px;
-    display: inline-block;
-}
-
-.persona-background-section p {
-    font-size: 1rem;
-    color: #495057;
-}
-
-.persona-background-section p b {
-    font-weight: 600;
-    color: #212529;
-}
-
-.persona-goals-section ul,
-.persona-painpoints-section ul {
-    list-style: none;
-    padding-left: 0;
-}
-
-.persona-goals-section ul li,
-.persona-painpoints-section ul li {
-    position: relative;
-    padding-left: 25px;
-    font-size: 1rem;
-    color: #495057;
-}
-
-.persona-goals-section ul li::before,
-.persona-painpoints-section ul li::before {
-    content: "\2022";
-    color: #ff7f00;
-    font-weight: bold;
-    display: inline-block;
-    width: 1em;
-    position: absolute;
-    left: 0;
-    top: 0;
-}
-
-/* end hassan USER PERSONA section */
-
-
-
-/* by hassan uiux section  */
-
-/* ----------------------------- */
-/*      UI/UX Section Styles      */
-/* ----------------------------- */
-
-.uiux-section-wrapper {
-    padding: 70px 0;
-}
-
-.royal-ride-problem-section .uiux-main-title {
-    font-size: 32px;
-    font-weight: 700;
-    margin-bottom: 25px;
-}
-
-.uiux-content-block {
-    margin-bottom: 25px;
-}
-
-.royal-ride-problem-section .subtitle {
-    font-size: 20px;
-    
-    font-weight: 600;
-    font-style: normal;
-    margin-bottom: 8px;
-}
-
-.uiux-paragraph {
-    font-size: 16px;
-    line-height: 1.6;
-}
-
-/* Image Styling */
-.uiux-image-card {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.uiux-image {
-    width: 100%;
-    max-width: 900px;
-    height: auto;
-    display: block;
-    border-radius: 10px;
-}
-
-/* end hassan uiux section  */
-
-/* by hassan User Research section  */
-
-.user-research-section {
-    background-color: #f8f8f8;
-    color: #1a1a1a;
-}
-
-
-.royal-ride-problem-section .subtitle {
-    font-size: 1rem;
-    font-weight: 700;
-    text-transform: uppercase;
-    letter-spacing: 2196px;
-    color: #c0a16b;
-}
-
-.uiux-title {
-    font-size: 2.5rem;
-    font-weight: 300;
-    line-height: 1.2;
-    color: #000000;
-}
-
-
-.uiux-paragraph {
-    font-size: 1.1rem;
-    line-height: 1.6;
-    color: #444444;
-}
-
-
-.research-image {
-    max-height: 570px;
-    width: auto;
-    border-radius: 8px;
-}
-
-/* --- Responsiveness Improvement --- */
-
-/* end hassan User Research section  */
-
-.comp-analysis-container {
-    margin: 0 auto;
-    padding: 0 15px;
-}
-
-.comp-analysis-title {
-    font-size: 1.5rem;
-    font-weight: bold;
-    color: #333;
-}
-
-.comp-analysis-image-wrapper {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-}
-
-.comp-analysis-image {
-    width: 100%;
-    height: auto;
-    max-width: 100%;
-}
-
-.section-wrapper {
-    position: relative;
-    padding-top: 100px;
-}
-
-.start-connector {
+.royal-ride-analysis .start-connector {
     position: absolute;
     top: 0;
-    left: 120px;
+    /* left: 120px; */
     z-index: 10;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.start-plus-circle {
+.royal-ride-analysis .start-plus-circle {
     width: 60px;
     height: 60px;
-    background-color: #dcb880;
+    background-color: var(--golden-color-2);
     border-radius: 50%;
     display: flex;
     align-items: center;
     justify-content: center;
     font-size: 30px;
     font-weight: bold;
-    color: #000;
+    color: var(--black-color);
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
 
-.connector-line-vertical {
+.royal-ride-analysis .connector-line-vertical {
     width: 2px;
     height: 140px;
     background-color: #dcb880;
 }
 
-.connector-line-horizontal {
-    position: absolute;
-    top: 200px;
-    left: 50px;
-    width: 50px;
-    height: 2px;
-    background-color: #dcb880;
-    display: none;
-}
-
-.card-custom {
+.royal-ride-analysis .card-custom {
     border: none;
     border-radius: 15px;
     padding: 30px 20px;
-    min-height: 420px;
+    /* min-height: 420px; */
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     position: relative;
     transition: transform 0.3s ease;
+    margin-bottom: 15px;
 }
 
-.card-custom:hover {
+.royal-ride-analysis .card-custom:hover {
     transform: translateY(-5px);
 }
 
-.bg-gold {
-    background-color: #dcb880;
-    color: #2c2c2c;
-}
-
-.bg-white-custom {
-    background-color: #fff;
-    color: #2c2c2c;
-    border: 1px solid #eee;
+.royal-ride-analysis .bg-white-custom {
+    background-color: var(--white-color);
+    color: var(--black-color);
+    border: 1px solid var(--golden-color-2);
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
 }
 
-.number-circle {
+.royal-ride-analysis .number-circle {
     width: 50px;
     height: 50px;
     border-radius: 50%;
-    border: 2px solid #000;
+    border: 2px solid var(--black-color);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -19784,20 +19496,27 @@ textarea::-ms-input-placeholder {
     margin-bottom: 30px;
 }
 
-.card-title-custom {
+.royal-ride-analysis .bg-gold .number-circle {
+    border: 2px solid var(--white-color);
+    color: var(--white-color);
+}
+
+.royal-ride-analysis .card-title-custom {
     font-weight: 600;
-    font-size: 1.1rem;
     margin-bottom: 20px;
     line-height: 1.4;
 }
 
-.card-text-custom {
-    font-size: 0.9rem;
-    line-height: 1.6;
-    opacity: 0.9;
+.royal-ride-analysis .bg-gold .card-title-custom, .royal-ride-analysis .bg-gold .card-text-custom {
+    color: var(--white-color)
 }
 
-.card-connector-plus {
+.royal-ride-analysis .card-text-custom {
+    line-height: 1.6;
+    opacity: 1;
+}
+
+.royal-ride-analysis .card-connector-plus {
     position: absolute;
     top: 50%;
     right: -25px;
@@ -19815,20 +19534,130 @@ textarea::-ms-input-placeholder {
     font-size: 18px;
 }
 
-.col-custom:last-child .card-connector-plus {
+.royal-ride-analysis .col-custom:last-child .card-connector-plus {
     display: none;
 }
 
-.row-five-cols {
+.royal-ride-persona .persona-top-heading {
     display: flex;
-    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    padding-bottom: 30px;
 }
 
-.row-five-cols>.col-custom {
-    width: 100%;
-    padding-left: 10px;
-    padding-right: 10px;
+.royal-ride-persona .persona-section-wrapper {
+    background-color: var(--white-color);
+    padding: 20px;
+    border: 1px solid var(--golden-color-2);
+    border-radius: 20px;
+    margin: 0;
 }
+
+.royal-ride-persona .persona-card {
+    background-color: #4e4a4a14;
+    border-radius: 15px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+.royal-ride-persona .persona-left-column-card {
+    text-align: center;
+    align-items: center;
+    height: 100%;
+}
+
+.royal-ride-persona .persona-name-section img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 4px solid var(--golden-color-2);
+    margin-bottom: 20px;
+}
+
+.royal-ride-persona .persona-name-section h4 {
+    color: var(--black-color);
+}
+
+.royal-ride-persona .persona-name-section p {
+    font-size: 1rem;
+    color: var(--black-color);
+    font-weight: 200;
+    font-style: normal;
+    margin-bottom: 30px;
+}
+
+.royal-ride-persona .persona-background-section h3,
+.royal-ride-persona .persona-goals-section h3,
+.royal-ride-persona .persona-mainpoints-section h3 {
+    font-size: 24px;
+    font-weight: 600;
+    color: var(--golden-color-2);
+    border-bottom: 2px solid var(--golden-color-2);
+    margin-bottom: 5px;
+    display: inline-block;
+}
+
+.royal-ride-persona .persona-background-section p {
+    font-size: 1rem;
+    color: #495057;
+}
+
+.royal-ride-persona .persona-background-section p b {
+    font-weight: 600;
+    color: #212529;
+}
+
+.royal-ride-persona .persona-goals-section ul,
+.royal-ride-persona .persona-mainpoints-section ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.royal-ride-persona .persona-goals-section ul li,
+.royal-ride-persona .persona-mainpoints-section ul li {
+    position: relative;
+    padding-left: 25px;
+    font-size: 1rem;
+    color: #495057;
+}
+
+.royal-ride-persona .persona-goals-section ul li::before,
+.royal-ride-persona .persona-mainpoints-section ul li::before {
+    content: "\2022";
+    color: var(--golden-color-2);
+    font-weight: bold;
+    display: inline-block;
+    width: 1em;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.royal-ride-problem-section .uiux-main-title {
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 25px;
+}
+
+.royal-ride-ui-ux .content-block {
+    margin-bottom: 25px;
+}
+
+.royal-ride-research .research-image {
+    max-height: 570px;
+    width: auto;
+    border-radius: 8px;
+}
+
+.section-wrapper {
+    position: relative;
+    padding-top: 100px;
+}
+
+
 
 .card-inner {
     position: relative;
