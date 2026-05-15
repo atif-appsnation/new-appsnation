@@ -2434,6 +2434,56 @@
 	}
 }
 
+@media screen and (max-width: 767px) {
+	.scrollHalf__grupo__imagen img {
+		width: 100% !important;
+	}
+
+}
+
+@media screen and (min-width: 768px) {
+	.scrollHalf__grupo {
+		min-height: 100vh;
+	}
+
+	.scrollHalf__grupo__imagen {
+		clip: rect(auto, auto, auto, auto);
+		min-height: 100vh;
+		left: 0;
+		position: absolute;
+		top: 0;
+		width: 50%;
+	}
+
+	.scrollHalf__grupo__imagen img {
+		position: fixed;
+		width: 580px;
+		top: 15%;
+		left: 5%;
+		height: auto;
+	}
+
+	.scrollHalf__grupo__contenido {
+		margin: 0 3vw 0 52vw;
+	}
+
+	/* .scrollHalf__grupo__imagen img {
+		width: 80% !important;
+	} */
+	;
+
+	.solution-bg-img,
+	.login-wrap {
+		width: 50%;
+	}
+
+	.royal-ride-analysis .row-five-cols>.col-custom {
+        width: 50%;
+        padding: 0 10px;
+    }
+
+}
+
 @media only screen and (min-width:768px) and (max-width:1023px) {
 
 	body .bg-text:after {
@@ -3154,6 +3204,14 @@
 		margin-top: 20px;
 	}
 
+	.royal-ride-analysis .start-connector, .royal-ride-analysis .card-connector-plus {
+        display: none;
+    }
+
+	.royal-ride-analysis .row-five-cols>.col-custom .card-custom {
+        height: 306px;
+    }
+
 }
 
 @media only screen and (min-width:1024px) and (max-width:1439px) {
@@ -3770,6 +3828,7 @@
 	.dm-banner-box-section .banner-box-image {
 		aspect-ratio: 1728 / 600;
 	}
+
 }
 
 @media only screen and (min-width:1440px) and (max-width:1599px) {
@@ -4493,6 +4552,7 @@
 	.banner-box-section .banner-box-image {
 		aspect-ratio: 1728 / 550;
 	}
+
 }
 
 @media only screen and (min-width:1920px) {
@@ -5099,50 +5159,6 @@
 
 }
 
-@media screen and (max-width: 767px) {
-	.scrollHalf__grupo__imagen img {
-		width: 100% !important;
-	}
-}
-
-@media screen and (min-width: 768px) {
-	.scrollHalf__grupo {
-		min-height: 100vh;
-	}
-
-	.scrollHalf__grupo__imagen {
-		clip: rect(auto, auto, auto, auto);
-		min-height: 100vh;
-		left: 0;
-		position: absolute;
-		top: 0;
-		width: 50%;
-	}
-
-	.scrollHalf__grupo__imagen img {
-		position: fixed;
-		width: 580px;
-		top: 15%;
-		left: 5%;
-		height: auto;
-	}
-
-	.scrollHalf__grupo__contenido {
-		margin: 0 3vw 0 52vw;
-	}
-
-	/* .scrollHalf__grupo__imagen img {
-		width: 80% !important;
-	} */
-	;
-
-	.solution-bg-img,
-	.login-wrap {
-		width: 50%;
-	}
-
-}
-
 @media only screen and (min-width:1200px) {
 	.hire-developer-app-development {
 		margin: 200px 0px 50px;
@@ -5389,14 +5405,6 @@
 		padding: 0 50px 0 50px;
 	}
 
-	/* royal ride case study */
-	.persona-card {
-		margin-bottom: 0;
-	}
-
-	.row-five-cols>.col-custom {
-		width: 50%;
-	}
 
 	/* car mechanic case study */
 	#car-mechanic-background {
@@ -6241,15 +6249,6 @@
 		background-color: #dcb880;
 		z-index: 0;
 	}
-
-	.row-five-cols>.col-custom {
-		width: 20%;
-		padding: 0 10px;
-	}
-
-	.section-wrapper {
-		padding-left: 50px;
-	}
 }
 
 @media (max-width: 768px) {
@@ -6358,13 +6357,6 @@
 	.imageFloteRight {
 		margin-bottom: 20px;
 		text-align: center;
-	}
-
-	/* royal side case study start */
-	.section-wrapper::before,
-	.section-wrapper::after,
-	.start-connector {
-		display: none;
 	}
 
 	.section-wrapper {
@@ -6523,10 +6515,6 @@
 }
 
 
-@media (max-width:1024px) {
-
-	
-}
 
 @media (max-width: 576px) {
 	.testimonial-text {
@@ -7704,20 +7692,6 @@
     }
 }
 
-@media (min-width: 768px) {
-
-    .persona-goals-section h3,
-    .persona-painpoints-section h3 {
-        display: block;
-        border-bottom: 2px solid #ff7f00;
-        width: 100%;
-    }
-
-	.persona-card {
-        margin-bottom: 0;
-    }
-}
-
 
 @media (max-width: 767px) {
     .uiux-title {
@@ -7803,23 +7777,10 @@
         z-index: 0;
     }
 
-	 .row-five-cols>.col-custom {
-        width: 20%;
-        padding: 0 10px;
-    }
-
-    .section-wrapper {
-        padding-left: 50px;
-    }
+	
 }
 
 @media (max-width: 991px) {
-
-    .section-wrapper::before,
-    .section-wrapper::after,
-    .start-connector {
-        display: none;
-    }
 
     .section-wrapper {
         padding-top: 20px;
@@ -7839,8 +7800,3 @@
     }
 }
 
-@media (min-width: 768px) {
-    .row-five-cols>.col-custom {
-        width: 50%;
-    }
-}

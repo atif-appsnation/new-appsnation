@@ -24,11 +24,11 @@
 <!-- Start Problem Section -->
 <section class="royal-ride-problem-section py-3 py-md-5">
 	<div class="container">
-		<div class="row align-items-center text-center text-md-start">
-			<div class="col-12 col-md-6 mb-4 mb-md-0 problem-left-container">
+		<div class="row align-items-center text-center text-lg-start col">
+			<div class="col-12 col-lg-6 mb-4 mb-md-0 problem-left-container order-2 mt-4 mt-lg-0">
 				<img loading="lazy" src="{{asset('images/case-studies/royal-ride/royal-ride-process.webp')}}" class="img-fluid" alt="Royal Ride">
 			</div>
-			<div class="col-md-6 text-col">
+			<div class="col-lg-6 text-col order-1">
 				<h2 class="main-title mb-3">Ride Booking Process</h2>
 				<h6 class="subtitle mb-3">Problem Statement</h6>
 				<p class="paragraph">Royal Ride began with a single realization: though Qatar was a country with the top transportation services, the digital experience was yet to be matched. Visitors in Doha, who are business people or VIP visitors, want to have a smooth, high-end and dependable experience when making a luxury ride. The popularity of reservation transfer system Qatar App keeps growing year after year, and the requests are to be addressed by the novel Qatar ride booking app. </p>
@@ -41,7 +41,7 @@
 <!-- Start Objectives & Goals section -->
 <section class="royal-ride-objectives-section py-3 py-md-5">
 	<div class="container">
-		<h3 class="pb-4 text-center text-md-start">Objectives & Goals</h3>
+		<h3 class="pb-4 text-center text-lg-start">Objectives & Goals</h3>
 		<div class="row">
 			<div class="col-lg-4 d-flex justify-content-center mb-5 mb-lg-0">
 				<div class="phone-screen">
@@ -138,7 +138,7 @@
 <!--Start Business Challenges -->
 <section class="royal-ride-business-challenges py-3 py-md-5">
 	<div class="container">
-		<h2 class="section-title mb-5 text-center text-md-start">Business Challenges</h2>
+		<h2 class="section-title mb-5 text-center text-lg-start">Business Challenges</h2>
 		<div class="row align-items-center">
 			<div class="col-lg-4 order-lg-1 order-2">
 				<div class="info-card">
@@ -238,11 +238,11 @@
 <section class="py-3 py-md-5 royal-ride-persona">
 	<div class="container">
 		<div class="persona-card-main">
-			<div class="row persona-top-heading">
-				<div class="col-md-6">
-					<h3>User Persona</h3>
+			<div class="row persona-top-heading text-center text-lg-start">
+				<div class="col-lg-6">
+					<h3 class="mb-3">User Persona</h3>
 				</div>
-				<div class="col-md-6">
+				<div class="col-lg-6">
 					<p>This section highlights three core user personas that guided the design of Royal Ride. By understanding their goals and frustrations, we tailored the app experience to meet the unique needs of Qatar’s diverse riders.</p>
 				</div>
 			</div>
@@ -383,8 +383,8 @@
 <!-- Start UI/UX Design Phase section -->
 <section class="royal-ride-ui-ux py-3 py-md-5">
 	<div class="container">
-		<div class="row align-items-center">
-			<div class="col-md-6">
+		<div class="row align-items-center text-center text-lg-start">
+			<div class="col-lg-6">
 				<h3>UI/UX Design Phase</h3>
 				<div class="content-block">
 					<h6 class="uiux-subtitle">Prototyping</h6>
@@ -395,7 +395,7 @@
 					<p class="uiux-paragraph">This distinctive navigation style with its priority made on speed of access to the main functions: Book, Track, and Choose Vehicle.</p>
 				</div>
 			</div>
-			<div class="col-md-6">
+			<div class="col-lg-6">
 				<img loading="lazy" src="{{asset('images/case-studies/royal-ride/royal-ride-ui-ux.webp')}}" alt="UI/UX Design Mockup" class="img-fluid">
 			</div>
 		</div>
@@ -488,8 +488,8 @@
 <!-- Start User Research -->
 <section class="royal-ride-research py-3 py-md-5">
 	<div class="container">
-		<div class="row align-items-center">
-			<div class="col-md-6 order-2 order-md-1">
+		<div class="row align-items-center text-center text-lg-start">
+			<div class="col-lg-6 order-2 order-md-1">
 				<div class="mt-4 mt-md-0">
 					<h6 class="mb-2">User Research</h6>
 					<h2 class="mb-4">Tracking Interface in Real-Time.</h2>
@@ -497,7 +497,7 @@
 					<p>Bilingual switch of English and Arabic with intelligible icons and readable designs across all user categories in Qatar.</p>
 				</div>
 			</div>
-			<div class="col-md-6 order-1 order-md-2 text-center text-md-end">
+			<div class="col-lg-6 order-1 order-md-2 text-center text-md-end">
 				<img loading="lazy" src="{{asset('images/case-studies/royal-ride/royal-ride-research.webp')}}" alt="Research" class="img-fluid research-image">
 			</div>
 		</div>

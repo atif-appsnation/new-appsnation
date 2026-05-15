@@ -15198,7 +15198,7 @@ footer h4 {
     border: none;
     border-radius: 12px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    height: 46%;
+    /* height: 46%; */
 }
 
 .card-body {
@@ -19463,7 +19463,7 @@ textarea::-ms-input-placeholder {
     border: none;
     border-radius: 15px;
     padding: 30px 20px;
-    /* min-height: 420px; */
+    min-height: 216px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
