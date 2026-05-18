@@ -23,6 +23,7 @@
     --gray-color-2: #e9ecef;
     --wheat: #f5deb3;
     --golden-color-2: #C39449;
+    --green-color-2: #58D39C;
     --dur: .15s;
     --delay: .15s;
     --radius: 10px;
@@ -14956,7 +14957,6 @@ footer h4 {
     max-width: 200px;
 }
 
-
 .boujee-beachin-app h1 span {
     color: var(--light-blue-color);
     font-weight: bold;
@@ -14971,7 +14971,6 @@ footer h4 {
     width: fit-content;
     text-align: center;
 }
-
 
 .boujee-beachin-problem img {
     width: 100%;
@@ -15055,7 +15054,7 @@ footer h4 {
     background: var(--white-color);
     border-radius: 12px;
     padding: 25px;
-    box-shadow: 0 2px 15px rgba(0, 0, 0, 0.05);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     position: relative;
     z-index: 2;
     border: 1px solid var(--gray-color-2);
@@ -15085,7 +15084,6 @@ footer h4 {
     cursor: default;
 }
 
-
 .wireframes-section ul li:hover {
     background: #007bff;
     color: #fff;
@@ -15101,9 +15099,8 @@ footer h4 {
     padding: 14px 16px;
     border-radius: 12px;
     background: #fff;
-    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.08);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
-
 
 .target-users-card img {
     width: 22px;
@@ -15154,12 +15151,6 @@ footer h4 {
 .challenges ul li img {
     width: 24px;
     height: 24px;
-}
-
-.challenges ul li p {
-    margin: 0;
-    font-size: 15px;
-    color: #444;
 }
 
 .challenges-img {
@@ -15339,19 +15330,6 @@ footer h4 {
     padding-left: 22px;
 }
 
-
-/* ========================= */
-/* RESPONSIVE BREAKPOINTS   */
-/* ========================= */
-
-
-
-
-/*End hassan User Testing & Feedback  */
-
-
-/* by hassan Client Testimonial  --> */
-
 .boujee-Testimonial h4 {
     font-family: "Urbanist", sans-serif;
     font-weight: 700;
@@ -15464,17 +15442,10 @@ b {
 
 /* End Boujee Beachin */
 
-/* End Boujee Beachin */
-
 /* Start Wood Land  */
 
 .wood-land-app {
     background: url("../images/case-studies/wood-land-app/wood-land-background-img.webp") center/cover no-repeat;
-}
-
-.wood-land-hero-img img {
-    padding-left: 22px;
-    width: 100%;
 }
 
 .wood-land-app h1,
@@ -15485,12 +15456,12 @@ b {
 
 .wood-land-app h1 span,
 .wood-land-app p span {
-    color: #58D39C;
+    color: var(--green-color-2);
     font-weight: bold;
 }
 
-.wood-land-button {
-    background-color: #58D39C;
+.wood-land-app .wood-land-button {
+    background-color: var(--green-color-2);
     color: var(--black-color);
     padding: 10px 25px;
     border-radius: 10px;
@@ -15500,22 +15471,15 @@ b {
     cursor: pointer;
 }
 
-.wood-land-button:hover {
+.wood-land-app .wood-land-button:hover {
     background-color: transparent;
     color: var(--white-color);
-    border: 1px solid #58D39C;
+    border: 1px solid var(--green-color-2);
     border-radius: 20px;
     transition: 0.3s ease-in-out;
 }
 
-.client-wood-land-wrapper {
-    background-color: #F8F8F8;
-    border-radius: 20px;
-    padding: 20px;
-}
-
-.wood-land-client-overview h2,
-h6 {
+.wood-land-client-overview h2, h6 {
     color: var(--black-color);
     padding-top: 10px;
 }
@@ -15530,30 +15494,30 @@ h6 {
     padding-bottom: 13px;
 }
 
-.wood-land-client-overview .left-border-clint-overview {
+.wood-land-client-overview .left-border-client-overview {
     padding-left: 10px;
     border-left: 2px solid #67FFBB;
 }
 
 .wood-land-development-challenges {
-    background: url("../images/case-studies/wood-land-app/development-challange-background-img.webp") center/cover no-repeat;
-    border-radius: 30px;
-    padding: 40px 25px;
+    background-image: url("../images/case-studies/wood-land-app/development-challange-background-img.webp");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
-
-.development-challenges-left {
+/* .wood-land-development-challenges .development-challenges-left {
     border-left: 2px solid #67FFBB;
     padding-left: 15px;
-}
+} */
 
-.development-challenges-left h2,
-.development-challenges-left p {
+.wood-land-development-challenges .development-challenges-left h2,
+.wood-land-development-challenges .development-challenges-left p {
     color: #fff;
 }
 
 .wood-land-development-challenges .info-card {
-    height: 240px;
+    /* height: 240px; */
     margin-top: 10px;
     margin-bottom: 10px;
     background: rgba(255, 255, 255, 0.75);
@@ -15596,7 +15560,7 @@ h6 {
     padding-bottom: 30px;
 }
 
-.wire-img {
+.wood-land-wireframe .wire-img {
     width: 100%;
     max-width: 380px;
     border-radius: 12px;
@@ -15605,12 +15569,12 @@ h6 {
     margin: 0 auto;
 }
 
-.wire-img:hover {
+.wood-land-wireframe .wire-img:hover {
     transform: scale(1.09);
     box-shadow: 0 6px 16px rgba(0, 0, 0, 0.15);
 }
 
-.wireframe-gallery .col-6 {
+.wood-land-wireframe .wireframe-gallery .col-6 {
     display: flex;
     justify-content: center;
 }
@@ -15625,7 +15589,6 @@ h6 {
 }
 
 .wood-land-project-goals .info-card {
-
     border-radius: 14px;
     padding: 22px 25px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.07);
@@ -15685,11 +15648,11 @@ h6 {
     font-weight: 600;
 }
 
-.wood-land-feature-box:hover {
+.wood-land-designs .wood-land-feature-box:hover {
     box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.15);
 }
 
-.left-column-wood-land .wood-land-feature-box-group .wood-land-feature-box {
+.wood-land-designs .left-column-wood-land .wood-land-feature-box-group .wood-land-feature-box {
     background: #D5FFEC;
     border-radius: 12px;
     padding: 25px;
@@ -15699,16 +15662,16 @@ h6 {
     border: 1px solid var(--gray-color-2);
 }
 
-.left-column-wood-land .wood-land-feature-box-group .wood-land-feature-box:nth-child(2) {
+.wood-land-designs .left-column-wood-land .wood-land-feature-box-group .wood-land-feature-box:nth-child(2) {
     background-color: #1B252D;
 }
 
-.left-column-wood-land .wood-land-feature-box-group .wood-land-feature-box:nth-child(2) h4,
-.left-column-wood-land .wood-land-feature-box-group .wood-land-feature-box:nth-child(2) p {
+.wood-land-designs .left-column-wood-land .wood-land-feature-box-group .wood-land-feature-box:nth-child(2) h4,
+.wood-land-designs .left-column-wood-land .wood-land-feature-box-group .wood-land-feature-box:nth-child(2) p {
     color: var(--white-color);
 }
 
-.right-column-wood-land .wood-land-feature-box-group .wood-land-feature-box {
+.wood-land-designs .right-column-wood-land .wood-land-feature-box-group .wood-land-feature-box {
     background: #1B252D;
     border-radius: 12px;
     padding: 25px;
@@ -15718,17 +15681,17 @@ h6 {
     border: 1px solid var(--gray-color-2);
 }
 
-.right-column-wood-land .wood-land-text-theme {
+.wood-land-designs .right-column-wood-land .wood-land-text-theme {
     color: var(--white-color);
     font-weight: 600;
 }
 
-.right-column-wood-land .wood-land-feature-box-group .wood-land-feature-box:nth-child(2) {
+.wood-land-designs .right-column-wood-land .wood-land-feature-box-group .wood-land-feature-box:nth-child(2) {
     background-color: #D5FFEC;
 }
 
-.right-column-wood-land .wood-land-feature-box-group .wood-land-feature-box:nth-child(2) h4,
-.right-column-wood-land .wood-land-feature-box-group .wood-land-feature-box:nth-child(2) p {
+.wood-land-designs .right-column-wood-land .wood-land-feature-box-group .wood-land-feature-box:nth-child(2) h4,
+.wood-land-designs .right-column-wood-land .wood-land-feature-box-group .wood-land-feature-box:nth-child(2) p {
     color: var(--black-color);
 }
 
@@ -20508,7 +20471,7 @@ textarea::-ms-input-placeholder {
     padding-bottom: 13px;
 }
 
-.couple-app-client-overview .left-border-clint-overview {
+.couple-app-client-overview .left-border-client-overview {
     padding: 0px 0px 0px 15px;
     margin: 20px;
     border-left: 2px solid #440414;
@@ -20524,10 +20487,10 @@ textarea::-ms-input-placeholder {
 }
 
 
-.development-challenges-left {
+/* .development-challenges-left {
     border-left: 4px solid #ffffff;
     padding-left: 15px;
-}
+} */
 
 
 
@@ -21764,7 +21727,7 @@ textarea::-ms-input-placeholder {
 }
 
 
-.Alejandro-client-overview .left-border-clint-overview {
+.Alejandro-client-overview .left-border-client-overview {
     border-left: 1px solid #191463;
     margin: 10px 0;
     padding: 0 0 0 10px;

@@ -2484,6 +2484,12 @@
 
 }
 
+@media (max-width: 991px) {
+	.boujee-beachin-designs .central-line {
+		display: none;
+	}
+}
+
 @media only screen and (min-width:768px) and (max-width:1023px) {
 
 	body .bg-text:after {
@@ -3755,12 +3761,6 @@
 		margin: 140px 0 40px 0;
 	}
 
-	/* wood land case study */
-	.wood-land-hero-img img {
-		padding-left: 22px;
-		width: 100%;
-		max-width: 500px;
-	}
 
 	.neuro-night-hero-img img {
 		display: block;
@@ -3827,6 +3827,10 @@
 
 	.dm-banner-box-section .banner-box-image {
 		aspect-ratio: 1728 / 600;
+	}
+
+	.wood-land-development-challenges .info-card {
+		height: 325px;
 	}
 
 }
@@ -4084,13 +4088,6 @@
 		width: 100%;
 		display: block;
 		margin: 0 50px auto;
-	}
-
-	.wood-land-hero-img img {
-		padding-left: 22px;
-		width: 100%;
-		max-width: 500px;
-		margin: 0 auto;
 	}
 
 	.neuro-night-hero-img img {
@@ -4444,12 +4441,6 @@
 
 	/* start case studys */
 	/* wood land case study start*/
-	.wood-land-hero-img img {
-		width: 70%;
-		padding-left: 0;
-		margin: 20px auto 0;
-		display: block;
-	}
 
 	/* neuro knights app case study start */
 
@@ -5167,52 +5158,6 @@
 
 @media (max-width: 1399px) {
 
-
-	/* start case study  */
-	/* wood land case study start */
-
-	/* Client Overview */
-	.client-wood-land-wrapper {
-		background-color: #F8F8F8;
-		border-radius: 20px;
-		padding: 20px;
-	}
-
-	.wood-land-client-overview h2,
-	.wood-land-client-overview h6 {
-		padding-top: 10px;
-	}
-
-	.wood-land-client-overview h2 {
-		color: black;
-	}
-
-	.wood-land-client-overview p {
-		color: #000;
-	}
-
-	.wood-land-client-overview .left-border-clint-overview {
-		padding-left: 10px;
-		border-left: 2px solid #67FFBB;
-	}
-
-	/* Development Challenges */
-	.wood-land-development-challenges {
-		background: url("../images/case-studies/wood-land-app/development-challange-background-img.webp") center/cover no-repeat;
-		border-radius: 30px;
-		padding: 40px 25px;
-	}
-
-	.development-challenges-left {
-		border-left: 2px solid #67FFBB;
-		padding-left: 15px;
-	}
-
-	.development-challenges-left h2,
-	.development-challenges-left p {
-		color: #fff;
-	}
-
 	.wood-land-development-challenges .info-card3 {
 		height: 240px;
 		margin: 10px 0;
@@ -5659,17 +5604,9 @@
 
 @media (max-width: 991px) {
 
-	/* start case studys */
-	.hero-section-Boujee-beachin {
-		padding: 90px 0;
-	}
 
 	.logo-img {
 		max-width: 200px;
-	}
-
-	.Boujee-beachin-Logo h1 {
-		font-size: 2.2rem;
 	}
 
 	.hero-main-img {
@@ -5689,28 +5626,9 @@
 
 @media (max-width: 1400px) {
 
-	/* start hero section */
-	.hero-section-Boujee-beachin {
-		text-align: start;
-		padding-top: 140px;
-	}
 
 	.logo-img {
 		max-width: 120px;
-	}
-
-	.Boujee-beachin-Logo h1 {
-		font-size: 1.9rem;
-		font-weight: 800;
-	}
-
-	.Boujee-beachin-Logo h1 span {
-		font-size: 1.9rem;
-		font-weight: 800;
-	}
-
-	.Boujee-beachin-Logo p {
-		font-size: 1rem;
 	}
 
 	.case-tag {
@@ -5727,27 +5645,9 @@
 @media (max-width: 767px) {
 
 
-	/* start case study */
-	.hero-section-Boujee-beachin {
-		text-align: center;
-		padding-top: 140px;
-	}
-
-	.Boujee-beachin-Logo {
-		align-items: center;
-		text-align: center;
-	}
 
 	.logo-img {
 		max-width: 170px;
-	}
-
-	.Boujee-beachin-Logo h1 {
-		font-size: 1.8rem;
-	}
-
-	.Boujee-beachin-Logo p {
-		font-size: 1rem;
 	}
 
 	.case-tag {
@@ -5759,10 +5659,6 @@
 		margin-top: 20px;
 	}
 
-	.boujee-beachin-wireframe ul li {
-		font-size: 10px;
-		padding: 6px 12px
-	}
 
 	/* couple app case study */
 	.couple-app {
@@ -5854,10 +5750,6 @@
 		max-width: 150px;
 	}
 
-	.Boujee-beachin-Logo h1 {
-		font-size: 1.6rem;
-		line-height: 1.4;
-	}
 
 	.case-tag {
 		padding: 6px 16px;
@@ -5871,11 +5763,6 @@
 }
 
 @media (max-width: 992px) {
-
-	.Objectives-section-Boujee-beachin h3 {
-		text-align: center;
-		margin-top: 22px;
-	}
 
 	/* couple app case study  */
 	.couple-app-hero-img img {
@@ -5955,22 +5842,6 @@
 
 	}
 
-	.wood-land-hero-img img {
-		width: 80%;
-		padding-left: 0;
-		margin: 20px auto 0;
-		display: block;
-	}
-
-	/* development-challenges section */
-	.development-challenges-left {
-		border-left: none;
-	}
-
-	.development-challenges-left h2,
-	.development-challenges-left p {
-		padding-top: 22px;
-	}
 
 	.wood-land-designs .wood-land-central-line {
 		display: none;
@@ -6276,12 +6147,6 @@
 		width: 100%;
 	}
 
-	/* wood land case study start */
-	.wood-land-hero-img img {
-		padding-left: 22px;
-		width: 100%;
-		max-width: 500px;
-	}
 }
 
 @media (max-width: 1400px) {
@@ -6385,11 +6250,6 @@
 	/* bomb defuse case study start*/
 	#bomb-defuse-background {
 		background-size: 100% 69%;
-	}
-
-	/* boujee-beachin case study */
-	.boujee-beachin-designs .central-line {
-		display: none;
 	}
 }
 
@@ -6651,23 +6511,7 @@
 		display: none;
 	}
 
-	/*wood land case study  start  */
 
-	.wood-land-app h1 {
-		font-size: 28px;
-		line-height: 36px;
-	}
-
-	.wood-land-button {
-		width: 100%;
-		padding: 12px 20px;
-	}
-
-	.wood-land-hero-img img {
-		width: 90%;
-		margin: 0 auto;
-		display: block;
-	}
 
 	.wood-land-project-goals .info-card3 {
 		padding: 18px 20px;
@@ -6713,12 +6557,6 @@
 
 	.Project-Description-titleparagraph {
 		font-size: 18px;
-	}
-
-	/* boujee-beachin case study */
-	.boujee-beachin-app .boujee-beachin-logo {
-		width: 100%;
-		max-width: 200px;
 	}
 
 }
@@ -6797,21 +6635,6 @@
 		background-size: 100% 55.3%;
 
 	}
-
-	/*wood land case study start */
-	.wood-land-app h1 {
-		font-size: 26px;
-		line-height: 33px;
-	}
-
-	.wood-land-button {
-		font-size: 10px;
-	}
-
-	.wood-land-hero-img img {
-		width: 90%;
-	}
-
 	/* mike mathis case study start */
 
 	.mike-mathis-app h1 {
