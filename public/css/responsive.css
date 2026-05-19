@@ -1528,32 +1528,6 @@
 		margin: 10px 0 0;
 	}
 
-
-
-	/* royal ride app case study */
-	.hero-section-royal-ride {
-		margin-top: 140px;
-		margin-bottom: 32px;
-
-	}
-
-	.royal-ride-logo p {
-		text-align: center;
-	}
-
-	.royal-ride-logo h1 {
-		font-size: 50px;
-		line-height: 62px;
-	}
-
-	.royal-ride-logo img {
-		width: 110px;
-	}
-
-	.hero-img-1 img {
-		max-width: 100%;
-		height: auto;
-	}
 }
 
 /* Custom */
@@ -2397,11 +2371,6 @@
         line-height: 62px;
     }
 
-	.hero-section-royal-ride .hero-img-1 img {
-		max-width: 100%;
-		height: auto;
-	}
-
 	.royal-ride-analysis .start-connector, .royal-ride-analysis .card-connector-plus {
 		display: none;
 	}
@@ -3084,11 +3053,6 @@
 
 	.royal-ride-logo img {
 		width: 110px;
-	}
-
-	.hero-img-1 img {
-		max-width: 100%;
-		height: auto;
 	}
 
 	/* royal ride case study start */
@@ -3831,6 +3795,10 @@
 
 	.wood-land-development-challenges .info-card {
 		height: 325px;
+	}
+
+	.tcd h3 {
+		font-size: 22px;
 	}
 
 }
@@ -5156,50 +5124,11 @@
 	}
 }
 
-@media (max-width: 1399px) {
-
-	.wood-land-development-challenges .info-card3 {
-		height: 240px;
-		margin: 10px 0;
-		background: rgba(255, 255, 255, 0.75);
-		border-radius: 12px;
-		padding: 20px;
-		transition: all 0.3s ease;
-	}
-
-	.wood-land-development-challenges .info-card3:hover {
-		background: rgba(255, 255, 255, 0.95);
-		transform: translateY(-5px);
-	}
-
-	.wood-land-development-challenges .info-card3 .card-number-circle {
-		border: 4px solid #67FFBB;
-		color: #000;
-		width: 45px;
-		height: 45px;
-		border-radius: 50px;
-		display: flex;
-		align-items: center;
-		justify-content: center;
-		font-weight: 700;
-		margin-bottom: 10px;
-	}
-
-	.wood-land-development-challenges .info-card3 p {
-		color: #000;
-		font-size: 12px;
-		line-height: 21px;
-	}
-}
-
 @media (max-width: 1199px) {
 
 
 
-	.tcd h3 {
-		font-size: 22px;
-	}
-
+	
 	/* start case study */
 	/* couple case study */
 	.couple-app-hero-img img {
@@ -5231,15 +5160,6 @@
 		width: 100%;
 		max-width: 400px;
 	}
-
-	/* royal ride case study start */
-	.problem-section {
-		padding: 50px 0;
-	}
-	.uiux-section-wrapper {
-		padding: 60px 0;
-	}
-
 
 
 	.banner-box-image h2 {
@@ -5354,29 +5274,6 @@
 	/* car mechanic case study */
 	#car-mechanic-background {
 		background-size: 100% 66.4%;
-	}
-
-	/* royal ride case study start */
-	.hero-section-royal-ride {
-		background: linear-gradient(to bottom, #C39449 0%, #C39449 5%, transparent 20%);
-		padding-top: 90px;
-		margin-bottom: 2px;
-
-	}
-
-
-	.royal-ride-logo h1 {
-		font-size: 50px;
-		line-height: 62px;
-	}
-
-	.royal-ride-logo img {
-		width: 110px;
-	}
-
-	.hero-img-1 img {
-		max-width: 100%;
-		height: auto;
 	}
 
 
@@ -5825,28 +5722,6 @@
 		display: block;
 		padding-left: 0;
 	}
-
-	/* wood land case study start */
-	.wood-land-app {
-		margin: auto;
-		text-align: center;
-		background-position: center;
-	}
-
-	.bread-titlev2 {
-		margin: 0 auto;
-	}
-
-	.wood-land-button {
-		width: 70%;
-
-	}
-
-
-	.wood-land-designs .wood-land-central-line {
-		display: none;
-	}
-
 
 	/* NeuroKnights case study start */
 	.neuro-knight-app {
@@ -6488,14 +6363,6 @@
 		margin-top: 15px;
 	}
 
-	/* royal ride case study start */
-	.comp-analysis-title {
-		font-size: 1.3rem;
-	}
-
-	.comp-analysis-image {
-		width: 90%;
-	}
 
 	/* toy sort case study start */
 	#toy-sort-puzzle {
@@ -6511,19 +6378,6 @@
 		display: none;
 	}
 
-
-
-	.wood-land-project-goals .info-card3 {
-		padding: 18px 20px;
-	}
-
-	.wood-land-project-goals .info-card3 h5 {
-		font-size: 16px;
-	}
-
-	.wood-land-project-goals .info-card3 p {
-		font-size: 13px;
-	}
 
 	/* mike mathis completed */
 	.mike-mathis-app h1 {
@@ -6605,14 +6459,6 @@
 		font-size: 24px;
 	}
 
-	/* royal ride case study start */
-	.comp-analysis-title {
-		font-size: 1.2rem;
-	}
-
-	.comp-analysis-image {
-		width: 100%;
-	}
 
 	/* couple app case study */
 	.couple-app {
@@ -7406,58 +7252,6 @@
     }
 }
 
-@media (min-width: 768px) and (max-width: 992px) {
-    .hero-section-royal-ride {
-        background: linear-gradient(to bottom, #C39449 0%, #C39449 5%, transparent 20%);
-        padding-top: 90px;
-        margin-bottom: 2px;
-
-    }
-
-    .royal-ride-logo h1 {
-        font-size: 50px;
-        line-height: 62px;
-    }
-
-    .royal-ride-logo img {
-        width: 110px;
-    }
-
-    .hero-img-1 img {
-        max-width: 100%;
-        height: auto;
-    }
-}
-
-@media (max-width: 374px) {
-    .hero-section-royal-ride {
-        padding-top: 140px;
-        margin-bottom: 32px;
-
-    }
-
-    .royal-ride-logo p {
-        text-align: center;
-    }
-
-    .royal-ride-logo h1 {
-        font-size: 50px;
-        line-height: 62px;
-    }
-
-    .royal-ride-logo img {
-        width: 110px;
-    }
-
-    .hero-img-1 img {
-        max-width: 100%;
-        height: auto;
-    }
-}
-
-
-
-
 @media (max-width: 767px) {
     .problem-section {
         padding: 10px 0;
@@ -7527,49 +7321,6 @@
 
     .research-image {
         margin-bottom: 2rem;
-    }
-}
-
-@media (max-width: 480px) {
-    .comp-analysis-title {
-        font-size: 1.2rem;
-    }
-
-    .comp-analysis-image {
-        width: 100%;
-    }
-}
-
-
-@media (min-width: 481px) and (max-width: 768px) {
-    .comp-analysis-title {
-        font-size: 1.3rem;
-    }
-
-    .comp-analysis-image {
-        width: 90%;
-    }
-}
-
-
-@media (min-width: 769px) and (max-width: 1024px) {
-    .comp-analysis-title {
-        font-size: 1.4rem;
-    }
-
-    .comp-analysis-image {
-        width: 80%;
-    }
-}
-
-
-@media (min-width: 1025px) {
-    .comp-analysis-title {
-        font-size: 1.6rem;
-    }
-
-    .comp-analysis-image {
-        width: 70%;
     }
 }
 

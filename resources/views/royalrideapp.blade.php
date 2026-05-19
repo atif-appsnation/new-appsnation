@@ -367,7 +367,7 @@
 <section class="py-3 py-md-5 royal-ride-competitor">
 	<div class="container">
 		<div class="row justify-content-center">
-			<div class="col-12 text-center mb-5">
+			<div class="col-12 text-center mb-3">
 				<h3 class="comp-analysis-title">Competitor Analysis</h3>
 			</div>
 			<div class="col-lg-10 col-md-10 col-12 d-flex justify-content-center">

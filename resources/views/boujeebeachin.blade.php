@@ -12,7 +12,7 @@
 	<div class="container wow fadeIn" data-wow-delay="0.2s">
 		<div class="row">
 			<div class="col-lg-6 my-lg-auto">
-			<img loading="lazy" src="{{asset('images/case-studies/boujee-beachin/header-logo.webp')}}" class="boujee-beachin-logo" alt="Boujee Beachin App Logo" >
+			<img loading="lazy" src="{{asset('images/case-studies/boujee-beachin/header-logo.webp')}}" class="boujee-beachin-logo" alt="Boujee Beachin App Logo">
 				<div class="bread-titlev2 mt-4">
 					<h1>
                         <span>100+</span> Goals Achieved,
@@ -36,11 +36,11 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-lg-6">
-				<img loading="lazy" src="{{asset('images/case-studies/boujee-beachin/problem-statement.webp')}}" alt="Boujee Beachin Problem Statement"  >
+				<img loading="lazy" src="{{asset('images/case-studies/boujee-beachin/problem-statement.webp')}}" alt="Boujee Beachin Problem Statement" width="100%" height="100%">
 			</div>
             <div class="col-lg-6 my-lg-auto">
-                <div class="common-heading">
-					<h2>Problem Statement</h1>
+                <div class="common-heading text-center text-lg-start">
+					<h2 class="mb-3">Problem Statement</h1>
 					<p>Many beachgoers struggle with finding aesthetically pleasing, exclusive, and well-reviewed beach experiences. Standard apps don’t cater to the trendy, upscale, Instagram-worthy lifestyle many modern beach lovers seek.</p>
                     <p>Boujee Beachin’ aims to provide curated, premium beach experience discovery with features like reservations, fashion tips, and local recommendations.</p>
 				</div>
@@ -55,33 +55,33 @@
     <div class="container">
         <div class="row align-items-start">
             <div class="col-lg-8 my-auto">
-                <div class="common-heading">
+                <div class="common-heading text-center text-lg-start">
                     <h2 class="my-4">Objectives & Goals</h2>
                 </div>
                 <div class="row">
                     <div class="col-12 col-lg-7">
-                        <div class="info-card1">
+                        <div class="info-card">
                             <div class="card-number-circle">01</div>
                             <h5>Royal Experience in Qatar</h5>
                             <p>Create Qatar's most luxurious ride-booking app with a smooth, stylish, and safe user experience.</p>
                         </div>
                     </div>
                     <div class="col-12 col-lg-5">
-                        <div class="info-card1">
+                        <div class="info-card">
                             <div class="card-number-circle">02</div>
                             <h5>Easy & Elegant Booking</h5>
                             <p>Simplify ride booking with an elegant UI, fast navigation, car previews, and real-time tracking.</p>
                         </div>
                     </div>
                     <div class="col-12 col-lg-5">
-                        <div class="info-card1">
+                        <div class="info-card">
                             <div class="card-number-circle">03</div>
                             <h5>VIP Features for Trust</h5>
                             <p>Build user trust with features like chauffeur info, elite car options, and premium support.</p>
                         </div>
                     </div>
                     <div class="col-12 col-lg-7">
-                        <div class="info-card1">
+                        <div class="info-card">
                             <div class="card-number-circle">04</div>
                             <h5>Premium User Support</h5>
                             <p>Deliver a top-tier support experience to enhance user satisfaction and reliability.</p>
@@ -102,7 +102,7 @@
     <div class="container">
         <div class="row">
             <div class="col-12">
-                <div class="common-heading">
+                <div class="common-heading text-center text-lg-start">
                     <h2 class="mb-3">Design Goals</h2>
                 </div>
             </div>
@@ -163,7 +163,7 @@
     <div class="container">
         <div class="row">
             <div class="col-12">
-                <div class="common-heading">
+                <div class="common-heading text-center text-lg-start">
                     <h2 class="mb-3">Wireframes</h2>
                     <p class="mb-4">An overview of the initial wireframes created during the design process:</p>
                     <ul class="mb-4">
@@ -203,7 +203,7 @@
     <div class="container">
         <div class="row">
             <div class="col-12">
-                <div class="common-heading">
+                <div class="common-heading text-center">
                     <h2 class="mb-3">Target Users</h2>
                 </div>
             </div>
@@ -243,8 +243,8 @@
     <div class="container">
         <div class="row align-items-center">
             <div class="col-12 col-lg-6 mb-4 mb-md-0">
-                <div class="common-heading">
-                    <h2>Challenges & Iterations</h2>
+                <div class="common-heading text-center text-lg-start">
+                    <h2 class="mb-3">Challenges & Iterations</h2>
                     <p>Briefly explain the main design challenges faced during the process:</p>
                 </div>
                 <div class="challenges">
@@ -277,54 +277,54 @@
 <!-- End Challenges & Iterations Section -->
 
 <!-- Start Personal Section -->
-<section class="boujee-beachin-challenges py-5 wow fadeIn">
+<section class="boujee-beachin-personal py-5 wow fadeIn">
     <div class="container">
-        <div class="persona-wrapper">
+        <div class="personal-wrapper">
             <div class="row g-4">
                 <div class="col-lg-4">
-                    <div class="card persona-card text-center h-100">
+                    <div class="card personal-card text-center h-100">
                         <div class="card-body d-flex flex-column justify-content-center">
                             <div class="profile-img-container">
-                                 <img loading="lazy" src="{{asset('images/case-studies/boujee-beachin/user.webp')}}" alt="James Whitmore" class="profile-img">
+                                <img loading="lazy" src="{{asset('images/case-studies/boujee-beachin/user.webp')}}" alt="James Whitmore" class="profile-img">
                             </div>
-                            <h3 class="persona-heading">James Whitmore</h3>
+                            <h3 class="personal-heading">James Whitmore</h3>
                             <p class="text-secondary-light mb-4">Luxury Travel Enthusiast & Digital Marketer</p>
-                            <div class="pernal-info">
+                            <div class="personal-info">
                                 <div class="left-info">
                                     <table class="demographics-table">
                                         <tr>
-                                            <td class="demog-label">Age</td>
+                                            <td class="demo-label">Age</td>
                                         </tr>
                                         <tr>
-                                            <td class="demog-label">Gender</td>
+                                            <td class="demo-label">Gender</td>
                                         </tr>
                                         <tr>
-                                            <td class="demog-label">Status</td>
+                                            <td class="demo-label">Status</td>
                                         </tr>
                                         <tr>
-                                            <td class="demog-label">Education</td>
+                                            <td class="demo-label">Education</td>
                                         </tr>
                                         <tr>
-                                            <td class="demog-label">Location</td>
+                                            <td class="demo-label">Location</td>
                                         </tr>
                                     </table>
                                 </div>
                                 <div class="right-info">
                                     <table class="demographics-table">
                                         <tr>
-                                            <td class="demog-value">29</td>
+                                            <td class="demo-value">29</td>
                                         </tr>
                                         <tr>
-                                            <td class="demog-value">Male</td>
+                                            <td class="demo-value">Male</td>
                                         </tr>
                                         <tr>
-                                            <td class="demog-value">Single</td>
+                                            <td class="demo-value">Single</td>
                                         </tr>
                                         <tr>
-                                            <td class="demog-value">BA(Hons)</td>
+                                            <td class="demo-value">BA(Hons)</td>
                                         </tr>
                                         <tr>
-                                            <td class="demog-value">London</td>
+                                            <td class="demo-value">London</td>
                                         </tr>
                                     </table>
                                 </div>
@@ -342,49 +342,38 @@
                 <div class="col-lg-8">
                     <div class="row g-4">
                         <div class="col-12">
-                            <div class="card persona-card border-top-accent">
+                            <div class="card personal-card border-top-accent">
                                 <div class="card-body">
-                                    <h4 class="persona-heading">Bio</h4>
-                                    <p class="text-secondary-light">James is a digital marketing professional with a passion
-                                        for travel and content creation. On weekends and during holidays, he explores
-                                        premium beach destinations with his partner and documents his trips through
-                                        Instagram and his blog. He's always on the lookout for a stylish and seamless way to
-                                        plan, book, and style every trip he takes. He dislikes clunky, boring apps and
-                                        expects design to match his lifestyle.</p>
+                                    <h4 class="personal-heading">Bio</h4>
+                                    <p class="text-secondary-light">James is a digital marketing professional with a passion for travel and content creation. On weekends and during holidays, he explores premium beach destinations with his partner and documents his trips through Instagram and his blog. He's always on the lookout for a stylish and seamless way to plan, book, and style every trip he takes. He dislikes clunky, boring apps and expects design to match his lifestyle.</p>
                                 </div>
                             </div>
                         </div>
                         <div class="col-12">
                             <div class="row g-4 row-cols-1 row-cols-md-3">
                                 <div class="col">
-                                    <div class="card persona-card h-100">
+                                    <div class="card personal-card h-100">
                                         <div class="card-body">
-                                            <h4 class="persona-heading">Frustrations</h4>
-
+                                            <h4 class="personal-heading">Frustrations</h4>
                                             <span class="progress-label">Generic beach apps</span>
-                                            <div class="progress" role="progressbar" aria-label="Generic beach apps"
-                                                aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">
+                                            <div class="progress" role="progressbar" aria-label="Generic beach apps" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">
                                                 <div class="progress-bar progress-bar-accent" style="width: 85%"></div>
                                             </div>
-
                                             <span class="progress-label">Slow trip planning</span>
-                                            <div class="progress" role="progressbar" aria-label="Slow trip planning"
-                                                aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+                                            <div class="progress" role="progressbar" aria-label="Slow trip planning" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
                                                 <div class="progress-bar progress-bar-accent" style="width: 75%"></div>
                                             </div>
-
                                             <span class="progress-label">Poor, cluttered design</span>
-                                            <div class="progress" role="progressbar" aria-label="Poor, cluttered design"
-                                                aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">
+                                            <div class="progress" role="progressbar" aria-label="Poor, cluttered design" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">
                                                 <div class="progress-bar progress-bar-accent" style="width: 90%"></div>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="col">
-                                    <div class="card persona-card h-100 border-top-accent">
+                                    <div class="card personal-card h-100 border-top-accent">
                                         <div class="card-body">
-                                            <h4 class="persona-heading">Influences</h4>
+                                            <h4 class="personal-heading">Influences</h4>
                                             <ul class="custom-list">
                                                 <li>Instagram</li>
                                                 <li>Pinterest</li>
@@ -396,9 +385,9 @@
                                     </div>
                                 </div>
                                 <div class="col">
-                                    <div class="card persona-card h-100">
+                                    <div class="card personal-card h-100">
                                         <div class="card-body">
-                                            <h4 class="persona-heading">Interests</h4>
+                                            <h4 class="personal-heading">Interests</h4>
                                             <ul class="custom-list">
                                                 <li>Fashion & Coastal Styling</li>
                                                 <li>Social Media Curation</li>
@@ -414,9 +403,9 @@
                         <div class="col-12">
                             <div class="row g-4 row-cols-1 row-cols-md-2">
                                 <div class="col">
-                                    <div class="card persona-card h-100">
+                                    <div class="card personal-card h-100">
                                         <div class="card-body">
-                                            <h4 class="persona-heading">Goals</h4>
+                                            <h4 class="personal-heading">Goals</h4>
                                             <ul class="custom-list">
                                                 <li>Discover premium, stylish beach destinations with ease</li>
                                                 <li>Plan, book, and organize trips all in one seamless flow</li>
@@ -427,22 +416,19 @@
                                     </div>
                                 </div>
                                 <div class="col">
-                                    <div class="card persona-card h-100">
+                                    <div class="card personal-card h-100">
                                         <div class="card-body">
-                                            <h4 class="persona-heading">Motivations</h4>
+                                            <h4 class="personal-heading">Motivations</h4>
                                             <span class="progress-label">Boost content engagement</span>
-                                            <div class="progress" role="progressbar" aria-label="Boost content engagement"
-                                                aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">
+                                            <div class="progress" role="progressbar" aria-label="Boost content engagement" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">
                                                 <div class="progress-bar progress-bar-accent" style="width: 80%"></div>
                                             </div>
                                             <span class="progress-label">Quality time with partner</span>
-                                            <div class="progress" role="progressbar" aria-label="Quality time with partner"
-                                                aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">
+                                            <div class="progress" role="progressbar" aria-label="Quality time with partner" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">
                                                 <div class="progress-bar progress-bar-accent" style="width: 70%"></div>
                                             </div>
                                             <span class="progress-label">Brand collaborations</span>
-                                            <div class="progress" role="progressbar" aria-label="Brand collaborations"
-                                                aria-valuenow="60" aria-valuemin="0" aria-valuemax="100">
+                                            <div class="progress" role="progressbar" aria-label="Brand collaborations" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100">
                                                 <div class="progress-bar progress-bar-accent" style="width: 60%"></div>
                                             </div>
                                         </div>
@@ -510,13 +496,13 @@
 <section class="boujee-beachin-testing py-5 wow fadeIn">
     <div class="container">
         <div class="common-heading">
-            <h2 class="mb-5 text-sm-center">User Testing & Feedback</h2>
+            <h2 class="mb-5 text-center">User Testing & Feedback</h2>
         </div>
         <div class="row g-4 mt-3">
             <div class="col-md-6">
                 <div class="user-testing-card">
                     <div class="user-testing-img">
-                         <img loading="lazy" src="{{asset('images/case-studies/boujee-beachin/heart.webp')}}" alt="Liked">
+                        <img loading="lazy" src="{{asset('images/case-studies/boujee-beachin/heart.webp')}}" alt="Liked">
                         <p>Liked</p>
                     </div>
                     <ul>
@@ -548,7 +534,7 @@
 <section class="boujee-beachin-tech py-5 wow fadeIn">
     <div class="container">
         <div class="common-heading">
-            <h2 class="text-center mb-4">Tech Behind the App</h2>
+            <h2 class="text-center mb-4">Tech Behind The App</h2>
         </div>
         <div class="row g-4 justify-content-center">
             <div class="col-6 col-md-3 col-lg-2">
@@ -597,13 +583,13 @@
         <div class="row align-items-center g-4">
             <div class="col-md-6">
                 <div class="common-heading">
-                    <h2 class="mb-3">Conclusion</h2>
+                    <h2 class="mb-3 text-center text-lg-start">Conclusion</h2>
                     <p>Boujee Beachin’ blends luxury travel and fashion into one clean, curated app. This project taught me how to balance premium aesthetics with practical UX, prioritize user needs, and improve design through testing and iteration. It was a valuable experience in designing for a modern, lifestyle-driven audience. </p>
                 </div>
             </div>
             <div class="col-md-6 text-center">
                 <div class="conclusion-right">
-                     <img loading="lazy" src="{{asset('images/case-studies/boujee-beachin/boujee-beachin-conclusion.webp')}}" alt="Boujee Beachin Conclusion Image" class="img-fluid rounded-3 shadow-sm">
+                    <img loading="lazy" src="{{asset('images/case-studies/boujee-beachin/boujee-beachin-conclusion.webp')}}" alt="Boujee Beachin Conclusion Image" class="img-fluid rounded-3 shadow-sm">
                 </div>
             </div>
         </div>
@@ -618,14 +604,30 @@
             <h2 class="mb-3 text-center">VENDOR APP</h2>
         </div>
         <div class="row">
-            <div class="col-md-3 col-6 my-3"> <img loading="lazy" src="{{asset('images/case-studies/boujee-beachin/boujee-beachin-vendor-app-1.webp')}}" class="img-fluid" alt="Vendor App"></div>
-            <div class="col-md-3 col-6 my-3"> <img loading="lazy" src="{{asset('images/case-studies/boujee-beachin/boujee-beachin-vendor-app-2.webp')}}" class="img-fluid"  alt="Vendor App"></div>
-            <div class="col-md-3 col-6 my-3"> <img loading="lazy" src="{{asset('images/case-studies/boujee-beachin/boujee-beachin-vendor-app-3.webp')}}" class="img-fluid"  alt="Vendor App"></div>
-            <div class="col-md-3 col-6 my-3"> <img loading="lazy" src="{{asset('images/case-studies/boujee-beachin/boujee-beachin-vendor-app-4.webp')}}" class="img-fluid"  alt="Vendor App"></div>
-            <div class="col-md-3 col-6 my-3"> <img loading="lazy" src="{{asset('images/case-studies/boujee-beachin/boujee-beachin-vendor-app-5.webp')}}" class="img-fluid"  alt="Vendor App"></div>
-            <div class="col-md-3 col-6 my-3"> <img loading="lazy" src="{{asset('images/case-studies/boujee-beachin/boujee-beachin-vendor-app-6.webp')}}" class="img-fluid"  alt="Vendor App"></div>
-            <div class="col-md-3 col-6 my-3"> <img loading="lazy" src="{{asset('images/case-studies/boujee-beachin/boujee-beachin-vendor-app-7.webp')}}" class="img-fluid"  alt="Vendor App"></div>
-            <div class="col-md-3 col-6 my-3"> <img loading="lazy" src="{{asset('images/case-studies/boujee-beachin/boujee-beachin-vendor-app-8.webp')}}" class="img-fluid"  alt="Vendor App"></div>
+            <div class="col-md-3 col-6 my-3"> 
+                <img loading="lazy" src="{{asset('images/case-studies/boujee-beachin/boujee-beachin-vendor-app-1.webp')}}" class="img-fluid" alt="Vendor App">
+            </div>
+            <div class="col-md-3 col-6 my-3"> 
+                <img loading="lazy" src="{{asset('images/case-studies/boujee-beachin/boujee-beachin-vendor-app-2.webp')}}" class="img-fluid" alt="Vendor App">
+            </div>
+            <div class="col-md-3 col-6 my-3"> 
+                <img loading="lazy" src="{{asset('images/case-studies/boujee-beachin/boujee-beachin-vendor-app-3.webp')}}" class="img-fluid" alt="Vendor App">
+            </div>
+            <div class="col-md-3 col-6 my-3"> 
+                <img loading="lazy" src="{{asset('images/case-studies/boujee-beachin/boujee-beachin-vendor-app-4.webp')}}" class="img-fluid" alt="Vendor App">
+            </div>
+            <div class="col-md-3 col-6 my-3"> 
+                <img loading="lazy" src="{{asset('images/case-studies/boujee-beachin/boujee-beachin-vendor-app-5.webp')}}" class="img-fluid" alt="Vendor App">
+            </div>
+            <div class="col-md-3 col-6 my-3"> 
+                <img loading="lazy" src="{{asset('images/case-studies/boujee-beachin/boujee-beachin-vendor-app-6.webp')}}" class="img-fluid" alt="Vendor App">
+            </div>
+            <div class="col-md-3 col-6 my-3"> 
+                <img loading="lazy" src="{{asset('images/case-studies/boujee-beachin/boujee-beachin-vendor-app-7.webp')}}" class="img-fluid" alt="Vendor App">
+            </div>
+            <div class="col-md-3 col-6 my-3"> 
+                <img loading="lazy" src="{{asset('images/case-studies/boujee-beachin/boujee-beachin-vendor-app-8.webp')}}" class="img-fluid" alt="Vendor App">
+            </div>
         </div>
     </div>
 </section>
@@ -638,20 +640,15 @@
             <h2 class="py-5 text-center">Client Testimonial</h2>
         </div>
         <div class="text-center mb-3">
-             <img loading="lazy" src="{{asset('images/case-studies/boujee-beachin/star.webp')}}" alt="Rating" class="star">
+            <img loading="lazy" src="{{asset('images/case-studies/boujee-beachin/star.webp')}}" alt="Rating" class="star">
         </div>
         <div class="row justify-content-center">
             <div class="col-md-10 col-lg-8">
                 <div class="testimonial-card text-center p-4">
                     <div class="testimonials-img-section mb-3">
-                         <img loading="lazy" src="{{asset('images/case-studies/boujee-beachin/user-2.webp')}}" alt="Liked" class="rounded-circle img-fluid">
+                        <img loading="lazy" src="{{asset('images/case-studies/boujee-beachin/user-2.webp')}}" alt="Liked" class="rounded-circle img-fluid">
                     </div>
-                    <p class="testimonial-text">
-                        “I’ve tried a ton of travel apps, but Boujee Beachin’ stands out.
-                        It combines luxury beach discovery, outfit planning, and smooth booking —
-                        all in one clean interface. It saves me time and makes my trips look
-                        10x better on social media!”
-                    </p>
+                    <p class="testimonial-text">“I’ve tried a ton of travel apps, but Boujee Beachin’ stands out. It combines luxury beach discovery, outfit planning, and smooth booking — all in one clean interface. It saves me time and makes my trips look 10x better on social media!”</p>
                     <b class="d-block mt-3">— James W., Digital Marketer & Travel Blogger</b>
                 </div>
             </div>
@@ -665,7 +662,7 @@
     <div class="container">
         <div class="row">
             <div class="col-12 text-center">
-                 <img loading="lazy" src="{{asset('images/case-studies/boujee-beachin/boujee-beachin-mockup-2.webp')}}" alt="" srcset="" class="img-fluid">
+                <img loading="lazy" src="{{asset('images/case-studies/boujee-beachin/boujee-beachin-mockup-2.webp')}}" alt="Mockup" class="img-fluid">
             </div>
         </div>
     </div>

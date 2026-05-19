@@ -14962,7 +14962,7 @@ footer h4 {
     font-weight: bold;
 }
 
-.case-tag {
+.boujee-beachin-app .case-tag {
     background-color: var(--light-blue-color);
     color: var(--white-color);
     padding: 10px 25px;
@@ -14995,7 +14995,7 @@ footer h4 {
     margin: 0 auto;
 }
 
-.boujee-beachin-objectives .info-card1 {
+.boujee-beachin-objectives .info-card {
     background-color: #fff;
     border-radius: 15px;
     border: 1px solid #007599;
@@ -15005,7 +15005,7 @@ footer h4 {
     transition: all 0.3s ease;
 }
 
-.boujee-beachin-objectives .info-card1:hover {
+.boujee-beachin-objectives .info-card:hover {
     transform: translateY(-5px);
     box-shadow: 0 8px 25px rgba(0, 0, 0, 0.12);
 }
@@ -15091,7 +15091,7 @@ footer h4 {
     transform: translateY(-3px);
 }
 
-.target-users-card {
+.boujee-beachin-target .target-users-card {
     height: 90px;
     display: flex;
     align-items: center;
@@ -15102,64 +15102,44 @@ footer h4 {
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
-.target-users-card img {
+.boujee-beachin-target .target-users-card img {
     width: 22px;
     height: auto;
     object-fit: contain;
 }
 
-.target-users-card p {
+.boujee-beachin-target .target-users-card p {
     margin: 0;
     font-size: 16px;
     color: #333;
 }
 
-.challenges-section {
-    line-height: 50px;
-}
 
-.challenges-heading span {
-    font-size: 28px;
-    font-weight: 700;
-    color: var(--white-color);
-    background-color: #007bff;
-    margin: 10px;
-    padding: 10px;
-    border-radius: 14px;
-    word-spacing: 4px;
-}
-
-.challenges-heading p {
-    font-size: 16px;
-    margin-top: 10px;
-    color: #555;
-}
-
-.challenges ul {
+.boujee-beachin-challenges .challenges ul {
     list-style: none;
     padding: 0;
     margin-top: 20px;
 }
 
-.challenges ul li {
+.boujee-beachin-challenges .challenges ul li {
     display: flex;
     align-items: flex-start;
     gap: 12px;
     margin-bottom: 18px;
 }
 
-.challenges ul li img {
+.boujee-beachin-challenges .challenges ul li img {
     width: 24px;
     height: 24px;
 }
 
-.challenges-img {
+.boujee-beachin-challenges .challenges-img {
     width: 100%;
     max-width: 680px;
     border-radius: 10px;
 }
 
-.pernal-info {
+.boujee-beachin-personal .personal-info {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -15168,23 +15148,23 @@ footer h4 {
     margin-bottom: 15px;
 }
 
-.right-info {
+.boujee-beachin-personal .right-info {
     border-left: 3px solid var(--white-color);
     padding-left: 22px;
 }
 
-.persona-heading {
+.boujee-beachin-personal .personal-heading {
     color: var(--wheat);
 }
 
-.persona-wrapper {
+.boujee-beachin-personal .personal-wrapper {
     background-color: #3a3a3a;
     color: var(--white-color);
     padding: 20px;
     border-radius: 20px;
 }
 
-.persona-card {
+.boujee-beachin-personal .personal-card {
     background-color: #4f4f4f;
     border: none;
     border-radius: 12px;
@@ -15192,33 +15172,29 @@ footer h4 {
     /* height: 46%; */
 }
 
-.card-body {
+.boujee-beachin-personal .card-body {
     padding: 1.5rem;
 }
 
-.border-top-accent {
+.boujee-beachin-personal .border-top-accent {
     border-top: 4px solid #0097DE !important;
 }
 
-.text-accent {
-    color: #67e0e3 !important;
-}
-
-.text-secondary-light {
+.boujee-beachin-personal .text-secondary-light {
     color: #dcdcdc;
 }
 
-.custom-list {
+.boujee-beachin-personal .custom-list {
     padding-left: 1.2rem;
 }
 
-.custom-list li {
+.boujee-beachin-personal .custom-list li {
     list-style: circle;
     margin-bottom: 0.5rem;
     color: #dcdcdc;
 }
 
-.profile-img-container {
+.boujee-beachin-personal .profile-img-container {
     width: 160px;
     height: 160px;
     margin: 0 auto 1.5rem;
@@ -15227,24 +15203,24 @@ footer h4 {
     border-radius: 50%;
 }
 
-.profile-img {
+.boujee-beachin-personal .profile-img {
     width: 100%;
     height: 100%;
     object-fit: cover;
     border-radius: 50%;
 }
 
-.demographics-table {
+.boujee-beachin-personal .demographics-table {
     margin: 2rem auto;
     width: 80%;
     font-size: 0.9rem;
 }
 
-.demographics-table td {
+.boujee-beachin-personal .demographics-table td {
     padding: 4px 0;
 }
 
-.demog-label {
+.boujee-beachin-personal .demo-label {
     font-weight: bold;
     text-transform: uppercase;
     text-align: right;
@@ -15253,12 +15229,12 @@ footer h4 {
     color: var(--white-color);
 }
 
-.demog-value {
+.boujee-beachin-personal .demo-value {
     color: var(--white-color);
     text-align: left;
 }
 
-.personality-tag {
+.boujee-beachin-personal .personality-tag {
     background-color: #f8f9fa;
     color: var(--light-blue-color);
     font-weight: 600;
@@ -15266,23 +15242,23 @@ footer h4 {
     font-size: 0.85rem;
 }
 
-.progress-label {
+.boujee-beachin-personal .progress-label {
     font-size: 0.85rem;
     margin-bottom: 4px;
     display: block;
 }
 
-.progress {
+.boujee-beachin-personal .progress {
     height: 8px;
     background-color: #6c757d;
     margin-bottom: 1rem;
 }
 
-.progress-bar-accent {
+.boujee-beachin-personal .progress-bar-accent {
     background-color: var(--light-blue-color);
 }
 
-.user-testing-card {
+.boujee-beachin-testing .user-testing-card {
     height: auto;
     position: relative;
     border: 2px solid #000;
@@ -15293,12 +15269,12 @@ footer h4 {
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.0.8);
 }
 
-.user-testing-card:hover {
+.boujee-beachin-testing .user-testing-card:hover {
     transform: translateY(-5px);
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.08);
 }
 
-.user-testing-img {
+.boujee-beachin-testing .user-testing-img {
     position: absolute;
     top: -50px;
     left: 50%;
@@ -15306,59 +15282,48 @@ footer h4 {
     text-align: center;
 }
 
-.user-testing-img img {
+.boujee-beachin-testing .user-testing-img img {
     width: 85px;
     height: auto;
     object-fit: contain;
 }
 
-.user-testing-img p {
+.boujee-beachin-testing .user-testing-img p {
     margin: 0;
     font-size: 13px;
     font-weight: 600;
 }
 
-.user-testing-card ul {
+.boujee-beachin-testing .user-testing-card ul {
     margin: 0;
     padding-left: 18px;
 }
 
-.user-testing-card li {
+.boujee-beachin-testing .user-testing-card li {
     list-style: circle;
     margin-top: 18px;
     line-height: 1.6;
     padding-left: 22px;
 }
 
-.boujee-Testimonial h4 {
-    font-family: "Urbanist", sans-serif;
-    font-weight: 700;
-}
-
-.boujee-Testimonial p,
-b {
-    font-family: "Nunito", sans-serif;
-    font-weight: 300;
-}
-
-.testimonialsCard {
+.boujee-beachin-testimonial .testimonial-card {
     background: #ffffff;
     border-radius: 14px;
     box-shadow: 0 4px 18px rgba(0, 0, 0, 0.07);
     transition: 0.3s ease;
 }
 
-.testimonialsCard:hover {
+.boujee-beachin-testimonial .testimonial-card:hover {
     transform: translateY(-4px);
     box-shadow: 0 6px 22px rgba(0, 0, 0, 0.12);
 }
 
-.testimonials-img-section p {
+.boujee-beachin-testimonial p {
     font-size: 14px;
     opacity: 0.8;
 }
 
-.testimonial-text {
+.boujee-beachin-testimonial .testimonial-text {
     font-size: 16px;
     line-height: 1.6;
     color: #444;
