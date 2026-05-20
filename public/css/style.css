@@ -19216,6 +19216,112 @@ textarea::-ms-input-placeholder {
 
 /* End Cost Calculator */
 
+/* Start Portfolio */
+
+.portfolio .card-inner {
+    position: relative;
+    margin: 0 auto;
+    width: 100%;
+    height: 450px;
+    /* same as image height */
+    max-height: 500px;
+    transform-style: preserve-3d;
+    /* important for 3D flip */
+    transition: transform 0.9s;
+}
+
+/* Flip on hover */
+.portfolio .isotope_item.up-hor:hover .card-inner {
+    transform: rotateY(180deg);
+}
+
+/* Front and back images stay as is */
+.portfolio .item-image-front,
+.portfolio .item-image-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    backface-visibility: hidden;
+    /* hide the back when rotated */
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.portfolio .item-image-front img,
+.portfolio .item-image-back img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    /* :fire: main cheez */
+    display: block;
+    padding-left: 40px;
+}
+
+.portfolio .item-image-back {
+    transform: rotateY(180deg);
+    /* back is initially flipped */
+}
+
+.portfolio .left {
+    border-left: 1px solid #000;
+    padding-left: 20px;
+}
+
+.portfolio .item-info-div {
+    padding: 25px;
+    position: relative;
+    top: 15px;
+    width: 95%;
+    margin: 0 auto;
+    text-align: start;
+    font-family: Poppins, sans-serif;
+}
+
+.portfolio .item-info-div a,
+.portfolio .item-info-div h5 {
+    margin: 0;
+    color: #314252;
+}
+
+.portfolio .item-info-div h5 {
+    background-color: #0e0c0cb0;
+    border: 2px solid white;
+    width: fit-content;
+    padding: 0px 26px;
+    border-radius: 20px;
+    font-size: 17px;
+    color: var(--white-color);
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.portfolio .item-info-div .casestudyButton {
+    /* background-color: #007bff; */
+    color: crimson;
+    border: 1px solid var(--first-color);
+    width: fit-content;
+    margin: 20px 0 0 0;
+    padding: 10px 30px;
+    border-radius: 20px;
+}
+
+.portfolio .item-info-div .casestudyButton:hover {
+    background-color: var(--first-color);
+}
+
+.portfolio .item-info-div .casestudyButton:hover a {
+    color: var(--white-color);
+}
+
+.portfolio .item-info-div p {
+    color: #314252;
+    font-weight: normal;
+}
+
+/* End Portfolio */
+
 /* Start Royal Ride */
 
 .hero-section-royal-ride {
@@ -19585,132 +19691,15 @@ textarea::-ms-input-placeholder {
     padding-top: 100px;
 }
 
+/* Start Mike Mathis */
 
-
-.card-inner {
-    position: relative;
-    margin: 0 auto;
-    width: 100%;
-    height: 450px;
-    /* same as image height */
-    max-height: 500px;
-    transform-style: preserve-3d;
-    /* important for 3D flip */
-    transition: transform 0.9s;
-}
-
-/* Flip on hover */
-.isotope_item.up-hor:hover .card-inner {
-    transform: rotateY(180deg);
-}
-
-/* Front and back images stay as is */
-.item-image-front,
-.item-image-back {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    top: 0;
-    left: 0;
-    backface-visibility: hidden;
-    /* hide the back when rotated */
-    border-radius: 10px;
-    overflow: hidden;
-}
-
-.item-image-front img,
-.item-image-back img {
-    width: 100%;
-    height: 100%;
-    object-fit: contain;
-    /* :fire: main cheez */
-    display: block;
-    padding-left: 40px;
-}
-
-.item-image-back {
-    transform: rotateY(180deg);
-    /* back is initially flipped */
-}
-
-.left {
-    border-left: 1px solid #000;
-    padding-left: 20px;
-}
-
-.item-info-div {
-    padding: 25px;
-    position: relative;
-    top: 15px;
-    width: 95%;
-    margin: 0 auto;
-    text-align: start;
-    font-family: Poppins, sans-serif;
-}
-
-.item-info-div a,
-.item-info-div h5 {
-    margin: 0;
-    color: #314252;
-}
-
-.item-info-div h5 {
-    background-color: #0e0c0cb0;
-    border: 2px solid white;
-    width: fit-content;
-    padding: 0px 26px;
-    border-radius: 20px;
-    font-size: 17px;
-    color: var(--white-color);
-    font-weight: bold;
-    margin: 10px 0;
-}
-
-.item-info-div .casestudyButton {
-    /* background-color: #007bff; */
-    color: crimson;
-    border: 1px solid var(--first-color);
-    width: fit-content;
-    margin: 20px 0 0 0;
-    padding: 10px 30px;
-    border-radius: 20px;
-}
-
-.item-info-div .casestudyButton:hover {
-    background-color: var(--first-color);
-}
-
-.item-info-div .casestudyButton:hover a {
-    color: var(--white-color);
-}
-
-.item-info-div p {
-    color: #314252;
-    font-weight: normal;
-}
-
-
-/* start mike miths case study */
-
-
-/*Start mike mathis case study*/
-/* Start hero section  */
 .mike-mathis-app {
-    background: url("../images/case-studies/mike-mathis-app/background-hero-section.webp") center/cover no-repeat;
+    background: url("../images/case-studies/mike-mathis-app/mike-mathis-app-background.webp") center/cover no-repeat;
 }
 
 .mike-mathis-app .logo {
-    width: 100%;
     max-width: 200px;
 }
-
-.mike-mathis-app img {
-    padding-left: 22px;
-    width: 100%;
-}
-
-
-
 
 .mike-mathis-app h1,
 .mike-mathis-app p {
@@ -19718,26 +19707,153 @@ textarea::-ms-input-placeholder {
     font-weight: bold;
 }
 
-/* End hero section  */
-
-/*Start mike-mithis project description section */
-.mike-mithis-project-description-right {
-    text-align: start;
-    margin-top: 30px;
+.mike-mathis-project {
+    padding: 60px 0;
+    background: url("../images/case-studies/mike-mathis-app/mike-mathis-project-description-background.webp") center/cover no-repeat;
+    background-size: 100% 70%;
 }
 
-.mike-mithis-project-description img {
-    padding-left: 22px;
+.mike-mathis-project img {
     width: 100%;
-    max-width: 200px;
-    height: auto;
-
+    max-width: 350px;
+    border-radius: 8px;
+    padding-left: 0;
+    margin: 20px auto 0;
+    display: block;
 }
 
-/*End mike-mithis project description section */
+.mike-mathis-project h2 {
+    margin-bottom: 15px;
+    color: var(--white-color);
+}
 
+.mike-mathis-project p {
+    color: var(--white-color);
+}
 
-/*Start Project-info */
+.mike-mathis-goals .info-card {
+    background-color: var(--white-color);
+    border-radius: 15px;
+    padding: 25px;
+    margin-bottom: 25px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+    transition: all 0.3s ease;
+}
+
+.mike-mathis-goals .info-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.12);
+}
+
+.mike-mathis-goals .card-number-circle {
+    width: 45px;
+    height: 45px;
+    background-color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 15px;
+    border: 4px solid var(--black-color);
+    color: var(--black-color);
+    padding: 30px;
+}
+
+.mike-mathis-goals .info-card p {
+    margin: 0;
+}
+
+.mike-mathis-goals .phone-screen img {
+    max-width: 350px;
+    margin-top: 25px;
+}
+
+.mike-mathis-challanges {
+    padding: 60px 0;
+    background: url("../images/case-studies/mike-mathis-app/mike-mathis-project-challenges-background.webp") center/cover no-repeat;
+    background-size: 100% 65%;
+}
+
+.mike-mathis-challanges img {
+    max-width: 350px;
+    border-radius: 8px;
+    padding-left: 0;
+    margin: 20px auto 0;
+    display: block;
+}
+
+.mike-mathis-challanges h2 {
+    margin-bottom: 15px;
+    color: var(--white-color);
+}
+
+.mike-mathis-challanges p {
+    color: var(--white-color);
+}
+
+.mike-mathis-user-research {
+    padding: 50px 0;
+}
+
+.mike-mathis-user-research h2 {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.mike-mathis-user-research ul {
+    padding-left: 20px;
+}
+
+.mike-mathis-user-research ul li {
+    background-color: #E9EBF0;
+    font-size: 1rem;
+    line-height: 1.6;
+    margin-bottom: 12px;
+    position: relative;
+    border: 1px solid black;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px 0 rgba(19, 0, 46, .0);
+}
+
+.mike-mathis-user-research ul li:hover {
+    transition: ease-in-out;
+    box-shadow: 0 4px 6px 0 rgba(19, 0, 46, 1.0);
+}
+
+.mike-mathis-user-research img {
+    max-width: 350px;
+    margin: 20px auto 0;
+    display: block;
+}
+
+.mike-mathis-wireframe {
+    background: #071739;
+    border-radius: 30px;
+    margin-left: 8px;
+    margin-right: 8px;
+}
+
+.mike-mathis-wireframe p {
+    color: var(--white-color);
+}
+
+.mike-mathis-wireframe h2,
+.mike-mathis-wireframe h4 {
+    color: var(--white-color);
+}
+
+.mike-mathis-wireframe-gallery .col-6 {
+    display: flex;
+    justify-content: center;
+}
+
+.mike-mathis-wireframe .wire-img {
+    max-width: 350px;
+}
 
 .Project-info {
     background-color: whitesmoke;
@@ -19777,174 +19893,12 @@ textarea::-ms-input-placeholder {
 /*End Project-info */
 
 
-/* ===== start Project-Description  ===== */
-.Project-Description {
-    padding: 60px 0;
-    background: url("../images/case-studies/mike-mathis-app/Project-Description-background.webp") center/cover no-repeat;
-    background-size: 100% 70%;
-}
-
-.Project-Description .Project-Description-left-container img {
-    width: 100%;
-    max-width: 350px;
-    border-radius: 8px;
-    padding-left: 0;
-    margin: 20px auto 0;
-    display: block;
-}
-
-.Project-Description-title {
-    font-size: 54px;
-    font-weight: bold;
-    margin-bottom: 15px;
-    color: var(--white-color);
-}
-
-.Project-Description-titleparagraph {
-    font-size: 14px;
-    line-height: 1.9;
-    font-weight: bold;
-    color: var(--white-color);
-}
-
-/* ===== end Project-Description  ===== */
-
-
-/* ===== Start Project challenges  ===== */
-.Project-Challenges {
-    padding: 60px 0;
-    background: url("../images/case-studies/mike-mathis-app/project-challenges-background.webp") center/cover no-repeat;
-    background-size: 100% 65%;
-}
-
-.Project-Challenges .Project-Challenges-left-container img {
-    width: 100%;
-    max-width: 350px;
-    border-radius: 8px;
-    padding-left: 0;
-    margin: 20px auto 0;
-    display: block;
-}
-
-/* ===== End Project challenges  ===== */
-.mike-mathis-Objectives .card-number-circle {
-    border: 4px solid black;
-    color: #000;
-    padding: 30px;
-}
-
-.mike-mathis-Objectives .phone-screen img {
-    width: 100%;
-    max-width: 350px;
-    margin-top: 25px;
-}
-
-/* Start user research section */
-.user-research {
-    padding: 50px 0;
-}
-
-.user-research h2 {
-    font-size: 2rem;
-    font-weight: 700;
-    margin-bottom: 20px;
-}
-
-.user-research-ul {
-    padding-left: 20px;
-}
-
-.user-research-ul li {
-    background-color: #E9EBF0;
-    font-size: 1rem;
-    line-height: 1.6;
-    margin-bottom: 12px;
-    position: relative;
-    border: 1px solid black;
-    padding: 30px;
-    border-radius: 10px;
-    box-shadow: 0 4px 6px 0 rgba(19, 0, 46, .0);
-}
-
-.user-research-ul li:hover {
-    transition: ease-in-out;
-    box-shadow: 0 4px 6px 0 rgba(19, 0, 46, 1.0);
-}
-
-.user-research img {
-    width: 100%;
-    max-width: 350px;
-    border-radius: 8px;
-    padding-left: 0;
-    margin: 20px auto 0;
-    display: block;
-}
-
-/* End user research section */
-
-
 
 /*Start mike-mathi Wireframes section */
-.mike-mathis-wireframe {
-    background: #071739;
-    border-radius: 30px;
-    padding-top: 60px;
-    padding-bottom: 60px;
-    margin-left: 8px;
-    margin-right: 8px;
-}
 
-.mike-mathis-wireframe p {
-    color: var(--white-color);
-    padding-bottom: 30px;
-}
-
-.mike-mathis-wireframe h2,
-.mike-mathis-wireframe h4 {
-    color: var(--white-color);
-    padding-bottom: 30px;
-}
-
-.mike-mathis-wireframe-gallery .col-6 {
-    display: flex;
-    justify-content: center;
-}
-
-.mike-mathis-wireframe .wire-img {
-    width: 100%;
-    max-width: 350px;
-}
 
 /*End mike-mathi Wireframes section */
 
-
-
-/*Start mike-mathi uiux design phase section */
-.mike-mathis-design-phase {
-    padding: 60px 0;
-    text-align: start;
-}
-
-.mike-mathis-design-phase .mike-mathis-design-phase-left-container img {
-    width: 100%;
-    border-radius: 10px;
-}
-
-.mike-mathis-design-phase-title {
-    font-weight: 700;
-    margin-bottom: 10px;
-}
-
-.mike-mathis-design-phase-paragraph {
-    font-size: 16px;
-    line-height: 1.7;
-    color: #555;
-    margin-bottom: 25px;
-}
-
-
-
-/*End mike-mathi uiux design phase section */
 /* End mike miths case study */
 
 
@@ -20775,12 +20729,12 @@ textarea::-ms-input-placeholder {
 }
 
 /* Logo center */
-.logo {
+/* .logo {
     display: block;
     margin: 0 auto;
     width: 100%;
     max-width: 400px;
-}
+} */
 
 /*End toy sort hero section */
 
