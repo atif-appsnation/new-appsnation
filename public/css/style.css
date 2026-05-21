@@ -19708,13 +19708,11 @@ textarea::-ms-input-placeholder {
 }
 
 .mike-mathis-project {
-    padding: 60px 0;
     background: url("../images/case-studies/mike-mathis-app/mike-mathis-project-description-background.webp") center/cover no-repeat;
-    background-size: 100% 70%;
+    /* background-size: 100% 70%; */
 }
 
 .mike-mathis-project img {
-    width: 100%;
     max-width: 350px;
     border-radius: 8px;
     padding-left: 0;
@@ -19780,7 +19778,7 @@ textarea::-ms-input-placeholder {
     max-width: 350px;
     border-radius: 8px;
     padding-left: 0;
-    margin: 20px auto 0;
+    margin: 0px auto;
     display: block;
 }
 
@@ -19793,19 +19791,6 @@ textarea::-ms-input-placeholder {
     color: var(--white-color);
 }
 
-.mike-mathis-user-research {
-    padding: 50px 0;
-}
-
-.mike-mathis-user-research h2 {
-    font-size: 2rem;
-    font-weight: 700;
-    margin-bottom: 20px;
-}
-
-.mike-mathis-user-research ul {
-    padding-left: 20px;
-}
 
 .mike-mathis-user-research ul li {
     background-color: #E9EBF0;
@@ -19826,7 +19811,7 @@ textarea::-ms-input-placeholder {
 
 .mike-mathis-user-research img {
     max-width: 350px;
-    margin: 20px auto 0;
+    margin: 0 auto;
     display: block;
 }
 

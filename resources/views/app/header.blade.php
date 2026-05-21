@@ -740,19 +740,19 @@
 
 								<div class="fieldsets row">
 									<div class="col-md-12">
-										<input type="text" placeholder="Full Name" name=" ssname">
+										<input type="text" placeholder="Full Name" class="form-control" name="full-name">
 									</div>
 									<div class="col-md-12">
-										<input type="email" placeholder="Email Address" name="email">
+										<input type="email" placeholder="Email Address" class="form-control" name="email">
 									</div>
 									<div class="col-md-12">
-										<input type="number" placeholder="Contact Number" name="mobile">
+										<input type="number" placeholder="Contact Number" class="form-control" name="mobile">
 									</div>
 									<div class="col-md-12">
-										<input type="text" placeholder="Subject" name="subject">
+										<input type="text" placeholder="Subject" class="form-control" name="subject">
 									</div>
 									<div class="col-md-12">
-										<textarea placeholder="Message" name="message"></textarea>
+										<textarea placeholder="Message" class="form-control" name="message"></textarea>
 									</div>
 								</div>
 								<div class="fieldsets mt20 pb20 d-flex justify-content-center">

@@ -12,13 +12,13 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-6 my-lg-auto">
-                <div class="bread-titlev2 mt-4">
+                <div class="bread-titlev2">
                     <img loading="lazy" src="{{asset('images/case-studies/mike-mathis-app/logo.webp')}}" class="logo" alt="Mike Mathis Logo">
                     <h1 class="my-3">Mentoring <br> with the Mentees Space to Grow </h1>
                     <p> Appsnation undertook the development of “Mentoring with the Mentees,” a mobile-first platform designed to simplify and humanize the mentorship experience. The app connects aspiring learners with experienced mentors, enabling structured learning, real-time conversations, and measurable growth — all within an intuitive, transparent, and engaging interface.</p>
                 </div>
             </div>
-            <div class="col-lg-6 mt-5 mt-lg-0 mike-mathis-hero-img">
+            <div class="col-lg-6 mt-5 mt-lg-auto mike-mathis-hero-img">
                 <img loading="lazy" src="{{asset('images/case-studies/mike-mathis-app/mike-mathis-hero-img.webp')}}" class="img-fluid" alt="Mike Mathis">
             </div>
         </div>
@@ -29,7 +29,7 @@
 <!--Start UI/UX Design Phase Section -->
 <section class="mike-mathis-design-phase py-5">
     <div class="container">
-        <div class="row align-items-center text-center text-md-start">
+        <div class="row align-items-center text-center text-lg-start">
             <div class="col-12 col-md-12 col-lg-6">
                 <div class="">
                     <h2 class="mb-3">UI/UX Design Phase</h2>
@@ -48,13 +48,13 @@
 <!--End UI/UX Design Phase Section -->
  
 <!-- Start Project Description Section -->
-<section class="mike-mathis-project">
+<section class="mike-mathis-project py-5">
     <div class="container">
         <div class="row align-items-center text-start">
             <div class="col-12 col-md-12 col-lg-6 mb-4 mb-md-0">
                 <img loading="lazy" src="{{asset('images/case-studies/mike-mathis-app/mike-mathis-project-description.webp')}}" class="img-fluid" alt="Project">
             </div>
-            <div class="col-12 col-md-12 col-lg-6">
+            <div class="col-12 col-md-12 col-lg-6 mt-3 mt-lg-0 text-center text-lg-start">
                 <h2>Project Description</h2>
                 <p>Royal Ride began with a single realization: though Qatar was a country with the top transportation services, the digital experience was yet to be matched. Visitors in Doha, who are business people or VIP visitors, want to have a smooth, high-end and dependable experience when making a luxury ride. The popularity of reservation transfer system Qatar App keeps growing year after year, and the requests are to be addressed by the novel Qatar ride booking app. </p>
             </div>
@@ -64,7 +64,7 @@
 <!-- End Project Description section -->
 
 <!--Start Project Goals section-->
-<section class="Objectives-section mike-mathis-Objectives mike-mathis-goals py-5">
+<section class="mike-mathis-goals py-5">
     <div class="container">
         <h3 class="mb-4"> Project Goals</h3>
         <div class="row">
@@ -111,14 +111,14 @@
 <!--End Project Goals section-->
 
 <!-- Start Project Challenges Statement Section -->
-<section class="Project-Challenges mike-mathis-challanges">
+<section class="mike-mathis-challanges">
     <div class="container">
-        <div class="row align-items-center text-center text-md-start">
+        <div class="row align-items-center text-center text-lg-start">
             <div class="col-12 col-md-12 col-lg-6 uiux-text-col">
                 <h2>Project Challenges</h2>
                 <p>Royal Ride began with a single realization: though Qatar was a country with the top transportation services, the digital experience was yet to be matched. Visitors in Doha, who are business people or VIP visitors, want to have a smooth, high-end and dependable experience when making a luxury ride. The popularity of reservation transfer system Qatar App keeps growing year after year, and the requests are to be addressed by the novel Qatar ride booking app.</p>
             </div>
-            <div class="col-12 col-md-12 col-lg-6 mb-4 mb-md-0">
+            <div class="col-12 col-md-12 col-lg-6 mt-3 mt-lg-0">
                 <img loading="lazy" src="{{asset('images/case-studies/mike-mathis-app/mike-mathis-project-challenges.webp')}}" class="img-fluid" alt="Project Challanges">
             </div>
         </div>
@@ -127,12 +127,12 @@
 <!-- End Project Challenges Statement section -->
 
 <!-- Start User Research Section -->
-<section class="user-research mike-mathis-user-research my-5">
+<section class="mike-mathis-user-research my-5">
     <div class="container">
         <div class="row align-items-center">
-            <div class="col-md-6 mb-4 mb-md-0">
-                <h2>User Research</h2>
-                <ul class="user-research-ul">
+            <div class="col-lg-6">
+                <h2 class="text-center text-lg-start">User Research</h2>
+                <ul class="user-research-ul mt-3">
                     <li>Conduct user interviews to learn about goals and frustrations</li>
                     <li>Run surveys to validate ideas and collect quantitative insights</li>
                     <li>Perform usability tests to see how users interact with designs</li>
@@ -140,7 +140,7 @@
                     <li>Analyze feedback to improve features, content, and flows</li>
                 </ul>
             </div>
-            <div class="col-md-6">
+            <div class="col-lg-6 mt-3 mt-lg-0">
                 <img loading="lazy" src="{{asset('images/case-studies/mike-mathis-app/mike-mathis-user-research.webp')}}" class="img-fluid" alt="User Research">
             </div>
         </div>
@@ -155,22 +155,22 @@
             <div class="col-12">
                 <div class="common-heading text-center">
                     <h2 class="mb-3">Wire Frame</h2>
-                    <p>We created low‑fidelity wireframes to map out the complete user flow of Mentoring with the Mentees, focusing on smooth navigation between mentor discovery, chat interaction, and progress tracking. These early sketches helped define a simple, goal‑oriented structure and ensured a clear, engaging experience for both mentors and mentees from the very start..</p>
+                    <p class="mb-3">We created low‑fidelity wireframes to map out the complete user flow of Mentoring with the Mentees, focusing on smooth navigation between mentor discovery, chat interaction, and progress tracking. These early sketches helped define a simple, goal‑oriented structure and ensured a clear, engaging experience for both mentors and mentees from the very start..</p>
                     <h4 class="mb-4">App Wireframes</h4>
                 </div>
             </div>
         </div>
         <div class="row g-3 mike-mathis-wireframe-gallery">
-            <div class="col-6 col-md-6 col-xl-3">
+            <div class="col-6 col-md-6 col-lg-3">
                 <img loading="lazy" src="{{asset('images/case-studies/mike-mathis-app/mike-mathis-wireframe-01.webp')}}" alt="Mike Mathis Wireframe" class="wire-img">
             </div>
-            <div class="col-6 col-md-6 col-xl-3">
+            <div class="col-6 col-md-6 col-lg-3">
                 <img loading="lazy" src="{{asset('images/case-studies/mike-mathis-app/mike-mathis-wireframe-02.webp')}}" alt="Mike Mathis Wireframe" class="wire-img">
             </div>
-            <div class="col-6 col-md-6 col-xl-3">
+            <div class="col-6 col-md-6 col-lg-3">
                 <img loading="lazy" src="{{asset('images/case-studies/mike-mathis-app/mike-mathis-wireframe-03.webp')}}" alt="Mike Mathis Wireframe" class="wire-img">
             </div>
-            <div class="col-6 col-md-6 col-xl-3">
+            <div class="col-6 col-md-6 col-lg-3">
                 <img loading="lazy" src="{{asset('images/case-studies/mike-mathis-app/mike-mathis-wireframe-04.webp')}}" alt="Mike Mathis Wireframe" class="wire-img">
             </div>
         </div>
@@ -179,58 +179,58 @@
 <!-- End Wireframes Section -->
  
 <!-- Start App Screens -->
-<section class="boujee-beachin-apps mike-mathis-apps py-5">
+<section class="mike-mathis-apps py-5">
     <div class="container">
         <div class="common-heading">
             <h2 class="mb-3 text-center">App Screens</h2>
         </div>
         <div class="row">
-            <div class="col-md-3 col-6 my-3">
+            <div class="col-6 col-md-3 my-3">
                 <img loading="lazy" src="{{asset('images/case-studies/mike-mathis-app/mike-mathis-app-screen-01.webp')}}" alt="App Screens" class="img-fluid">
             </div>
-            <div class="col-md-3 col-6 my-3">
+            <div class="col-6 col-md-3 my-3">
                 <img loading="lazy" src="{{asset('images/case-studies/mike-mathis-app/mike-mathis-app-screen-02.webp')}}" alt="App Screens" class="img-fluid">
             </div>
-            <div class="col-md-3 col-6 my-3">
+            <div class="col-6 col-md-3 my-3">
                 <img loading="lazy" src="{{asset('images/case-studies/mike-mathis-app/mike-mathis-app-screen-03.webp')}}" alt="App Screens" class="img-fluid">
             </div>
-            <div class="col-md-3 col-6 my-3">
+            <div class="col-6 col-md-3 my-3">
                 <img loading="lazy" src="{{asset('images/case-studies/mike-mathis-app/mike-mathis-app-screen-04.webp')}}" alt="App Screens" class="img-fluid">
             </div>
-            <div class="col-md-3 col-6 my-3">
+            <div class="col-6 col-md-3 my-3">
                 <img loading="lazy" src="{{asset('images/case-studies/mike-mathis-app/mike-mathis-app-screen-05.webp')}}" alt="App Screens" class="img-fluid">
             </div>
-            <div class="col-md-3 col-6 my-3">
+            <div class="col-6 col-md-3 my-3">
                 <img loading="lazy" src="{{asset('images/case-studies/mike-mathis-app/mike-mathis-app-screen-06.webp')}}" alt="App Screens" class="img-fluid">
             </div>
-            <div class="col-md-3 col-6 my-3">
+            <div class="col-6 col-md-3 my-3">
                 <img loading="lazy" src="{{asset('images/case-studies/mike-mathis-app/mike-mathis-app-screen-07.webp')}}" alt="App Screens" class="img-fluid">
             </div>
-            <div class="col-md-3 col-6 my-3">
+            <div class="col-6 col-md-3 my-3">
                 <img loading="lazy" src="{{asset('images/case-studies/mike-mathis-app/mike-mathis-app-screen-08.webp')}}" alt="App Screens" class="img-fluid">
             </div>
-            <div class="col-md-3 col-6 my-3">
+            <div class="col-6 col-md-3 my-3">
                 <img loading="lazy" src="{{asset('images/case-studies/mike-mathis-app/mike-mathis-app-screen-09.webp')}}" alt="App Screens" class="img-fluid">
             </div>
-            <div class="col-md-3 col-6 my-3">
+            <div class="col-6 col-md-3 my-3">
                 <img loading="lazy" src="{{asset('images/case-studies/mike-mathis-app/mike-mathis-app-screen-10.webp')}}" alt="App Screens" class="img-fluid">
             </div>
-            <div class="col-md-3 col-6 my-3">
+            <div class="col-6 col-md-3 my-3">
                 <img loading="lazy" src="{{asset('images/case-studies/mike-mathis-app/mike-mathis-app-screen-11.webp')}}" alt="App Screens" class="img-fluid">
             </div>
-            <div class="col-md-3 col-6 my-3">
+            <div class="col-6 col-md-3 my-3">
                 <img loading="lazy" src="{{asset('images/case-studies/mike-mathis-app/mike-mathis-app-screen-12.webp')}}" alt="App Screens" class="img-fluid">
             </div>
-            <div class="col-md-3 col-6 my-3">
+            <div class="col-6 col-md-3 my-3">
                 <img loading="lazy" src="{{asset('images/case-studies/mike-mathis-app/mike-mathis-app-screen-13.webp')}}" alt="App Screens" class="img-fluid">
             </div>
-            <div class="col-md-3 col-6 my-3">
+            <div class="col-6 col-md-3 my-3">
                 <img loading="lazy" src="{{asset('images/case-studies/mike-mathis-app/mike-mathis-app-screen-14.webp')}}" alt="App Screens" class="img-fluid">
             </div>
-            <div class="col-md-3 col-6 my-3">
+            <div class="col-6 col-md-3 my-3">
                 <img loading="lazy" src="{{asset('images/case-studies/mike-mathis-app/mike-mathis-app-screen-15.webp')}}" alt="App Screens" class="img-fluid">
             </div>
-            <div class="col-md-3 col-6 my-3">
+            <div class="col-6 col-md-3 my-3">
                 <img loading="lazy" src="{{asset('images/case-studies/mike-mathis-app/mike-mathis-app-screen-16.webp')}}" alt="App Screens" class="img-fluid">
             </div>
         </div>
@@ -239,7 +239,7 @@
 <!-- End App Screens -->
 
 <!-- Start Mockup Section -->
-<section class="py-5 boujee-beachin-mockup mike-mathis-mockup">
+<section class="py-5 mike-mathis-mockup">
     <div class="container">
         <div class="row">
             <div class="col-12 text-center">
