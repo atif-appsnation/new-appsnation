@@ -5797,10 +5797,10 @@
 		margin-top: 80px;
 	}
 
-	.feature-box:hover {
+	/* .feature-box:hover {
 		transform: scaley(1.2);
 		transition: transform 0.3s ease;
-	}
+	} */
 
 	.left-item .feature-box::after {
 		content: '';

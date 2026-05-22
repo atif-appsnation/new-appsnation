@@ -9,39 +9,33 @@
     </div>
     @endif
 
-    <div class="container wow fadeIn" data-wow-delay="0.2s">
+    <div class="container">
         <div class="row">
-            <div class="col-lg-6 my-lg-auto all-traders-hero-content ">
-                 <img loading="lazy" src="{{asset('images/case-studies/all-traders-app/logo.webp')}}" class="logo" alt="Boujee Beachin App Logo">
+            <div class="col-lg-6 my-lg-auto">
+                <img loading="lazy" src="{{asset('images/case-studies/all-traders-app/logo.webp')}}" class="logo" alt="All Traders App Logo">
                 <div class="bread-titlev2 mt-4">
-                    <h1>All Traders <br>
-                        Smarter Investing. <br>
-                        Simplified.</h1>
-                    <p class="pt-3">A smart trading solution built for users at every stage of their investment journey.</p>
+                    <h1>All Traders <br> Smarter Investing. <br> Simplified.</h1>
+                    <p class="mt-3">A smart trading solution built for users at every stage of their investment journey.</p>
                     <p class="tagcase mt-3">Explore the Experience</p>
                 </div>
             </div>
             <div class="col-lg-6 mt-5 mt-lg-0 hero-img">
-
-
-                 <img loading="lazy" src="{{asset('images/case-studies/all-traders-app/hero-img.webp')}}" class="img-fluid" alt="Boujee Beachin App" width="100%" height="100%">
-
+                <img loading="lazy" src="{{asset('images/case-studies/all-traders-app/hero-img.webp')}}" class="img-fluid" alt="All Traders App" width="100%" height="100%">
             </div>
         </div>
     </div>
 </section>
 <!-- End Breadcrumb Area-->
 
-<!-- Start all traders clients overview Section -->
-<section class="all-traders-clients-overview  royal-relax-spaceing  wow fadeIn" data-wow-delay="0.4s">
+<!-- Start All Traders Clients Overview Section -->
+<section class="all-traders-clients-overview py-5" >
     <div class="container">
         <div class="row">
-
             <div class="col-lg-6 my-lg-auto">
-                <div class="common-heading">
+                <div class="box">
                     <h2>Client Overview</h2>
                     <p>All Traders, created as a mobile-first experience for modern investors, streamlines stock tracking, trading, and portfolio management for users at various experience levels. Whether you’re new to the market or an active day trader, the platform offers a simplified, focused environment to help users make smarter investment decisions.</p>
-                    <div class="points-client-review">
+                    <div class="points-client-review mt-3">
                         <h5>Industry</h5>
                         <p>Fintech | Investment & Trading</p>
                     </div>
@@ -56,37 +50,27 @@
                 </div>
             </div>
             <div class="col-lg-6 client-overview-img">
-                 <img loading="lazy" src="{{asset('images/case-studies/all-traders-app/client-overview-img.webp')}}" alt="Boujee Beachin Problem Statement">
+                <img loading="lazy" src="{{asset('images/case-studies/all-traders-app/client-overview-img.webp')}}" alt="All Traders Problem Statement">
             </div>
         </div>
     </div>
 </section>
-<!-- End all traders clients overview Section -->
+<!-- End All Traders Clients Overview Section -->
 
-<!-- start all traders  problm section  -->
-<section class="all-traders-problem-section  royal-relax-spaceing">
+<!-- Start All Trader Problem Section -->
+<section class="all-traders-problem-section py-5">
     <div class="container">
         <div class="row align-items-center g-4">
-
-            <!-- Image Column -->
             <div class="col-lg-6">
-                <div class="all-traders-problem-img text-center">
-                     <img loading="lazy"
-                        src="{{ asset('images/case-studies/all-traders-app/the-problem-img1.webp') }}"
-                        alt="All Traders Problem Statement"
-                        class="img-fluid">
-                </div>
+                <img loading="lazy" src="{{ asset('images/case-studies/all-traders-app/the-problem-img1.webp') }}" alt="All Traders Problem Statement" class="img-fluid">
             </div>
 
-            <!-- Content Column -->
             <div class="col-lg-6">
                 <div class="row">
                     <div class="col-12">
                         <div class="all-traders-problem-box-wrapper">
-
                             <div class="all-traders-problem-box">
                                 <h2 class="mb-3">The Problem</h2>
-
                                 <ul class="all-traders-box list-unstyled mb-0">
                                     <li>
                                         <p>1 -</p> Too many steps to complete a trade
@@ -104,7 +88,6 @@
                             </div>
                             <div class="all-traders-problem-box">
                                 <h2 class="mb-3">The Solution</h2>
-
                                 <ul class="all-traders-box list-unstyled mb-0">
                                     <li>
                                         <p>1 -</p> 1-click Quick Trade Interface
@@ -122,23 +105,20 @@
                             </div>
                         </div>
                     </div>
-
                 </div>
             </div>
-
         </div>
     </div>
 </section>
-
-<!-- End all traders  problm section  -->
+<!-- All Trader Problem Section -->
 
 <!-- Start Our Design Objectives Section -->
-<section class="all-traders-app-design-objectives  royal-relax-spaceing wow fadeIn">
+<section class="all-traders-app-design-objectives py-5">
     <div class="container">
         <div class="row">
             <div class="col-12">
                 <div class="common-heading">
-                    <h2 class="mb-3">Our Design Objectives</h2>
+                    <h2 class="mb-4 text-center">Our Design Objectives</h2>
                 </div>
             </div>
         </div>
@@ -160,7 +140,6 @@
                     </div>
                 </div>
             </div>
-
             <div class="col-lg-6 right-column-wrapper">
                 <div class="feature-box-group">
                     <div class="feature-box mb-5 right-item">
@@ -182,24 +161,22 @@
 </section>
 <!-- End Our Design Objectives Section -->
 
-<!-- by hassan USER PERSONA -->
-<section class="royal-relax-spa-persona royal-relax-spaceing wow fadeIn">
+<!-- Start All Traders App Persona Section -->
+<section class="royal-relax-spa-persona py-5 all-traders-persona">
     <div class="container">
-        <div class="persona-card-main wow fadeInUp">
-            <div class="row persona-top-heading">
-                <div class="col-md-6 text-center">
-                    <h3 class="my-4">USER PERSONA</h3>
+        <div class="mb-4">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <h3>USER PERSONA</h3>
                 </div>
-
             </div>
-
         </div>
-        <div class="container persona-section-wrapper my-4 wow fadeInUp">
+        <div class="container persona-section-wrapper">
             <div class="row g-4">
                 <div class="col-md-4">
                     <div class="persona-card persona-left-column-card">
                         <div class="persona-name-section">
-                             <img loading="lazy" src="{{asset('images/case-studies/all-traders-app/avatar1.webp')}}" alt="Avatar" class="img-fluid">
+                            <img loading="lazy" src="{{asset('images/case-studies/all-traders-app/avatar1.webp')}}" alt="Avatar" class="img-fluid">
                             <h4>Lauren Mitchell</h4>
                             <p>Full-Time Trader</p>
                         </div>
@@ -212,7 +189,7 @@
                                 <b>Marital status</b>: Married
                             </p>
                             <p>
-                                <b>Location</b>Chicago, Illinois
+                                <b>Location</b>: Chicago, Illinois
                             </p>
                             <p>
                                 <b>Occupation</b>: Financial Analyst
@@ -222,7 +199,7 @@
                 </div>
                 <div class="col-md-8">
                     <div class="persona-card persona-goals-section mb-4">
-                        <h3>Goals and Needs</h3>
+                        <h5>Goals and Needs</h5>
                         <ul>
                             <li>A customizable dashboard with alerts and multi-asset support.</li>
                             <li>Performance analytics and portfolio tracking.</li>
@@ -230,7 +207,7 @@
                         </ul>
                     </div>
                     <div class="persona-card persona-painpoints-section">
-                        <h3>Pain Points / Challenges</h3>
+                        <h5>Pain Points / Challenges</h5>
                         <ul>
                             <li>Most trading apps are too slow during peak hours.</li>
                             <li>Needs app that cuts down extra steps when buying/selling.</li>
@@ -240,7 +217,7 @@
                 </div>
             </div>
         </div>
-        <div class="container persona-section-wrapper my-4 wow fadeInUp">
+        <div class="container persona-section-wrapper my-4Up">
             <div class="row g-4">
                 <div class="col-md-4">
                     <div class="persona-card persona-left-column-card">
@@ -288,15 +265,10 @@
         </div>
     </div>
 </section>
-<!-- end hassan USER PERSONA -->
-
-
-
-
-
+<!-- End All Traders App Persona Section -->
 
 <!-- Start Wireframes Section -->
-<section class="all-tarders-wireframe royal-relax-spaceing">
+<section class="all-tarders-wireframe py-5">
     <div class="container">
         <div class="row">
             <div class="col-12">
@@ -304,48 +276,43 @@
                     <h2 class="mb-3">Wire Frame</h2>
                     <p class="mb-4">These low-fidelity wireframes establish the foundational layout and user flow of the app. They provide a clear vision of how users will interact with the core features, helping the team identify structural improvements early on. This step ensures functionality and usability are prioritized before moving into high-fidelity design stages.</p>
                     <h5 class="mb-4">App Wireframes</h5>
-
                 </div>
             </div>
         </div>
-
         <div class="row g-3">
             <div class="col-6 col-md-3 col-xl-2">
-                 <img loading="lazy" src="{{asset('images/case-studies/all-traders-app/wirefram1.webp')}}" alt="Boujee Beachin Wireframe 1" class="img-fluid rounded">
+                <img loading="lazy" src="{{asset('images/case-studies/all-traders-app/wirefram1.webp')}}" alt="All Traders Wireframe 1" class="img-fluid rounded">
             </div>
             <div class="col-6 col-md-3 col-xl-2">
-                 <img loading="lazy" src="{{asset('images/case-studies/all-traders-app/wirefram2.webp')}}" alt="Boujee Beachin Wireframe 2" class="img-fluid rounded">
+                <img loading="lazy" src="{{asset('images/case-studies/all-traders-app/wirefram2.webp')}}" alt="All Traders Wireframe 2" class="img-fluid rounded">
             </div>
             <div class="col-6 col-md-3 col-xl-2">
-                 <img loading="lazy" src="{{asset('images/case-studies/all-traders-app/wirefram3.webp')}}" alt="Boujee Beachin Wireframe 3" class="img-fluid rounded">
+                <img loading="lazy" src="{{asset('images/case-studies/all-traders-app/wirefram3.webp')}}" alt="All Traders Wireframe 3" class="img-fluid rounded">
             </div>
             <div class="col-6 col-md-3 col-xl-2">
-                 <img loading="lazy" src="{{asset('images/case-studies/all-traders-app/wirefram4.webp')}}" alt="Boujee Beachin Wireframe 4" class="img-fluid rounded">
+                <img loading="lazy" src="{{asset('images/case-studies/all-traders-app/wirefram4.webp')}}" alt="All Traders Wireframe 4" class="img-fluid rounded">
             </div>
             <div class="col-6 col-md-3 col-xl-2">
-                 <img loading="lazy" src="{{asset('images/case-studies/all-traders-app/wirefram5.webp')}}" alt="Boujee Beachin Wireframe 5" class="img-fluid rounded">
+                <img loading="lazy" src="{{asset('images/case-studies/all-traders-app/wirefram5.webp')}}" alt="All Traders Wireframe 5" class="img-fluid rounded">
             </div>
             <div class="col-6 col-md-3 col-xl-2">
-                 <img loading="lazy" src="{{asset('images/case-studies/all-traders-app/wirefram6.webp')}}" alt="Boujee Beachin Wireframe 6" class="img-fluid rounded">
+                <img loading="lazy" src="{{asset('images/case-studies/all-traders-app/wirefram6.webp')}}" alt="All Traders Wireframe 6" class="img-fluid rounded">
             </div>
         </div>
     </div>
 </section>
 <!-- End Wireframes Section -->
 
-<!--start challenges turned section -->
-
-<section class="challenges-turned-section  royal-relax-spaceing">
+<!-- Start All Traders App Challanges Section -->
+<section class="challenges-turned-section py-5 all-traders-challanges">
     <div class="container">
          <div class="common-heading">
-                    <h2 class="my-5 text-center">Challenges Turned Into Winning Solutions</h2>
-      
-
-                </div>
+            <h2 class="my-5 text-center">Challenges Turned Into Winning Solutions</h2>
+        </div>
         <div class="row">
             <div class="col-lg-4 p-4">
                 <div class="challenges-turned-box">
-                     <img loading="lazy" src="{{asset('images/case-studies/all-traders-app/challenge-img1.webp')}}" alt="Boujee Beachin Wireframe 1" class="img-fluid rounded">
+                     <img loading="lazy" src="{{asset('images/case-studies/all-traders-app/challenge-img1.webp')}}" alt="All Traders Wireframe 1" class="img-fluid rounded">
                     <div class="challenges-turned-contant">
                         <div class="challenges-turned-tital">
                             <span>01</span>
@@ -357,7 +324,7 @@
             </div>
             <div class="col-lg-4 p-4">
                 <div class="challenges-turned-box">
-                     <img loading="lazy" src="{{asset('images/case-studies/all-traders-app/challenge-img2.webp')}}" alt="Boujee Beachin Wireframe 1" class="img-fluid rounded">
+                     <img loading="lazy" src="{{asset('images/case-studies/all-traders-app/challenge-img2.webp')}}" alt="All Traders Wireframe 1" class="img-fluid rounded">
                     <div class="challenges-turned-contant">
                         <div class="challenges-turned-tital">
                             <span>02</span>
@@ -369,7 +336,7 @@
             </div>
             <div class="col-lg-4 p-4 ">
                 <div class="challenges-turned-box">
-                     <img loading="lazy" src="{{asset('images/case-studies/all-traders-app/challenge-img3.webp')}}" alt="Boujee Beachin Wireframe 1" class="img-fluid rounded">
+                     <img loading="lazy" src="{{asset('images/case-studies/all-traders-app/challenge-img3.webp')}}" alt="All Traders Wireframe 1" class="img-fluid rounded">
                     <div class="challenges-turned-contant">
                         <div class="challenges-turned-tital"> 
                             <span>03</span><h4>Guiding First-Time Investors</h4>
@@ -380,91 +347,108 @@
             </div>
         </div>
     </div>
-
 </section>
-<!--End challenges turned section -->
+<!-- End All Traders App Challanges Section -->
 
-
-
-
-
-
-<!-- Start App Screens -->
-<section class="boujee-beachin-apps  royal-relax-spaceing wow fadeIn">
+<!-- Start All Traders App Screens -->
+<section class="boujee-beachin-apps py-5 all-traders-app-screens">
     <div class="container">
         <div class="common-heading">
             <h2 class="mb-3 text-center">App Screens</h2>
         </div>
         <div class="row">
-            <div class="col-md-3 col-6 my-3"> <img loading="lazy" src="{{asset('images/case-studies/all-traders-app/Appscreen1.webp')}}" alt="App Screens" class="img-fluid"></div>
-            <div class="col-md-3 col-6 my-3"> <img loading="lazy" src="{{asset('images/case-studies/all-traders-app/Appscreen2.webp')}}" alt="App Screens" class="img-fluid"></div>
-            <div class="col-md-3 col-6 my-3"> <img loading="lazy" src="{{asset('images/case-studies/all-traders-app/Appscreen3.webp')}}" alt="App Screens" class="img-fluid"></div>
-            <div class="col-md-3 col-6 my-3"> <img loading="lazy" src="{{asset('images/case-studies/all-traders-app/Appscreen4.webp')}}" alt="App Screens" class="img-fluid"></div>
-            <div class="col-md-3 col-6 my-3"> <img loading="lazy" src="{{asset('images/case-studies/all-traders-app/Appscreen5.webp')}}" alt="App Screens" class="img-fluid"></div>
-            <div class="col-md-3 col-6 my-3"> <img loading="lazy" src="{{asset('images/case-studies/all-traders-app/Appscreen6.webp')}}" alt="App Screens" class="img-fluid"></div>
-            <div class="col-md-3 col-6 my-3"> <img loading="lazy" src="{{asset('images/case-studies/all-traders-app/Appscreen7.webp')}}" alt="App Screens" class="img-fluid"></div>
-            <div class="col-md-3 col-6 my-3"> <img loading="lazy" src="{{asset('images/case-studies/all-traders-app/Appscreen8.webp')}}" alt="App Screens" class="img-fluid"></div>
-            <div class="col-md-3 col-6 my-3"> <img loading="lazy" src="{{asset('images/case-studies/all-traders-app/Appscreen9.webp')}}" alt="App Screens" class="img-fluid"></div>
-            <div class="col-md-3 col-6 my-3"> <img loading="lazy" src="{{asset('images/case-studies/all-traders-app/Appscreen10.webp')}}" alt="App Screens" class="img-fluid"></div>
-            <div class="col-md-3 col-6 my-3"> <img loading="lazy" src="{{asset('images/case-studies/all-traders-app/Appscreen11.webp')}}" alt="App Screens" class="img-fluid"></div>
-            <div class="col-md-3 col-6 my-3"> <img loading="lazy" src="{{asset('images/case-studies/all-traders-app/Appscreen12.webp')}}" alt="App Screens" class="img-fluid"></div>
-            <div class="col-md-3 col-6 my-3"> <img loading="lazy" src="{{asset('images/case-studies/all-traders-app/Appscreen13.webp')}}" alt="App Screens" class="img-fluid"></div>
-            <div class="col-md-3 col-6 my-3"> <img loading="lazy" src="{{asset('images/case-studies/all-traders-app/Appscreen14.webp')}}" alt="App Screens" class="img-fluid"></div>
-            <div class="col-md-3 col-6 my-3"> <img loading="lazy" src="{{asset('images/case-studies/all-traders-app/Appscreen15.webp')}}" alt="App Screens" class="img-fluid"></div>
-            <div class="col-md-3 col-6 my-3"> <img loading="lazy" src="{{asset('images/case-studies/all-traders-app/Appscreen16.webp')}}" alt="App Screens" class="img-fluid"></div>
-
+            <div class="col-md-3 col-6 my-3">
+                <img loading="lazy" src="{{asset('images/case-studies/all-traders-app/Appscreen1.webp')}}" alt="App Screens" class="img-fluid">
+            </div>
+            <div class="col-md-3 col-6 my-3">
+                <img loading="lazy" src="{{asset('images/case-studies/all-traders-app/Appscreen2.webp')}}" alt="App Screens" class="img-fluid">
+            </div>
+            <div class="col-md-3 col-6 my-3">
+                <img loading="lazy" src="{{asset('images/case-studies/all-traders-app/Appscreen3.webp')}}" alt="App Screens" class="img-fluid">
+            </div>
+            <div class="col-md-3 col-6 my-3">
+                <img loading="lazy" src="{{asset('images/case-studies/all-traders-app/Appscreen4.webp')}}" alt="App Screens" class="img-fluid">
+            </div>
+            <div class="col-md-3 col-6 my-3">
+                <img loading="lazy" src="{{asset('images/case-studies/all-traders-app/Appscreen5.webp')}}" alt="App Screens" class="img-fluid">
+            </div>
+            <div class="col-md-3 col-6 my-3">
+                <img loading="lazy" src="{{asset('images/case-studies/all-traders-app/Appscreen6.webp')}}" alt="App Screens" class="img-fluid">
+            </div>
+            <div class="col-md-3 col-6 my-3">
+                <img loading="lazy" src="{{asset('images/case-studies/all-traders-app/Appscreen7.webp')}}" alt="App Screens" class="img-fluid">
+            </div>
+            <div class="col-md-3 col-6 my-3">
+                <img loading="lazy" src="{{asset('images/case-studies/all-traders-app/Appscreen8.webp')}}" alt="App Screens" class="img-fluid">
+            </div>
+            <div class="col-md-3 col-6 my-3">
+                <img loading="lazy" src="{{asset('images/case-studies/all-traders-app/Appscreen9.webp')}}" alt="App Screens" class="img-fluid">
+            </div>
+            <div class="col-md-3 col-6 my-3">
+                <img loading="lazy" src="{{asset('images/case-studies/all-traders-app/Appscreen10.webp')}}" alt="App Screens" class="img-fluid">
+            </div>
+            <div class="col-md-3 col-6 my-3">
+                <img loading="lazy" src="{{asset('images/case-studies/all-traders-app/Appscreen11.webp')}}" alt="App Screens" class="img-fluid">
+            </div>
+            <div class="col-md-3 col-6 my-3">
+                <img loading="lazy" src="{{asset('images/case-studies/all-traders-app/Appscreen12.webp')}}" alt="App Screens" class="img-fluid">
+            </div>
+            <div class="col-md-3 col-6 my-3">
+                <img loading="lazy" src="{{asset('images/case-studies/all-traders-app/Appscreen13.webp')}}" alt="App Screens" class="img-fluid">
+            </div>
+            <div class="col-md-3 col-6 my-3">
+                <img loading="lazy" src="{{asset('images/case-studies/all-traders-app/Appscreen14.webp')}}" alt="App Screens" class="img-fluid">
+            </div>
+            <div class="col-md-3 col-6 my-3">
+                <img loading="lazy" src="{{asset('images/case-studies/all-traders-app/Appscreen15.webp')}}" alt="App Screens" class="img-fluid">
+            </div>
+            <div class="col-md-3 col-6 my-3">
+                <img loading="lazy" src="{{asset('images/case-studies/all-traders-app/Appscreen16.webp')}}" alt="App Screens" class="img-fluid">
+            </div>
         </div>
     </div>
 </section>
-<!-- End App Screens -->
-
+<!-- All Traders App Screens -->
 
 <!-- Start Client Testimonial Section -->
-<section class="load-board-testing  royal-relax-spaceing wow fadeIn boujee-beachin-testimonial">
+<section class="load-board-testing  py-5 boujee-beachin-testimonial all-traders-testimonial">
     <div class="container">
         <div class="common-heading">
             <h2 class="py-5 text-center">Testing & User Feedback</h2>
         </div>
-
         <div class="text-center mb-3">
-             <img loading="lazy" src="{{asset('images/case-studies/boujee-beachin/star.webp')}}" alt="Rating" class="star">
+            <img loading="lazy" src="{{asset('images/case-studies/boujee-beachin/star.webp')}}" alt="Rating" class="star">
         </div>
-
         <div class="row justify-content-center g-3">
             <div class="col-md-6 col-12">
                 <div class="testimonial-card text-center p-4">
                     <div class="testimonials-img-section mb-3">
-                         <img loading="lazy" src="{{asset('images/case-studies/all-traders-app/avatar2.webp')}}" alt="Liked" class="rounded-circle img-fluid">
+                        <img loading="lazy" src="{{asset('images/case-studies/all-traders-app/avatar2.webp')}}" alt="Liked" class="rounded-circle img-fluid">
                     </div>
-                    <p class="testimonial-text text-center">
-                        It was my first time investing, and this app made me feel in control. </p>
+                    <p class="testimonial-text text-center">It was my first time investing, and this app made me feel in control. </p>
                     <b class="d-block mt-3">Emily C., Student Investor</b>
                 </div>
             </div>
             <div class="col-md-6 col-12">
                 <div class="testimonial-card text-center p-4">
                     <div class="testimonials-img-section mb-3">
-                         <img loading="lazy" src="{{asset('images/case-studies/all-traders-app/avatar1.webp')}}" alt="Liked" class="rounded-circle img-fluid">
+                        <img loading="lazy" src="{{asset('images/case-studies/all-traders-app/avatar1.webp')}}" alt="Liked" class="rounded-circle img-fluid">
                     </div>
-                    <p class="testimonial-text text-center">
-                        Smooth design. I can place a trade in under 10 seconds. </p>
+                    <p class="testimonial-text text-center"> Smooth design. I can place a trade in under 10 seconds. </p>
                     <b class="d-block mt-3">Michael R., Active Day Trader </b>
                 </div>
             </div>
         </div>
-
     </div>
 </section>
 <!-- End Client Testimonial Section-->
 
-
-
 <!-- Start Mockup Section -->
-<section class=" royal-relax-spaceing wow fadeIn boujee-beachin-mockup">
+<section class=" py-5 boujee-beachin-mockup all-traders-app-mockup">
     <div class="container">
         <div class="row">
             <div class="col-12 text-center">
-                 <img loading="lazy" src="{{asset('images/case-studies/all-traders-app/morkup.webp')}}" alt="" srcset="" class="img-fluid">
+                <img loading="lazy" src="{{asset('images/case-studies/all-traders-app/morkup.webp')}}" alt="All Traders App Mockup" class="img-fluid">
             </div>
         </div>
     </div>

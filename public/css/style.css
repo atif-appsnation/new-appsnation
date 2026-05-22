@@ -24,6 +24,8 @@
     --wheat: #f5deb3;
     --golden-color-2: #C39449;
     --green-color-2: #58D39C;
+    --blue-color-2: #0277C6;
+     --bright-cyan: #3fc3d6;
     --dur: .15s;
     --delay: .15s;
     --radius: 10px;
@@ -15114,31 +15116,6 @@ footer h4 {
     color: #333;
 }
 
-
-.boujee-beachin-challenges .challenges ul {
-    list-style: none;
-    padding: 0;
-    margin-top: 20px;
-}
-
-.boujee-beachin-challenges .challenges ul li {
-    display: flex;
-    align-items: flex-start;
-    gap: 12px;
-    margin-bottom: 18px;
-}
-
-.boujee-beachin-challenges .challenges ul li img {
-    width: 24px;
-    height: 24px;
-}
-
-.boujee-beachin-challenges .challenges-img {
-    width: 100%;
-    max-width: 680px;
-    border-radius: 10px;
-}
-
 .boujee-beachin-personal .personal-info {
     display: flex;
     justify-content: center;
@@ -19218,7 +19195,7 @@ textarea::-ms-input-placeholder {
 
 /* Start Portfolio */
 
-.portfolio .card-inner {
+.portfolios .card-inner {
     position: relative;
     margin: 0 auto;
     width: 100%;
@@ -19230,14 +19207,12 @@ textarea::-ms-input-placeholder {
     transition: transform 0.9s;
 }
 
-/* Flip on hover */
-.portfolio .isotope_item.up-hor:hover .card-inner {
+.portfolios .isotope_item.up-hor:hover .card-inner {
     transform: rotateY(180deg);
 }
 
-/* Front and back images stay as is */
-.portfolio .item-image-front,
-.portfolio .item-image-back {
+.portfolios .item-image-front,
+.portfolios .item-image-back {
     position: absolute;
     width: 100%;
     height: 100%;
@@ -19249,8 +19224,8 @@ textarea::-ms-input-placeholder {
     overflow: hidden;
 }
 
-.portfolio .item-image-front img,
-.portfolio .item-image-back img {
+.portfolios .item-image-front img,
+.portfolios .item-image-back img {
     width: 100%;
     height: 100%;
     object-fit: contain;
@@ -19259,17 +19234,17 @@ textarea::-ms-input-placeholder {
     padding-left: 40px;
 }
 
-.portfolio .item-image-back {
+.portfolios .item-image-back {
     transform: rotateY(180deg);
     /* back is initially flipped */
 }
 
-.portfolio .left {
+.portfolios .left {
     border-left: 1px solid #000;
     padding-left: 20px;
 }
 
-.portfolio .item-info-div {
+.portfolios .item-info-div {
     padding: 25px;
     position: relative;
     top: 15px;
@@ -19279,13 +19254,13 @@ textarea::-ms-input-placeholder {
     font-family: Poppins, sans-serif;
 }
 
-.portfolio .item-info-div a,
-.portfolio .item-info-div h5 {
+.portfolios .item-info-div a,
+.portfolios .item-info-div h5 {
     margin: 0;
     color: #314252;
 }
 
-.portfolio .item-info-div h5 {
+.portfolios .item-info-div h5 {
     background-color: #0e0c0cb0;
     border: 2px solid white;
     width: fit-content;
@@ -19297,7 +19272,7 @@ textarea::-ms-input-placeholder {
     margin: 10px 0;
 }
 
-.portfolio .item-info-div .casestudyButton {
+.portfolios .item-info-div .casestudyButton {
     /* background-color: #007bff; */
     color: crimson;
     border: 1px solid var(--first-color);
@@ -19307,17 +19282,41 @@ textarea::-ms-input-placeholder {
     border-radius: 20px;
 }
 
-.portfolio .item-info-div .casestudyButton:hover {
+.portfolios .item-info-div .casestudyButton:hover {
     background-color: var(--first-color);
 }
 
-.portfolio .item-info-div .casestudyButton:hover a {
+.portfolios .item-info-div .casestudyButton:hover a {
     color: var(--white-color);
 }
 
-.portfolio .item-info-div p {
+.portfolios .item-info-div p {
     color: #314252;
     font-weight: normal;
+}
+
+.challenges ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 20px;
+}
+
+.challenges ul li {
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+    margin-bottom: 18px;
+}
+
+.challenges ul li img {
+    width: 24px;
+    height: 24px;
+}
+
+.challenges-img {
+    width: 100%;
+    max-width: 680px;
+    border-radius: 10px;
 }
 
 /* End Portfolio */
@@ -19791,7 +19790,6 @@ textarea::-ms-input-placeholder {
     color: var(--white-color);
 }
 
-
 .mike-mathis-user-research ul li {
     background-color: #E9EBF0;
     font-size: 1rem;
@@ -19840,54 +19838,233 @@ textarea::-ms-input-placeholder {
     max-width: 350px;
 }
 
-.Project-info {
-    background-color: whitesmoke;
-    border-radius: 30px;
-    padding: 60px 0;
-    background-size: 100% 65%;
-    text-align: start;
+/* Start All Traders App */
+
+.all-traders-app {
+    background: linear-gradient(to bottom, #047DCB 0%, #92D7F4 15%, rgba(255, 255, 255, 0) 30%), url("../images/case-studies/all-traders-app/all-traders-app-hero-background.webp")top center/cover no-repeat;
 }
 
-.Project-info-img img {
+.all-traders-app .logo {
+    max-width: 200px;
+    margin: 0;
+}
+
+.all-traders-app h1 {
+    color: var(--blue-color-2);
+}
+
+.all-traders-app p {
+    border-left: 4px solid var(--blue-color-2);
+    padding: 15px 15px;
+}
+
+.all-traders-app .tagcase {
+    border: none;
+    background: #ED000A;
+    color: var(--white-color);
+    width: fit-content;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.all-traders-app .hero-img img {
     width: 100%;
-    max-width: 400px;
-    border-radius: 8px;
-    padding-left: 0;
-    margin: 20px auto 0;
+    max-width: 530px;
     display: block;
+    margin: 0 auto;
 }
 
-.Project-info-contant h2 {
-    font-size: 54px;
-    font-weight: bold;
-    margin-bottom: 25px;
-    color: var(--black-color);
-    word-spacing: 8px;
+.all-traders-clients-overview .box {
+    background: url("../images/case-studies/all-traders-app/hero-background.webp")top center/cover no-repeat;
+    padding: 40px;
+    /* margin-top: 124px;
+    height: 64vh; */
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: 1px solid #FCD5D7;
 }
 
-.Project-info-contant p {
+.all-traders-clients-overview .client-overview-img img {
+    /* width: 100%; */
+    max-width: 635px;
+    display: block;
+    margin: 0 auto;
+}
+
+.all-traders-clients-overview .box .points-client-review {
+    padding-left: 10px;
+    border-left: 3px solid #ED000A;
+}
+
+.all-traders-clients-overview .box .points-client-review p {
+    color: #333333;
+}
+
+.all-traders-clients-overview img {
+    /* width: 100%; */
+    max-width: 635px;
+    display: block;
+    margin: 0 auto;
+}
+
+.all-traders-problem-section img {
+    /* width: 100%; */
+    max-width: 400px;
+    display: block;
+    margin: 0 auto;
+}
+
+.all-traders-problem-section .all-traders-problem-box-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    /* margin-top: 15%; */
+}
+
+.all-traders-problem-box-wrapper .all-traders-box {
+    border: 2px dotted #ED000A;
+    border-radius: 10px;
+    padding: 40px 40px 40px 40px
+}
+
+.all-traders-problem-box-wrapper .all-traders-problem-box h2 {
+    text-align: center;
+    font-size: 22px;
+}
+
+.all-traders-problem-box-wrapper .all-traders-box li {
+    text-align: start;
+    font-weight: 300;
     font-size: 16px;
-    line-height: 1.6;
-    font-weight: bold;
-    color: var(--black-color);
-    margin-bottom: 10px;
+    margin: 20px 0;
+    display: flex;
+    align-content: center;
+    align-items: center;
+
 }
 
+.all-traders-problem-box-wrapper .all-traders-box li p {
+    background-color: var(--blue-color-2);
+    /* padding: 5px; */
+    margin-right: 6px;
+    color: var(--white-color);
+    font-size: 12px;
+    border-radius: 50%;
+    display: flex;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
 
+.all-traders-app-design-objectives {
+    position: relative;
+}
 
-/*End Project-info */
+.all-traders-app-design-objectives .central-line {
+    position: absolute;
+    background-color: #ED000A;
+    width: 4px;
+    height: 70%;
+    transform: translateX(-50%);
+    top: 160px;
+    bottom: 0;
+    left: 50%;
+    z-index: 999;
+}
 
+.all-traders-app-design-objectives .feature-box {
+    background: var(--white-color);
+    border-radius: 12px;
+    padding: 25px;
+    box-shadow: 0 2px 15px rgba(0, 0, 0, 0.05);
+    position: relative;
+    z-index: 2;
+    border: 1px solid var(--gray-color-2);
+}
 
+.all-traders-app-design-objectives .feature-box-group .text-theme {
+    color: var(--blue-color-2);
+}
 
-/*Start mike-mathi Wireframes section */
+.all-traders-app-design-objectives .feature-box-group .feature-box {
+    border: 1px dotted var(--blue-color-2);
+}
 
+.all-traders-persona .persona-section-wrapper {
+    background-color: white;
+    padding: 20px;
+    border: 1px #0000002e solid;
+    border-radius: 20px;
+    margin: 0;
+}
 
-/*End mike-mathi Wireframes section */
+.all-traders-persona .persona-left-column-card {
+    text-align: center;
+    align-items: center;
+    height: 100%;
+}
 
-/* End mike miths case study */
+.all-traders-persona .persona-card {
+    background-color: #4e4a4a14;
+    border-radius: 15px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
 
+.all-traders-persona .persona-name-section img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
 
+.all-traders-persona h3{
+    color: var(--black-color);
+}
 
+.all-traders-persona .persona-name-section p {
+    color: #6c757d;
+    margin-bottom: 30px;
+}
+
+.all-traders-persona .persona-background-section p {
+    color: #495057;
+}
+
+.all-traders-persona .persona-background-section p b {
+    font-weight: 600;
+    color: var(--black-color);
+}
+
+.all-traders-persona .persona-card ul li {
+    position: relative;
+    padding-left: 25px;
+    color: var(--black-color);
+}
+
+.all-traders-persona .persona-card ul li::before {
+    color: var(--bright-cyan);
+}
+
+.all-tarders-wireframe {
+    background: url("../images/case-studies/all-traders-app/wirefram-background.png") center/cover no-repeat;
+    padding: 20px;
+}
+
+.all-tarders-wireframe .common-heading h2,
+.all-tarders-wireframe .common-heading h5,
+.all-tarders-wireframe .common-heading {
+    text-align: center;
+    color: var(--white-color);
+}
 
 /* start grave love case study */
 /* Start hero section */
@@ -21383,181 +21560,7 @@ textarea::-ms-input-placeholder {
 /* End load Project Goals Infographic  section */
 
 
-/* all traders case study start */
 
-/* start hero all traders case styudy  section */
-.all-traders-app {
-    background:
-        linear-gradient(to bottom,
-            #047DCB 0%,
-            #92D7F4 15%,
-            rgba(255, 255, 255, 0) 30%),
-        url("../images/case-studies/all-traders-app/hero-background.webp")top center/cover no-repeat;
-}
-
-.all-traders-app .logo {
-    width: 100%;
-    max-width: 200px;
-    margin: 0;
-}
-
-.all-traders-hero-content h1 {
-
-    color: #0277C6;
-}
-
-.all-traders-hero-content p {
-    border-left: 4px solid #0277C6;
-    padding: 15px 15px;
-
-}
-
-.all-traders-hero-content .tagcase {
-    border: none;
-    background: #ED000A;
-    color: var(--white-color);
-    width: fit-content;
-    padding: 10px;
-    border-radius: 10px;
-
-}
-
-.all-traders-app .hero-img img {
-    width: 100%;
-    max-width: 530px;
-    display: block;
-    margin: 0 auto;
-}
-
-/* end hero all traders case styudy  section */
-
-/* Start all traders clients overview  section */
-.all-traders-clients-overview .common-heading {
-    background: url("../images/case-studies/all-traders-app/hero-background.webp")top center/cover no-repeat;
-    padding: 40px;
-    margin-top: 124px;
-    height: 64vh;
-    border-radius: 20px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    border: 1px solid #FCD5D7;
-
-}
-
-.all-traders-clients-overview .common-heading .points-client-review {
-    padding-left: 10px;
-    border-left: 3px solid #ED000A;
-}
-
-.all-traders-clients-overview .common-heading .points-client-review p {
-    color: #333333;
-}
-
-.all-traders-clients-overview .client-overview-img img {
-    width: 100%;
-    max-width: 635px;
-    display: block;
-    margin: 0 auto;
-}
-
-.all-traders-problem-section .all-traders-problem-img img {
-    width: 100%;
-    max-width: 400px;
-    display: block;
-    margin: 0 auto;
-}
-
-.all-traders-problem-section .all-traders-problem-box-wrapper {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 10px;
-    margin-top: 15%;
-}
-
-.all-traders-problem-box-wrapper .all-traders-box {
-    border: 2px dotted #ED000A;
-    border-radius: 10px;
-    padding: 40px 40px 40px 40px
-}
-
-.all-traders-problem-box-wrapper .all-traders-problem-box h2 {
-    text-align: center;
-    font-size: 22px;
-}
-
-.all-traders-problem-box-wrapper .all-traders-box li {
-    text-align: start;
-    font-weight: 300;
-    font-size: 12px;
-    margin: 20px 0 20px 0;
-
-}
-
-.all-traders-problem-box-wrapper .all-traders-box li p {
-    background-color: #007bff;
-    padding: 5px;
-    margin-right: 6px;
-    color: var(--white-color);
-    font-size: 12px;
-    border-radius: 50%;
-    display: inline;
-}
-
-.all-traders-app-design-objectives {
-    position: relative;
-}
-
-.all-traders-app-design-objectives .central-line {
-    position: absolute;
-    background-color: #ED000A;
-    width: 4px;
-    height: 70%;
-    transform: translateX(-50%);
-    top: 160px;
-    bottom: 0;
-    left: 50%;
-    z-index: 999;
-}
-
-.all-traders-app-design-objectives .feature-box {
-    background: var(--white-color);
-    border-radius: 12px;
-    padding: 25px;
-    box-shadow: 0 2px 15px rgba(0, 0, 0, 0.05);
-    position: relative;
-    z-index: 2;
-    border: 1px solid var(--gray-color-2);
-}
-
-.all-traders-app-design-objectives .common-heading {
-    text-align: center;
-    padding: 10px 0 45px 0;
-
-}
-
-.all-traders-app-design-objectives .feature-box-group .text-theme {
-    color: #026DBF;
-
-}
-
-.all-traders-app-design-objectives .feature-box-group .feature-box {
-    border: 1px dotted #026DBF;
-
-}
-
-.all-tarders-wireframe {
-    background: url("../images/case-studies/all-traders-app/wirefram-background.png") center/cover no-repeat;
-    padding: 20px;
-}
-
-.all-tarders-wireframe .common-heading h2,
-.all-tarders-wireframe .common-heading h5,
-.all-tarders-wireframe .common-heading {
-    text-align: center;
-    color: var(--white-color);
-}
 
 .challenges-turned-section .challenges-turned-box img {
     width: 100%;

@@ -99,7 +99,7 @@
 				<a class="nav-link active" data-bs-toggle="-" href="?a=Web">Web</a>
 			</li>
 		</ul>
-		<div class="tab-content mt-5 wow fadeIn portfolio">
+		<div class="tab-content mt-5 wow fadeIn portfolios">
 			<div class="tab-pane active">
 				<div class="row mt60">
 					@foreach($portfolio as $items)
@@ -120,7 +120,7 @@
 										</a>
 									</div>
 								</div>
-								<div class="item-info-div">
+								<div class="item-info-div  ">
 									<div class="left">
 										<h3>
 											<a href="{{url('/').'/'.$items['comments']}}">{{$items['title']}}</a>
@@ -156,7 +156,7 @@
 						</div>
 					</div>
 
-				<!-- <div id="web" class="tab-pane fade">
+		<!-- <div id="web" class="tab-pane fade">
 					<div class="row mt60">
 						<div class="col-lg-12 col-sm-12 wptbb">
 							<div class="pbwide shadow bg-gradient1">
