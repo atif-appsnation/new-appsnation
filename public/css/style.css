@@ -19690,6 +19690,8 @@ textarea::-ms-input-placeholder {
     padding-top: 100px;
 }
 
+/* End Royal Ride */
+
 /* Start Mike Mathis */
 
 .mike-mathis-app {
@@ -19838,6 +19840,8 @@ textarea::-ms-input-placeholder {
     max-width: 350px;
 }
 
+/* End Mike Mathis */
+
 /* Start All Traders App */
 
 .all-traders-app {
@@ -19875,7 +19879,7 @@ textarea::-ms-input-placeholder {
 }
 
 .all-traders-clients-overview .box {
-    background: url("../images/case-studies/all-traders-app/hero-background.webp")top center/cover no-repeat;
+    background: url("../images/case-studies/all-traders-app/all-traders-app-hero-background.webp")top center/cover no-repeat;
     padding: 40px;
     /* margin-top: 124px;
     height: 64vh; */
@@ -19887,8 +19891,8 @@ textarea::-ms-input-placeholder {
 }
 
 .all-traders-clients-overview .client-overview-img img {
-    /* width: 100%; */
-    max-width: 635px;
+    width: 100%;
+    /* max-width: 635px; */
     display: block;
     margin: 0 auto;
 }
@@ -19900,13 +19904,6 @@ textarea::-ms-input-placeholder {
 
 .all-traders-clients-overview .box .points-client-review p {
     color: #333333;
-}
-
-.all-traders-clients-overview img {
-    /* width: 100%; */
-    max-width: 635px;
-    display: block;
-    margin: 0 auto;
 }
 
 .all-traders-problem-section img {
@@ -19927,7 +19924,7 @@ textarea::-ms-input-placeholder {
 .all-traders-problem-box-wrapper .all-traders-box {
     border: 2px dotted #ED000A;
     border-radius: 10px;
-    padding: 40px 40px 40px 40px
+    padding: 20px;
 }
 
 .all-traders-problem-box-wrapper .all-traders-problem-box h2 {
@@ -19943,13 +19940,12 @@ textarea::-ms-input-placeholder {
     display: flex;
     align-content: center;
     align-items: center;
-
 }
 
 .all-traders-problem-box-wrapper .all-traders-box li p {
     background-color: var(--blue-color-2);
     /* padding: 5px; */
-    margin-right: 6px;
+    margin-right: 15px;
     color: var(--white-color);
     font-size: 12px;
     border-radius: 50%;
@@ -20050,12 +20046,24 @@ textarea::-ms-input-placeholder {
     color: var(--black-color);
 }
 
+.all-traders-persona .persona-goals-section ul li::before,
+.all-traders-persona .persona-painpoints-section ul li::before {
+    content: "\2022";
+    color: #440414;
+    font-weight: bold;
+    display: inline-block;
+    width: 1em;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
 .all-traders-persona .persona-card ul li::before {
     color: var(--bright-cyan);
 }
 
 .all-tarders-wireframe {
-    background: url("../images/case-studies/all-traders-app/wirefram-background.png") center/cover no-repeat;
+    background: url("../images/case-studies/all-traders-app/all-traders-app-wirefram-background.png") center/cover no-repeat;
     padding: 20px;
 }
 
@@ -20065,6 +20073,53 @@ textarea::-ms-input-placeholder {
     text-align: center;
     color: var(--white-color);
 }
+
+.all-traders-challanges .challenges-turned-box img {
+    width: 100%;
+    /* max-width: 460px;
+    display: block;
+    margin: 0 auto; */
+}
+
+.all-traders-challanges .challenges-turned-box {
+    border-radius: 10px;
+    background: #fff;
+    box-shadow: 6px 6px 12px rgba(0, 0, 0, 0.4);
+    padding: 20px;
+}
+
+.all-traders-challanges .challenges-turned-box .challenges-turned-contant p {
+    color: var(--black-color);
+    font-weight: 400;
+}
+
+.all-traders-challanges .challenges-turned-box .challenges-turned-contant .challenges-turned-title {
+    display: flex;
+    align-items: center;
+    /* justify-content: space-around; */
+    padding: 20px 0 10px 0;
+    gap: 10px;
+}
+
+.all-traders-challanges .challenges-turned-box .challenges-turned-contant .challenges-turned-title h4 {
+    font-size: 19px;
+}
+
+.all-traders-challanges .challenges-turned-box .challenges-turned-contant .challenges-turned-title span {
+    background: #026DBF;
+    color: var(--white-color);
+    padding: 10px;
+    border-radius: 50%;
+}
+
+.all-traders-app-screens img {
+    display: block;
+    margin: 0 auto;
+}
+
+/* End All Traders App */
+
+
 
 /* start grave love case study */
 /* Start hero section */
@@ -21560,13 +21615,11 @@ textarea::-ms-input-placeholder {
 /* End load Project Goals Infographic  section */
 
 
-
-
 .challenges-turned-section .challenges-turned-box img {
     width: 100%;
-    max-width: 460px;
+    /* max-width: 460px;
     display: block;
-    margin: 0 auto;
+    margin: 0 auto; */
 }
 
 .challenges-turned-section .challenges-turned-box {

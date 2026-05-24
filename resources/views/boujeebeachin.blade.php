@@ -640,7 +640,7 @@
             <h2 class="py-5 text-center">Client Testimonial</h2>
         </div>
         <div class="text-center mb-3">
-            <img loading="lazy" src="{{asset('images/case-studies/boujee-beachin/star.webp')}}" alt="Rating" class="star">
+            <img loading="lazy" src="{{asset('images/case-studies/star.webp')}}" alt="Rating" class="star">
         </div>
         <div class="row justify-content-center">
             <div class="col-md-10 col-lg-8">

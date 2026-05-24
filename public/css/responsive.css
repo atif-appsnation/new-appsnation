@@ -3836,6 +3836,10 @@
 		font-size: 22px;
 	}
 
+	.all-traders-challanges .challenges-turned-box {
+		height: 500px !important;
+	}
+
 }
 
 @media only screen and (min-width:1440px) and (max-width:1599px) {
@@ -5143,6 +5147,10 @@
 		aspect-ratio: 1728 / 550;
 	}
 
+	.all-traders-challanges .challenges-turned-box {
+		height: 680px !important;
+	}
+
 }
 
 @media only screen and (min-width:1200px) {
@@ -5365,26 +5373,6 @@
 		font-size: 10px;
 	}
 
-	/* all traders case study start */
-
-	.all-traders-clients-overview .client-overview-img img {
-
-		margin: 79px auto;
-	}
-
-	.all-traders-clients-overview .common-heading p,
-	.all-traders-clients-overview .common-heading .points-client-review p {
-		font-size: 12px;
-	}
-
-	.all-traders-clients-overview .common-heading .points-client-review h5 {
-		font-size: 12px;
-	}
-
-	.all-traders-clients-overview .common-heading h2 {
-		font-size: 25px;
-
-	}
 
 	/* awards section */
 	.awards-slider .owl-item .card img {
@@ -5443,11 +5431,6 @@
 		padding-left: 22px;
 	}
 
-	/* all traders case study start */
-	.all-traders-clients-overview .client-overview-img img {
-
-		margin: 29px auto;
-	}
 
 	/* new process setion */
 	.tabBtn.active span {
@@ -5479,10 +5462,6 @@
 		display: none;
 	}
 
-	/* all traders case study start */
-	.all-traders-app-design-objectives .central-line {
-		display: none;
-	}
 }
 
 @media (max-width: 1400px) {
@@ -5598,11 +5577,6 @@
 		display: none;
 	}
 
-	/* all traders case study start */
-
-	.all-traders-problem-section .all-traders-problem-box-wrapper {
-		flex-direction: column;
-	}
 }
 
 @media (max-width: 575px) {
@@ -6093,20 +6067,6 @@ s
 	.bomb-defuse-spaceing {
 		margin: 50px 0 50px 0;
 	}
-
-	/* all traders case study start */
-	.all-traders-clients-overview .common-heading h2 {
-		font-size: 18px;
-	}
-
-	.all-traders-clients-overview .common-heading p {
-		font-size: 12px;
-	}
-
-	.all-traders-clients-overview .common-heading {
-		height: 75vh;
-
-	}
 }
 
 
@@ -6135,19 +6095,6 @@ s
 	.imageFloteRight img {
 		max-width: 50px;
 		animation-duration: 2s;
-	}
-
-	h1 {
-		font-size: 24px;
-	}
-
-	/* wood land case study start */
-	.goals-img {
-		max-height: 250px;
-	}
-
-	.goals-cards {
-		gap: 18px;
 	}
 
 
