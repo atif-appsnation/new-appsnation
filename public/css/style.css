@@ -20119,7 +20119,372 @@ textarea::-ms-input-placeholder {
 
 /* End All Traders App */
 
+/* Start Load Board Web */
 
+.load-board-hero-section {
+    background: url("../images/case-studies/Load-board/hero-background.webp") top center/ cover no-repeat;
+}
+
+
+.load-board-hero-section .logo img {
+    width: 100%;
+    max-width: 300px;
+    display: block;
+    margin: 0 auto;
+}
+
+.load-board-hero-section .load-board-hero-img img {
+    width: 100%;
+    max-width: 1000px;
+    display: block;
+    margin: 0 auto;
+
+}
+
+.load-board-hero-section h1,
+.load-board-hero-section h5,
+.load-board-hero-section p {
+    text-align: center;
+    color: var(--white-color);
+    padding: 10 px 0 20px 0;
+}
+
+
+.load-board-hero-section h5 {
+    display: block;
+    width: fit-content;
+    margin: 10px auto;
+    font-size: 20px;
+    font-weight: bold;
+    color: #ffffff;
+    background: linear-gradient(90deg, #1070A2 0%, #06293C 100%);
+    border-radius: 20px;
+    padding: 18px 18px;
+}
+
+.load-board-hero-section .hero-img img {
+    width: 100%;
+    max-width: 800px;
+}
+
+/* End load board  hero section */
+
+
+/* start load board Project Overview section */
+.load-board-project-overview-section {
+    background: url("../images/case-studies/Load-board/circle.webp")left top / contain no-repeat;
+    background-size: 100% 100%;
+}
+
+.load-board-project-overview-section .load-board-project-overview-contant p {
+    font-size: 14px;
+    word-spacing: 3px;
+    font-weight: bold;
+    color: #555;
+
+}
+
+.load-board-project-overview-section .load-board-project-overview-img img {
+    width: 100%;
+    max-width: 700px;
+    display: block;
+    margin: 0 auto;
+
+
+}
+
+/* End load board Project Overview section */
+
+/* Start load board problem challenges section */
+.load-board-problem-challenges-section {
+    background: url("../images/case-studies/Load-board/problem-challenges-background.webp") top center/ cover no-repeat;
+}
+
+.load-board-problem-challenges-section .load-board-problem-challenges-img img {
+    width: 100%;
+    max-width: 575px;
+    display: block;
+    margin: 0 auto;
+}
+
+.load-board-problem-challenges-section .load-board-problem-challenges-contant p {
+    margin-bottom: 75px;
+    font-size: 14px;
+    word-spacing: 3px;
+    font-weight: bold;
+    color: #555;
+}
+
+/* End load board problem challenges section */
+
+
+
+/* Start load boardKey Challenges Faced section */
+.Key-Challenges-Faced-section {
+    background: url("../images/case-studies/Load-board/circle.webp")left top / contain no-repeat;
+    background-size: 20% 100%;
+}
+
+.Key-Challenges-Face {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    margin: 2rem 0;
+}
+
+.key-challenge-box {
+    background-color: #f9f9f9;
+    border: 1px solid #00ADF0;
+    border-radius: 12px;
+    padding: 1.8rem 1.5rem;
+    flex: 1 1 calc(50% - 2rem);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+
+.key-challenge-box:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+}
+
+
+.key-challenge-box h4 {
+    font-size: 1.4rem;
+    margin-bottom: 1rem;
+    color: #333;
+}
+
+
+.key-challenge-box p {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #555;
+}
+
+/* End load boardKey Challenges Faced section */
+
+/*start load board  tech section */
+.load-board-tech {
+    background: url("../images/case-studies/Load-board/tecnology-background.webp") top center/cover no-repeat;
+    padding: 60px 20px;
+    /* more breathing space */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+
+.load-board-tech .common-heading h2 {
+    color: #fff;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.load-board-tech .common-heading p {
+    color: #fff;
+    font-size: 1.05rem;
+    max-width: 800px;
+    margin: 0 auto 50px auto;
+    line-height: 1.6;
+}
+
+.load-board-tech-card {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 20px 15px;
+    border-radius: 12px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.load-board-tech-card img {
+    width: 60px;
+    height: 60px;
+    object-fit: contain;
+    margin-bottom: 10px;
+}
+
+.load-board-tech-card p {
+    color: #fff;
+    font-weight: 500;
+    margin: 0;
+}
+
+/* Hover effect for interaction */
+.load-board-tech-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+
+/*End load board  tech section */
+
+/* Start load board testing section */
+.load-board-testing .testimonial-card {
+    border: 1px solid #00ADF0;
+}
+
+/* End load board testing section */
+
+
+
+/* start load Project Goals Infographic  section */
+.load-board-infographic-section {
+    background: url("../images/case-studies/Load-board/circle.webp")center / contain no-repeat;
+    background-size: 100% 140%;
+    z-index: 1;
+}
+
+.load-board-infographic-container {
+    max-width: 900px;
+    margin: 0 auto;
+    position: relative;
+    padding: 40px 0;
+}
+
+/* Title */
+.load-board-infographic-container h2 {
+    text-align: center;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.load-board-infographic-container h4 {
+    text-align: center;
+    color: #3F83F8;
+    /* bootstrap primary blue */
+    margin-bottom: 40px;
+}
+
+/* Vertical dotted line */
+.load-board-vertical-line {
+    position: absolute;
+    top: 170px;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    border-left: 2px dotted #3F83F8;
+    height: 75%;
+    z-index: 2;
+}
+
+.load-board-vertical-line::before {
+    position: relative;
+    top: -5px;
+    content: "0";
+    color: #0d6efd;
+    padding-left: 10px;
+    border-radius: 50%;
+    margin: 10px 0 10px -11px;
+    width: 110px;
+    height: 110px;
+    background: #0d6efd;
+}
+
+.load-board-vertical-line::after {
+    position: relative;
+    top: 100%;
+    content: "0";
+    color: #0d6efd;
+    padding-left: 10px;
+    border-radius: 50%;
+    margin: 10px 0 10px -21px;
+    width: 110px;
+    height: 110px;
+    background: #0d6efd;
+}
+
+/* Step number circle */
+.load-board-step-number {
+    background: #3F83F8;
+    color: var(--white-color);
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.1rem;
+    box-shadow: 0 0 8px rgba(63, 131, 248, 0.6);
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 2;
+}
+
+/* Left step number position and arrow */
+.load-board-step-left .load-board-step-number {
+    top: 160px;
+    right: 34px;
+}
+
+.load-board-step-left .load-board-step-number::before {
+    content: "";
+    position: absolute;
+    left: 148px;
+    top: -289%;
+
+    transform: translateY(-50%);
+    border: 8px solid transparent;
+    border-left-color: #3F83F8;
+}
+
+/* Right step number position and arrow */
+.load-board-step-right .load-board-step-number {
+    top: 25px;
+    left: 35px;
+}
+
+.load-board-step-right .load-board-step-number::before {
+    content: "";
+    position: absolute;
+    right: 148px;
+    top: 385%;
+
+    transform: translateY(-50%);
+    border: 8px solid transparent;
+    border-right-color: #3F83F8;
+}
+
+
+/* Step content card */
+.load-board-step-content {
+    background: #3f83f81c;
+    border: 1px solid #007bff;
+    border-radius: 12px;
+    padding: 20px 25px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.05);
+    position: relative;
+    z-index: 2;
+}
+
+/* Left step text alignment */
+.load-board-step-left .load-board-step-content {
+    text-align: right;
+    margin-right: 60px;
+}
+
+/* Right step text alignment */
+.load-board-step-right .load-board-step-content {
+    text-align: left;
+    margin-left: 60px;
+}
+
+/* Step title */
+.load-board-step-content h5 {
+    margin-bottom: 8px;
+    font-weight: bolder;
+}
+
+.load-board-step-content p {
+    color: #333333;
+    font-weight: 600;
+}
+
+/* End Load Board Web */
 
 /* start grave love case study */
 /* Start hero section */
@@ -21242,377 +21607,6 @@ textarea::-ms-input-placeholder {
 /* new case study end  royal relax spa */
 
 
-
-/* load board case study start */
-
-/* start load board  hero section */
-.load-board-hero-section {
-    background: url("../images/case-studies/Load-board/hero-background.webp") top center/ cover no-repeat;
-}
-
-
-.load-board-hero-section .logo img {
-    width: 100%;
-    max-width: 300px;
-    display: block;
-    margin: 0 auto;
-}
-
-.load-board-hero-section .load-board-hero-img img {
-    width: 100%;
-    max-width: 1000px;
-    display: block;
-    margin: 0 auto;
-
-}
-
-.load-board-hero-section h1,
-.load-board-hero-section h5,
-.load-board-hero-section p {
-    text-align: center;
-    color: var(--white-color);
-    padding: 10 px 0 20px 0;
-}
-
-.load-board-hero-section p {
-    font-size: 12px;
-}
-
-.load-board-hero-section h5 {
-    display: block;
-    width: fit-content;
-    margin: 10px auto;
-    font-size: 20px;
-    font-weight: bold;
-    color: #ffffff;
-    background: linear-gradient(90deg, #1070A2 0%, #06293C 100%);
-    border-radius: 20px;
-    padding: 18px 18px;
-}
-
-.load-board-hero-section .hero-img img {
-    width: 100%;
-    max-width: 800px;
-}
-
-/* End load board  hero section */
-
-
-/* start load board Project Overview section */
-.load-board-project-overview-section {
-    background: url("../images/case-studies/Load-board/circle.webp")left top / contain no-repeat;
-    background-size: 100% 100%;
-}
-
-.load-board-project-overview-section .load-board-project-overview-contant p {
-    font-size: 14px;
-    word-spacing: 3px;
-    font-weight: bold;
-    color: #555;
-
-}
-
-.load-board-project-overview-section .load-board-project-overview-img img {
-    width: 100%;
-    max-width: 700px;
-    display: block;
-    margin: 0 auto;
-
-
-}
-
-/* End load board Project Overview section */
-
-/* Start load board problem challenges section */
-.load-board-problem-challenges-section {
-    background: url("../images/case-studies/Load-board/problem-challenges-background.webp") top center/ cover no-repeat;
-}
-
-.load-board-problem-challenges-section .load-board-problem-challenges-img img {
-    width: 100%;
-    max-width: 575px;
-    display: block;
-    margin: 0 auto;
-}
-
-.load-board-problem-challenges-section .load-board-problem-challenges-contant p {
-    margin-bottom: 75px;
-    font-size: 14px;
-    word-spacing: 3px;
-    font-weight: bold;
-    color: #555;
-}
-
-/* End load board problem challenges section */
-
-
-
-/* Start load boardKey Challenges Faced section */
-.Key-Challenges-Faced-section {
-    background: url("../images/case-studies/Load-board/circle.webp")left top / contain no-repeat;
-    background-size: 20% 100%;
-}
-
-.Key-Challenges-Face {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 2rem;
-    margin: 2rem 0;
-}
-
-.key-challenge-box {
-    background-color: #f9f9f9;
-    border: 1px solid #00ADF0;
-    border-radius: 12px;
-    padding: 1.8rem 1.5rem;
-    flex: 1 1 calc(50% - 2rem);
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-}
-
-
-.key-challenge-box:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
-}
-
-
-.key-challenge-box h4 {
-    font-size: 1.4rem;
-    margin-bottom: 1rem;
-    color: #333;
-}
-
-
-.key-challenge-box p {
-    font-size: 1rem;
-    line-height: 1.6;
-    color: #555;
-}
-
-/* End load boardKey Challenges Faced section */
-
-/*start load board  tech section */
-.load-board-tech {
-    background: url("../images/case-studies/Load-board/tecnology-background.webp") top center/cover no-repeat;
-    padding: 60px 20px;
-    /* more breathing space */
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: flex-start;
-    box-sizing: border-box;
-    text-align: center;
-}
-
-
-.load-board-tech .common-heading h2 {
-    color: #fff;
-    font-size: 2rem;
-    margin-bottom: 1rem;
-}
-
-.load-board-tech .common-heading p {
-    color: #fff;
-    font-size: 1.05rem;
-    max-width: 800px;
-    margin: 0 auto 50px auto;
-    line-height: 1.6;
-}
-
-.load-board-tech-card {
-    background: rgba(255, 255, 255, 0.1);
-    padding: 20px 15px;
-    border-radius: 12px;
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-}
-
-.load-board-tech-card img {
-    width: 60px;
-    height: 60px;
-    object-fit: contain;
-    margin-bottom: 10px;
-}
-
-.load-board-tech-card p {
-    color: #fff;
-    font-weight: 500;
-    margin: 0;
-}
-
-/* Hover effect for interaction */
-.load-board-tech-card:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
-}
-
-
-/*End load board  tech section */
-
-/* Start load board testing section */
-.load-board-testing .testimonial-card {
-    border: 1px solid #00ADF0;
-}
-
-/* End load board testing section */
-
-
-
-/* start load Project Goals Infographic  section */
-.load-board-infographic-section {
-    background: url("../images/case-studies/Load-board/circle.webp")center / contain no-repeat;
-    background-size: 100% 140%;
-    z-index: 1;
-}
-
-.load-board-infographic-container {
-    max-width: 900px;
-    margin: 0 auto;
-    position: relative;
-    padding: 40px 0;
-}
-
-/* Title */
-.load-board-infographic-container h2 {
-    text-align: center;
-    font-weight: 700;
-    margin-bottom: 10px;
-}
-
-.load-board-infographic-container h4 {
-    text-align: center;
-    color: #3F83F8;
-    /* bootstrap primary blue */
-    margin-bottom: 40px;
-}
-
-/* Vertical dotted line */
-.load-board-vertical-line {
-    position: absolute;
-    top: 170px;
-    bottom: 0;
-    left: 50%;
-    transform: translateX(-50%);
-    border-left: 2px dotted #3F83F8;
-    height: 75%;
-    z-index: 2;
-}
-
-.load-board-vertical-line::before {
-    position: relative;
-    top: -5px;
-    content: "0";
-    color: #0d6efd;
-    padding-left: 10px;
-    border-radius: 50%;
-    margin: 10px 0 10px -11px;
-    width: 110px;
-    height: 110px;
-    background: #0d6efd;
-}
-
-.load-board-vertical-line::after {
-    position: relative;
-    top: 100%;
-    content: "0";
-    color: #0d6efd;
-    padding-left: 10px;
-    border-radius: 50%;
-    margin: 10px 0 10px -21px;
-    width: 110px;
-    height: 110px;
-    background: #0d6efd;
-}
-
-/* Step number circle */
-.load-board-step-number {
-    background: #3F83F8;
-    color: var(--white-color);
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-    font-weight: 700;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 1.1rem;
-    box-shadow: 0 0 8px rgba(63, 131, 248, 0.6);
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    z-index: 2;
-}
-
-/* Left step number position and arrow */
-.load-board-step-left .load-board-step-number {
-    top: 160px;
-    right: 34px;
-}
-
-.load-board-step-left .load-board-step-number::before {
-    content: "";
-    position: absolute;
-    left: 148px;
-    top: -289%;
-
-    transform: translateY(-50%);
-    border: 8px solid transparent;
-    border-left-color: #3F83F8;
-}
-
-/* Right step number position and arrow */
-.load-board-step-right .load-board-step-number {
-    top: 25px;
-    left: 35px;
-}
-
-.load-board-step-right .load-board-step-number::before {
-    content: "";
-    position: absolute;
-    right: 148px;
-    top: 385%;
-
-    transform: translateY(-50%);
-    border: 8px solid transparent;
-    border-right-color: #3F83F8;
-}
-
-
-/* Step content card */
-.load-board-step-content {
-    background: #3f83f81c;
-    border: 1px solid #007bff;
-    border-radius: 12px;
-    padding: 20px 25px;
-    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.05);
-    position: relative;
-    z-index: 2;
-}
-
-/* Left step text alignment */
-.load-board-step-left .load-board-step-content {
-    text-align: right;
-    margin-right: 60px;
-}
-
-/* Right step text alignment */
-.load-board-step-right .load-board-step-content {
-    text-align: left;
-    margin-left: 60px;
-}
-
-/* Step title */
-.load-board-step-content h5 {
-    margin-bottom: 8px;
-    font-weight: bolder;
-}
-
-.load-board-step-content p {
-    color: #333333;
-    font-weight: 600;
-}
-
-/* End load Project Goals Infographic  section */
 
 
 .challenges-turned-section .challenges-turned-box img {
