@@ -14143,1661 +14143,6 @@ footer h4 {
     line-height: 26px;
 } */
 
-/* Portfolio */
-
-.scrollHalf {
-    position: relative;
-    overflow: hidden;
-}
-
-.scrollHalf__grupo {
-    position: relative;
-    height: 100vh;
-}
-
-.scrollHalf__grupo__imagen {
-    overflow: hidden;
-}
-
-.scrollHalf__grupo__contenido {
-    padding: 3rem;
-}
-
-.scrollHalf__grupo[data-scroll="out"] {
-    opacity: 0;
-}
-
-.scrollHalf__grupo[data-scroll="in"] {
-    opacity: calc(var(--visible-y)*1.9);
-}
-
-.app-first-cs,
-.web-first-cs {
-    background-color: var(--orange-color);
-}
-
-.app-second-cs,
-.web-second-cs {
-    background-color: var(--brown-color);
-}
-
-/* Start Case Studies */
-
-/*  Start Travel Agency */
-
-.travel-agency-app {
-    background-image: url(../images/case-studies/travel-agency-header-background.webp);
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-
-.about-goal-travel {
-    background: linear-gradient(to right, var(--purple-color), var(--blue-color));
-    background-attachment: fixed;
-}
-
-.visuals-travel-background {
-    background-image: url(../images/case-studies/travel-agency-app/visuals-background.webp);
-    background-attachment: fixed;
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-
-.about-travel h2,
-.project-idea-travel h2,
-.target-audience-travel h2,
-.project-challanges-travel h2,
-.solutions-delivered-travel h2,
-.results-impact-travel h2,
-.conclusion-travel h2,
-.design-process-travel h2,
-.sketching-travel h2,
-.wireframe-travel h2,
-.color-travel h2,
-.typography-travel h2,
-.features-travel h2,
-.sitemap-travel h2,
-.project-timeline h2,
-.shapes-travel h2,
-.type-faces-travel h2,
-.mockups-travel h2,
-.visuals-travel h2 {
-    color: var(--black-color);
-}
-
-.about-travel .span {
-    color: var(--purple-color);
-}
-
-.travel-agency-web {
-    background-image: url(../images/case-studies/travel-agency-header-background.webp);
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-
-.travel-agency-portfolio {
-    background-image: url(../images/case-studies/travel-agency-header-background.webp);
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-
-.travel-website-background,
-.travel-app-background,
-.travel-creative-background,
-.travel-mockup-background {
-    background-image: url(../images/case-studies/travel-agency-portfolio/visuals-background.webp);
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-
-.travel-sitemap-img-div {
-    background-image: url(../images/case-studies/travel-agency-web/visuals-background.webp);
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-
-.color-travel h4 {
-    color: var(--purple-color);
-    padding-bottom: 15px;
-}
-
-.travel-app-sketching-icon,
-.travel-app-wireframe-icon {
-    background-color: var(--black-color);
-    border: 1px solid var(--black-color);
-    border-radius: 50%;
-    width: 150px;
-    height: 150px;
-    margin: 0 auto;
-    display: block;
-    padding: 35px;
-}
-
-.travel-app-sketching-icon img,
-.travel-app-wireframe-icon img {
-    width: 75px;
-    height: 75px;
-}
-
-.travel-app-branding-icon,
-.travel-app-visuals-icon {
-    border: 1px solid var(--purple-color);
-    background-color: var(--purple-color);
-    border-radius: 50%;
-    width: 150px;
-    height: 150px;
-    margin: 0 auto;
-    display: block;
-    padding: 35px;
-}
-
-.travel-app-branding-icon img,
-.travel-app-visuals-icon img {
-    width: 75px;
-    height: 75px;
-}
-
-.travel-web-user-and-research,
-.travel-web-competitive-analysis {
-    background-color: var(--purple-color);
-    border: 1px solid var(--purple-color);
-    border-radius: 50%;
-    width: 150px;
-    height: 150px;
-    margin: 0 auto;
-    display: block;
-    padding: 35px;
-}
-
-.travel-web-user-and-research img,
-.travel-web-competitive-analysis img {
-    width: 75px;
-    height: 75px;
-}
-
-.travel-web-problem-and-solutions,
-.travel-web-wireframe-icons {
-    border: 1px solid var(--purple-color);
-    border-radius: 50%;
-    width: 150px;
-    height: 150px;
-    margin: 0 auto;
-    display: block;
-    padding: 35px;
-}
-
-.travel-web-problem-and-solutions img,
-.travel-web-wireframe-icons img {
-    width: 75px;
-    height: 75px;
-}
-
-.features-travel h5 {
-    color: var(--purple-color);
-}
-
-/*  End Travel Agency */
-
-/* Start Real Estate */
-
-.real-estate-apps {
-    background-image: url(../images/case-studies/real-estate-header-background.webp);
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-
-.real-estate-about h2,
-.real-estate-project-idea h2,
-.real-estate-target-audience h2,
-.real-estate-project-challanges h2,
-.real-estate-solutions-delivered h2,
-.real-estate-results-impact h2,
-.real-estate-conclusion h2,
-.real-estate-design-process h2,
-.real-estate-sketching h2,
-.real-estate-wireframe h2,
-.real-estate-color h2,
-.real-estate-typography h2,
-.real-estate-features h2,
-.real-estate-sitemap h2,
-.real-estate-project-timeline h2,
-.real-estate-shapes h2,
-.real-estate-type-faces h2,
-.real-estate-mockups h2,
-.real-estate-components h2,
-.real-estate-visuals h2 {
-    color: var(--brown-color);
-}
-
-.real-estate-goal {
-    background-image: url(../images/case-studies/real-estate-app/real-estate-background.webp);
-    background-attachment: fixed;
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-
-.real-estate-visuals-background {
-    background-image: url(../images/case-studies/real-estate-app/real-estate-background.webp);
-    background-attachment: fixed;
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-
-.real-estate-web {
-    background-image: url(../images/case-studies/real-estate-header-background.webp);
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-
-.real-estate-web .span,
-.real-estate-apps .span {
-    color: var(--golden-color);
-}
-
-.real-estate-sitemap-img {
-    background-image: url(../images/case-studies/real-estate-app/real-estate-background.webp);
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-
-.real-estate-apps h1,
-.real-estate-web h1 {
-    text-transform: uppercase;
-}
-
-.real-estate-apps h3,
-.real-estate-web h3 {
-    text-transform: uppercase;
-}
-
-.real-estate-app-sketching-icon,
-.real-estate-app-wireframe-icon {
-    background-color: var(--brown-color);
-    border: 1px solid var(--brown-color);
-    border-radius: 50%;
-    width: 150px;
-    height: 150px;
-    margin: 0 auto;
-    display: block;
-    padding: 35px;
-}
-
-.real-estate-app-sketching-icon img,
-.real-estate-app-wireframe-icon img {
-    width: 75px;
-    height: 75px;
-}
-
-.real-estate-app-branding-icon,
-.real-estate-app-visuals-icon {
-    background-color: var(--golden-color);
-    border: 1px solid var(--golden-color);
-    border-radius: 50%;
-    width: 150px;
-    height: 150px;
-    margin: 0 auto;
-    display: block;
-    padding: 35px;
-}
-
-.real-estate-app-branding-icon img,
-.real-estate-app-visuals-icon img {
-    width: 75px;
-    height: 75px;
-}
-
-.real-estate-web-user-and-research,
-.real-estate-web-problem-and-solutions {
-    background-color: var(--brown-color);
-    border: 1px solid var(--brown-color);
-    border-radius: 50%;
-    width: 150px;
-    height: 150px;
-    margin: 0 auto;
-    display: block;
-    padding: 35px;
-}
-
-.real-estate-web-user-and-research img,
-.real-estate-web-problem-and-solutions img {
-    width: 75px;
-    height: 75px;
-}
-
-.real-estate-web-competitive-analysis,
-.real-estate-web-wireframe-icons {
-    background-color: var(--golden-color);
-    border: 1px solid var(--golden-color);
-    border-radius: 50%;
-    width: 150px;
-    height: 150px;
-    margin: 0 auto;
-    display: block;
-    padding: 35px;
-}
-
-.real-estate-web-wireframe-icons img,
-.real-estate-web-wireframe-icons img {
-    width: 75px;
-    height: 75px;
-}
-
-.real-estate-features {
-    color: var(--brown-color);
-}
-
-/* End Real Estate */
-
-/* Start Loyalty */
-
-.loyalty-apps {
-    background-image: url(../images/case-studies/loyalty-header-background.webp);
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-
-.loyalty-about h2,
-.loyalty-project-idea h2,
-.loyalty-target-audience h2,
-.loyalty-project-challanges h2,
-.loyalty-solutions-delivered h2,
-.loyalty-results-impact h2,
-.loyalty-conclusion h2,
-.loyalty-design-process h2,
-.loyalty-sketching h2,
-.loyalty-wireframe h2,
-.loyalty-color h2,
-.loyalty-typography h2,
-.loyalty-features h2,
-.loyalty-sitemap h2,
-.loyalty-project-timeline h2,
-.loyalty-shapes h2,
-.loyalty-type-faces h2,
-.loyalty-mockups h2,
-.loyalty-components h2,
-.loyalty-visuals h2 {
-    color: var(--black-color);
-}
-
-.loyalty-goal {
-    background: linear-gradient(to right, #a30007, #e70009, #cc1a1a);
-    /* background-attachment: fixed;
-    background-size: cover;
-    background-repeat: no-repeat; */
-}
-
-.loyalty-visuals-background {
-    background-image: url(../images/case-studies/loyalty-app/loyalty-background.webp);
-    background-attachment: fixed;
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-
-.loyalty-web {
-    background-image: url(../images/case-studies/loyalty-header-background.webp);
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-
-.loyalty-web .span,
-.loyalty-apps .span {
-    color: var(--black-color);
-}
-
-.loyalty-app-sketching-icon,
-.loyalty-app-wireframe-icon {
-    background-color: var(--black-color);
-    border: 1px solid var(--black-color);
-    border-radius: 50%;
-    width: 150px;
-    height: 150px;
-    margin: 0 auto;
-    display: block;
-    padding: 35px;
-}
-
-.loyalty-app-sketching-icon img,
-.loyalty-app-wireframe-icon img {
-    width: 75px;
-    height: 75px;
-}
-
-.loyalty-app-branding-icon,
-.loyalty-app-visuals-icon {
-    background-color: var(--red-color);
-    border: 1px solid var(--red-color);
-    border-radius: 50%;
-    width: 150px;
-    height: 150px;
-    margin: 0 auto;
-    display: block;
-    padding: 35px;
-}
-
-.loyalty-app-branding-icon img,
-.loyalty-app-visuals-icon img {
-    width: 75px;
-    height: 75px;
-}
-
-.loyalty-features hr {
-    color: var(--red-color);
-    width: 40%;
-    height: 3px;
-    opacity: 1;
-}
-
-.loyalty-web-user-and-research,
-.loyalty-web-problem-and-solutions {
-    background-color: var(--black-color);
-    border: 1px solid var(--black-color);
-    border-radius: 50%;
-    width: 150px;
-    height: 150px;
-    margin: 0 auto;
-    display: block;
-    padding: 35px;
-}
-
-.loyalty-web-user-and-research img,
-.loyalty-web-problem-and-solutions img {
-    width: 75px;
-    height: 75px;
-}
-
-.loyalty-web-competitive-analysis,
-.loyalty-web-wireframe-icons {
-    background-color: var(--red-color);
-    border: 1px solid var(--red-color);
-    border-radius: 50%;
-    width: 150px;
-    height: 150px;
-    margin: 0 auto;
-    display: block;
-    padding: 35px;
-}
-
-.loyalty-web-wireframe-icons img,
-.loyalty-web-wireframe-icons img {
-    width: 75px;
-    height: 75px;
-}
-
-.loyalty-web-features {
-    color: var(--brown-color);
-}
-
-.loyalty-sitemap-img {
-    background-image: url(../images/case-studies/loyalty-app/loyalty-background.webp);
-    background-attachment: fixed;
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-
-/* End Loyalty */
-
-/* Start Gym */
-
-.gym-app {
-    background-image: url(../images/case-studies/gym-header-background.webp);
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-
-.gym-about h2,
-.gym-project-idea h2,
-.gym-target-audience h2,
-.gym-project-challanges h2,
-.gym-solutions-delivered h2,
-.gym-results-impact h2,
-.gym-conclusion h2,
-.gym-design-process h2,
-.gym-sketching h2,
-.gym-wireframe h2,
-.gym-color h2,
-.gym-typography h2,
-.gym-features h2,
-.gym-sitemap h2,
-.gym-project-timeline h2,
-.gym-shapes h2,
-.gym-type-faces h2,
-.gym-mockups h2,
-.gym-components h2,
-.gym-visuals h2 {
-    color: var(--black-color);
-}
-
-.gym-goal {
-    background-image: url(../images/case-studies/gym-app/gym-background.webp);
-    /* background-attachment: fixed;
-    background-size: cover;
-    background-repeat: no-repeat; */
-}
-
-.gym-visuals-background {
-    background-image: url(../images/case-studies/gym-app/gym-background.webp);
-    background-attachment: fixed;
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-
-.gym-web {
-    background-image: url(../images/case-studies/gym-header-background.webp);
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-
-.gym-web .span,
-.gym-app .span,
-.gym-about .span {
-    color: var(--orange-color);
-}
-
-.gym-about span {
-    color: var(--orange-color);
-}
-
-.gym-app-sketching-icon,
-.gym-app-wireframe-icon {
-    background-color: var(--black-color);
-    border: 1px solid var(--black-color);
-    border-radius: 50%;
-    width: 150px;
-    height: 150px;
-    margin: 0 auto;
-    display: block;
-    padding: 35px;
-}
-
-.gym-app-sketching-icon img,
-.gym-app-wireframe-icon img {
-    width: 75px;
-    height: 75px;
-}
-
-.gym-app-branding-icon,
-.gym-app-visuals-icon {
-    background-color: var(--orange-color);
-    border: 1px solid var(--orange-color);
-    border-radius: 50%;
-    width: 150px;
-    height: 150px;
-    margin: 0 auto;
-    display: block;
-    padding: 35px;
-}
-
-.gym-app-branding-icon img,
-.gym-app-visuals-icon img {
-    width: 75px;
-    height: 75px;
-}
-
-.gym-features hr {
-    color: var(--orange-color);
-    width: 40%;
-    height: 3px;
-    opacity: 1;
-}
-
-.gym-web-user-and-research,
-.gym-web-problem-and-solutions {
-    background-color: var(--black-color);
-    border: 1px solid var(--black-color);
-    border-radius: 50%;
-    width: 150px;
-    height: 150px;
-    margin: 0 auto;
-    display: block;
-    padding: 35px;
-}
-
-.gym-web-user-and-research img,
-.gym-web-problem-and-solutions img {
-    width: 75px;
-    height: 75px;
-}
-
-.gym-web-competitive-analysis,
-.gym-web-wireframe-icons {
-    background-color: var(--orange-color);
-    border: 1px solid var(--orange-color);
-    border-radius: 50%;
-    width: 150px;
-    height: 150px;
-    margin: 0 auto;
-    display: block;
-    padding: 35px;
-}
-
-.gym-web-wireframe-icons img,
-.gym-web-wireframe-icons img {
-    width: 75px;
-    height: 75px;
-}
-
-.gym-web-features {
-    color: var(--orange-color);
-}
-
-.gym-sitemap-img {
-    background-image: url(../images/case-studies/gym-app/gym-background.webp);
-    background-attachment: fixed;
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-
-.gym-sitemap-web-img {
-    background: var(--black-color);
-}
-
-/* End Gym */
-
-/* Start Mover */
-
-.mover-apps {
-    background-image: url(../images/case-studies/mover-header-background.webp);
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-
-.mover-about h2,
-.mover-project-idea h2,
-.mover-target-audience h2,
-.mover-project-challanges h2,
-.mover-solutions-delivered h2,
-.mover-results-impact h2,
-.mover-conclusion h2,
-.mover-design-process h2,
-.mover-sketching h2,
-.mover-wireframe h2,
-.mover-color h2,
-.mover-typography h2,
-.mover-features h2,
-.mover-sitemap h2,
-.mover-project-timeline h2,
-.mover-shapes h2,
-.mover-type-faces h2,
-.mover-mockups h2,
-.mover-components h2,
-.mover-visuals h2 {
-    color: var(--black-color);
-}
-
-.mover-goal {
-    background-image: url(../images/case-studies/mover-app/mover-green-background.webp);
-    /* background-attachment: fixed;
-    background-size: cover;
-    background-repeat: no-repeat; */
-}
-
-.mover-visuals-background {
-    background-image: url(../images/case-studies/mover-app/mover-background.webp);
-    background-attachment: fixed;
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-
-.mover-web {
-    background-image: url(../images/case-studies/mover-header-background.webp);
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-
-.mover-web .span,
-.mover-apps .span {
-    color: var(--green-color);
-}
-
-.mover-about .span {
-    color: var(--green-color);
-}
-
-.mover-app-sketching-icon,
-.mover-app-wireframe-icon {
-    background-color: var(--black-color);
-    border: 1px solid var(--black-color);
-    border-radius: 50%;
-    width: 150px;
-    height: 150px;
-    margin: 0 auto;
-    display: block;
-    padding: 35px;
-}
-
-.mover-app-sketching-icon img,
-.mover-app-wireframe-icon img {
-    width: 75px;
-    height: 75px;
-}
-
-.mover-app-branding-icon,
-.mover-app-visuals-icon {
-    background-color: var(--green-color);
-    border: 1px solid var(--green-color);
-    border-radius: 50%;
-    width: 150px;
-    height: 150px;
-    margin: 0 auto;
-    display: block;
-    padding: 35px;
-}
-
-.mover-app-branding-icon img,
-.mover-app-visuals-icon img {
-    width: 75px;
-    height: 75px;
-}
-
-.mover-features hr {
-    color: var(--green-color);
-    width: 40%;
-    height: 3px;
-    opacity: 1;
-}
-
-.mover-web-user-and-research,
-.mover-web-problem-and-solutions {
-    background-color: var(--black-color);
-    border: 1px solid var(--black-color);
-    border-radius: 50%;
-    width: 150px;
-    height: 150px;
-    margin: 0 auto;
-    display: block;
-    padding: 35px;
-}
-
-.mover-web-user-and-research img,
-.mover-web-problem-and-solutions img {
-    width: 75px;
-    height: 75px;
-}
-
-.mover-web-competitive-analysis,
-.mover-web-wireframe-icons {
-    background-color: var(--green-color);
-    border: 1px solid var(--green-color);
-    border-radius: 50%;
-    width: 150px;
-    height: 150px;
-    margin: 0 auto;
-    display: block;
-    padding: 35px;
-}
-
-.mover-web-wireframe-icons img,
-.mover-web-wireframe-icons img {
-    width: 75px;
-    height: 75px;
-}
-
-.mover-web-features {
-    color: var(--orange-color);
-}
-
-.mover-sitemap-img {
-    background-image: url(../images/case-studies/mover-app/mover-background.webp);
-    background-attachment: fixed;
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-
-.mover-sitemap-web-img {
-    background: var(--black-color);
-}
-
-/* End Mover */
-
-/* Start Boujee Beachin */
-
-.boujee-beachin-app {
-    background: linear-gradient(to bottom, #00A9F8 0%, #00A9F8 8%, transparent 25%), url("../images/case-studies/boujee-beachin/boujee-beachin-background1.webp") center/cover no-repeat;
-}
-
-.boujee-beachin-app .boujee-beachin-logo {
-    width: 100%;
-    max-width: 200px;
-}
-
-.boujee-beachin-app h1 span {
-    color: var(--light-blue-color);
-    font-weight: bold;
-}
-
-.boujee-beachin-app .case-tag {
-    background-color: var(--light-blue-color);
-    color: var(--white-color);
-    padding: 10px 25px;
-    border-radius: 20px;
-    font-weight: 700;
-    width: fit-content;
-    text-align: center;
-}
-
-.boujee-beachin-problem img {
-    width: 100%;
-    max-width: 450px;
-    display: block;
-    margin: 0 auto;
-}
-
-/* .boujee-beachin-objectives h2 {
-    background-color: var(--light-blue-color);
-    color: var(--white-color);
-    display: inline-block;
-    padding: 10px;
-    border-radius: 20px;
-    font-weight: 700;
-} */
-
-.boujee-beachin-objectives img {
-    width: 100%;
-    max-width: 320px;
-    display: block;
-    margin: 0 auto;
-}
-
-.boujee-beachin-objectives .info-card {
-    background-color: #fff;
-    border-radius: 15px;
-    border: 1px solid #007599;
-    padding: 25px;
-    margin-bottom: 25px;
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
-    transition: all 0.3s ease;
-}
-
-.boujee-beachin-objectives .info-card:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.12);
-}
-
-.boujee-beachin-objectives .card-number-circle {
-    width: 45px;
-    height: 45px;
-    background-color: var(--white-color);
-    border: 4px solid var(--light-blue-color);
-    color: var(--black-color);
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 1.2rem;
-    font-weight: bold;
-    margin-bottom: 15px;
-}
-
-.boujee-beachin-objectives p {
-    color: var(--gray-color);
-    line-height: 1.6;
-}
-
-.boujee-beachin-designs .container {
-    position: relative;
-}
-
-.boujee-beachin-designs .central-line {
-    position: absolute;
-    width: 4px;
-    background-color: var(--light-blue-color);
-    top: 0;
-    bottom: 0;
-    left: 50%;
-    transform: translateX(-50%);
-    z-index: 999;
-}
-
-.boujee-beachin-designs .text-theme-blue {
-    color: var(--light-blue-color);
-    font-weight: 600;
-}
-
-.boujee-beachin-designs .feature-box {
-    background: var(--white-color);
-    border-radius: 12px;
-    padding: 25px;
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-    position: relative;
-    z-index: 2;
-    border: 1px solid var(--gray-color-2);
-}
-
-/* .boujee-beachin-wireframe h2 {
-    color: var(--light-blue-color);
-} */
-
-.boujee-beachin-wireframe ul {
-    display: flex;
-    gap: 20px;
-    padding: 0;
-    margin: 1.5rem 0;
-    list-style: none;
-}
-
-.boujee-beachin-wireframe ul li {
-    background: #f8f9fa;
-    padding: 12px 18px;
-    border-radius: 8px;
-    border: 1px solid #e5e5e5;
-    font-size: 0.95rem;
-    font-weight: 500;
-    color: #007bff;
-    transition: all 0.3s ease;
-    cursor: default;
-}
-
-.wireframes-section ul li:hover {
-    background: #007bff;
-    color: #fff;
-    border-color: #007bff;
-    transform: translateY(-3px);
-}
-
-.boujee-beachin-target .target-users-card {
-    height: 90px;
-    display: flex;
-    align-items: center;
-    gap: 12px;
-    padding: 14px 16px;
-    border-radius: 12px;
-    background: #fff;
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-}
-
-.boujee-beachin-target .target-users-card img {
-    width: 22px;
-    height: auto;
-    object-fit: contain;
-}
-
-.boujee-beachin-target .target-users-card p {
-    margin: 0;
-    font-size: 16px;
-    color: #333;
-}
-
-.boujee-beachin-personal .personal-info {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 22px;
-    line-height: 22px;
-    margin-bottom: 15px;
-}
-
-.boujee-beachin-personal .right-info {
-    border-left: 3px solid var(--white-color);
-    padding-left: 22px;
-}
-
-.boujee-beachin-personal .personal-heading {
-    color: var(--wheat);
-}
-
-.boujee-beachin-personal .personal-wrapper {
-    background-color: #3a3a3a;
-    color: var(--white-color);
-    padding: 20px;
-    border-radius: 20px;
-}
-
-.boujee-beachin-personal .personal-card {
-    background-color: #4f4f4f;
-    border: none;
-    border-radius: 12px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    /* height: 46%; */
-}
-
-.boujee-beachin-personal .card-body {
-    padding: 1.5rem;
-}
-
-.boujee-beachin-personal .border-top-accent {
-    border-top: 4px solid #0097DE !important;
-}
-
-.boujee-beachin-personal .text-secondary-light {
-    color: #dcdcdc;
-}
-
-.boujee-beachin-personal .custom-list {
-    padding-left: 1.2rem;
-}
-
-.boujee-beachin-personal .custom-list li {
-    list-style: circle;
-    margin-bottom: 0.5rem;
-    color: #dcdcdc;
-}
-
-.boujee-beachin-personal .profile-img-container {
-    width: 160px;
-    height: 160px;
-    margin: 0 auto 1.5rem;
-    padding: 5px;
-    border: 3px solid #ffffff;
-    border-radius: 50%;
-}
-
-.boujee-beachin-personal .profile-img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    border-radius: 50%;
-}
-
-.boujee-beachin-personal .demographics-table {
-    margin: 2rem auto;
-    width: 80%;
-    font-size: 0.9rem;
-}
-
-.boujee-beachin-personal .demographics-table td {
-    padding: 4px 0;
-}
-
-.boujee-beachin-personal .demo-label {
-    font-weight: bold;
-    text-transform: uppercase;
-    text-align: right;
-    padding-right: 15px;
-    width: 50%;
-    color: var(--white-color);
-}
-
-.boujee-beachin-personal .demo-value {
-    color: var(--white-color);
-    text-align: left;
-}
-
-.boujee-beachin-personal .personality-tag {
-    background-color: #f8f9fa;
-    color: var(--light-blue-color);
-    font-weight: 600;
-    padding: 1em;
-    font-size: 0.85rem;
-}
-
-.boujee-beachin-personal .progress-label {
-    font-size: 0.85rem;
-    margin-bottom: 4px;
-    display: block;
-}
-
-.boujee-beachin-personal .progress {
-    height: 8px;
-    background-color: #6c757d;
-    margin-bottom: 1rem;
-}
-
-.boujee-beachin-personal .progress-bar-accent {
-    background-color: var(--light-blue-color);
-}
-
-.boujee-beachin-testing .user-testing-card {
-    height: auto;
-    position: relative;
-    border: 2px solid #000;
-    border-radius: 12px;
-    padding: 60px 20px 20px;
-    background: #fff;
-    transition: 0.3s ease;
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.0.8);
-}
-
-.boujee-beachin-testing .user-testing-card:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.08);
-}
-
-.boujee-beachin-testing .user-testing-img {
-    position: absolute;
-    top: -50px;
-    left: 50%;
-    transform: translateX(-50%);
-    text-align: center;
-}
-
-.boujee-beachin-testing .user-testing-img img {
-    width: 85px;
-    height: auto;
-    object-fit: contain;
-}
-
-.boujee-beachin-testing .user-testing-img p {
-    margin: 0;
-    font-size: 13px;
-    font-weight: 600;
-}
-
-.boujee-beachin-testing .user-testing-card ul {
-    margin: 0;
-    padding-left: 18px;
-}
-
-.boujee-beachin-testing .user-testing-card li {
-    list-style: circle;
-    margin-top: 18px;
-    line-height: 1.6;
-    padding-left: 22px;
-}
-
-.boujee-beachin-testimonial .testimonial-card {
-    background: #ffffff;
-    border-radius: 14px;
-    box-shadow: 0 4px 18px rgba(0, 0, 0, 0.07);
-    transition: 0.3s ease;
-}
-
-.boujee-beachin-testimonial .testimonial-card:hover {
-    transform: translateY(-4px);
-    box-shadow: 0 6px 22px rgba(0, 0, 0, 0.12);
-}
-
-.boujee-beachin-testimonial p {
-    font-size: 14px;
-    opacity: 0.8;
-}
-
-.boujee-beachin-testimonial .testimonial-text {
-    font-size: 16px;
-    line-height: 1.6;
-    color: #444;
-}
-
-.boujee-beachin-conclusion p {
-    font-size: 16px;
-    line-height: 1.9;
-    border-left: 7px solid var(--light-blue-color);
-    padding-left: 22px;
-}
-
-.conclusion-right img {
-    max-width: 100%;
-    border-radius: 14px;
-    transition: 0.3s ease;
-}
-
-.conclusion-right img:hover {
-    transform: scaley(1.02);
-}
-
-
-.tech-card {
-    background: #fff;
-    padding: 20px 10px;
-    border-radius: 12px;
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.06);
-    transition: 0.3s ease;
-    height: 100%;
-}
-
-.tech-card:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 8px 22px rgba(0, 0, 0, 0.1);
-}
-
-.tech-card h6 {
-    font-size: 14px;
-    margin-bottom: 10px;
-    color: #333;
-}
-
-.tech-card img {
-    width: 60px;
-    height: 60px;
-    object-fit: contain;
-    margin-bottom: 8px;
-}
-
-.tech-card p {
-    font-size: 13px;
-    margin: 0;
-    font-weight: 500;
-}
-
-.morkup-boujee-beachin img {
-    width: 100%;
-    max-width: 1800px;
-    height: auto;
-    display: block;
-    margin: 0 auto;
-}
-
-.boujee-beachin-testimonial .testimonial-card {
-    background: var(--white-color);
-    border-radius: 14px;
-    box-shadow: 0 4px 18px rgba(0, 0, 0, 0.07);
-    transition: 0.3s ease;
-}
-
-.boujee-beachin-testimonial .testimonials-img-section img {
-    width: 90px;
-    height: 90px;
-    object-fit: cover;
-}
-
-.boujee-beachin-testimonial .star {
-    width: 15%;
-}
-
-/* End Boujee Beachin */
-
-/* Start Wood Land  */
-
-.wood-land-app {
-    background: url("../images/case-studies/wood-land-app/wood-land-background-img.webp") center/cover no-repeat;
-}
-
-.wood-land-app h1,
-.wood-land-app p {
-    color: var(--white-color);
-    font-weight: bold;
-}
-
-.wood-land-app h1 span,
-.wood-land-app p span {
-    color: var(--green-color-2);
-    font-weight: bold;
-}
-
-.wood-land-app .wood-land-button {
-    background-color: var(--green-color-2);
-    color: var(--black-color);
-    padding: 10px 25px;
-    border-radius: 10px;
-    font-weight: bold;
-    width: fit-content;
-    text-align: center;
-    cursor: pointer;
-}
-
-.wood-land-app .wood-land-button:hover {
-    background-color: transparent;
-    color: var(--white-color);
-    border: 1px solid var(--green-color-2);
-    border-radius: 20px;
-    transition: 0.3s ease-in-out;
-}
-
-.wood-land-client-overview h2, h6 {
-    color: var(--black-color);
-    padding-top: 10px;
-}
-
-.wood-land-client-overview h2 {
-    color: var(--black-color);
-    padding-bottom: 10px;
-}
-
-.wood-land-client-overview p {
-    color: var(--black-color);
-    padding-bottom: 13px;
-}
-
-.wood-land-client-overview .left-border-client-overview {
-    padding-left: 10px;
-    border-left: 2px solid #67FFBB;
-}
-
-.wood-land-development-challenges {
-    background-image: url("../images/case-studies/wood-land-app/development-challange-background-img.webp");
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-
-/* .wood-land-development-challenges .development-challenges-left {
-    border-left: 2px solid #67FFBB;
-    padding-left: 15px;
-} */
-
-.wood-land-development-challenges .development-challenges-left h2,
-.wood-land-development-challenges .development-challenges-left p {
-    color: #fff;
-}
-
-.wood-land-development-challenges .info-card {
-    /* height: 240px; */
-    margin-top: 10px;
-    margin-bottom: 10px;
-    background: rgba(255, 255, 255, 0.75);
-    border-radius: 12px;
-    padding: 20px;
-    transition: all 0.3s ease;
-}
-
-.wood-land-development-challenges .info-card:hover {
-    background: rgba(255, 255, 255, 0.95);
-    transform: translateY(-5px);
-}
-
-.wood-land-development-challenges .info-card .card-number-circle {
-    border: 4px solid #67FFBB;
-    color: #000;
-    width: 45px;
-    height: 45px;
-    border-radius: 50px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-weight: 700;
-    margin-bottom: 10px;
-}
-
-.wood-land-development-challenges .info-card p {
-    color: #000;
-}
-
-.wood-land-wireframe {
-    background: #f7f9fb;
-    border-radius: 20px;
-    padding-top: 60px;
-    padding-bottom: 60px;
-}
-
-.wood-land-wireframe p {
-    color: #000;
-    padding-bottom: 30px;
-}
-
-.wood-land-wireframe .wire-img {
-    width: 100%;
-    max-width: 380px;
-    border-radius: 12px;
-    transition: transform .3s ease, box-shadow .3s ease;
-    display: block;
-    margin: 0 auto;
-}
-
-.wood-land-wireframe .wire-img:hover {
-    transform: scale(1.09);
-    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.15);
-}
-
-.wood-land-wireframe .wireframe-gallery .col-6 {
-    display: flex;
-    justify-content: center;
-}
-
-.wood-land-project-goals {
-    border-radius: 20px;
-}
-
-.wood-land-project-goals img {
-    object-fit: cover;
-    width: 90%;
-}
-
-.wood-land-project-goals .info-card {
-    border-radius: 14px;
-    padding: 22px 25px;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.07);
-    transition: all .3s ease;
-}
-
-.wood-land-project-goals .info-card:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 8px 22px rgba(0, 0, 0, 0.15);
-}
-
-.wood-land-project-goals .wood-land-project-goals .info-card h5 {
-    font-weight: 700;
-    font-size: 18px;
-    margin-bottom: 8px;
-    color: #2d2926;
-}
-
-.wood-land-project-goals .green {
-    background: #D5FFEC;
-    border: 1px solid black;
-}
-
-.wood-land-project-goals .green h5,
-.wood-land-project-goals .green p {
-    color: var(--black-color);
-}
-
-.wood-land-project-goals .black {
-    background: #1B252D;
-    border: 1px solid wheat;
-
-}
-
-.wood-land-project-goals .black h5,
-.wood-land-project-goals .black p {
-    color: var(--white-color);
-}
-
-.wood-land-designs .container {
-    position: relative;
-}
-
-.wood-land-designs .wood-land-central-line {
-    position: absolute;
-    width: 4px;
-    background-color: #37424A;
-    top: 14%;
-    bottom: 0;
-    left: 50%;
-    transform: translateX(-50%);
-    z-index: 999;
-}
-
-.wood-land-designs .wood-land-text-theme {
-    color: var(--black-color);
-    font-weight: 600;
-}
-
-.wood-land-designs .wood-land-feature-box:hover {
-    box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.15);
-}
-
-.wood-land-designs .left-column-wood-land .wood-land-feature-box-group .wood-land-feature-box {
-    background: #D5FFEC;
-    border-radius: 12px;
-    padding: 25px;
-    box-shadow: 0 2px 15px rgba(0, 0, 0, 0.05);
-    position: relative;
-    z-index: 2;
-    border: 1px solid var(--gray-color-2);
-}
-
-.wood-land-designs .left-column-wood-land .wood-land-feature-box-group .wood-land-feature-box:nth-child(2) {
-    background-color: #1B252D;
-}
-
-.wood-land-designs .left-column-wood-land .wood-land-feature-box-group .wood-land-feature-box:nth-child(2) h4,
-.wood-land-designs .left-column-wood-land .wood-land-feature-box-group .wood-land-feature-box:nth-child(2) p {
-    color: var(--white-color);
-}
-
-.wood-land-designs .right-column-wood-land .wood-land-feature-box-group .wood-land-feature-box {
-    background: #1B252D;
-    border-radius: 12px;
-    padding: 25px;
-    box-shadow: 0 2px 15px rgba(0, 0, 0, 0.05);
-    position: relative;
-    z-index: 2;
-    border: 1px solid var(--gray-color-2);
-}
-
-.wood-land-designs .right-column-wood-land .wood-land-text-theme {
-    color: var(--white-color);
-    font-weight: 600;
-}
-
-.wood-land-designs .right-column-wood-land .wood-land-feature-box-group .wood-land-feature-box:nth-child(2) {
-    background-color: #D5FFEC;
-}
-
-.wood-land-designs .right-column-wood-land .wood-land-feature-box-group .wood-land-feature-box:nth-child(2) h4,
-.wood-land-designs .right-column-wood-land .wood-land-feature-box-group .wood-land-feature-box:nth-child(2) p {
-    color: var(--black-color);
-}
-
-/* End Wood Land App  */
-
-/* Start  Neuro Knights App */
-
-.neuro-knight-app {
-    background: linear-gradient(to bottom, #4A8ADD 0%, #4A8ADD 5%, transparent 20%);
-}
-
-.neuro-knight-app .logo {
-    width: 100%;
-    max-width: 300px;
-}
-
-.neuro-night-hero-img img {
-    padding-left: 22px;
-    width: 100%;
-}
-
-.neuro-knight-app h1 span,
-.neuro-knight-app p span {
-    color: #007599;
-    font-weight: bold;
-}
-
-.wood-land-button:hover {
-    background-color: transparent;
-    color: var(--white-color);
-    border: 1px solid #58D39C;
-    border-radius: 20px;
-    transition: 0.3s ease-in-out;
-}
-
-.NeuroKnights-problem .common-heading {
-    padding-left: 32px;
-}
-
-.NeuroKnights-problem .common-heading h2 {
-    font-weight: bold;
-}
-
-.NeuroKnights-problem .common-heading p {
-    font-weight: bold;
-}
-
-.NeuroKnights-problem .common-heading h2>span {
-    color: #007599;
-}
-
-.neuro-night-designs .container {
-    position: relative;
-}
-
-.neuro-night-designs .neuro-night-central-line {
-    position: absolute;
-    width: 4px;
-    background-color: #37424A;
-    top: 14%;
-    bottom: 0;
-    left: 50%;
-    transform: translateX(-50%);
-    z-index: 999;
-}
-
-.neuro-night-designs .neuro-night-text-theme {
-    color: var(--white-color);
-    font-weight: 600;
-}
-
-.neuro-night-feature-box:hover {
-    box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.15);
-}
-
-.left-column-neuro-night .neuro-night-feature-box-group .neuro-night-feature-box {
-    background: #FF6C69;
-    border-radius: 12px;
-    padding: 25px;
-    box-shadow: 0 2px 15px rgba(0, 0, 0, 0.05);
-    position: relative;
-    z-index: 2;
-    border: 1px solid var(--gray-color-2);
-}
-
-.left-column-neuro-night .neuro-night-feature-box-group .neuro-night-feature-box:nth-child(2) {
-    background-color: #4A8ADD;
-}
-
-.right-column-neuro-night .neuro-night-feature-box-group .neuro-night-feature-box {
-    background: #4A8ADD;
-    border-radius: 12px;
-    padding: 25px;
-    box-shadow: 0 2px 15px rgba(0, 0, 0, 0.05);
-    position: relative;
-    z-index: 2;
-    border: 1px solid var(--gray-color-2);
-}
-
-.right-column-neuro-night .neuro-night-feature-box-group .neuro-night-feature-box:nth-child(2) {
-    background-color: #FF6C69;
-}
-
-.neuro-night-feature-box-group .neuro-night-feature-box h4,
-.left-column-neuro-night .neuro-night-feature-box-group .neuro-night-feature-box p,
-.right-column-neuro-night .neuro-night-feature-box-group .neuro-night-feature-box p {
-    color: var(--white-color);
-}
-
-.Tech-Stack-section {
-    background: #f8f8f8;
-    border-radius: 12px;
-    border: 1px solid black;
-
-}
-
-.tech-img-box {
-    display: flex;
-    align-items: center;
-    gap: 15px;
-    padding: 15px;
-    margin-right: 20px;
-    flex: 1;
-}
-
-.tech-img-box img {
-    width: 150px;
-    height: auto;
-    object-fit: contain;
-}
-
-
-.tech-img-box .common-heading h6 {
-    margin: 0 0 5px;
-    font-weight: 600;
-}
-
-.tech-img-box .common-heading p {
-    margin: 0;
-    color: #555;
-}
-
-.neuro-night-project-card {
-
-    display: flex;
-    align-items: center;
-    gap: 10px;
-    background-color: #007599;
-    color: var(--white-color);
-    padding: 30px;
-    border-radius: 20px;
-}
-
-.neuro-night-project-card .card-number-circle {
-    border: 4px white solid;
-    background-color: #007599;
-    color: var(--white-color);
-    padding: 10px;
-}
-
-/* End  Neuro Knights App */
-
-/* End Case Studies */
 
 .automation-services .card {
     height: 100%;
@@ -15869,11 +14214,6 @@ footer h4 {
 
 ul {
     list-style: none;
-}
-
-h3 {
-    font-size: 34px;
-    line-height: 46px;
 }
 
 i.fa-solid.fa-circle {
@@ -19196,6 +17536,42 @@ textarea::-ms-input-placeholder {
 
 /* Start Portfolio */
 
+.scrollHalf {
+    position: relative;
+    overflow: hidden;
+}
+
+.scrollHalf__grupo {
+    position: relative;
+    height: 100vh;
+}
+
+.scrollHalf__grupo__imagen {
+    overflow: hidden;
+}
+
+.scrollHalf__grupo__contenido {
+    padding: 3rem;
+}
+
+.scrollHalf__grupo[data-scroll="out"] {
+    opacity: 0;
+}
+
+.scrollHalf__grupo[data-scroll="in"] {
+    opacity: calc(var(--visible-y)*1.9);
+}
+
+.app-first-cs,
+.web-first-cs {
+    background-color: var(--orange-color);
+}
+
+.app-second-cs,
+.web-second-cs {
+    background-color: var(--brown-color);
+}
+
 .portfolios .card-inner {
     position: relative;
     margin: 0 auto;
@@ -19296,7 +17672,7 @@ textarea::-ms-input-placeholder {
     font-weight: normal;
 }
 
-.challenges ul {
+/* .challenges ul {
     list-style: none;
     padding: 0;
     margin-top: 20px;
@@ -19318,9 +17694,9 @@ textarea::-ms-input-placeholder {
     width: 100%;
     max-width: 680px;
     border-radius: 10px;
-}
+} */
 
-.persona-section-wrapper {
+.case-studies-persona .persona-section-wrapper {
     background-color: white;
     padding: 20px;
     border: 1px #0000002e solid;
@@ -19328,13 +17704,13 @@ textarea::-ms-input-placeholder {
     margin: 0;
 }
 
-.persona-left-column-card {
+.case-studies-persona .persona-left-column-card {
     text-align: center;
     align-items: center;
     height: 100%;
 }
 
-.persona-card {
+.case-studies-persona .persona-card {
     background-color: #4e4a4a14;
     border-radius: 15px;
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
@@ -19343,7 +17719,7 @@ textarea::-ms-input-placeholder {
     flex-direction: column;
 }
 
-.persona-name-section img {
+.case-studies-persona .persona-name-section img {
     width: 120px;
     height: 120px;
     border-radius: 50%;
@@ -19351,32 +17727,28 @@ textarea::-ms-input-placeholder {
     margin-bottom: 20px;
 }
 
-h3{
-    color: var(--black-color);
-}
-
-.persona-name-section p {
+.case-studies-persona .persona-name-section p {
     color: #6c757d;
     margin-bottom: 30px;
 }
 
-.persona-background-section p {
+.case-studies-persona .persona-background-section p {
     color: #495057;
 }
 
-.persona-background-section p b {
+.case-studies-persona .persona-background-section p b {
     font-weight: 600;
     color: var(--black-color);
 }
 
-.persona-card ul li {
+.case-studies-persona .persona-card ul li {
     position: relative;
     padding-left: 25px;
     color: var(--black-color);
 }
 
-.persona-goals-section ul li::before,
-.persona-painpoints-section ul li::before {
+.case-studies-persona .persona-goals-section ul li::before,
+.case-studies-persona .persona-painpoints-section ul li::before {
     content: "\2022";
     color: #440414;
     font-weight: bold;
@@ -19387,11 +17759,1632 @@ h3{
     top: 0;
 }
 
-.persona-card ul li::before {
+.case-studies-persona .persona-card ul li::before {
     color: var(--bright-cyan);
 }
 
+.case-studies-testimonial .testimonial-card {
+    background: #ffffff;
+    border-radius: 14px;
+    box-shadow: 0 4px 18px rgba(0, 0, 0, 0.07);
+    transition: 0.3s ease;
+}
+
+.case-studies-testimonial .testimonial-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 6px 22px rgba(0, 0, 0, 0.12);
+}
+
+.case-studies-testimonial .testimonial-card img {
+    width: 90px;
+    height: 90px;
+    object-fit: cover;
+}
+
+.tech-card {
+    background: #fff;
+    padding: 20px 10px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.06);
+    transition: 0.3s ease;
+    height: 100%;
+}
+
+.tech-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 22px rgba(0, 0, 0, 0.1);
+}
+
+.tech-card h6 {
+    font-size: 14px;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.tech-card img {
+    width: 60px;
+    height: 60px;
+    object-fit: contain;
+    margin-bottom: 8px;
+}
+
+.tech-card p {
+    font-size: 13px;
+    margin: 0;
+    font-weight: 500;
+}
+
 /* End Portfolio */
+
+/* Start Case Studies */
+
+/* Start Travel Agency */
+
+.travel-agency-app {
+    background-image: url(../images/case-studies/travel-agency-header-background.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.about-goal-travel {
+    background: linear-gradient(to right, var(--purple-color), var(--blue-color));
+    background-attachment: fixed;
+}
+
+.visuals-travel-background {
+    background-image: url(../images/case-studies/travel-agency-app/visuals-background.webp);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.about-travel h2,
+.project-idea-travel h2,
+.target-audience-travel h2,
+.project-challanges-travel h2,
+.solutions-delivered-travel h2,
+.results-impact-travel h2,
+.conclusion-travel h2,
+.design-process-travel h2,
+.sketching-travel h2,
+.wireframe-travel h2,
+.color-travel h2,
+.typography-travel h2,
+.features-travel h2,
+.sitemap-travel h2,
+.project-timeline h2,
+.shapes-travel h2,
+.type-faces-travel h2,
+.mockups-travel h2,
+.visuals-travel h2 {
+    color: var(--black-color);
+}
+
+.about-travel .span {
+    color: var(--purple-color);
+}
+
+.travel-agency-web {
+    background-image: url(../images/case-studies/travel-agency-header-background.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.travel-agency-portfolio {
+    background-image: url(../images/case-studies/travel-agency-header-background.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.travel-website-background,
+.travel-app-background,
+.travel-creative-background,
+.travel-mockup-background {
+    background-image: url(../images/case-studies/travel-agency-portfolio/visuals-background.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.travel-sitemap-img-div {
+    background-image: url(../images/case-studies/travel-agency-web/visuals-background.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.color-travel h4 {
+    color: var(--purple-color);
+    padding-bottom: 15px;
+}
+
+.travel-app-sketching-icon,
+.travel-app-wireframe-icon {
+    background-color: var(--black-color);
+    border: 1px solid var(--black-color);
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    margin: 0 auto;
+    display: block;
+    padding: 35px;
+}
+
+.travel-app-sketching-icon img,
+.travel-app-wireframe-icon img {
+    width: 75px;
+    height: 75px;
+}
+
+.travel-app-branding-icon,
+.travel-app-visuals-icon {
+    border: 1px solid var(--purple-color);
+    background-color: var(--purple-color);
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    margin: 0 auto;
+    display: block;
+    padding: 35px;
+}
+
+.travel-app-branding-icon img,
+.travel-app-visuals-icon img {
+    width: 75px;
+    height: 75px;
+}
+
+.travel-web-user-and-research,
+.travel-web-competitive-analysis {
+    background-color: var(--purple-color);
+    border: 1px solid var(--purple-color);
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    margin: 0 auto;
+    display: block;
+    padding: 35px;
+}
+
+.travel-web-user-and-research img,
+.travel-web-competitive-analysis img {
+    width: 75px;
+    height: 75px;
+}
+
+.travel-web-problem-and-solutions,
+.travel-web-wireframe-icons {
+    border: 1px solid var(--purple-color);
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    margin: 0 auto;
+    display: block;
+    padding: 35px;
+}
+
+.travel-web-problem-and-solutions img,
+.travel-web-wireframe-icons img {
+    width: 75px;
+    height: 75px;
+}
+
+.features-travel h5 {
+    color: var(--purple-color);
+}
+
+/*  End Travel Agency */
+
+/* Start Real Estate */
+
+.real-estate-apps {
+    background-image: url(../images/case-studies/real-estate-header-background.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.real-estate-about h2,
+.real-estate-project-idea h2,
+.real-estate-target-audience h2,
+.real-estate-project-challanges h2,
+.real-estate-solutions-delivered h2,
+.real-estate-results-impact h2,
+.real-estate-conclusion h2,
+.real-estate-design-process h2,
+.real-estate-sketching h2,
+.real-estate-wireframe h2,
+.real-estate-color h2,
+.real-estate-typography h2,
+.real-estate-features h2,
+.real-estate-sitemap h2,
+.real-estate-project-timeline h2,
+.real-estate-shapes h2,
+.real-estate-type-faces h2,
+.real-estate-mockups h2,
+.real-estate-components h2,
+.real-estate-visuals h2 {
+    color: var(--brown-color);
+}
+
+.real-estate-goal {
+    background-image: url(../images/case-studies/real-estate-app/real-estate-background.webp);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.real-estate-visuals-background {
+    background-image: url(../images/case-studies/real-estate-app/real-estate-background.webp);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.real-estate-web {
+    background-image: url(../images/case-studies/real-estate-header-background.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.real-estate-web .span,
+.real-estate-apps .span {
+    color: var(--golden-color);
+}
+
+.real-estate-sitemap-img {
+    background-image: url(../images/case-studies/real-estate-app/real-estate-background.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.real-estate-apps h1,
+.real-estate-web h1 {
+    text-transform: uppercase;
+}
+
+.real-estate-apps h3,
+.real-estate-web h3 {
+    text-transform: uppercase;
+}
+
+.real-estate-app-sketching-icon,
+.real-estate-app-wireframe-icon {
+    background-color: var(--brown-color);
+    border: 1px solid var(--brown-color);
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    margin: 0 auto;
+    display: block;
+    padding: 35px;
+}
+
+.real-estate-app-sketching-icon img,
+.real-estate-app-wireframe-icon img {
+    width: 75px;
+    height: 75px;
+}
+
+.real-estate-app-branding-icon,
+.real-estate-app-visuals-icon {
+    background-color: var(--golden-color);
+    border: 1px solid var(--golden-color);
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    margin: 0 auto;
+    display: block;
+    padding: 35px;
+}
+
+.real-estate-app-branding-icon img,
+.real-estate-app-visuals-icon img {
+    width: 75px;
+    height: 75px;
+}
+
+.real-estate-web-user-and-research,
+.real-estate-web-problem-and-solutions {
+    background-color: var(--brown-color);
+    border: 1px solid var(--brown-color);
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    margin: 0 auto;
+    display: block;
+    padding: 35px;
+}
+
+.real-estate-web-user-and-research img,
+.real-estate-web-problem-and-solutions img {
+    width: 75px;
+    height: 75px;
+}
+
+.real-estate-web-competitive-analysis,
+.real-estate-web-wireframe-icons {
+    background-color: var(--golden-color);
+    border: 1px solid var(--golden-color);
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    margin: 0 auto;
+    display: block;
+    padding: 35px;
+}
+
+.real-estate-web-wireframe-icons img,
+.real-estate-web-wireframe-icons img {
+    width: 75px;
+    height: 75px;
+}
+
+.real-estate-features {
+    color: var(--brown-color);
+}
+
+/* End Real Estate */
+
+/* Start Loyalty */
+
+.loyalty-apps {
+    background-image: url(../images/case-studies/loyalty-header-background.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.loyalty-about h2,
+.loyalty-project-idea h2,
+.loyalty-target-audience h2,
+.loyalty-project-challanges h2,
+.loyalty-solutions-delivered h2,
+.loyalty-results-impact h2,
+.loyalty-conclusion h2,
+.loyalty-design-process h2,
+.loyalty-sketching h2,
+.loyalty-wireframe h2,
+.loyalty-color h2,
+.loyalty-typography h2,
+.loyalty-features h2,
+.loyalty-sitemap h2,
+.loyalty-project-timeline h2,
+.loyalty-shapes h2,
+.loyalty-type-faces h2,
+.loyalty-mockups h2,
+.loyalty-components h2,
+.loyalty-visuals h2 {
+    color: var(--black-color);
+}
+
+.loyalty-goal {
+    background: linear-gradient(to right, #a30007, #e70009, #cc1a1a);
+    /* background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat; */
+}
+
+.loyalty-visuals-background {
+    background-image: url(../images/case-studies/loyalty-app/loyalty-background.webp);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.loyalty-web {
+    background-image: url(../images/case-studies/loyalty-header-background.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.loyalty-web .span,
+.loyalty-apps .span {
+    color: var(--black-color);
+}
+
+.loyalty-app-sketching-icon,
+.loyalty-app-wireframe-icon {
+    background-color: var(--black-color);
+    border: 1px solid var(--black-color);
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    margin: 0 auto;
+    display: block;
+    padding: 35px;
+}
+
+.loyalty-app-sketching-icon img,
+.loyalty-app-wireframe-icon img {
+    width: 75px;
+    height: 75px;
+}
+
+.loyalty-app-branding-icon,
+.loyalty-app-visuals-icon {
+    background-color: var(--red-color);
+    border: 1px solid var(--red-color);
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    margin: 0 auto;
+    display: block;
+    padding: 35px;
+}
+
+.loyalty-app-branding-icon img,
+.loyalty-app-visuals-icon img {
+    width: 75px;
+    height: 75px;
+}
+
+.loyalty-features hr {
+    color: var(--red-color);
+    width: 40%;
+    height: 3px;
+    opacity: 1;
+}
+
+.loyalty-web-user-and-research,
+.loyalty-web-problem-and-solutions {
+    background-color: var(--black-color);
+    border: 1px solid var(--black-color);
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    margin: 0 auto;
+    display: block;
+    padding: 35px;
+}
+
+.loyalty-web-user-and-research img,
+.loyalty-web-problem-and-solutions img {
+    width: 75px;
+    height: 75px;
+}
+
+.loyalty-web-competitive-analysis,
+.loyalty-web-wireframe-icons {
+    background-color: var(--red-color);
+    border: 1px solid var(--red-color);
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    margin: 0 auto;
+    display: block;
+    padding: 35px;
+}
+
+.loyalty-web-wireframe-icons img,
+.loyalty-web-wireframe-icons img {
+    width: 75px;
+    height: 75px;
+}
+
+.loyalty-web-features {
+    color: var(--brown-color);
+}
+
+.loyalty-sitemap-img {
+    background-image: url(../images/case-studies/loyalty-app/loyalty-background.webp);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* End Loyalty */
+
+/* Start Gym */
+
+.gym-app {
+    background-image: url(../images/case-studies/gym-header-background.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.gym-about h2,
+.gym-project-idea h2,
+.gym-target-audience h2,
+.gym-project-challanges h2,
+.gym-solutions-delivered h2,
+.gym-results-impact h2,
+.gym-conclusion h2,
+.gym-design-process h2,
+.gym-sketching h2,
+.gym-wireframe h2,
+.gym-color h2,
+.gym-typography h2,
+.gym-features h2,
+.gym-sitemap h2,
+.gym-project-timeline h2,
+.gym-shapes h2,
+.gym-type-faces h2,
+.gym-mockups h2,
+.gym-components h2,
+.gym-visuals h2 {
+    color: var(--black-color);
+}
+
+.gym-goal {
+    background-image: url(../images/case-studies/gym-app/gym-background.webp);
+    /* background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat; */
+}
+
+.gym-visuals-background {
+    background-image: url(../images/case-studies/gym-app/gym-background.webp);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.gym-web {
+    background-image: url(../images/case-studies/gym-header-background.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.gym-web .span,
+.gym-app .span,
+.gym-about .span {
+    color: var(--orange-color);
+}
+
+.gym-about span {
+    color: var(--orange-color);
+}
+
+.gym-app-sketching-icon,
+.gym-app-wireframe-icon {
+    background-color: var(--black-color);
+    border: 1px solid var(--black-color);
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    margin: 0 auto;
+    display: block;
+    padding: 35px;
+}
+
+.gym-app-sketching-icon img,
+.gym-app-wireframe-icon img {
+    width: 75px;
+    height: 75px;
+}
+
+.gym-app-branding-icon,
+.gym-app-visuals-icon {
+    background-color: var(--orange-color);
+    border: 1px solid var(--orange-color);
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    margin: 0 auto;
+    display: block;
+    padding: 35px;
+}
+
+.gym-app-branding-icon img,
+.gym-app-visuals-icon img {
+    width: 75px;
+    height: 75px;
+}
+
+.gym-features hr {
+    color: var(--orange-color);
+    width: 40%;
+    height: 3px;
+    opacity: 1;
+}
+
+.gym-web-user-and-research,
+.gym-web-problem-and-solutions {
+    background-color: var(--black-color);
+    border: 1px solid var(--black-color);
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    margin: 0 auto;
+    display: block;
+    padding: 35px;
+}
+
+.gym-web-user-and-research img,
+.gym-web-problem-and-solutions img {
+    width: 75px;
+    height: 75px;
+}
+
+.gym-web-competitive-analysis,
+.gym-web-wireframe-icons {
+    background-color: var(--orange-color);
+    border: 1px solid var(--orange-color);
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    margin: 0 auto;
+    display: block;
+    padding: 35px;
+}
+
+.gym-web-wireframe-icons img,
+.gym-web-wireframe-icons img {
+    width: 75px;
+    height: 75px;
+}
+
+.gym-web-features {
+    color: var(--orange-color);
+}
+
+.gym-sitemap-img {
+    background-image: url(../images/case-studies/gym-app/gym-background.webp);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.gym-sitemap-web-img {
+    background: var(--black-color);
+}
+
+/* End Gym */
+
+/* Start Mover */
+
+.mover-apps {
+    background-image: url(../images/case-studies/mover-header-background.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.mover-about h2,
+.mover-project-idea h2,
+.mover-target-audience h2,
+.mover-project-challanges h2,
+.mover-solutions-delivered h2,
+.mover-results-impact h2,
+.mover-conclusion h2,
+.mover-design-process h2,
+.mover-sketching h2,
+.mover-wireframe h2,
+.mover-color h2,
+.mover-typography h2,
+.mover-features h2,
+.mover-sitemap h2,
+.mover-project-timeline h2,
+.mover-shapes h2,
+.mover-type-faces h2,
+.mover-mockups h2,
+.mover-components h2,
+.mover-visuals h2 {
+    color: var(--black-color);
+}
+
+.mover-goal {
+    background-image: url(../images/case-studies/mover-app/mover-green-background.webp);
+    /* background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat; */
+}
+
+.mover-visuals-background {
+    background-image: url(../images/case-studies/mover-app/mover-background.webp);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.mover-web {
+    background-image: url(../images/case-studies/mover-header-background.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.mover-web .span,
+.mover-apps .span {
+    color: var(--green-color);
+}
+
+.mover-about .span {
+    color: var(--green-color);
+}
+
+.mover-app-sketching-icon,
+.mover-app-wireframe-icon {
+    background-color: var(--black-color);
+    border: 1px solid var(--black-color);
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    margin: 0 auto;
+    display: block;
+    padding: 35px;
+}
+
+.mover-app-sketching-icon img,
+.mover-app-wireframe-icon img {
+    width: 75px;
+    height: 75px;
+}
+
+.mover-app-branding-icon,
+.mover-app-visuals-icon {
+    background-color: var(--green-color);
+    border: 1px solid var(--green-color);
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    margin: 0 auto;
+    display: block;
+    padding: 35px;
+}
+
+.mover-app-branding-icon img,
+.mover-app-visuals-icon img {
+    width: 75px;
+    height: 75px;
+}
+
+.mover-features hr {
+    color: var(--green-color);
+    width: 40%;
+    height: 3px;
+    opacity: 1;
+}
+
+.mover-web-user-and-research,
+.mover-web-problem-and-solutions {
+    background-color: var(--black-color);
+    border: 1px solid var(--black-color);
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    margin: 0 auto;
+    display: block;
+    padding: 35px;
+}
+
+.mover-web-user-and-research img,
+.mover-web-problem-and-solutions img {
+    width: 75px;
+    height: 75px;
+}
+
+.mover-web-competitive-analysis,
+.mover-web-wireframe-icons {
+    background-color: var(--green-color);
+    border: 1px solid var(--green-color);
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    margin: 0 auto;
+    display: block;
+    padding: 35px;
+}
+
+.mover-web-wireframe-icons img,
+.mover-web-wireframe-icons img {
+    width: 75px;
+    height: 75px;
+}
+
+.mover-web-features {
+    color: var(--orange-color);
+}
+
+.mover-sitemap-img {
+    background-image: url(../images/case-studies/mover-app/mover-background.webp);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.mover-sitemap-web-img {
+    background: var(--black-color);
+}
+
+/* End Mover */
+
+/* Start Boujee Beachin */
+
+.boujee-beachin-app {
+    background: linear-gradient(to bottom, #00A9F8 0%, #00A9F8 8%, transparent 25%), url("../images/case-studies/boujee-beachin/boujee-beachin-background1.webp") center/cover no-repeat;
+}
+
+.boujee-beachin-app .boujee-beachin-logo {
+    width: 100%;
+    max-width: 200px;
+}
+
+.boujee-beachin-app h1 span {
+    color: var(--light-blue-color);
+    font-weight: bold;
+}
+
+.boujee-beachin-app .case-tag {
+    background-color: var(--light-blue-color);
+    color: var(--white-color);
+    padding: 10px 25px;
+    border-radius: 20px;
+    font-weight: 700;
+    width: fit-content;
+    text-align: center;
+}
+
+.boujee-beachin-problem img {
+    width: 100%;
+    max-width: 450px;
+    display: block;
+    margin: 0 auto;
+}
+
+/* .boujee-beachin-objectives h2 {
+    background-color: var(--light-blue-color);
+    color: var(--white-color);
+    display: inline-block;
+    padding: 10px;
+    border-radius: 20px;
+    font-weight: 700;
+} */
+
+.boujee-beachin-objectives img {
+    width: 100%;
+    max-width: 320px;
+    display: block;
+    margin: 0 auto;
+}
+
+.boujee-beachin-objectives .info-card {
+    background-color: #fff;
+    border-radius: 15px;
+    border: 1px solid #007599;
+    padding: 25px;
+    margin-bottom: 25px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+    transition: all 0.3s ease;
+}
+
+.boujee-beachin-objectives .info-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.12);
+}
+
+.boujee-beachin-objectives .card-number-circle {
+    width: 45px;
+    height: 45px;
+    background-color: var(--white-color);
+    border: 4px solid var(--light-blue-color);
+    color: var(--black-color);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.boujee-beachin-objectives p {
+    color: var(--gray-color);
+    line-height: 1.6;
+}
+
+.boujee-beachin-designs .container {
+    position: relative;
+}
+
+.boujee-beachin-designs .central-line {
+    position: absolute;
+    width: 4px;
+    background-color: var(--light-blue-color);
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 999;
+}
+
+.boujee-beachin-designs .text-theme-blue {
+    color: var(--light-blue-color);
+    font-weight: 600;
+}
+
+.boujee-beachin-designs .feature-box {
+    background: var(--white-color);
+    border-radius: 12px;
+    padding: 25px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    position: relative;
+    z-index: 2;
+    border: 1px solid var(--gray-color-2);
+}
+
+/* .boujee-beachin-wireframe h2 {
+    color: var(--light-blue-color);
+} */
+
+.boujee-beachin-wireframe ul {
+    display: flex;
+    gap: 20px;
+    padding: 0;
+    margin: 1.5rem 0;
+    list-style: none;
+}
+
+.boujee-beachin-wireframe ul li {
+    background: #f8f9fa;
+    padding: 12px 18px;
+    border-radius: 8px;
+    border: 1px solid #e5e5e5;
+    font-size: 0.95rem;
+    font-weight: 500;
+    color: #007bff;
+    transition: all 0.3s ease;
+    cursor: default;
+}
+
+.boujee-beachin-wireframe ul li:hover {
+    background: #007bff;
+    color: #fff;
+    border-color: #007bff;
+    transform: translateY(-3px);
+}
+
+.boujee-beachin-target .target-users-card {
+    height: 90px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 14px 16px;
+    border-radius: 12px;
+    background: #fff;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.boujee-beachin-target .target-users-card img {
+    width: 22px;
+    height: auto;
+    object-fit: contain;
+}
+
+.boujee-beachin-target .target-users-card p {
+    margin: 0;
+    font-size: 16px;
+    color: #333;
+}
+
+.boujee-beachin-personal .personal-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 22px;
+    line-height: 22px;
+    margin-bottom: 15px;
+}
+
+.boujee-beachin-personal .right-info {
+    border-left: 3px solid var(--white-color);
+    padding-left: 22px;
+}
+
+.boujee-beachin-personal .personal-heading {
+    color: var(--wheat);
+}
+
+.boujee-beachin-personal .personal-wrapper {
+    background-color: #3a3a3a;
+    color: var(--white-color);
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.boujee-beachin-personal .personal-card {
+    background-color: #4f4f4f;
+    border: none;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    /* height: 46%; */
+}
+
+.boujee-beachin-personal .card-body {
+    padding: 1.5rem;
+}
+
+.boujee-beachin-personal .border-top-accent {
+    border-top: 4px solid #0097DE !important;
+}
+
+.boujee-beachin-personal .text-secondary-light {
+    color: #dcdcdc;
+}
+
+.boujee-beachin-personal .custom-list {
+    padding-left: 1.2rem;
+}
+
+.boujee-beachin-personal .custom-list li {
+    list-style: circle;
+    margin-bottom: 0.5rem;
+    color: #dcdcdc;
+}
+
+.boujee-beachin-personal .profile-img-container {
+    width: 160px;
+    height: 160px;
+    margin: 0 auto 1.5rem;
+    padding: 5px;
+    border: 3px solid #ffffff;
+    border-radius: 50%;
+}
+
+.boujee-beachin-personal .profile-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.boujee-beachin-personal .demographics-table {
+    margin: 2rem auto;
+    width: 80%;
+    font-size: 0.9rem;
+}
+
+.boujee-beachin-personal .demographics-table td {
+    padding: 4px 0;
+}
+
+.boujee-beachin-personal .demo-label {
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: right;
+    padding-right: 15px;
+    width: 50%;
+    color: var(--white-color);
+}
+
+.boujee-beachin-personal .demo-value {
+    color: var(--white-color);
+    text-align: left;
+}
+
+.boujee-beachin-personal .personality-tag {
+    background-color: #f8f9fa;
+    color: var(--light-blue-color);
+    font-weight: 600;
+    padding: 1em;
+    font-size: 0.85rem;
+}
+
+.boujee-beachin-personal .progress-label {
+    font-size: 0.85rem;
+    margin-bottom: 4px;
+    display: block;
+}
+
+.boujee-beachin-personal .progress {
+    height: 8px;
+    background-color: #6c757d;
+    margin-bottom: 1rem;
+}
+
+.boujee-beachin-personal .progress-bar-accent {
+    background-color: var(--light-blue-color);
+}
+
+.boujee-beachin-testing .user-testing-card {
+    height: auto;
+    position: relative;
+    border: 2px solid #000;
+    border-radius: 12px;
+    padding: 60px 20px 20px;
+    background: #fff;
+    transition: 0.3s ease;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.0.8);
+}
+
+.boujee-beachin-testing .user-testing-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.08);
+}
+
+.boujee-beachin-testing .user-testing-img {
+    position: absolute;
+    top: -50px;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+}
+
+.boujee-beachin-testing .user-testing-img img {
+    width: 85px;
+    height: auto;
+    object-fit: contain;
+}
+
+.boujee-beachin-testing .user-testing-img p {
+    margin: 0;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.boujee-beachin-testing .user-testing-card ul {
+    margin: 0;
+    padding-left: 18px;
+}
+
+.boujee-beachin-testing .user-testing-card li {
+    list-style: circle;
+    margin-top: 18px;
+    line-height: 1.6;
+    padding-left: 22px;
+}
+
+/* .boujee-beachin-testimonial p {
+    font-size: 14px;
+    opacity: 0.8;
+}
+
+.boujee-beachin-testimonial .testimonial-text {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #444;
+} */
+
+.boujee-beachin-conclusion p {
+    font-size: 16px;
+    line-height: 1.9;
+    border-left: 7px solid var(--light-blue-color);
+    padding-left: 22px;
+}
+
+.boujee-beachin-conclusion .conclusion-right img {
+    max-width: 100%;
+    border-radius: 14px;
+    transition: 0.3s ease;
+}
+
+.boujee-beachin-conclusion .conclusion-right img:hover {
+    transform: scaley(1.02);
+}
+
+/* .boujee-beachin-mockup img {
+    width: 100%;
+    max-width: 1800px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+} */
+
+.boujee-beachin-testimonial .testimonial-card {
+    background: var(--white-color);
+    border-radius: 14px;
+    box-shadow: 0 4px 18px rgba(0, 0, 0, 0.07);
+    transition: 0.3s ease;
+}
+
+.boujee-beachin-testimonial .testimonials-img-section img {
+    width: 90px;
+    height: 90px;
+    object-fit: cover;
+}
+
+.boujee-beachin-testimonial .star {
+    width: 15%;
+}
+
+/* End Boujee Beachin */
+
+/* Start Wood Land  */
+
+.wood-land-app {
+    background: url("../images/case-studies/wood-land-app/wood-land-background-img.webp") center/cover no-repeat;
+}
+
+.wood-land-app h1,
+.wood-land-app p {
+    color: var(--white-color);
+    font-weight: bold;
+}
+
+.wood-land-app h1 span,
+.wood-land-app p span {
+    color: var(--green-color-2);
+    font-weight: bold;
+}
+
+.wood-land-app .wood-land-button {
+    background-color: var(--green-color-2);
+    color: var(--black-color);
+    padding: 10px 25px;
+    border-radius: 10px;
+    font-weight: bold;
+    width: fit-content;
+    text-align: center;
+    cursor: pointer;
+}
+
+.wood-land-app .wood-land-button:hover {
+    background-color: transparent;
+    color: var(--white-color);
+    border: 1px solid var(--green-color-2);
+    border-radius: 20px;
+    transition: 0.3s ease-in-out;
+}
+
+.wood-land-client-overview h2, h6 {
+    color: var(--black-color);
+    padding-top: 10px;
+}
+
+.wood-land-client-overview h2 {
+    color: var(--black-color);
+    padding-bottom: 10px;
+}
+
+.wood-land-client-overview p {
+    color: var(--black-color);
+    padding-bottom: 13px;
+}
+
+.wood-land-client-overview .left-border-client-overview {
+    padding-left: 10px;
+    border-left: 2px solid #67FFBB;
+}
+
+.wood-land-development-challenges {
+    background-image: url("../images/case-studies/wood-land-app/development-challange-background-img.webp");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* .wood-land-development-challenges .development-challenges-left {
+    border-left: 2px solid #67FFBB;
+    padding-left: 15px;
+} */
+
+.wood-land-development-challenges .development-challenges-left h2,
+.wood-land-development-challenges .development-challenges-left p {
+    color: #fff;
+}
+
+.wood-land-development-challenges .info-card {
+    /* height: 240px; */
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background: rgba(255, 255, 255, 0.75);
+    border-radius: 12px;
+    padding: 20px;
+    transition: all 0.3s ease;
+}
+
+.wood-land-development-challenges .info-card:hover {
+    background: rgba(255, 255, 255, 0.95);
+    transform: translateY(-5px);
+}
+
+.wood-land-development-challenges .info-card .card-number-circle {
+    border: 4px solid #67FFBB;
+    color: #000;
+    width: 45px;
+    height: 45px;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.wood-land-development-challenges .info-card p {
+    color: #000;
+}
+
+.wood-land-wireframe {
+    background: #f7f9fb;
+    border-radius: 20px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.wood-land-wireframe p {
+    color: #000;
+    padding-bottom: 30px;
+}
+
+.wood-land-wireframe .wire-img {
+    width: 100%;
+    max-width: 380px;
+    border-radius: 12px;
+    transition: transform .3s ease, box-shadow .3s ease;
+    display: block;
+    margin: 0 auto;
+}
+
+.wood-land-wireframe .wire-img:hover {
+    transform: scale(1.09);
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.15);
+}
+
+.wood-land-wireframe .wireframe-gallery .col-6 {
+    display: flex;
+    justify-content: center;
+}
+
+.wood-land-project-goals {
+    border-radius: 20px;
+}
+
+.wood-land-project-goals img {
+    object-fit: cover;
+    width: 90%;
+}
+
+.wood-land-project-goals .info-card {
+    border-radius: 14px;
+    padding: 22px 25px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.07);
+    transition: all .3s ease;
+}
+
+.wood-land-project-goals .info-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 22px rgba(0, 0, 0, 0.15);
+}
+
+.wood-land-project-goals .wood-land-project-goals .info-card h5 {
+    font-weight: 700;
+    font-size: 18px;
+    margin-bottom: 8px;
+    color: #2d2926;
+}
+
+.wood-land-project-goals .green {
+    background: #D5FFEC;
+    border: 1px solid black;
+}
+
+.wood-land-project-goals .green h5,
+.wood-land-project-goals .green p {
+    color: var(--black-color);
+}
+
+.wood-land-project-goals .black {
+    background: #1B252D;
+    border: 1px solid wheat;
+
+}
+
+.wood-land-project-goals .black h5,
+.wood-land-project-goals .black p {
+    color: var(--white-color);
+}
+
+.wood-land-designs .container {
+    position: relative;
+}
+
+.wood-land-designs .wood-land-central-line {
+    position: absolute;
+    width: 4px;
+    background-color: #37424A;
+    top: 14%;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 999;
+}
+
+.wood-land-designs .wood-land-text-theme {
+    color: var(--black-color);
+    font-weight: 600;
+}
+
+.wood-land-designs .wood-land-feature-box:hover {
+    box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.15);
+}
+
+.wood-land-designs .left-column-wood-land .wood-land-feature-box-group .wood-land-feature-box {
+    background: #D5FFEC;
+    border-radius: 12px;
+    padding: 25px;
+    box-shadow: 0 2px 15px rgba(0, 0, 0, 0.05);
+    position: relative;
+    z-index: 2;
+    border: 1px solid var(--gray-color-2);
+}
+
+.wood-land-designs .left-column-wood-land .wood-land-feature-box-group .wood-land-feature-box:nth-child(2) {
+    background-color: #1B252D;
+}
+
+.wood-land-designs .left-column-wood-land .wood-land-feature-box-group .wood-land-feature-box:nth-child(2) h4,
+.wood-land-designs .left-column-wood-land .wood-land-feature-box-group .wood-land-feature-box:nth-child(2) p {
+    color: var(--white-color);
+}
+
+.wood-land-designs .right-column-wood-land .wood-land-feature-box-group .wood-land-feature-box {
+    background: #1B252D;
+    border-radius: 12px;
+    padding: 25px;
+    box-shadow: 0 2px 15px rgba(0, 0, 0, 0.05);
+    position: relative;
+    z-index: 2;
+    border: 1px solid var(--gray-color-2);
+}
+
+.wood-land-designs .right-column-wood-land .wood-land-text-theme {
+    color: var(--white-color);
+    font-weight: 600;
+}
+
+.wood-land-designs .right-column-wood-land .wood-land-feature-box-group .wood-land-feature-box:nth-child(2) {
+    background-color: #D5FFEC;
+}
+
+.wood-land-designs .right-column-wood-land .wood-land-feature-box-group .wood-land-feature-box:nth-child(2) h4,
+.wood-land-designs .right-column-wood-land .wood-land-feature-box-group .wood-land-feature-box:nth-child(2) p {
+    color: var(--black-color);
+}
+
+/* End Wood Land App  */
+
+/* Start  Neuro Knights App */
+
+.neuro-knight-app {
+    background: linear-gradient(to bottom, #4A8ADD 0%, #4A8ADD 5%, transparent 20%);
+}
+
+.neuro-knight-app .logo {
+    width: 100%;
+    max-width: 300px;
+}
+
+.neuro-night-hero-img img {
+    padding-left: 22px;
+    width: 100%;
+}
+
+.neuro-knight-app h1 span,
+.neuro-knight-app p span {
+    color: #007599;
+    font-weight: bold;
+}
+
+.wood-land-button:hover {
+    background-color: transparent;
+    color: var(--white-color);
+    border: 1px solid #58D39C;
+    border-radius: 20px;
+    transition: 0.3s ease-in-out;
+}
+
+.NeuroKnights-problem .common-heading {
+    padding-left: 32px;
+}
+
+.NeuroKnights-problem .common-heading h2 {
+    font-weight: bold;
+}
+
+.NeuroKnights-problem .common-heading p {
+    font-weight: bold;
+}
+
+.NeuroKnights-problem .common-heading h2>span {
+    color: #007599;
+}
+
+.neuro-night-designs .container {
+    position: relative;
+}
+
+.neuro-night-designs .neuro-night-central-line {
+    position: absolute;
+    width: 4px;
+    background-color: #37424A;
+    top: 14%;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 999;
+}
+
+.neuro-night-designs .neuro-night-text-theme {
+    color: var(--white-color);
+    font-weight: 600;
+}
+
+.neuro-night-feature-box:hover {
+    box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.15);
+}
+
+.left-column-neuro-night .neuro-night-feature-box-group .neuro-night-feature-box {
+    background: #FF6C69;
+    border-radius: 12px;
+    padding: 25px;
+    box-shadow: 0 2px 15px rgba(0, 0, 0, 0.05);
+    position: relative;
+    z-index: 2;
+    border: 1px solid var(--gray-color-2);
+}
+
+.left-column-neuro-night .neuro-night-feature-box-group .neuro-night-feature-box:nth-child(2) {
+    background-color: #4A8ADD;
+}
+
+.right-column-neuro-night .neuro-night-feature-box-group .neuro-night-feature-box {
+    background: #4A8ADD;
+    border-radius: 12px;
+    padding: 25px;
+    box-shadow: 0 2px 15px rgba(0, 0, 0, 0.05);
+    position: relative;
+    z-index: 2;
+    border: 1px solid var(--gray-color-2);
+}
+
+.right-column-neuro-night .neuro-night-feature-box-group .neuro-night-feature-box:nth-child(2) {
+    background-color: #FF6C69;
+}
+
+.neuro-night-feature-box-group .neuro-night-feature-box h4,
+.left-column-neuro-night .neuro-night-feature-box-group .neuro-night-feature-box p,
+.right-column-neuro-night .neuro-night-feature-box-group .neuro-night-feature-box p {
+    color: var(--white-color);
+}
+
+.Tech-Stack-section {
+    background: #f8f8f8;
+    border-radius: 12px;
+    border: 1px solid black;
+
+}
+
+.tech-img-box {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding: 15px;
+    margin-right: 20px;
+    flex: 1;
+}
+
+.tech-img-box img {
+    width: 150px;
+    height: auto;
+    object-fit: contain;
+}
+
+
+.tech-img-box .common-heading h6 {
+    margin: 0 0 5px;
+    font-weight: 600;
+}
+
+.tech-img-box .common-heading p {
+    margin: 0;
+    color: #555;
+}
+
+.neuro-night-project-card {
+
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background-color: #007599;
+    color: var(--white-color);
+    padding: 30px;
+    border-radius: 20px;
+}
+
+.neuro-night-project-card .card-number-circle {
+    border: 4px white solid;
+    background-color: #007599;
+    color: var(--white-color);
+    padding: 10px;
+}
+
+/* End  Neuro Knights App */
 
 /* Start Royal Ride */
 
@@ -20072,9 +20065,9 @@ h3{
     padding: 20px;
 }
 
-.all-tarders-wireframe .common-heading h2,
-.all-tarders-wireframe .common-heading h5,
-.all-tarders-wireframe .common-heading {
+.all-traders-wireframe .common-heading h2,
+.all-traders-wireframe .common-heading h5,
+.all-traders-wireframe .common-heading {
     text-align: center;
     color: var(--white-color);
 }
@@ -20122,6 +20115,10 @@ h3{
     margin: 0 auto;
 }
 
+.all-traders-persona .persona-section-wrapper {
+    border: 1px solid var(--blue-color-2);
+}
+
 /* End All Traders App */
 
 /* Start Load Board Web */
@@ -20129,7 +20126,6 @@ h3{
 .load-board-hero-section {
     background: url("../images/case-studies/load-board/load-board-hero-background.webp") top center/ cover no-repeat;
 }
-
 
 .load-board-hero-section .logo {
     width: 100%;
@@ -20183,19 +20179,19 @@ h3{
     background-size: 20% 100%;
 }
 
-.load-board-key-challanges .key-challenges-face {
+/* .load-board-key-challanges .key-challenges-face {
     display: flex;
     flex-wrap: wrap;
     gap: 2rem;
     margin: 2rem 0;
-}
+} */
 
 .load-board-key-challanges .key-challenge-box {
     /* background-color: #f9f9f9; */
     border: 1px solid var(--blue-color-3);
     border-radius: 12px;
     padding: 1.8rem 1.5rem;
-    flex: 1 1 calc(50% - 2rem);
+    /* flex: 1 1 calc(50% - 2rem); */
     /* box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05); */
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
@@ -20234,12 +20230,12 @@ h3{
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
 }
 
-.load-board-testing .testimonial-card {
+.load-board-testimonial .testimonial-card {
     border: 1px solid var(--blue-color-3);
 }
 
 .load-board-infographic {
-    background: url("../images/case-studies/Load-board/load-board-circle.webp")center / contain no-repeat;
+    background: url("../images/case-studies/load-board/load-board-circle.webp")center / contain no-repeat;
     background-size: 100% 140%;
     z-index: 1;
 }
@@ -20374,7 +20370,19 @@ h3{
     color: var(--blue-color-3);
 }
 
+.load-board-persona .persona-section-wrapper {
+    border: 1px solid var(--blue-color-3);
+}
+
+.load-board-key-challanges .key-challenges-face {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
 /* End Load Board Web */
+
+/* End Case Studies */
 
 /* start grave love case study */
 /* Start hero section */
@@ -20571,8 +20579,6 @@ h3{
 
 /* End grave-love project goal */
 
-
-
 /*Start the result Section */
 .grave-result-section {
     background-color: #fafafa;
@@ -20615,16 +20621,7 @@ h3{
 
 /*End the result Section */
 
-
-
 /* End grave love case study */
-
-
-
-
-
-
-
 
 /*start bomb defuse section  */
 #bomb-defuse-background {

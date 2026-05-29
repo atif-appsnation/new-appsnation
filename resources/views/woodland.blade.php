@@ -9,7 +9,7 @@
     </div>
     @endif
 
-    <div class="container wow fadeIn" data-wow-delay="0.2s">
+    <div class="container">
         <div class="row">
             <div class="col-lg-6 my-lg-auto">
                 <div class="bread-titlev2 mt-4 text-center text-lg-start">
@@ -30,7 +30,7 @@
 <!-- End Breadcrumb Area-->
 
 <!--Start Client Overview Section -->
-<section class="wood-land-client-overview py-5 wow fadeIn" data-wow-delay="0.4s">
+<section class="wood-land-client-overview py-5">
     <div class="container">
         <div class="row">
             <div class="col-lg-6 my-lg-auto ">
@@ -60,7 +60,7 @@
 <!--End Client Overview Section -->
 
 <!-- Start Development Challenges Section -->
-<section class="wood-land-development-challenges wow fadeIn py-5">
+<section class="wood-land-development-challenges py-5">
     <div class="container">
         <div class="row">
             <div class="col-lg-6 my-lg-auto">
@@ -107,7 +107,7 @@
 <!-- End Development Whallenges Section -->
 
 <!-- Start Wireframes Section -->
-<section class="wood-land-wireframe py-5 wow fadeIn">
+<section class="wood-land-wireframe py-5">
     <div class="container">
         <div class="row">
             <div class="col-12">
@@ -136,8 +136,8 @@
 <!-- End Wireframes Section -->
 
 <!--Start Project Goals section -->
-<section class="py-5 wow fadeIn">
-    <div class="container wood-land-project-goals">
+<section class="py-5 wood-land-project-goals">
+    <div class="container">
         <div class="common-heading text-center">
             <h2 class="mb30">Project Goals</h2>
         </div>
@@ -177,7 +177,7 @@
 <!--End Project Goals section -->
 
 <!-- Start App Screens -->
-<section class="wood-land-apps py-5 wow fadeIn">
+<section class="wood-land-apps py-5">
     <div class="container">
         <div class="common-heading">
             <h2 class="mb-3 text-center">App Screens</h2>
@@ -226,7 +226,7 @@
 <!-- End App Screens -->
 
 <!-- Start Challenges & Iterations Section -->
-<section class="wood-land-challenges wow fadeIn py-5">
+<section class="wood-land-challenges py-5">
     <div class="container">
         <div class="row align-items-center">
             <div class="col-12 col-lg-6 mb-4 mb-md-0">
@@ -264,7 +264,7 @@
 <!-- End Challenges & Iterations Section -->
 
 <!-- Start Tech Behind The App section -->
-<section class="boujee-beachin-tech py-5 wow fadeIn">
+<section class="wood-land-tech py-5">
     <div class="container">
         <div class="common-heading">
             <h2 class="text-center mb-4">Tech Behind the App</h2>
@@ -311,7 +311,7 @@
 <!-- End Tech Behind The App section -->
 
 <!-- Start Design Goals Section -->
-<section class="wood-land-designs py-5 wow fadeIn">
+<section class="wood-land-designs py-5">
     <div class="container">
         <div class="row">
             <div class="col-12">
@@ -360,7 +360,7 @@
 <!-- End Design Goals Section -->
 
 <!-- Start Mockup Section -->
-<section class="py-5 wow fadeIn boujee-beachin-mockup">
+<section class="py-5 wood-land-mockup">
     <div class="container">
         <div class="row">
             <div class="col-12 text-center">

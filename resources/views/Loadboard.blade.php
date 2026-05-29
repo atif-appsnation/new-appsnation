@@ -10,16 +10,16 @@
 
     <div class="container">
         <div class="row">
-            <div class="col-lg-12 my-lg-auto  ">
+            <div class="col-lg-12 my-lg-auto">
                 <div class="bread-titlev2 mt-4">
                     <img loading="lazy" src="{{asset('images/case-studies/load-board/load-board-logo.webp')}}" class="img-fluid logo" alt="Load Board Logo">
-                    <h1 class="pt-3">Loadboard — Logistics. Smarter. Faster</h1>
-                    <p class="pt-3">Loadboard is a modern mobile and web-based platform built to simplify freight booking, real-time tracking, and load management. Designed for logistics teams, dispatchers, carriers, and drivers, the system centralizes operations into one unified experience making it easier to assign loads, track deliveries, and streamline communication from dispatch to delivery. </p>
-                    <h5>Explore the Platform <i class="fa-solid fa-arrow-right ps-3"></i> </h5>
+                    <h1 class="pt-4">Loadboard — Logistics. Smarter. Faster</h1>
+                    <p class="pt-4">Loadboard is a modern mobile and web-based platform built to simplify freight booking, real-time tracking, and load management. Designed for logistics teams, dispatchers, carriers, and drivers, the system centralizes operations into one unified experience making it easier to assign loads, track deliveries, and streamline communication from dispatch to delivery. </p>
+                    <h5 class="mt-4">Explore the Platform <i class="fa-solid fa-arrow-right ps-3"></i> </h5>
                 </div>
             </div>
         </div>
-        <div class="row">
+        <div class="row mt-4">
             <div class="col-12">
                 <img loading="lazy" src="{{asset('images/case-studies/load-board/load-board-hero.webp')}}" class="img-fluid load-board-hero" alt="Load Board">
             </div>
@@ -39,7 +39,7 @@
                     <p>Loadboard is a cross-platform logistics and load management tool built for dispatchers, fleet operators, and truck drivers. It simplifies the complex process of assigning, tracking, and delivering freight by centralizing everything into one seamless, easy-to-navigate system.<br>Loadboard is a cross-platform logistics and load management tool built for dispatchers, fleet operators, and truck drivers. It simplifies the complex process of assigning, tracking, and delivering freight by centralizing everything into one seamless, easy-to-navigate system. From load posting to live route tracking and driver confirmation, Loadboard helps logistics teams stay agile, connected, and in control whether in the office or on the road. </p>
                 </div>
             </div>
-            <div class="col-12 col-md-12 col-lg-6 mb-4 mb-lg-0">
+            <div class="col-12 col-md-12 col-lg-6 mt-4 mt-lg-0">
                 <img loading="lazy" src="{{asset('images/case-studies/load-board/load-board-project-overview.webp')}}" class="img-fluid load-board-project-overview" alt="Load Board Project">
             </div>
         </div>
@@ -67,30 +67,30 @@
 <!-- Start Load Board Key Challanges --> 
 <section class="py-5 load-board-key-challanges">
     <div class="container">
-        <div class="text-center mb-5">
+        <div class="text-center mb-4">
             <h2 class="fw-bold">Key Challenges Faced</h2>
         </div>
-        <div class="row g-4 key-challenges-face">
-            <div class="col-md-12 col-lg-6 key-challenge-box">
-                <div class="card h-100 border-0 p-4">
+        <div class="row key-challenges-face mx-2 mx-md-0">
+            <div class="col-12 col-md-6 col-lg-6 key-challenge-box">
+                <div class="card h-100 border-0">
                     <h4 class="mb-3">Dual User Experiences</h4>
                     <p class="mb-0">Creating an interface that works seamlessly for both desktop-based dispatchers and mobile-first drivers required unique component workflows, UI scaling, and role-specific features.</p>
                 </div>
             </div>
-            <div class="col-md-12 col-lg-6 key-challenge-box">
-                <div class="card h-100 border-0 p-4">
+            <div class="col-12 col-md-6 col-lg-6 key-challenge-box">
+                <div class="card h-100 border-0">
                     <h4 class="mb-3">Clean UX for Complex Workflows</h4>
                     <p class="mb-0">Managing load creation, assignments, routing, document handling, and tracking all within a few taps demanded thoughtful structuring of the platform’s IA and layout.</p>
                 </div>
             </div>
-            <div class="col-md-12 col-lg-6 key-challenge-box">
-                <div class="card h-100 border-0 p-4">
+            <div class="col-12 col-md-6 col-lg-6 key-challenge-box">
+                <div class="card h-100 border-0">
                     <h4 class="mb-3">Real-Time Data Sync</h4>
                     <p class="mb-0">Ensuring load statuses, driver locations, and document uploads updated instantly across devices without delays or lags in communication was a major technical and UX hurdle.</p>
                 </div>
             </div>
-            <div class="col-md-12 col-lg-6 key-challenge-box">
-                <div class="card h-100 border-0 p-4">
+            <div class="col-12 col-md-6 col-lg-6 key-challenge-box">
+                <div class="card h-100 border-0">
                     <h4 class="mb-3">Connectivity in Low-Bandwidth Areas</h4>
                     <p class="mb-0">Many drivers operate in remote zones with weak signals. Designing a system that still functions and syncs well under poor network conditions was critical.</p>
                 </div>
@@ -110,33 +110,33 @@
             </div>
         </div>
         <div class="row justify-content-center mt-4">
-            <div class="col-6 col-md-3 col-lg-2">
+            <div class="col-6 col-md-3 col-lg-2 mb-3">
                 <div class="load-board-tech-card text-center">
-                    <img loading="lazy" src="{{asset('images/case-studies/load-board/flutter.webp')}}" alt="Flutter">
+                    <img loading="lazy" src="{{asset('images/case-studies/flutter.webp')}}" alt="Flutter">
                     <p>Flutter</p>
                 </div>
             </div>
-            <div class="col-6 col-md-3 col-lg-2">
+            <div class="col-6 col-md-3 col-lg-2 mb-3">
                 <div class="load-board-tech-card text-center">
-                    <img loading="lazy" src="{{asset('images/case-studies/load-board/react-native.webp')}}" alt="React Native">
+                    <img loading="lazy" src="{{asset('images/case-studies/react-native.webp')}}" alt="React Native">
                     <p>React Native</p>
                 </div>
             </div>
-            <div class="col-6 col-md-3 col-lg-2">
+            <div class="col-6 col-md-3 col-lg-2 mb-3">
                 <div class="load-board-tech-card text-center">
-                    <img loading="lazy" src="{{asset('images/case-studies/load-board/next-js.webp')}}" alt="NextJS">
+                    <img loading="lazy" src="{{asset('images/case-studies/next-js.webp')}}" alt="NestJS">
                     <p>NestJS</p>
                 </div>
             </div>
-            <div class="col-6 col-md-3 col-lg-2">
+            <div class="col-6 col-md-3 col-lg-2 mb-3">
                 <div class="load-board-tech-card text-center">
-                    <img loading="lazy" src="{{asset('images/case-studies/load-board/mongodb.webp')}}" alt="MongoDB">
+                    <img loading="lazy" src="{{asset('images/case-studies/mongo-db.webp')}}" alt="MongoDB">
                     <p>MongoDB</p>
                 </div>
             </div>
             <div class="col-6 col-md-3 col-lg-2">
                 <div class="load-board-tech-card text-center">
-                    <img loading="lazy" src="{{asset('images/case-studies/load-board/aws.webp')}}" alt="AWS">
+                    <img loading="lazy" src="{{asset('images/case-studies/aws.webp')}}" alt="AWS">
                     <p>AWS</p>
                 </div>
             </div>
@@ -203,14 +203,14 @@
 </section>
   
 <!-- Start Load Board User Persona -->
-<section class="py-5 load-board-persona">
+<section class="py-5 load-board-persona case-studies-persona">
     <div class="container">
         <div class="row mb-4">
             <div class="col-12 text-center">
                 <h3>USER PERSONA</h3>
             </div>
         </div>
-        <div class="container persona-section-wrapper">
+        <div class="container persona-section-wrapper mb-4">
             <div class="row g-4">
                 <div class="col-md-4">
                     <div class="persona-card persona-left-column-card">
@@ -220,7 +220,7 @@
                             <p>Logistics Coordinator</p>
                         </div>
                         <div class="persona-background-section mt-auto">
-                            <h3>Background</h3>
+                            <h4>Background</h4>
                             <p>
                                 <b>Age</b>: 35
                             </p>
@@ -238,7 +238,7 @@
                 </div>
                 <div class="col-md-8">
                     <div class="persona-card persona-goals-section mb-4">
-                        <h3>Goals and Needs</h3>
+                        <h4>Goals and Needs</h4>
                         <ul>
                             <li>Efficient Load Dispatching: Wants to assign loads quickly without back-and-forth communication.</li>
                             <li>Centralized Dashboard: Needs a single place to manage drivers, loads, and statuses.</li>
@@ -246,7 +246,7 @@
                         </ul>
                     </div>
                     <div class="persona-card persona-painpoints-section">
-                        <h3>Pain Points / Challenges</h3>
+                        <h4>Pain Points / Challenges</h4>
                         <ul>
                             <li>Too Many Tools: Using spreadsheets, SMS, and maps causes disorganization..</li>
                             <li>Overload & Errors: Manual data entry leads to occasional load assignment issues.</li>
@@ -266,7 +266,7 @@
                             <p>Independent Long-Haul Driver</p>
                         </div>
                         <div class="persona-background-section mt-auto">
-                            <h3>Background</h3>
+                            <h4>Background</h4>
                             <p>
                                 <b>Age</b>: 43
                             </p>
@@ -284,7 +284,7 @@
                 </div>
                 <div class="col-md-8">
                     <div class="persona-card persona-goals-section mb-4">
-                        <h3>Goals and Needs</h3>
+                        <h4>Goals and Needs</h4>
                         <ul>
                             <li>Quick Load Access: Wants to view and accept load offers easily from mobile.</li>
                             <li>On-the-Go Functionality: Uses mobile exclusively while driving.</li>
@@ -292,7 +292,7 @@
                         </ul>
                     </div>
                     <div class="persona-card persona-painpoints-section">
-                        <h3>Pain Points / Challenges</h3>
+                        <h4>Pain Points / Challenges</h4>
                         <ul>
                             <li>Confusing Interfaces: Struggles with busy or outdated driver apps..</li>
                             <li>Confusing Interfaces: Struggles with busy or outdated driver apps.</li>
@@ -343,7 +343,7 @@
 <!-- End App Screens -->
  
 <!-- Start App Screens -->
-<section class="load-board-carrier-screen py-5 load-board-app-screen">
+<section class="py-5 load-board-app-screen">
     <div class="container">
         <div class="common-heading">
             <h2 class="my-3 text-center">Brooker Module</h2>
@@ -367,29 +367,25 @@
 <!-- End App Screens -->
 
  <!-- Start Client Testimonial Section -->
-<section class="load-board-testing py-5 boujee-beachin-testimonial load-board-testimonial">
+<section class="py-5 load-board-testimonial case-studies-testimonial">
     <div class="container">
         <div class="common-heading">
-            <h2 class="py-5 text-center">Testing & User Feedback</h2>
+            <h2 class="pb-3 text-center">Testing & User Feedback</h2>
         </div>
         <div class="text-center mb-3">
-            <img loading="lazy" src="{{asset('images/case-studies/star.webp')}}" alt="Rating" class="star">
+            <img loading="lazy" src="{{asset('images/case-studies/star.webp')}}" alt="Rating" class="star img-fluid">
         </div>
         <div class="row justify-content-center g-3">
             <div class="col-md-6 col-12">
                 <div class="testimonial-card text-center p-4">
-                    <div class="testimonials-img-section mb-3">
-                        <img loading="lazy" src="{{asset('images/case-studies/load-board/load-board-avatar-02.webp')}}" alt="Liked" class="rounded-circle img-fluid">
-                    </div>
+                    <img loading="lazy" src="{{asset('images/case-studies/load-board/load-board-avatar-02.webp')}}" alt="Liked" class="rounded-circle img-fluid mb-3">
                     <p class="testimonial-text text-center"> I didn’t need to call  anymore — I knew my next load and where to go.</p>
                     <b class="d-block mt-3">Jason (Driver, Tennessee)</b>
                 </div>
             </div>
             <div class="col-md-6 col-12">
                 <div class="testimonial-card text-center p-4">
-                    <div class="testimonials-img-section mb-3">
-                        <img loading="lazy" src="{{asset('images/case-studies/load-board/load-board-avatar-01.webp')}}" alt="Liked" class="rounded-circle img-fluid">
-                    </div>
+                    <img loading="lazy" src="{{asset('images/case-studies/load-board/load-board-avatar-01.webp')}}" alt="Liked" class="rounded-circle img-fluid mb-3">
                     <p class="testimonial-text text-center"> The dashboard reduced our manual work by almost half. </p>
                     <b class="d-block mt-3">Lauren (Dispatcher, Texas)  </b>
                 </div>

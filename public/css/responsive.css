@@ -2396,8 +2396,24 @@
 		background-size: 100% 130%;
 	}
 
+	.load-board-hero-section .logo img {
+		max-width: 200px;
+		padding-bottom: 10px;
+	}
 
-	/* start royal relax spa case study */
+	.banner-box-image h2 {
+		font-size: 25px;
+		line-height: 32px;
+	}
+
+	.load-board-hero-section {
+		padding: 150px 0px 0px;
+	}
+
+	.case-studies-testimonial .star {
+		width: 50%;
+	}
+
 	.royal-relax-project-description-contant h2 {
 		text-align: start;
 		padding: 10px 0 10px 0;
@@ -2409,16 +2425,7 @@
 		font-size: 14px;
 	}
 
-	/* load board case study start */
-	.load-board-hero-section .logo img {
-		max-width: 200px;
-		padding-bottom: 10px;
-	}
-
-	.banner-box-image h2 {
-		font-size: 25px;
-		line-height: 32px;
-	}
+	
 }
 
 @media screen and (max-width: 767px) {
@@ -3217,6 +3224,10 @@
 		background-size: 100% 130%;
 	}
 
+	.load-board-key-challanges .key-challenge-box {
+		flex: 1 1 calc(50% - 2rem);
+	}
+
 }
 
 @media only screen and (min-width:1024px) and (max-width:1439px) {
@@ -3840,6 +3851,10 @@
 		height: 500px !important;
 	}
 
+	.load-board-key-challanges .key-challenge-box {
+		flex: 1 1 calc(50% - 2rem);
+	}
+
 }
 
 @media only screen and (min-width:1440px) and (max-width:1599px) {
@@ -4198,6 +4213,14 @@
 		aspect-ratio: 1728 / 550;
 	}
 
+	.load-board-key-challanges .key-challenge-box {
+		flex: 1 1 calc(50% - 2rem);
+	}
+
+	.load-board-hero-section .load-board-hero {
+		max-width: 630px;
+	}
+
 }
 
 @media only screen and (min-width:1600px) and (max-width:1919px) {                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              
@@ -4541,6 +4564,14 @@
 
 	.banner-box-section .banner-box-image {
 		aspect-ratio: 1728 / 550;
+	}
+
+	.load-board-key-challanges .key-challenge-box {
+		flex: 1 1 calc(50% - 2rem);
+	}
+
+	.load-board-hero-section .load-board-hero {
+		max-width: 630px;
 	}
 
 }
@@ -5152,11 +5183,19 @@
 	}
 
 	.load-board-hero-section .load-board-hero {
-		max-width: 970px;
+		max-width: 860px;
 	}
 
 	.load-board-project-overview .load-board-project-overview {
 		max-width: 700px;
+	}
+
+	.case-studies-testimonial .star {
+		width: 15%;
+	}
+
+	.load-board-key-challanges .key-challenge-box {
+		flex: 1 1 calc(50% - 2rem);
 	}
 
 }
@@ -5169,9 +5208,6 @@
 
 @media (max-width: 1199px) {
 
-
-
-	
 	/* start case study */
 	/* couple case study */
 	.couple-app-hero-img img {
@@ -5859,13 +5895,6 @@
 		text-align: center;
 	}
 
-	/* royal ride case study start */
-	.persona-goals-section h3,
-	.persona-painpoints-section h3 {
-		display: block;
-		border-bottom: 2px solid #ff7f00;
-		width: 100%;
-	}
 
 }
 

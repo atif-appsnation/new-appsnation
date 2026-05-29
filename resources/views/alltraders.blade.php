@@ -162,7 +162,7 @@
 <!-- End Our Design Objectives Section -->
 
 <!-- Start All Traders App Persona Section -->
-<section class="py-5 all-traders-persona">
+<section class="py-5 all-traders-persona case-studies-persona">
     <div class="container">
         <div class="mb-4">
             <div class="row">
@@ -268,7 +268,7 @@
 <!-- End All Traders App Persona Section -->
 
 <!-- Start Wireframes Section -->
-<section class="all-tarders-wireframe py-5">
+<section class="all-traders-wireframe py-5">
     <div class="container">
         <div class="row">
             <div class="col-12">
@@ -411,29 +411,25 @@
 <!-- All Traders App Screens -->
 
 <!-- Start Client Testimonial Section -->
-<section class="py-5 all-traders-testimonial">
+<section class="py-5 all-traders-testimonial case-studies-testimonial">
     <div class="container">
         <div class="common-heading">
             <h2 class="py-5 text-center">Testing & User Feedback</h2>
         </div>
         <div class="text-center mb-3">
-            <img loading="lazy" src="{{asset('images/case-studies/star.webp')}}" alt="Rating" class="star">
+            <img loading="lazy" src="{{asset('images/case-studies/star.webp')}}" alt="Rating" class="star img-fluid">
         </div>
         <div class="row justify-content-center g-3">
             <div class="col-md-6 col-12">
                 <div class="testimonial-card text-center p-4">
-                    <div class="testimonials-img-section mb-3">
-                        <img loading="lazy" src="{{asset('images/case-studies/all-traders-app/all-traders-app-avatar-02.webp')}}" alt="Liked" class="rounded-circle img-fluid">
-                    </div>
+                    <img loading="lazy" src="{{asset('images/case-studies/all-traders-app/all-traders-app-avatar-02.webp')}}" alt="Liked" class="rounded-circle img-fluid mb-3">
                     <p class="testimonial-text text-center">It was my first time investing, and this app made me feel in control. </p>
                     <b class="d-block mt-3">Emily C., Student Investor</b>
                 </div>
             </div>
             <div class="col-md-6 col-12">
                 <div class="testimonial-card text-center p-4">
-                    <div class="testimonials-img-section mb-3">
-                        <img loading="lazy" src="{{asset('images/case-studies/all-traders-app/all-traders-app-avatar-01.webp')}}" alt="Liked" class="rounded-circle img-fluid">
-                    </div>
+                    <img loading="lazy" src="{{asset('images/case-studies/all-traders-app/all-traders-app-avatar-01.webp')}}" alt="Liked" class="rounded-circle img-fluid mb-3">
                     <p class="testimonial-text text-center"> Smooth design. I can place a trade in under 10 seconds. </p>
                     <b class="d-block mt-3">Michael R., Active Day Trader </b>
                 </div>

@@ -540,35 +540,35 @@
             <div class="col-6 col-md-3 col-lg-2">
                 <div class="tech-card text-center">
                     <h6>Frontend</h6>
-                    <img loading="lazy" src="{{asset('images/case-studies/react-native.webp')}}" alt="">
+                    <img loading="lazy" src="{{asset('images/case-studies/react-native.webp')}}" alt="React Native">
                     <p>React Native</p>
                 </div>
             </div>
             <div class="col-6 col-md-3 col-lg-2">
                 <div class="tech-card text-center">
                     <h6>Backend</h6>
-                    <img loading="lazy" src="{{asset('images/case-studies/node-js.webp')}}" alt="">
+                    <img loading="lazy" src="{{asset('images/case-studies/node-js.webp')}}" alt="NodeJS">
                     <p>Node.js</p>
                 </div>
             </div>
             <div class="col-6 col-md-3 col-lg-2">
                 <div class="tech-card text-center">
                     <h6>Database</h6>
-                    <img loading="lazy" src="{{asset('images/case-studies/mongo-db.webp')}}" alt="">
+                    <img loading="lazy" src="{{asset('images/case-studies/mongo-db.webp')}}" alt="MongoDB">
                     <p>MongoDB</p>
                 </div>
             </div>
             <div class="col-6 col-md-3 col-lg-2">
                 <div class="tech-card text-center">
                     <h6>Cloud</h6>
-                    <img loading="lazy" src="{{asset('images/case-studies/aws.webp')}}" alt="">
+                    <img loading="lazy" src="{{asset('images/case-studies/aws.webp')}}" alt="AWS">
                     <p>AWS</p>
                 </div>
             </div>
             <div class="col-6 col-md-3 col-lg-2">
                 <div class="tech-card text-center">
                     <h6>Payments</h6>
-                    <img loading="lazy" src="{{asset('images/case-studies/payment.png')}}" alt="">
+                    <img loading="lazy" src="{{asset('images/case-studies/payment.png')}}" alt="Payments">
                     <p>Stripe • G Pay</p>
                 </div>
             </div>
@@ -634,7 +634,7 @@
 <!-- End Vendor App Section -->
 
 <!-- Start Client Testimonial Section -->
-<section class="py-5 wow fadeIn boujee-beachin-testimonial">
+<section class="py-5 wow fadeIn boujee-beachin-testimonial case-studies-testimonial">
     <div class="container">
         <div class="common-heading">
             <h2 class="py-5 text-center">Client Testimonial</h2>
