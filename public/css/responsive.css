@@ -2396,18 +2396,9 @@
 		background-size: 100% 130%;
 	}
 
-	.load-board-hero-section .logo img {
-		max-width: 200px;
-		padding-bottom: 10px;
-	}
-
 	.banner-box-image h2 {
 		font-size: 25px;
 		line-height: 32px;
-	}
-
-	.load-board-hero-section {
-		padding: 150px 0px 0px;
 	}
 
 	.case-studies-testimonial .star {
@@ -2420,11 +2411,14 @@
 	}
 
 	.royal-relax-project-description-contant p {
-		color: white;
+		color: var(--white-color);
 		text-align: start;
 		font-size: 14px;
 	}
 
+	.neuro-night-designs .neuro-night-central-line {
+		display: none;
+	}
 	
 }
 
@@ -3228,6 +3222,10 @@
 		flex: 1 1 calc(50% - 2rem);
 	}
 
+	.neuro-night-designs .neuro-night-central-line {
+		display: none;
+	}
+
 }
 
 @media only screen and (min-width:1024px) and (max-width:1439px) {
@@ -3772,13 +3770,6 @@
 	}
 
 
-	.neuro-night-hero-img img {
-		display: block;
-		margin: 0 auto;
-		width: 100%;
-		max-width: 500px;
-	}
-
 	/* grave love app case study start */
 	.grave-love-app.breadcrumb-areav2 {
 		padding: 150px 0px 00px;
@@ -4112,13 +4103,6 @@
 		margin: 0 50px auto;
 	}
 
-	.neuro-night-hero-img img {
-		display: block;
-		margin: 0 auto;
-		width: 100%;
-		max-width: 500px;
-	}
-
 
 	/* grave love app case study start  */
 	.grave-love-app .logo {
@@ -4219,6 +4203,10 @@
 
 	.load-board-hero-section .load-board-hero {
 		max-width: 630px;
+	}
+
+	.neuro-night-hero-img {
+		width: 550px;
 	}
 
 }
@@ -4474,12 +4462,6 @@
 
 	/* neuro knights app case study start */
 
-	.neuro-night-hero-img img {
-		width: 70%;
-		padding-left: 0;
-		margin: 20px auto 0;
-		display: block;
-	}
 
 
 	/* grave love case study start */
@@ -4572,6 +4554,10 @@
 
 	.load-board-hero-section .load-board-hero {
 		max-width: 630px;
+	}
+
+	.neuro-night-hero-img {
+		width: 550px;
 	}
 
 }
@@ -5198,6 +5184,10 @@
 		flex: 1 1 calc(50% - 2rem);
 	}
 
+	.neuro-night-hero-img {
+		width: 550px;
+	}
+
 }
 
 @media only screen and (min-width:1200px) {
@@ -5301,17 +5291,6 @@
 		background-size: 100% 58.7%;
 	}
 
-	/* load board case study start */
-	.load-board-project-overview-section .load-board-project-overview-contant p {
-		font-size: 10px;
-		margin-bottom: 22px;
-	}
-
-	.load-board-problem-challenges-section .load-board-problem-challenges-contant p {
-		font-size: 10px;
-		margin-bottom: 22px;
-	}
-
 	/* awards section */
 
 
@@ -5356,24 +5335,6 @@
 	}
 
 
-	/* load board case study start */
-	.load-board-project-overview-section .load-board-project-overview-contant p {
-		font-size: 10px;
-		margin-bottom: 22px;
-	}
-
-	.load-board-project-overview-section .load-board-project-overview-img img {
-		max-width: 600px;
-	}
-
-	.load-board-problem-challenges-section .load-board-problem-challenges-contant p {
-		font-size: 10px;
-		margin-bottom: 22px;
-	}
-
-
-	
-
 	/* hero bages slider start */
 	.hero-slider .hero-bage-p {
 		margin-top: 9%;
@@ -5403,19 +5364,6 @@
 	
 	}
 
-
-	/* load board case study start */
-	.load-board-project-overview-section .load-board-project-overview-contant p {
-		font-size: 10px;
-	}
-
-	.load-board-project-overview-section .load-board-project-overview-img img {
-		max-width: 600px;
-	}
-
-	.load-board-problem-challenges-section .load-board-problem-challenges-contant p {
-		font-size: 10px;
-	}
 
 
 	/* awards section */
@@ -5705,44 +5653,11 @@
 		padding-left: 0;
 	}
 
-	/* NeuroKnights case study start */
-	.neuro-knight-app {
-		margin: auto;
-		text-align: center;
-		background-position: center;
-	}
 
+	
 
-	.neuro-night-hero-img img {
-		width: 80%;
-		padding-left: 0;
-		margin: 20px auto 0;
-		display: block;
-	}
-
-	.neuro-night-designs .neuro-night-central-line {
-		display: none;
-	}
-
-	/*Start problem section NeuroKnights */
-	.neuro-knight-right {
-		text-align: center;
-		margin-top: 30px;
-	}
-
-	.neuro-knight-right .common-heading {
-		text-align: center;
-	}
-
-	.neuro-knight-right img {
-		margin: 0 auto;
-		display: block;
-	}
 
 	/* start tech-img-box */
-
-
-
 
 	.col-12.d-flex {
 		flex-direction: column;
@@ -5789,20 +5704,6 @@
 		display: block;
 	}
 
-	/* load board case study start */
-	.load-board-tech-card img {
-		width: 50px;
-		height: 50px;
-	}
-
-	.load-board-tech .common-heading h2 {
-		font-size: 1.75rem;
-	}
-
-	.load-board-tech .common-heading p {
-		font-size: 1rem;
-		margin-bottom: 40px;
-	}
 }
 
 @media (min-width: 992px) {
@@ -6022,26 +5923,6 @@ s
 		border-radius: 10px;
 	}
 
-	/* neur knight app start */
-
-	.neuro-knight-app h1 {
-		font-size: 28px;
-		line-height: 36px;
-	}
-
-
-	.neuro-knight-app p {
-		font-size: 15px;
-		line-height: 26px;
-	}
-
-
-
-	.neuro-night-hero-img img {
-		width: 90%;
-		margin: 0 auto;
-		display: block;
-	}
 
 }
 
@@ -6109,23 +5990,6 @@ s
 
 
 @media (max-width: 576px) {
-	.testimonial-text {
-		font-size: 15px;
-	}
-
-	.testimonialsCard {
-		padding: 20px;
-	}
-
-	.tech-card {
-		padding: 15px;
-	}
-
-	.tech-card img {
-		width: 50px;
-		height: 50px;
-	}
-
 
 	/* toy sort puzzle case study */
 	.imageFloteLeft img,
@@ -6133,43 +5997,8 @@ s
 		max-width: 50px;
 		animation-duration: 2s;
 	}
-
-
-	/* neuro knight app case study start */
-	.bread-titlev2 .logo {
-		display: block;
-		margin: 0 auto;
-		text-align: center;
-	}
-
-	.neuro-knight-app h1 {
-		font-size: 22px;
-		line-height: 23px;
-		text-align: center;
-	}
-
-	.neuro-knight-app p {
-		font-size: 16px;
-		line-height: 23px;
-		text-align: center;
-	}
-
-	.neuro-night-hero-img img {
-		width: 90%;
-	}
-
-	/* mike mathis case study completed */
 	
 
-	/* load board case study start */
-	.load-board-tech-card img {
-		width: 45px;
-		height: 45px;
-	}
-
-	.load-board-tech-card {
-		padding: 15px 10px;
-	}
 
 	/* MAP SECTION */
 	.distribution-map .map-point:focus {

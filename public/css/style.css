@@ -27,6 +27,8 @@
     --blue-color-2: #0277C6;
     --bright-cyan: #3fc3d6;
     --blue-color-3: #00ADF0;
+    --blue-color-4: #4A8ADD;
+    --blue-color-5: #007599;
     --dur: .15s;
     --delay: .15s;
     --radius: 10px;
@@ -18636,7 +18638,7 @@ textarea::-ms-input-placeholder {
 .boujee-beachin-objectives .info-card {
     background-color: #fff;
     border-radius: 15px;
-    border: 1px solid #007599;
+    border: 1px solid var(--);
     padding: 25px;
     margin-bottom: 25px;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
@@ -19232,22 +19234,21 @@ textarea::-ms-input-placeholder {
 /* Start  Neuro Knights App */
 
 .neuro-knight-app {
-    background: linear-gradient(to bottom, #4A8ADD 0%, #4A8ADD 5%, transparent 20%);
+    background: linear-gradient(to bottom, var(--blue-color-4) 0%, var(--blue-color-4) 5%, transparent 20%);
 }
 
 .neuro-knight-app .logo {
-    width: 100%;
     max-width: 300px;
 }
 
-.neuro-night-hero-img img {
+/* .neuro-night-hero-img img {
     padding-left: 22px;
     width: 100%;
-}
+} */
 
 .neuro-knight-app h1 span,
 .neuro-knight-app p span {
-    color: #007599;
+    color: var(--blue-color-5);
     font-weight: bold;
 }
 
@@ -19259,20 +19260,8 @@ textarea::-ms-input-placeholder {
     transition: 0.3s ease-in-out;
 }
 
-.NeuroKnights-problem .common-heading {
-    padding-left: 32px;
-}
-
-.NeuroKnights-problem .common-heading h2 {
-    font-weight: bold;
-}
-
-.NeuroKnights-problem .common-heading p {
-    font-weight: bold;
-}
-
-.NeuroKnights-problem .common-heading h2>span {
-    color: #007599;
+.neuro-knights-problem .common-heading h2 span {
+    color: var(--blue-color-5);
 }
 
 .neuro-night-designs .container {
@@ -19371,7 +19360,7 @@ textarea::-ms-input-placeholder {
     display: flex;
     align-items: center;
     gap: 10px;
-    background-color: #007599;
+    background-color: var(--blue-color-5);
     color: var(--white-color);
     padding: 30px;
     border-radius: 20px;
@@ -19379,7 +19368,7 @@ textarea::-ms-input-placeholder {
 
 .neuro-night-project-card .card-number-circle {
     border: 4px white solid;
-    background-color: #007599;
+    background-color: var(--blue-color-5);
     color: var(--white-color);
     padding: 10px;
 }
