@@ -70,7 +70,7 @@
                     <p> Create a safe, sensory-friendly environment for neurodiverse teens to feel comfortable and supported.</p>
                 </div>
             </div>
-            <div class="col-md-12 offset-lg-4 col-lg-8  ">
+            <div class="col-md-12 offset-lg-4 col-lg-8">
                 <div class="neuro-night-project-card my-3">
                     <div class="card-number-circle">02</div>
                     <p> Integrate gamified therapy tools and wellness trackers that keep users engaged in their mental health journey.</p>
@@ -125,7 +125,7 @@
         <div class="row">
             <div class="col-12">
                 <div class="common-heading">
-                    <h2 class="text-center  mb40">The Journey From Vision to Reality<br>NeuroKnights Edition </h2>
+                    <h2 class="text-center mb40">The Journey From Vision to Reality<br>NeuroKnights Edition </h2>
                 </div>
             </div>
         </div>
@@ -134,15 +134,15 @@
             <div class="col-lg-6 left-column-neuro-night">
                 <div class="neuro-night-feature-box-group">
                     <div class="neuro-night-feature-box mb-4 left-item">
-                        <h4 class="neuro-night-text-theme mb-3">Understanding the Challenge</h4>
+                        <h4 class="mb-3">Understanding the Challenge</h4>
                         <p class="mb-0">We began by identifying the needs of neurodiverse teens and their caregivers—focusing on emotional safety, accessibility, and the importance of self-expression through therapeutic tools.</p>
                     </div>
                     <div class="neuro-night-feature-box mb-4 left-item">
-                        <h4 class="neuro-night-text-theme mb-3">Mapping the User Journey</h4>
+                        <h4 class="mb-3">Mapping the User Journey</h4>
                         <p class="mb-0">We crafted multiple user flows tailored to both kids and parents, ensuring that onboarding, tracking, and interaction remained intuitive, engaging, and calm.</p>
                     </div>
                     <div class="neuro-night-feature-box mb-4 left-item">
-                        <h4 class="neuro-night-text-theme mb-3">Defining Core Features</h4>
+                        <h4 class="mb-3">Defining Core Features</h4>
                         <p class="mb-0">Based on research and expert input, we prioritized features like mood journaling, brain games, assessments, and a parent dashboard—ensuring value for all user roles.</p>
                     </div>
                 </div>
@@ -150,15 +150,15 @@
             <div class="col-lg-6 right-column-neuro-night">
                 <div class="neuro-night-feature-box-group">
                     <div class="neuro-night-feature-box mb-4 right-item">
-                        <h4 class="neuro-night-text-theme mb-3">Wireframing & UI/UX Design</h4>
+                        <h4 class="mb-3">Wireframing & UI/UX Design</h4>
                         <p class="mb-0">Low-fidelity wireframes were created to test structure before shaping a fun, accessible, and adventure-themed interface that stayed aligned with calming, inclusive design.</p>
                     </div>
                     <div class="neuro-night-feature-box mb-4 right-item">
-                        <h4 class="neuro-night-text-theme mb-3">Design Iteration & Testing</h4>
+                        <h4 class="mb-3">Design Iteration & Testing</h4>
                         <p class="mb-0">Offer fashion and beachwear recommendations aligned with trends, trip types, and destination vibes.</p>
                     </div>
                     <div class="neuro-night-feature-box right-item">
-                        <h4 class="neuro-night-text-theme mb-3">Polishing & Delivery</h4>
+                        <h4 class="mb-3">Polishing & Delivery</h4>
                         <p class="mb-0">Final high-fidelity screens, icons, and interaction flows were prepared. The result was an empowering, gamified mental wellness app designed for emotional growth and safe engagement.</p>
                     </div>
                 </div>
@@ -212,34 +212,32 @@
 <!-- End App Screens -->
 
 <!-- Start Tech Stack Used section -->
-<section class="py-5">
-    <div class="container ">
+<section class="py-5 neuro-nights-tech">
+    <div class="container">
         <div class="common-heading">
-            <h2 class="text-center mb40">Tech Stack Used</h2>
+            <h2 class="text-center mb-5">Tech Stack Used</h2>
         </div>
-        <div class="Tech-Stack-section">
-            <div class="row">
-                <div class="col-12 d-flex">
-                    <div class="tech-img-box d-flex">
-                        <img loading="lazy" src="{{asset('images/case-studies/figma.webp')}}" class="img-fluid" alt="Neuro Knights Tech">
-                        <div class="common-heading">
-                            <h6 class="mb4">Tools & Testing</h6>
-                            <p>Figma, Unity Game Engine, FlayFab</p>
-                        </div>
+        <div class="row">
+            <div class="col-12 d-flex">
+                <div class="tech-img-box d-flex">
+                    <img loading="lazy" src="{{asset('images/case-studies/figma.webp')}}" class="img-fluid" alt="Neuro Knights Tech">
+                    <div class="common-heading">
+                        <h6>Tools & Testing</h6>
+                        <p>Figma, Unity Game Engine, FlayFab</p>
                     </div>
-                    <div class="tech-img-box d-flex">
-                        <img loading="lazy" src="{{asset('images/case-studies/unity.webp')}}" class="img-fluid" alt="Neuro Knights Tech">
-                        <div class="common-heading">
-                            <h6 class="mb4">Tools & Testing</h6>
-                            <p>Figma, Unity Game Engine, FlayFab</p>
-                        </div>
+                </div>
+                <div class="tech-img-box d-flex">
+                    <img loading="lazy" src="{{asset('images/case-studies/unity.webp')}}" class="img-fluid" alt="Neuro Knights Tech">
+                    <div class="common-heading">
+                        <h6>Tools & Testing</h6>
+                        <p>Figma, Unity Game Engine, FlayFab</p>
                     </div>
-                    <div class="tech-img-box d-flex">
-                        <img loading="lazy" src="{{asset('images/case-studies/flutter-02.webp')}}" class="img-fluid" alt="Neuro Knights Tech">
-                        <div class="common-heading">
-                            <h6 class="mb4">Tools & Testing</h6>
-                            <p>Figma, Unity Game Engine, FlayFab</p>
-                        </div>
+                </div>
+                <div class="tech-img-box d-flex">
+                    <img loading="lazy" src="{{asset('images/case-studies/flutter-02.webp')}}" class="img-fluid" alt="Neuro Knights Tech">
+                    <div class="common-heading">
+                        <h6>Tools & Testing</h6>
+                        <p>Figma, Unity Game Engine, FlayFab</p>
                     </div>
                 </div>
             </div>

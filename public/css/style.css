@@ -29,6 +29,7 @@
     --blue-color-3: #00ADF0;
     --blue-color-4: #4A8ADD;
     --blue-color-5: #007599;
+    --purple-color-2: #6D5AE6;
     --dur: .15s;
     --delay: .15s;
     --radius: 10px;
@@ -19013,7 +19014,7 @@ textarea::-ms-input-placeholder {
     transition: 0.3s ease-in-out;
 }
 
-.wood-land-client-overview h2, h6 {
+.wood-land-client-overview h2, .wood-land-client-overview h6 {
     color: var(--black-color);
     padding-top: 10px;
 }
@@ -19252,14 +19253,6 @@ textarea::-ms-input-placeholder {
     font-weight: bold;
 }
 
-.wood-land-button:hover {
-    background-color: transparent;
-    color: var(--white-color);
-    border: 1px solid #58D39C;
-    border-radius: 20px;
-    transition: 0.3s ease-in-out;
-}
-
 .neuro-knights-problem .common-heading h2 span {
     color: var(--blue-color-5);
 }
@@ -19322,14 +19315,13 @@ textarea::-ms-input-placeholder {
     color: var(--white-color);
 }
 
-.Tech-Stack-section {
+.neuro-nights-tech {
     background: #f8f8f8;
-    border-radius: 12px;
-    border: 1px solid black;
-
+    /* border-radius: 12px;
+    border: 1px solid black; */
 }
 
-.tech-img-box {
+.neuro-nights-tech .tech-img-box {
     display: flex;
     align-items: center;
     gap: 15px;
@@ -19338,14 +19330,13 @@ textarea::-ms-input-placeholder {
     flex: 1;
 }
 
-.tech-img-box img {
+.neuro-nights-tech .tech-img-box img {
     width: 150px;
     height: auto;
     object-fit: contain;
 }
 
-
-.tech-img-box .common-heading h6 {
+/* .tech-img-box .common-heading h6 {
     margin: 0 0 5px;
     font-weight: 600;
 }
@@ -19353,10 +19344,9 @@ textarea::-ms-input-placeholder {
 .tech-img-box .common-heading p {
     margin: 0;
     color: #555;
-}
+} */
 
-.neuro-night-project-card {
-
+.neuro-knights-goals .neuro-night-project-card {
     display: flex;
     align-items: center;
     gap: 10px;
@@ -19366,7 +19356,7 @@ textarea::-ms-input-placeholder {
     border-radius: 20px;
 }
 
-.neuro-night-project-card .card-number-circle {
+.neuro-knights-goals .neuro-night-project-card .card-number-circle {
     border: 4px white solid;
     background-color: var(--blue-color-5);
     color: var(--white-color);
@@ -20371,6 +20361,190 @@ textarea::-ms-input-placeholder {
 
 /* End Load Board Web */
 
+/* Start Royal Relax Spa */
+
+.royal-relax-spa {
+    background: linear-gradient(to bottom, var(--purple-color-2) 0%, var(--purple-color-2) 8%, #CDC4F2 15%, ransparent 30%), url("../images/case-studies/royal-relax-spa/royal-relax-spa-hero-background.webp") top center / cover no-repeat;
+}
+
+/* .royal-relax-spa h1 {
+    color: var(--black-color);
+    font-weight: bold;
+    line-height: 60px;
+} */
+
+.royal-relax-spa h1 span {
+    color: var(--purple-color-2);
+}
+
+.royal-relax-spa p {
+    border: 1px solid var(--purple-color-2);
+    border-radius: 10px;
+    padding: 10px;
+    margin: 15px 0;
+}
+
+.royal-relax-spa .royal-relax-spa-tag {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 14px;
+    font-weight: 600;
+    color: #ffffff;
+    background-color: var(--purple-color-2);
+    padding: 8px 14px;
+    border-radius: 999px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.royal-relax-spa .royal-relax-spa-tag i {
+    transition: transform 0.3s ease;
+}
+
+.royal-relax-spa .royal-relax-spa-tag:hover i {
+    transform: translateX(4px);
+}
+
+.royal-relax-spa .royal-relax-spa-tag:hover {
+    background-color: #CDC4F2;
+    color: #6D5AE6;
+}
+
+.royal-relax-spa .royal-relax-spa-hero-img {
+    max-width: 600px;
+    display: block;
+    margin: 0 auto;
+}
+
+.royal-relax-spa-project {
+    background: url("../images/case-studies/royal-relax-spa/royal-relax-spa-project-decscription-background.webp") center/cover no-repeat;
+    background-size: 100% 100%;
+}
+
+.royal-relax-spa-project h2,
+.royal-relax-spa-project p {
+    color: var(--white-color);
+}
+
+.royal-relax-project-description-img {
+    max-width: 600px;
+    display: block;
+    margin: 0 auto;
+}
+
+.royal-relax-spa-problem .section-wrapper {
+    position: relative;
+    padding-top: 100px;
+}
+
+.royal-relax-spa-problem .start-connector {
+    position: absolute;
+    top: 0;
+    left: 120px;
+    z-index: 10;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.royal-relax-spa-problem .start-plus-circle {
+    width: 60px;
+    height: 60px;
+    background-color: #dcb880;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    font-weight: bold;
+    color: #000;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.royal-relax-spa-problem .section-wrapper::before,
+.royal-relax-spa-problem .section-wrapper::after {
+    background-color: var(--purple-color-2);
+}
+
+.royal-relax-spa-problem .start-plus-circle {
+    background-color: var(--purple-color-2);
+    color: var(--white-color);
+}
+
+.royal-relax-spa-problem .card-connector-plus {
+    background-color: var(--purple-color-2);
+    color: var(--white-color);
+}
+
+.royal-relax-spa-problem-solution .card-custom {
+    justify-content: center;
+}
+
+.royal-relax-spa-problem-solution .bg-custom-gray {
+    background-color: #6D5AE8;
+}
+
+/* End royal relax spa problem-solution section */
+
+
+/* start royal relax spa project-goals section */
+.royal-relax-spa-project-goals .info-card {
+    box-shadow: 4px 6px 16px rgba(0, 0, 0, 0.18);
+    border: none
+}
+
+.royal-relax-spa-project-goals .grave-brown {
+    background-color: #6D5AE6;
+}
+
+/* End royal relax spa project-goals section */
+
+
+/* start royal relax spa persona  section*/
+.royal-relax-spa-persona .persona-name-section img {
+    border: none;
+}
+
+.royal-relax-spa-persona .persona-background-section h3,
+.persona-goals-section h3,
+.persona-painpoints-section h3 {
+    color: #000;
+    border: none;
+}
+
+.royal-relax-spa-persona .persona-goals-section ul li::before,
+.persona-painpoints-section ul li::before {
+    color: #000;
+}
+
+/* End royal relax spa persona  section*/
+
+
+/*stat royal relax spa wireframe section*/
+.royal-relax-spa-wireframe {
+    background: url("../images/case-studies/royal-relax-spa/wirefram-background.webp")top center/cover no-repeat;
+    padding: 30px;
+}
+
+.royal-relax-spa-wireframe h2,
+.royal-relax-spa-wireframe p,
+.royal-relax-spa-wireframe h4 {
+    color: var(--white-color);
+}
+
+/*End royal relax spa wireframe section*/
+
+.royal-relax-Features-mockup img {
+    width: 100%;
+    max-width: 900px;
+    display: block;
+    margin: 0 auto;
+
+}
+
+/* End Royal Relax Spa */
+
 /* End Case Studies */
 
 /* start grave love case study */
@@ -21297,188 +21471,6 @@ textarea::-ms-input-placeholder {
 
 /* new case study start  royal relax spa */
 /* start hero royal relax spa section */
-.royal-relax-spa {
-    background:
-        linear-gradient(to bottom,
-            #6D5AE6 0%,
-            #6D5AE6 8%,
-            #CDC4F2 15%,
-            transparent 30%),
-        url("../images/case-studies/royal-relax-spa/royal-spa-hero-background.webp") top center / cover no-repeat;
-}
-
-.royal-relax-spa h1 {
-    color: var(--black-color);
-    font-weight: bold;
-    line-height: 60px;
-}
-
-.royal-relax-spa h1 span {
-    color: #6D5AE6;
-}
-
-.royal-relax-spa p {
-    color: #3F3F3F;
-    border: 1px solid #6D5AE8;
-    width: fit-content;
-    border-radius: 10px;
-    padding: 10px;
-    margin: 10px 0 10px 0px;
-    font-family: sans-serif;
-    letter-spacing: 0.1px;
-    word-spacing: 1.2px;
-    line-height: 36px;
-}
-
-
-.royal-relax-spa-tag {
-    display: inline-flex;
-    align-items: center;
-    gap: 8px;
-
-    font-size: 14px;
-    font-weight: 600;
-    color: #ffffff;
-
-    background-color: #6D5AE6;
-    padding: 8px 14px;
-    border-radius: 999px;
-
-    cursor: pointer;
-    transition: all 0.3s ease;
-}
-
-.royal-relax-spa-tag i {
-    transition: transform 0.3s ease;
-}
-
-.royal-relax-spa-tag:hover i {
-    transform: translateX(4px);
-}
-
-.royal-relax-spa-tag:hover {
-    background-color: #CDC4F2;
-    color: #6D5AE6;
-}
-
-.royal-relax-spa-hero-img img {
-    width: 100%;
-    max-width: 600px;
-    display: block;
-    margin: 0 auto;
-}
-
-/* end hero royal relax spa section */
-
-
-
-/*start royal relax project Description section */
-.royal-relax-project-description-section {
-    background: url("../images/case-studies/royal-relax-spa/project-dec-background.webp") center/cover no-repeat;
-    background-size: 100% 100%;
-}
-
-.royal-relax-project-description-contant h2,
-.royal-relax-project-description-contant p {
-    color: var(--white-color);
-}
-
-.royal-relax-project-description-img img {
-    width: 100%;
-    max-width: 600px;
-    display: block;
-    margin: 0 auto;
-    padding: 30px;
-}
-
-/*End royal relax project Description section */
-
-/* start royal relax spa problem-solution section */
-.royal-relax-spa-problem-solution .section-wrapper::before,
-.royal-relax-spa-problem-solution .section-wrapper::after {
-    background-color: #6D5AE8;
-
-}
-
-.royal-relax-spa-problem-solution .start-plus-circle {
-    background-color: #6D5AE8;
-    color: var(--white-color);
-}
-
-.royal-relax-spa-problem-solution .card-connector-plus {
-    background-color: #6D5AE8;
-    color: var(--white-color);
-}
-
-.royal-relax-spa-problem-solution .card-custom {
-    justify-content: center;
-}
-
-.royal-relax-spa-problem-solution .bg-custom-gray {
-    background-color: #6D5AE8;
-}
-
-/* End royal relax spa problem-solution section */
-
-
-/* start royal relax spa project-goals section */
-.royal-relax-spa-project-goals .info-card {
-    box-shadow: 4px 6px 16px rgba(0, 0, 0, 0.18);
-    border: none
-}
-
-.royal-relax-spa-project-goals .grave-brown {
-    background-color: #6D5AE6;
-}
-
-/* End royal relax spa project-goals section */
-
-
-/* start royal relax spa persona  section*/
-.royal-relax-spa-persona .persona-name-section img {
-    border: none;
-}
-
-.royal-relax-spa-persona .persona-background-section h3,
-.persona-goals-section h3,
-.persona-painpoints-section h3 {
-    color: #000;
-    border: none;
-}
-
-.royal-relax-spa-persona .persona-goals-section ul li::before,
-.persona-painpoints-section ul li::before {
-    color: #000;
-}
-
-/* End royal relax spa persona  section*/
-
-
-/*stat royal relax spa wireframe section*/
-.royal-relax-spa-wireframe {
-    background: url("../images/case-studies/royal-relax-spa/wirefram-background.webp")top center/cover no-repeat;
-    padding: 30px;
-}
-
-.royal-relax-spa-wireframe h2,
-.royal-relax-spa-wireframe p,
-.royal-relax-spa-wireframe h4 {
-    color: var(--white-color);
-}
-
-/*End royal relax spa wireframe section*/
-
-.royal-relax-Features-mockup img {
-    width: 100%;
-    max-width: 900px;
-    display: block;
-    margin: 0 auto;
-
-}
-
-.royal-relax-spaceing {
-    margin: 190px 0 80px 0;
-}
 
 /* new case study end  royal relax spa */
 

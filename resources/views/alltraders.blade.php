@@ -164,11 +164,9 @@
 <!-- Start All Traders App Persona Section -->
 <section class="py-5 all-traders-persona case-studies-persona">
     <div class="container">
-        <div class="mb-4">
-            <div class="row">
-                <div class="col-12 text-center">
-                    <h3>USER PERSONA</h3>
-                </div>
+        <div class="row mb-4">
+            <div class="col-12 text-center">
+                <h3>USER PERSONA</h3>
             </div>
         </div>
         <div class="container persona-section-wrapper">
