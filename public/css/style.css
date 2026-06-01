@@ -17817,6 +17817,67 @@ textarea::-ms-input-placeholder {
     font-weight: 500;
 }
 
+.case-studies-problem .bg-custom-gray .number-circle {
+    border: 2px solid white;
+}
+
+.case-studies-problem .start-plus-circle {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    font-weight: bold;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.case-studies-user-research ul li {
+    background-color: #E9EBF0;
+    /* font-size: 1rem; */
+    line-height: 1.6;
+    margin-bottom: 12px;
+    position: relative;
+    border: 1px solid black;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px 0 rgba(19, 0, 46, .0);
+}
+
+.case-studies-user-research ul li:hover {
+    transition: ease-in-out;
+    box-shadow: 0 4px 6px 0 rgba(19, 0, 46, 1.0);
+}
+
+.case-studies-goals .brown {
+    background: #42262B;
+    border: 1px solid black;
+    border-radius: 20px;
+}
+
+.case-studies-goals .brown h5,
+.case-studies-goals .brown h6,
+.case-studies-goals .brown p {
+    color: var(--white-color);
+    padding: 0;
+    margin: 0;
+}
+
+.case-studies-goals .light {
+    background: #F1F1F1;
+    border: 1px solid black;
+    border-radius: 20px;
+}
+
+.case-studies-goals .light h5,
+.case-studies-goals .light h6,
+.case-studies-goals .light p {
+    color: var(--black-color);
+    margin: 0;
+}
+
+
 /* End Portfolio */
 
 /* Start Case Studies */
@@ -19517,17 +19578,8 @@ textarea::-ms-input-placeholder {
 }
 
 .royal-ride-analysis .start-plus-circle {
-    width: 60px;
-    height: 60px;
     background-color: var(--golden-color-2);
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 30px;
-    font-weight: bold;
     color: var(--black-color);
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
 
 .royal-ride-analysis .connector-line-vertical {
@@ -19834,23 +19886,6 @@ textarea::-ms-input-placeholder {
 
 .mike-mathis-challanges p {
     color: var(--white-color);
-}
-
-.mike-mathis-user-research ul li {
-    background-color: #E9EBF0;
-    font-size: 1rem;
-    line-height: 1.6;
-    margin-bottom: 12px;
-    position: relative;
-    border: 1px solid black;
-    padding: 30px;
-    border-radius: 10px;
-    box-shadow: 0 4px 6px 0 rgba(19, 0, 46, .0);
-}
-
-.mike-mathis-user-research ul li:hover {
-    transition: ease-in-out;
-    box-shadow: 0 4px 6px 0 rgba(19, 0, 46, 1.0);
 }
 
 .mike-mathis-user-research img {
@@ -20364,7 +20399,7 @@ textarea::-ms-input-placeholder {
 /* Start Royal Relax Spa */
 
 .royal-relax-spa {
-    background: linear-gradient(to bottom, var(--purple-color-2) 0%, var(--purple-color-2) 8%, #CDC4F2 15%, ransparent 30%), url("../images/case-studies/royal-relax-spa/royal-relax-spa-hero-background.webp") top center / cover no-repeat;
+    background: linear-gradient(to bottom, var(--purple-color-2) 0%, var(--purple-color-2) 8%, #cdc4f2 15%, transparent 30%), url(../images/case-studies/royal-relax-spa/royal-relax-spa-hero-background.webp) top center / cover no-repeat;
 }
 
 /* .royal-relax-spa h1 {
@@ -20408,14 +20443,14 @@ textarea::-ms-input-placeholder {
 
 .royal-relax-spa .royal-relax-spa-tag:hover {
     background-color: #CDC4F2;
-    color: #6D5AE6;
+    color: var(--purple-color-2);
 }
 
-.royal-relax-spa .royal-relax-spa-hero-img {
+/* .royal-relax-spa .royal-relax-spa-hero-img {
     max-width: 600px;
     display: block;
     margin: 0 auto;
-}
+} */
 
 .royal-relax-spa-project {
     background: url("../images/case-studies/royal-relax-spa/royal-relax-spa-project-decscription-background.webp") center/cover no-repeat;
@@ -20427,11 +20462,11 @@ textarea::-ms-input-placeholder {
     color: var(--white-color);
 }
 
-.royal-relax-project-description-img {
+/* .royal-relax-project-description {
     max-width: 600px;
     display: block;
     margin: 0 auto;
-}
+} */
 
 .royal-relax-spa-problem .section-wrapper {
     position: relative;
@@ -20441,7 +20476,7 @@ textarea::-ms-input-placeholder {
 .royal-relax-spa-problem .start-connector {
     position: absolute;
     top: 0;
-    left: 120px;
+    /* left: 120px; */
     z-index: 10;
     display: flex;
     flex-direction: column;
@@ -20449,17 +20484,13 @@ textarea::-ms-input-placeholder {
 }
 
 .royal-relax-spa-problem .start-plus-circle {
-    width: 60px;
-    height: 60px;
-    background-color: #dcb880;
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 30px;
-    font-weight: bold;
-    color: #000;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    background-color: var(--purple-color-2);
+    color: var(--white-color);
+}
+
+.royal-relax-spa-problem .col-custom {
+    width: 20%;
+    padding: 0 10px;
 }
 
 .royal-relax-spa-problem .section-wrapper::before,
@@ -20467,41 +20498,72 @@ textarea::-ms-input-placeholder {
     background-color: var(--purple-color-2);
 }
 
-.royal-relax-spa-problem .start-plus-circle {
-    background-color: var(--purple-color-2);
-    color: var(--white-color);
-}
-
 .royal-relax-spa-problem .card-connector-plus {
+    position: absolute;
+    top: 50%;
+    right: -25px;
+    transform: translateY(-50%);
+    width: 30px;
+    height: 30px;
     background-color: var(--purple-color-2);
     color: var(--white-color);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    z-index: 5;
+    font-size: 18px;
 }
 
 .royal-relax-spa-problem-solution .card-custom {
     justify-content: center;
+    border: none;
+    border-radius: 15px;
+    padding: 30px 20px;
+    min-height: 420px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    transition: transform 0.3s ease;
 }
 
 .royal-relax-spa-problem-solution .bg-custom-gray {
     background-color: #6D5AE8;
 }
 
-/* End royal relax spa problem-solution section */
+.royal-relax-spa-problem .number-circle {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 2px solid var(--black-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+    font-size: 18px;
+    margin-bottom: 30px;
+}
 
+.royal-relax-spa-problem .bg-custom-white {
+    background-color: var(--white-color);
+    color: var(--black-color);
+    border: 1px solid var(--purple-color-2);
+}
 
-/* start royal relax spa project-goals section */
 .royal-relax-spa-project-goals .info-card {
     box-shadow: 4px 6px 16px rgba(0, 0, 0, 0.18);
     border: none
 }
 
-.royal-relax-spa-project-goals .grave-brown {
-    background-color: #6D5AE6;
+.royal-relax-spa-project-goals .brown {
+    background-color: var(--purple-color-2);
 }
 
-/* End royal relax spa project-goals section */
+.royal-relax-spa-persona .persona-card ul li::before {
+    color: var(--purple-color-2);
+}
 
-
-/* start royal relax spa persona  section*/
 .royal-relax-spa-persona .persona-name-section img {
     border: none;
 }
@@ -20513,17 +20575,8 @@ textarea::-ms-input-placeholder {
     border: none;
 }
 
-.royal-relax-spa-persona .persona-goals-section ul li::before,
-.persona-painpoints-section ul li::before {
-    color: #000;
-}
-
-/* End royal relax spa persona  section*/
-
-
-/*stat royal relax spa wireframe section*/
 .royal-relax-spa-wireframe {
-    background: url("../images/case-studies/royal-relax-spa/wirefram-background.webp")top center/cover no-repeat;
+    background: url("../images/case-studies/royal-relax-spa/royal-relax-spa-hero-wireframe-background.webp")top center/cover no-repeat;
     padding: 30px;
 }
 
@@ -20531,16 +20584,6 @@ textarea::-ms-input-placeholder {
 .royal-relax-spa-wireframe p,
 .royal-relax-spa-wireframe h4 {
     color: var(--white-color);
-}
-
-/*End royal relax spa wireframe section*/
-
-.royal-relax-Features-mockup img {
-    width: 100%;
-    max-width: 900px;
-    display: block;
-    margin: 0 auto;
-
 }
 
 /* End Royal Relax Spa */
@@ -20708,36 +20751,6 @@ textarea::-ms-input-placeholder {
     font-size: 18px;
     margin-bottom: 8px;
     color: #2d2926;
-}
-
-
-.grave-brown {
-    background: #42262B;
-    border: 1px solid black;
-    border-radius: 20px;
-}
-
-.grave-brown h5,
-.grave-brown h6,
-.grave-brown p {
-    color: var(--white-color);
-    padding: 0;
-    margin: 0;
-}
-
-.grave-light {
-    background: #F1F1F1;
-    border: 1px solid black;
-    border-radius: 20px;
-
-}
-
-.grave-light h5,
-.grave-light h6,
-.grave-light p {
-    color: var(--black-color);
-    margin: 0;
-
 }
 
 /* End grave-love project goal */

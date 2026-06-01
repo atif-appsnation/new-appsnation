@@ -2419,6 +2419,28 @@
 	.neuro-night-designs .neuro-night-central-line {
 		display: none;
 	}
+
+	.royal-relax-spa-problem .col-custom {
+		width: 100%;
+		padding: 0px;
+	}
+
+	.royal-relax-spa-problem .card-custom {
+        min-height: auto;
+        margin-bottom: 20px;
+    }
+
+	.royal-relax-spa-problem .card-custom:last-child {
+        margin-bottom: 0px;
+    }
+
+	.royal-relax-spa-problem .start-connector, .royal-relax-spa-problem .card-connector-plus {
+		display: none;
+	}
+
+	.royal-relax-spa-problem .section-wrapper {
+		padding-top: 20px;
+	}
 	
 }
 
@@ -3226,6 +3248,28 @@
 		display: none;
 	}
 
+	.royal-relax-spa-problem .col-custom {
+		width: 49%;
+		padding: 10px 1% 0px;
+	}
+
+	.royal-relax-spa-problem .card-custom {
+        min-height: auto;
+        margin-bottom: 20px;
+    }
+
+	.royal-relax-spa-problem .card-custom:last-child {
+        margin-bottom: 0px;
+    }
+
+	.royal-relax-spa-problem .start-connector, .royal-relax-spa-problem .card-connector-plus {
+		display: none;
+	}
+
+	.royal-relax-spa-problem .section-wrapper {
+		padding-top: 20px;
+	}
+
 }
 
 @media only screen and (min-width:1024px) and (max-width:1439px) {
@@ -3787,7 +3831,6 @@
 		max-width: 590px;
 	}
 
-	/* load board case study start */
 	.load-board-hero-section .logo img {
 		max-width: 250px;
 		padding-bottom: 10px;
@@ -3845,6 +3888,14 @@
 	.load-board-key-challanges .key-challenge-box {
 		flex: 1 1 calc(50% - 2rem);
 	}
+
+	.royal-relax-spa-problem .start-connector {
+        left: calc((100% - 1320px) / 226 + 20px);
+    }
+
+	.royal-relax-spa-problem .section-wrapper {
+        padding-left: 50px;
+    }
 
 }
 
@@ -4780,12 +4831,12 @@
 		font-size: 54px;
 	} */
 
-	.common-heading p {
+	/* .common-heading p {
 		font-size: 18px;
 		font-weight: 400;
 		line-height: 35px;
 		margin-bottom: 20px;
-	}
+	} */
 
 	.upper-banner {
 		position: absolute;

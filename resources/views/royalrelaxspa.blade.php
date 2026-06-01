@@ -31,12 +31,12 @@
 <!-- Start Royal Relax Spa Project Description -->
 <section class="royal-relax-project-description-section royal-relax-spa-project py-5">
     <div class="container">
-        <div class="row align-items-center text-center text-md-start">
+        <div class="row align-items-center text-center text-lg-start">
             <div class="col-12 col-md-12 col-lg-6 mt-md-4">
                 <h2 class="mb-4">Project Description</h2>
-                <p>Royal Relax is a modern spa booking and management app designed to simplify <br> appointments for clients and streamline operations for spa owners. With <br> a calming, user-friendly interface, the app offers complete control over bookings,<br> schedules, and payments—all in one seamless platform. </p>
+                <p>Royal Relax is a modern spa booking and management app designed to simplify appointments for clients and streamline operations for spa owners. With a calming, user-friendly interface, the app offers complete control over bookings, schedules, and payments—all in one seamless platform. </p>
             </div>
-            <div class="col-12 col-md-12 col-lg-6 mb-4 mb-md-0 royal-relax-project-description">
+            <div class="col-12 col-md-12 col-lg-6 mt-5 mt-lg-0">
                 <img loading="lazy" src="{{asset('images/case-studies/royal-relax-spa/royal-relax-spa-project-decription.webp')}}" class="img-fluid royal-relax-project-description" alt="royal relax project Description">
             </div>
         </div>
@@ -49,7 +49,7 @@
     <div class="container">
         <div class="common-heading text-center">
             <h2 class="mb-3">Problem Solution</h2>
-            <p class="mb-0">Royal Relax addresses common challenges in spa management by <br> a seamless experience for both clients and service providers.</p>
+            <p class="mb-0">Royal Relax addresses common challenges in spa management by a seamless experience for both clients and service providers.</p>
         </div>
         <div class="section-wrapper">
             <div class="start-connector">
@@ -58,45 +58,35 @@
             <div class="row row-five-cols g-0">
                 <div class="col-custom">
                     <div class="card-custom bg-custom-gray">
-                        <div>
-                            <div class="number-circle">01</div>
-                        </div>
+                        <div class="number-circle">01</div>
                         <p class="card-text-custom">Instantly confirm appointments through a centralized booking system.</p>
                         <div class="card-connector-plus">+</div>
                     </div>
                 </div>
                 <div class="col-custom">
                     <div class="card-custom bg-custom-white">
-                        <div>
-                            <div class="number-circle">02</div>
-                        </div>
+                        <div class="number-circle">02</div>
                         <p class="card-text-custom">A clean interface with categorized services and time slots for quick booking.</p>
                         <div class="card-connector-plus">+</div>
                     </div>
                 </div>
                 <div class="col-custom">
                     <div class="card-custom bg-custom-gray">
-                        <div>
-                            <div class="number-circle">03</div>
-                        </div>
+                        <div class="number-circle">03</div>
                         <p class="card-text-custom">Geo-tag graves on the map for future visits.</p>
                         <div class="card-connector-plus">+</div>
                     </div>
                 </div>
                 <div class="col-custom">
                     <div class="card-custom bg-custom-white">
-                        <div>
-                            <div class="number-circle">04</div>
-                        </div>
+                        <div class="number-circle">04</div>
                         <p class="card-text-custom">Set recurring services like monthly or annual grave maintenance.</p>
                         <div class="card-connector-plus">+</div>
                     </div>
                 </div>
                 <div class="col-custom">
                     <div class="card-custom bg-custom-gray">
-                        <div>
-                            <div class="number-circle">05</div>
-                        </div>
+                        <div class="number-circle">05</div>
                         <p class="card-text-custom">Subscribe to care packages based on user needs and budget.</p>
                     </div>
                 </div>
@@ -107,11 +97,11 @@
 <!-- End Royal Relax Spa Problem-->
 
 <!-- Start Royal Relax Spa Target Audience -->
-<section class="user-research royal-relax-spa-target py-5">
+<section class="user-research royal-relax-spa-target case-studies-user-research py-5">
     <div class="container">
         <div class="common-heading text-center">
             <h2 class="my-3">Target Audience</h2>
-            <p class="mb-5">Royal Relax is designed for users who value time, ease, and high-quality self-care <br> experiences, as well as spa businesses looking to modernize their operations.</p>
+            <p class="mb-5">Royal Relax is designed for users who value time, ease, and high-quality self-care experiences, as well as spa businesses looking to modernize their operations.</p>
         </div>
         <div class="row align-items-center">
             <div class="col-md-6 mb-4 mb-md-0">
@@ -120,7 +110,7 @@
                     <li>People busy lifes who value on-the-go mobile solutions for personal care</li>
                 </ul>
             </div>
-            <div class="col-md-6 mb-4 mb-md-0">
+            <div class="col-md-6">
                 <ul class="user-research-ul">
                     <li>Small to medium wellness businesses needing to manage bookings .</li>
                     <li>coordinators managing appointment schedules and payments.</li>
@@ -132,41 +122,40 @@
 <!-- End Royal Relax Spa Target Audience -->
 
 <!--Start Royal Relax Spa Project Goals section -->
-<section class="royal-relax-spa-project-goals py-5">
+<section class="royal-relax-spa-project-goals case-studies-goals py-5">
     <div class="container grave-love-project-goals">
         <div class="common-heading text-center">
-            <h2 class="my-5">Project Goals</h2>
+            <h2 class="mb-5">Project Goals</h2>
         </div>
         <div class="row align-items-start">
-            <div class="col-lg-6 mb-md-4 mt-5 mt-lg-0">
+            <div class="col-lg-6">
                 <img loading="lazy" src="{{asset('images/case-studies/royal-relax-spa/royal-relax-spa-project-goal.webp')}}" class="img-fluid" alt="Royal Relax Spa Goals">
             </div>
-
             <div class="col-lg-6 my-auto">
                 <div class="row">
                     <div class="col-12 col-lg-10">
-                        <div class="info-card grave-light">
+                        <div class="info-card light">
                             <p>Create a frictionless and user-friendly appointment system for spa clients.</p>
                         </div>
                     </div>
                 </div>
                 <div class="row mt-4">
                     <div class="col-12 col-lg-11 offset-lg-1">
-                        <div class="info-card grave-brown">
+                        <div class="info-card brown">
                             <p>Provide spa managers with tools to manage bookings, staff, services, and payments in one place.</p>
                         </div>
                     </div>
                 </div>
                 <div class="row mt-4">
                     <div class="col-12 col-lg-11 offset-lg-1">
-                        <div class="info-card grave-light">
+                        <div class="info-card light">
                             <p>Design a relaxing, visually elegant interface that reflects premium spa aesthetics.</p>
                         </div>
                     </div>
                 </div>
                 <div class="row mt-4">
                     <div class="col-12 col-lg-10">
-                        <div class="info-card grave-brown">
+                        <div class="info-card brown">
                             <p>Enable live tracking of bookings, reminders, and status updates for both staff and clients.</p>
                         </div>
                     </div>
@@ -213,7 +202,7 @@
                 </div>
                 <div class="col-md-8">
                     <div class="persona-card persona-goals-section mb-4">
-                        <h3>Goals and Needs</h3>
+                        <h4>Goals and Needs</h4>
                         <ul>
                             <li>Effortless Booking: Wants to schedule spa appointments quickly during breaks or after work hours.</li>
                             <li>Service Transparency: Prefers knowing pricing, staff availability, and service details before booking.</li>
@@ -221,7 +210,7 @@
                         </ul>
                     </div>
                     <div class="persona-card persona-painpoints-section">
-                        <h3>Pain Points / Challenges</h3>
+                        <h4>Pain Points / Challenges</h4>
                         <ul>
                             <li>Busy Lifestyle: Has limited time to call spas or check availability manually.</li>
                             <li>Inconsistent Spa Apps: Finds most booking apps outdated or confusing.</li>
@@ -259,7 +248,7 @@
                 </div>
                 <div class="col-md-8">
                     <div class="persona-card persona-goals-section mb-4">
-                        <h3>Goals and Needs</h3>
+                        <h4>Goals and Needs</h4>
                         <ul>
                             <li>Transportation between meetings in West bay, Lusail and airport.</li>
                             <li>Desires that the service is delivered on time, with Wi-Fi-equipped vehicles,</li>
@@ -267,7 +256,7 @@
                         </ul>
                     </div>
                     <div class="persona-card persona-painpoints-section">
-                        <h3>Pain Points / Challenges</h3>
+                        <h4>Pain Points / Challenges</h4>
                         <ul>
                             <li>It’s difficult to find drivers who understand the priorities of a mother traveling with small children.</li>
                             <li>Most apps don’t offer clear options for child safety features like car seats.</li>
@@ -289,25 +278,25 @@
                 <div class="common-heading text-center">
                     <h2 class="pt-3">Wire Frame</h2>
                     <p class="pt-3">These low-fidelity wireframes outline the core user flow and layout structure, helping to visualize the app experience before high-fidelity design.</p>
-                    <h4>App Wireframes</h4>
+                    <h4 class="pt-3 pb-4">App Wireframes</h4>
                 </div>
             </div>
         </div>
         <div class="row g-3">
-            <div class="col-6 col-md-3 col-xl-2">
-                <img loading="lazy" src="{{asset('images/case-studies/royal-relax-spa/royal-relax-spa-wireframe-01.webp')}}" alt="Royal Relax Spa Wireframes" class="wire-img">
+            <div class="col-6 col-md-4 col-xl">
+                <img loading="lazy" src="{{asset('images/case-studies/royal-relax-spa/royal-relax-spa-wireframe-01.webp')}}" alt="Royal Relax Spa Wireframes" class="wire-img img-fluid">
             </div>
-            <div class="col-6 col-md-3 col-xl-2">
-                <img loading="lazy" src="{{asset('images/case-studies/royal-relax-spa/royal-relax-spa-wireframe-02.webp')}}" alt="Royal Relax Spa Wireframes" class="wire-img">
+            <div class="col-6 col-md-4 col-xl">
+                <img loading="lazy" src="{{asset('images/case-studies/royal-relax-spa/royal-relax-spa-wireframe-02.webp')}}" alt="Royal Relax Spa Wireframes" class="wire-img img-fluid">
             </div>
-            <div class="col-6 col-md-3 col-xl-2">
-                <img loading="lazy" src="{{asset('images/case-studies/royal-relax-spa/royal-relax-spa-wireframe-03.webp')}}" alt="Royal Relax Spa Wireframes" class="wire-img">
+            <div class="col-6 col-md-4 col-xl">
+                <img loading="lazy" src="{{asset('images/case-studies/royal-relax-spa/royal-relax-spa-wireframe-03.webp')}}" alt="Royal Relax Spa Wireframes" class="wire-img img-fluid">
             </div>
-            <div class="col-6 col-md-3 col-xl-2">
-                <img loading="lazy" src="{{asset('images/case-studies/royal-relax-spa/royal-relax-spa-wireframe-04.webp')}}" alt="Royal Relax Spa Wireframes" class="wire-img">
+            <div class="col-6 col-md-4 col-xl">
+                <img loading="lazy" src="{{asset('images/case-studies/royal-relax-spa/royal-relax-spa-wireframe-04.webp')}}" alt="Royal Relax Spa Wireframes" class="wire-img img-fluid">
             </div>
-            <div class="col-6 col-md-3 col-xl-2">
-                <img loading="lazy" src="{{asset('images/case-studies/royal-relax-spa/royal-relax-spa-wireframe-05.webp')}}" alt="Royal Relax Spa Wireframes" class="wire-img">
+            <div class="col-6 col-md-4 col-xl">
+                <img loading="lazy" src="{{asset('images/case-studies/royal-relax-spa/royal-relax-spa-wireframe-05.webp')}}" alt="Royal Relax Spa Wireframes" class="wire-img img-fluid">
             </div>
         </div>
     </div>
@@ -318,46 +307,45 @@
 <section class="grave-love-apps royal-relax-spa-apps py-5">
     <div class="container">
         <div class="common-heading">
-            <h2 class="my-3 text-center">App Screens Phase 1</h2>
+            <h2 class="mb-5 text-center">App Screens Phase 1</h2>
         </div>
         <div class="row">
-            <div class="col-md-3 col-6 mb-3">
+            <div class="col-6 col-md-4 col-lg-4 col-xl-2 mb-3">
                 <img loading="lazy" src="{{asset('images/case-studies/royal-relax-spa/royal-relax-spa-screen-01.webp')}}" alt="App Screens" class="img-fluid">
             </div>
-            <div class="col-md-3 col-6 mb-3">
+            <div class="col-6 col-md-4 col-lg-4 col-xl-2 mb-3">
                 <img loading="lazy" src="{{asset('images/case-studies/royal-relax-spa/royal-relax-spa-screen-02.webp')}}" alt="App Screens" class="img-fluid">
             </div>
-            <div class="col-md-3 col-6 mb-3">
+            <div class="col-6 col-md-4 col-lg-4 col-xl-2 mb-3">
                 <img loading="lazy" src="{{asset('images/case-studies/royal-relax-spa/royal-relax-spa-screen-03.webp')}}" alt="App Screens" class="img-fluid">
             </div>
-            <div class="col-md-3 col-6 mb-3">
+            <div class="col-6 col-md-4 col-lg-4 col-xl-2 mb-3">
                 <img loading="lazy" src="{{asset('images/case-studies/royal-relax-spa/royal-relax-spa-screen-04.webp')}}" alt="App Screens" class="img-fluid">
             </div>
-            <div class="col-md-3 col-6 mb-3">
+            <div class="col-6 col-md-4 col-lg-4 col-xl-2 mb-3">
                 <img loading="lazy" src="{{asset('images/case-studies/royal-relax-spa/royal-relax-spa-screen-05.webp')}}" alt="App Screens" class="img-fluid">
             </div>
-            <div class="col-md-3 col-6 mb-3">
+            <div class="col-6 col-md-4 col-lg-4 col-xl-2 mb-3">
                 <img loading="lazy" src="{{asset('images/case-studies/royal-relax-spa/royal-relax-spa-screen-06.webp')}}" alt="App Screens" class="img-fluid">
             </div>
-            <div class="col-md-3 col-6 mb-3">
+            <div class="col-6 col-md-4 col-lg-4 col-xl-2 mb-3">
                 <img loading="lazy" src="{{asset('images/case-studies/royal-relax-spa/royal-relax-spa-screen-07.webp')}}" alt="App Screens" class="img-fluid">
             </div>
-            <div class="col-md-3 col-6 mb-3">
+            <div class="col-6 col-md-4 col-lg-4 col-xl-2 mb-3">
                 <img loading="lazy" src="{{asset('images/case-studies/royal-relax-spa/royal-relax-spa-screen-08.webp')}}" alt="App Screens" class="img-fluid">
             </div>
-            <div class="col-md-3 col-6 mb-3">
+            <div class="col-6 col-md-4 col-lg-4 col-xl-2 mb-3">
                 <img loading="lazy" src="{{asset('images/case-studies/royal-relax-spa/royal-relax-spa-screen-09.webp')}}" alt="App Screens" class="img-fluid">
             </div>
-            <div class="col-md-3 col-6 mb-3">
+            <div class="col-6 col-md-4 col-lg-4 col-xl-2 mb-3">
                 <img loading="lazy" src="{{asset('images/case-studies/royal-relax-spa/royal-relax-spa-screen-10.webp')}}" alt="App Screens" class="img-fluid">
             </div>
-            <div class="col-md-3 col-6 mb-3">
+            <div class="col-6 col-md-4 col-lg-4 col-xl-2 mb-3">
                 <img loading="lazy" src="{{asset('images/case-studies/royal-relax-spa/royal-relax-spa-screen-11.webp')}}" alt="App Screens" class="img-fluid">
             </div>
-            <div class="col-md-3 col-6 mb-3">
+            <div class="col-6 col-md-4 col-lg-4 col-xl-2 mb-3">
                 <img loading="lazy" src="{{asset('images/case-studies/royal-relax-spa/royal-relax-spa-screen-12.webp')}}" alt="App Screens" class="img-fluid">
             </div>
-
         </div>
     </div>
 </section>
@@ -367,7 +355,7 @@
 <section class="boujee-beachin-tech royal-relax-spa-tech">
     <div class="container">
         <div class="common-heading">
-            <h2 class="text-center my-4">Tech Behind the App</h2>
+            <h2 class="text-center mb-5">Tech Behind the App</h2>
         </div>
         <div class="row g-4 justify-content-center">
             <div class="col-6 col-md-3 col-lg-2">
@@ -414,25 +402,25 @@
 <section class="grave-love-apps royal-relax-spa app py-5">
     <div class="container">
         <div class="common-heading">
-            <h2 class="mb-3 text-center">App Screens Phase 2</h2>
+            <h2 class="mb-5 text-center">App Screens Phase 2</h2>
         </div>
         <div class="row">
-            <div class="col-md-2 col-6 mb-3">
+            <div class="col-6 col-md-4 col-lg-4 col-xl-2 mb-3">
                 <img loading="lazy" src="{{asset('images/case-studies/royal-relax-spa/royal-relax-spa-screen-13.webp')}}" alt="App Screens" class="img-fluid">
             </div>
-            <div class="col-md-2 col-6 mb-3">
+            <div class="col-6 col-md-4 col-lg-4 col-xl-2 mb-3">
                 <img loading="lazy" src="{{asset('images/case-studies/royal-relax-spa/royal-relax-spa-screen-14.webp')}}" alt="App Screens" class="img-fluid">
             </div>
-            <div class="col-md-2 col-6 mb-3">
+            <div class="col-6 col-md-4 col-lg-4 col-xl-2 mb-3">
                 <img loading="lazy" src="{{asset('images/case-studies/royal-relax-spa/royal-relax-spa-screen-15.webp')}}" alt="App Screens" class="img-fluid">
             </div>
-            <div class="col-md-2 col-6 mb-3">
+            <div class="col-6 col-md-4 col-lg-4 col-xl-2 mb-3">
                 <img loading="lazy" src="{{asset('images/case-studies/royal-relax-spa/royal-relax-spa-screen-16.webp')}}" alt="App Screens" class="img-fluid">
             </div>
-            <div class="col-md-2 col-6 mb-3">
+            <div class="col-6 col-md-4 col-lg-4 col-xl-2 mb-3">
                 <img loading="lazy" src="{{asset('images/case-studies/royal-relax-spa/royal-relax-spa-screen-17.webp')}}" alt="App Screens" class="img-fluid">
             </div>
-            <div class="col-md-2 col-6 mb-3">
+            <div class="col-6 col-md-4 col-lg-4 col-xl-2 mb-3">
                 <img loading="lazy" src="{{asset('images/case-studies/royal-relax-spa/royal-relax-spa-screen-18.webp')}}" alt="App Screens" class="img-fluid">
             </div>
         </div>
@@ -458,15 +446,15 @@
  <!--Start Royal Relax Spa UI/UX Design Phase section -->
 <section class="mike-mathis-design-phase royal-relax-spa-design-phase py-5">
     <div class="container">
-        <div class="row align-items-center text-center text-md-start">
+        <div class="row align-items-center text-center text-lg-start">
             <div class="col-12 col-md-12 col-lg-6">
-                <h2>UI/UX Design Phase</h2>
+                <h2 class="mb-3">UI/UX Design Phase</h2>
                 <h5>Prototyping</h5>
                 <p>We began the design process by creating low-fidelity wireframes to define the app’s structure, flow, and interaction points. The goal was to map out both client-side and admin-side journeys, ensuring a smooth navigation experience.</p>
-                <h5>Testing and Feedback</h5>
+                <h5 class="my-3">Testing and Feedback</h5>
                 <p>Client feedback emphasized the need for fast booking flow and visual clarity, while spa managers valued functional dashboards and appointment overview simplicity. Based on this, we made key UI adjustments to button sizing, menu hierarchy, and screen transitions for better engagement and satisfaction.</p>
             </div>
-            <div class="col-12 col-md-12 col-lg-6 mb-4 mb-md-0">
+            <div class="col-12 col-md-12 col-lg-6 mt-5 mt-lg-0">
                 <img loading="lazy" src="{{asset('images/case-studies/royal-relax-spa/royal-relax-spa-ui-ux.webp')}}" class="img-fluid" alt="Royal Relax Spa UI/UX">
             </div>
         </div>

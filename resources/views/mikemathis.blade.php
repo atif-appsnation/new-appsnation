@@ -127,7 +127,7 @@
 <!-- End Project Challenges Statement section -->
 
 <!-- Start User Research Section -->
-<section class="mike-mathis-user-research my-5">
+<section class="mike-mathis-user-research case-studies-user-research my-5">
     <div class="container">
         <div class="row align-items-center">
             <div class="col-lg-6">
