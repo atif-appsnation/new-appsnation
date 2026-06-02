@@ -29,7 +29,7 @@
 <!-- End Breadcrumb Area-->
 
 <!-- Start Royal Relax Spa Project Description -->
-<section class="royal-relax-project-description-section royal-relax-spa-project py-5">
+<section class="royal-relax-spa-project py-5">
     <div class="container">
         <div class="row align-items-center text-center text-lg-start">
             <div class="col-12 col-md-12 col-lg-6 mt-md-4">
@@ -45,7 +45,7 @@
 <!-- End Royal Relax Spa Project Description -->
 
 <!-- Start Royal Relax Spa Problem -->
-<section class="royal-relax-spa-problem-solution royal-relax-spa-problem case-studies-problem py-5">
+<section class="royal-relax-spa-problem case-studies-problem py-5">
     <div class="container">
         <div class="common-heading text-center">
             <h2 class="mb-3">Problem Solution</h2>
@@ -97,7 +97,7 @@
 <!-- End Royal Relax Spa Problem-->
 
 <!-- Start Royal Relax Spa Target Audience -->
-<section class="user-research royal-relax-spa-target case-studies-user-research py-5">
+<section class="royal-relax-spa-target case-studies-user-research py-5">
     <div class="container">
         <div class="common-heading text-center">
             <h2 class="my-3">Target Audience</h2>
@@ -122,7 +122,7 @@
 <!-- End Royal Relax Spa Target Audience -->
 
 <!--Start Royal Relax Spa Project Goals section -->
-<section class="royal-relax-spa-project-goals case-studies-goals py-5">
+<section class="case-studies-goals py-5">
     <div class="container grave-love-project-goals">
         <div class="common-heading text-center">
             <h2 class="mb-5">Project Goals</h2>
@@ -304,7 +304,7 @@
 <!-- End Royal Relax Spa Wireframes -->
 
  <!-- Start Royal Relax Spa App Screens -->
-<section class="grave-love-apps royal-relax-spa-apps py-5">
+<section class="royal-relax-spa-apps py-5">
     <div class="container">
         <div class="common-heading">
             <h2 class="mb-5 text-center">App Screens Phase 1</h2>
@@ -352,7 +352,7 @@
 <!-- End Royal Relax Spa App Screens -->
 
 <!-- Start Royal Relax Spa Tech Behind The App -->
-<section class="boujee-beachin-tech royal-relax-spa-tech">
+<section class="royal-relax-spa-tech">
     <div class="container">
         <div class="common-heading">
             <h2 class="text-center mb-5">Tech Behind the App</h2>
@@ -399,7 +399,7 @@
 <!-- End Royal Relax Spa Tech Behind The App -->
 
  <!-- Start Royal Relax Spa App Screens -->
-<section class="grave-love-apps royal-relax-spa app py-5">
+<section class="royal-relax-spa app py-5">
     <div class="container">
         <div class="common-heading">
             <h2 class="mb-5 text-center">App Screens Phase 2</h2>
@@ -429,7 +429,7 @@
 <!-- Start Royal Relax Spa App Screens -->
 
 <!-- Start Royal Relax Spa Key Features Section -->
-<section class="royal-relax-Features-mockup">
+<section class="royal-relax-features-mockup">
     <div class="container">
         <div class="common-heading">
             <h2 class="text-center my-4">Key Features of Royal Relax Spa</h2>
@@ -444,7 +444,7 @@
 <!-- End Royal Relax Spa Key Features Section -->
 
  <!--Start Royal Relax Spa UI/UX Design Phase section -->
-<section class="mike-mathis-design-phase royal-relax-spa-design-phase py-5">
+<section class="royal-relax-spa-design-phase py-5">
     <div class="container">
         <div class="row align-items-center text-center text-lg-start">
             <div class="col-12 col-md-12 col-lg-6">

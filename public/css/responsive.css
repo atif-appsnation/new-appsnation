@@ -2420,25 +2420,25 @@
 		display: none;
 	}
 
-	.royal-relax-spa-problem .col-custom {
+	.case-studies-problem .col-custom {
 		width: 100%;
 		padding: 0px;
 	}
 
-	.royal-relax-spa-problem .card-custom {
+	.case-studies-problem .card-custom {
         min-height: auto;
         margin-bottom: 20px;
     }
 
-	.royal-relax-spa-problem .card-custom:last-child {
+	.case-studies-problem .card-custom:last-child {
         margin-bottom: 0px;
     }
 
-	.royal-relax-spa-problem .start-connector, .royal-relax-spa-problem .card-connector-plus {
+	.case-studies-problem .start-connector, .case-studies-problem .card-connector-plus {
 		display: none;
 	}
 
-	.royal-relax-spa-problem .section-wrapper {
+	.case-studies-problem .section-wrapper {
 		padding-top: 20px;
 	}
 	
@@ -3248,25 +3248,25 @@
 		display: none;
 	}
 
-	.royal-relax-spa-problem .col-custom {
+	.case-studies-problem .col-custom {
 		width: 49%;
 		padding: 10px 1% 0px;
 	}
 
-	.royal-relax-spa-problem .card-custom {
+	.case-studies-problem .card-custom {
         min-height: auto;
         margin-bottom: 20px;
     }
 
-	.royal-relax-spa-problem .card-custom:last-child {
+	.case-studies-problem .card-custom:last-child {
         margin-bottom: 0px;
     }
 
-	.royal-relax-spa-problem .start-connector, .royal-relax-spa-problem .card-connector-plus {
+	.case-studies-problem .start-connector, .case-studies-problem .card-connector-plus {
 		display: none;
 	}
 
-	.royal-relax-spa-problem .section-wrapper {
+	.case-studies-problem .section-wrapper {
 		padding-top: 20px;
 	}
 
@@ -3889,11 +3889,11 @@
 		flex: 1 1 calc(50% - 2rem);
 	}
 
-	.royal-relax-spa-problem .start-connector {
+	.case-studies-problem .start-connector {
         left: calc((100% - 1320px) / 226 + 20px);
     }
 
-	.royal-relax-spa-problem .section-wrapper {
+	.case-studies-problem .section-wrapper {
         padding-left: 50px;
     }
 
@@ -4199,7 +4199,7 @@
 	.challenges-turned-section .challenges-turned-box img {}
 
 	/*Alejandro hero section case study start */
-	.Alejandro-hero-section .hero-img {
+	.alejandro-hero-section .hero-img {
 		max-width: 900px;
 	}
 
@@ -4258,6 +4258,10 @@
 
 	.neuro-night-hero-img {
 		width: 550px;
+	}
+
+	.case-studies-problem .section-wrapper {
+		padding-left: 50px;
 	}
 
 }
@@ -4554,7 +4558,7 @@
 	}
 
 	/* Alejandro case study start */
-	.Alejandro-hero-section .hero-img {
+	.alejandro-hero-section .hero-img {
 		max-width: 950px;
 		margin-top: 86px;
 	}
@@ -4609,6 +4613,10 @@
 
 	.neuro-night-hero-img {
 		width: 550px;
+	}
+
+	.case-studies-problem .section-wrapper {
+		padding-left: 50px;
 	}
 
 }
@@ -5239,6 +5247,9 @@
 		width: 550px;
 	}
 
+	.case-studies-problem .section-wrapper {
+		padding-left: 50px;
+	}
 }
 
 @media only screen and (min-width:1200px) {
@@ -5501,7 +5512,7 @@
 	}
 
 	/* Alejandro objectives section case study start */
-	.Alejandro-objectives-section .central-line {
+	.alejandro-objectives-section .central-line {
 		display: none;
 	}
 

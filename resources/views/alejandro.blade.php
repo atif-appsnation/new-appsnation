@@ -2,160 +2,123 @@
 @section('content')
 
 <!--Breadcrumb Area-->
-<!-- start hero Alejandro section  -->
-
-<section class="Alejandro-hero-section breadcrumb-areav2 ">
+<section class="alejandro-hero-section breadcrumb-areav2">
     @if ($errors->has('g-recaptcha-response'))
     <div class="alert alert-danger">
         <strong>{{ $errors->first('g-recaptcha-response') }}</strong>
     </div>
     @endif
 
-    <div class="container wow fadeIn " data-wow-delay="0.2s">
+    <div class="container">
         <div class="row">
-
             <div class="col-12">
-                <div class="bread-titlev2 mt-4">
-                     <img loading="lazy" src="{{asset('images/case-studies/alejandro-app/logo.webp')}}" class="img-fluid logo" alt="Alejandro logo">
+                <div class="bread-titlev2">
+                    <img loading="lazy" src="{{asset('images/case-studies/alejandro-app/alejandro-app-logo.webp')}}" class="img-fluid logo" alt="Alejandro Logo">
                     <h1>Effortless Appraisal Management at Your Fingertips</h1>
                     <p class="pt-3">Schedule, assign, and track appraisal tasks all from a mobile first platform. </p>
                 </div>
-                 <img loading="lazy" src="{{asset('images/case-studies/alejandro-app/hero-images.webp')}}" class="img-fluid hero-img" alt="Alejandro hero img">
+                <img loading="lazy" src="{{asset('images/case-studies/alejandro-app/alejandro-app-hero.webp')}}" class="img-fluid hero-img" alt="Alejandro Hero">
             </div>
         </div>
     </div>
 </section>
 <!-- End Breadcrumb Area-->
-<!-- end hero Alejandro section  -->
 
-<!--Start Client Overview Section -->
-<section class="Alejandro-client-overview  royal-relax-spaceing wow fadeIn " data-wow-delay="0.4s">
+<!--Start Alejandro Client Overview -->
+<section class="alejandro-client-overview py-5">
     <div class="container">
-
         <div class="row client-wood-land-wrapper">
             <div class="col-lg-6 my-lg-auto ">
                 <div class="common-heading">
                     <h2>Client Overview</h1>
-                        <p>Woodland is a concept-driven mobile app allowing users to dive into books through reading or listening — while connecting with fellow readers. The goal was to create a minimal, distraction-free design that feels personal, modern, and deeply immersive. </p>
+                    <p>Woodland is a concept-driven mobile app allowing users to dive into books through reading or listening — while connecting with fellow readers. The goal was to create a minimal, distraction-free design that feels personal, modern, and deeply immersive. </p>
                 </div>
-                <div class="left-border-clint-overview">
+                <div class="left-border">
                     <h6>Industry</h6>
                     <p>Digital Publishing & Audio Content</p>
                 </div>
-                <div class="left-border-clint-overview">
+                <div class="left-border">
                     <h6>App Type</h6>
                     <p>Concept Project for Book Lovers</p>
                 </div>
-                <div class="left-border-clint-overview">
+                <div class="left-border">
                     <h6>Services</h6>
                     <p>UX Research, UI Design, Design System, Mobile App UI (iOS + Android)</p>
                 </div>
             </div>
             <div class="col-lg-6">
-                 <img loading="lazy" src="{{asset('images/case-studies/alejandro-app/clients-overview.webp')}}" alt="client-overview" width="100%" height="100%">
+                <img loading="lazy" src="{{asset('images/case-studies/alejandro-app/alejandro-app-clients-overview.webp')}}" alt="Alejandro Client Overview" width="100%" height="100%">
             </div>
-
         </div>
-
     </div>
 </section>
-<!--End Client Overview Section -->
+<!--End Client Overview -->
 
-<!-- start royal relax spa problem solution -->
-<section class="Alejandro-problem-solution royal-relax-spaceing wow fadeInUp">
+<!-- Start Alejandro Problem Solution -->
+<section class="alejandro-problem-solution case-studies-problem py-5">
     <div class="container">
         <div class="common-heading text-center">
-            <h2 class="my-3">Problem Solution</h2>
-            <p class=" ">Royal Relax addresses common challenges in spa management by <br> a seamless experience for both clients and service providers.</p>
+            <h2 class="mb-3">Problem Solution</h2>
+            <p>Royal Relax addresses common challenges in spa management by <br> a seamless experience for both clients and service providers.</p>
         </div>
         <div class="section-wrapper">
-
-
             <div class="start-connector">
                 <div class="start-plus-circle">+</div>
             </div>
-
             <div class="row row-five-cols g-0">
-
-                <!-- Card 01 -->
                 <div class="col-custom">
                     <div class="card-custom bg-custom-gray">
                         <div>
                             <div class="number-circle">01</div>
-
                         </div>
                         <p class="card-text-custom">Centralized task assignment replaced scattered manual coordination.</p>
-
-                        <!-- Connector -->
                         <div class="card-connector-plus">+</div>
                     </div>
                 </div>
-
-                <!-- Card 02 -->
                 <div class="col-custom">
                     <div class="card-custom bg-custom-white">
                         <div>
                             <div class="number-circle">02</div>
-
                         </div>
                         <p class="card-text-custom">Live status updates eliminated confusion around progress tracking.</p>
-
-                        <!-- Connector -->
                         <div class="card-connector-plus">+</div>
                     </div>
                 </div>
-
-                <!-- Card 03 -->
                 <div class="col-custom">
                     <div class="card-custom bg-custom-gray">
                         <div>
                             <div class="number-circle">03</div>
-
                         </div>
-                        <p class="card-text-custom">Appraisers now access digital templates and checklists anytime.
-
-                        </p>
-
-                        <!-- Connector -->
+                        <p class="card-text-custom">Appraisers now access digital templates and checklists anytime.</p>
                         <div class="card-connector-plus">+</div>
                     </div>
                 </div>
-
-                <!-- Card 04 -->
                 <div class="col-custom">
                     <div class="card-custom bg-custom-white">
                         <div>
                             <div class="number-circle">04</div>
-
                         </div>
                         <p class="card-text-custom">In-app alerts keep both admin and appraisers in sync in real time.</p>
-
-                        <!-- Connector -->
                         <div class="card-connector-plus">+</div>
                     </div>
                 </div>
-
-                <!-- Card 05 -->
                 <div class="col-custom">
                     <div class="card-custom bg-custom-gray">
                         <div>
                             <div class="number-circle">05</div>
-
                         </div>
                         <p class="card-text-custom">Reports and documents are uploaded, stored, and tracked digitally.
                         </p>
                     </div>
                 </div>
-
             </div>
         </div>
     </div>
 </section>
-<!-- start royal relax spa problem solution-->
+<!-- End Alejandro Problem Solution -->
 
-
-<!-- Start Our Design Objectives Section -->
-<section class="Alejandro-objectives-section  royal-relax-spaceing wow fadeIn">
+<!-- Start Alejandro Objectives -->
+<section class="alejandro-objectives-section py-5">
     <div class="container">
         <div class="row">
             <div class="col-12">
@@ -169,32 +132,31 @@
             <div class="col-lg-6">
                 <div class="feature-box-group">
                     <div class="feature-box mb-5 left-item">
-                        <h4 class="text-theme  mb-3">User-Centric Interface</h4>
+                        <h4 class="text-theme mb-3">User-Centric Interface</h4>
                         <p class="text-muted mb-0">Deliver a clean and intuitive UI tailored for both beginner investors and experienced traders.</p>
                     </div>
                     <div class="feature-box mb-5 left-item">
-                        <h4 class="text-theme  mb-3">Quick Trade Execution </h4>
+                        <h4 class="text-theme mb-3">Quick Trade Execution </h4>
                         <p class="text-muted mb-0">Enable users to place buy/sell orders in just a few simple taps, with real-time confirmation.</p>
                     </div>
-                    <div class="feature-box mb-5 left-item">
-                        <h4 class="text-theme  mb-3">Simplified Onboarding</h4>
+                    <div class="feature-box left-item">
+                        <h4 class="text-theme mb-3">Simplified Onboarding</h4>
                         <p class="text-muted mb-0">Create a beginner-friendly onboarding process to guide first-time users through key features.</p>
                     </div>
                 </div>
             </div>
-
             <div class="col-lg-6 right-column-wrapper">
                 <div class="feature-box-group">
                     <div class="feature-box mb-5 right-item">
-                        <h4 class="text-theme  mb-3">Real-Time Market Integration</h4>
+                        <h4 class="text-theme mb-3">Real-Time Market Integration</h4>
                         <p class="text-muted mb-0">Present beach content tailored to users' lifestyle preferences, including luxury, aesthetics, and social relevance.</p>
                     </div>
                     <div class="feature-box mb-5 right-item">
-                        <h4 class="text-theme  mb-3">Customizable Portfolio Dashboard</h4>
+                        <h4 class="text-theme mb-3">Customizable Portfolio Dashboard</h4>
                         <p class="text-muted mb-0">Allow users to personalize their view of assets, gains, losses, and performance graphs.</p>
                     </div>
-                    <div class="feature-box mb-5 right-item">
-                        <h4 class="text-theme  mb-3">Mobile-First Performance</h4>
+                    <div class="feature-box right-item">
+                        <h4 class="text-theme mb-3">Mobile-First Performance</h4>
                         <p class="text-muted mb-0">Optimize layout and flow for speed, responsiveness, and seamless use across all mobile devices. </p>
                     </div>
                 </div>
@@ -202,28 +164,24 @@
         </div>
     </div>
 </section>
-<!-- End Our Design Objectives Section -->
+<!-- End Alejandro Objectives -->
 
-
- 
-<!-- by hassan USER PERSONA -->
-<section class="royal-relax-spa-persona royal-relax-spaceing wow fadeIn">
+<!-- Start Alejandro User Persona -->
+<section class="alejandro-spa-persona case-studies-persona py-5">
     <div class="container">
-        <div class="persona-card-main wow fadeInUp">
+        <div class="persona-card-main">
             <div class="row persona-top-heading">
-                <div class="col-md-6 text-center">
-                    <h3 class="my-4">USER PERSONA</h3>
+                <div class="col-12 text-center">
+                    <h3 class="mb-4">USER PERSONA</h3>
                 </div>
-
             </div>
-
         </div>
-        <div class="container persona-section-wrapper my-4 wow fadeInUp">
+        <div class="container persona-section-wrapper mb-4">
             <div class="row g-4">
                 <div class="col-md-4">
                     <div class="persona-card persona-left-column-card">
                         <div class="persona-name-section">
-                             <img loading="lazy" src="{{asset('images/case-studies/alejandro-app/Avatar-1.webp')}}" alt="Avatar" class="img-fluid">
+                            <img loading="lazy" src="{{asset('images/case-studies/alejandro-app/alejandro-app-avatar-01.webp')}}" alt="Avatar" class="img-fluid">
                             <h4>Mark Sullivan</h4>
                             <p>Appraisal Firm Owner</p>
                         </div>
@@ -246,7 +204,7 @@
                 </div>
                 <div class="col-md-8">
                     <div class="persona-card persona-goals-section mb-4">
-                        <h3>Goals and Needs</h3>
+                        <h4>Goals and Needs</h4>
                         <ul>
                             <li>Assign property inspections efficiently to mobile appraisers.</li>
                             <li>Get a clear overview of all orders, assignments, and deadlines.</li>
@@ -255,7 +213,7 @@
                         </ul>
                     </div>
                     <div class="persona-card persona-painpoints-section">
-                        <h3>Pain Points / Challenges</h3>
+                        <h4>Pain Points / Challenges</h4>
                         <ul>
                             <li>Manages everything manually through spreadsheets and phone calls.</li>
                             <li>No visibility into what’s happening after a task is assigned.</li>
@@ -265,17 +223,17 @@
                 </div>
             </div>
         </div>
-        <div class="container persona-section-wrapper my-4 wow fadeInUp">
+        <div class="container persona-section-wrapper mb-4">
             <div class="row g-4">
                 <div class="col-md-4">
                     <div class="persona-card persona-left-column-card">
                         <div class="persona-name-section">
-                             <img loading="lazy" src="{{asset('images/case-studies/alejandro-app/Avatar-2.webp')}}" alt="Ahmed Al-Kuwari Avatar">
+                            <img loading="lazy" src="{{asset('images/case-studies/alejandro-app/alejandro-app-avatar-02.webp')}}" alt="Ahmed Al-Kuwari Avatar">
                             <h4>Jessica Reed</h4>
                             <p>Mobile Field Appraiser</p>
                         </div>
                         <div class="persona-background-section mt-auto">
-                            <h3>Background</h3>
+                            <h4>Background</h4>
                             <p>
                                 <b>Age</b>: 22
                             </p>
@@ -293,7 +251,7 @@
                 </div>
                 <div class="col-md-8">
                     <div class="persona-card persona-goals-section mb-4">
-                        <h3>Goals and Needs</h3>
+                        <h4>Goals and Needs</h4>
                         <ul>
                             <li>Quickly view assigned properties and their deadlines.</li>
                             <li>Upload reports and images directly from her mobile device.</li>
@@ -301,7 +259,7 @@
                         </ul>
                     </div>
                     <div class="persona-card persona-painpoints-section">
-                        <h3>Pain Points / Challenges</h3>
+                        <h4>Pain Points / Challenges</h4>
                         <ul>
                             <li>Often misses updates when using email or text-based task assignment.</li>
                             <li>Delays sending reports due to complex document handling.</li>
@@ -313,51 +271,46 @@
         </div>
     </div>
 </section>
-<!-- end hassan USER PERSONA -->
+<!-- End Alejandro User Persona -->
 
-
-
-<!-- Start Wireframes Section -->
-<section class="Alejandro-wireframe   royal-relax-spaceing wow fadeIn">
+<!-- Start Alejandro Wireframes -->
+<section class="alejandro-wireframe py-5">
     <div class="container">
         <div class="row">
             <div class="col-12">
                 <div class="common-heading text-center">
-                    <h2 class="my-3">Wire Frame</h2>
-                    <p class=" ">Early wireframes helped us plan the layout, navigation flow, and app structure allowing us to validate ideas before investing in visuals.</p>
+                    <h2 class="mb-3">Wire Frame</h2>
+                    <p class="mb-3">Early wireframes helped us plan the layout, navigation flow, and app structure allowing us to validate ideas before investing in visuals.</p>
                     <h4 class="mb-5">App Wireframes</h4>
                 </div>
             </div>
         </div>
-
         <div class="row g-3 grave-love-wireframe-gallery">
             <div class="col-6 col-md-3 col-xl-2">
-                 <img loading="lazy" src="{{asset('images/case-studies/royal-relax-spa/wirefram1.webp')}}" alt="Boujee Beachin Wireframe 3" class="wire-img">
+                <img loading="lazy" src="{{asset('images/case-studies/alejandro-app/alejandro-app-wireframe-01.webp')}}" alt="Alejandro Wireframe" class="wire-img">
             </div>
             <div class="col-6 col-md-3 col-xl-2">
-                 <img loading="lazy" src="{{asset('images/case-studies/royal-relax-spa/wirefram2.webp')}}" alt="Boujee Beachin Wireframe 3" class="wire-img">
+                <img loading="lazy" src="{{asset('images/case-studies/alejandro-app/alejandro-app-wireframe-02.webp')}}" alt="Alejandro Wireframe" class="wire-img">
             </div>
             <div class="col-6 col-md-3 col-xl-2">
-                 <img loading="lazy" src="{{asset('images/case-studies/royal-relax-spa/wirefram3.webp')}}" alt="Boujee Beachin Wireframe 3" class="wire-img">
+                <img loading="lazy" src="{{asset('images/case-studies/alejandro-app/alejandro-app-wireframe-03.webp')}}" alt="Alejandro Wireframe" class="wire-img">
             </div>
             <div class="col-6 col-md-3 col-xl-2">
-                 <img loading="lazy" src="{{asset('images/case-studies/royal-relax-spa/wirefram4.webp')}}" alt="Boujee Beachin Wireframe 3" class="wire-img">
+                <img loading="lazy" src="{{asset('images/case-studies/alejandro-app/alejandro-app-wireframe-04.webp')}}" alt="Alejandro Wireframe" class="wire-img">
             </div>
             <div class="col-6 col-md-3 col-xl-2">
-                 <img loading="lazy" src="{{asset('images/case-studies/royal-relax-spa/wirefram5.webp')}}" alt="Boujee Beachin Wireframe 3" class="wire-img">
+                <img loading="lazy" src="{{asset('images/case-studies/alejandro-app/alejandro-app-wireframe-05.webp')}}" alt="Alejandro Wireframe" class="wire-img">
             </div>
             <div class="col-6 col-md-3 col-xl-2">
-                 <img loading="lazy" src="{{asset('images/case-studies/couple-app/wireframe1.webp')}}" alt="couple app Wireframe" class="wire-img">
+                <img loading="lazy" src="{{asset('images/case-studies/alejandro-app/alejandro-app-wireframe-06.webp')}}" alt="Alejandro Wireframe" class="wire-img">
             </div>
-
-
         </div>
     </div>
 </section>
-<!-- End Wireframes Section -->
+<!-- End Alejandro Wireframes -->
 
-<!-- Start Key Features Section -->
-<section class="Alejandro-Designs-section  wow fadeIn royal-relax-Features-mockup royal-relax-spaceing">
+<!-- Start Alejandro Design -->
+<section class="alejandro-designs-section py-5">
     <div class="container">
         <div class="common-heading my-4">
             <h2 class="text-center ">Final UI Designs</h2>
@@ -365,140 +318,151 @@
         </div>
         <div class="row">
             <div class="col-12 text-center">
-                 <img loading="lazy" src="{{asset('images/case-studies/alejandro-app/final-ui-design.webp')}}" alt="wood-land morkup" class="img-fluid">
+                 <img loading="lazy" src="{{asset('images/case-studies/alejandro-app/alejandro-app-final-ui-design.webp')}}" alt="Alejandro Design" class="img-fluid">
             </div>
         </div>
     </div>
 </section>
-<!-- End Key Features Section -->
+<!-- End Alejandro Design -->
 
-
-<!-- Start App Screens -->
-<section class="grave-love-apps royal-relax-spaceing wow fadeIn">
+<!-- Start Alejandro App Screens -->
+<section class="alejandro-apps py-5">
     <div class="container">
         <div class="common-heading">
-            <h2 class="my-3 text-center">App Screens  </h2>
+            <h2 class="mb-4 text-center">App Screens</h2>
         </div>
         <div class="row">
-            <div class="col-md-3 col-6 my-3"> <img loading="lazy" src="{{asset('images/case-studies/alejandro-app/appscreen-1.webp')}}" alt="App Screens" class="img-fluid"></div>
-            <div class="col-md-3 col-6 my-3"> <img loading="lazy" src="{{asset('images/case-studies/alejandro-app/appscreen-2.webp')}}" alt="App Screens" class="img-fluid"></div>
-            <div class="col-md-3 col-6 my-3"> <img loading="lazy" src="{{asset('images/case-studies/alejandro-app/appscreen-3.webp')}}" alt="App Screens" class="img-fluid"></div>
-            <div class="col-md-3 col-6 my-3"> <img loading="lazy" src="{{asset('images/case-studies/alejandro-app/appscreen-4.webp')}}" alt="App Screens" class="img-fluid"></div>
-            <div class="col-md-3 col-6 my-3"> <img loading="lazy" src="{{asset('images/case-studies/alejandro-app/appscreen-5.webp')}}" alt="App Screens" class="img-fluid"></div>
-            <div class="col-md-3 col-6 my-3"> <img loading="lazy" src="{{asset('images/case-studies/alejandro-app/appscreen-6.webp')}}" alt="App Screens" class="img-fluid"></div>
-            <div class="col-md-3 col-6 my-3"> <img loading="lazy" src="{{asset('images/case-studies/alejandro-app/appscreen-7.webp')}}" alt="App Screens" class="img-fluid"></div>
-            <div class="col-md-3 col-6 my-3"> <img loading="lazy" src="{{asset('images/case-studies/alejandro-app/appscreen-8.webp')}}" alt="App Screens" class="img-fluid"></div>
-            <div class="col-md-3 col-6 my-3"> <img loading="lazy" src="{{asset('images/case-studies/alejandro-app/appscreen-9.webp')}}" alt="App Screens" class="img-fluid"></div>
-            <div class="col-md-3 col-6 my-3"> <img loading="lazy" src="{{asset('images/case-studies/alejandro-app/appscreen-10.webp')}}" alt="App Screens" class="img-fluid"></div>
-            <div class="col-md-3 col-6 my-3"> <img loading="lazy" src="{{asset('images/case-studies/alejandro-app/appscreen-11.webp')}}" alt="App Screens" class="img-fluid"></div>
-            <div class="col-md-3 col-6 my-3"> <img loading="lazy" src="{{asset('images/case-studies/alejandro-app/appscreen-12.webp')}}" alt="App Screens" class="img-fluid"></div>
-            <div class="col-md-3 col-6 my-3"> <img loading="lazy" src="{{asset('images/case-studies/alejandro-app/appscreen-13.webp')}}" alt="App Screens" class="img-fluid"></div>
-            <div class="col-md-3 col-6 my-3"> <img loading="lazy" src="{{asset('images/case-studies/alejandro-app/appscreen-14.webp')}}" alt="App Screens" class="img-fluid"></div>
-            <div class="col-md-3 col-6 my-3"> <img loading="lazy" src="{{asset('images/case-studies/alejandro-app/appscreen-15.webp')}}" alt="App Screens" class="img-fluid"></div>
-            <div class="col-md-3 col-6 my-3"> <img loading="lazy" src="{{asset('images/case-studies/alejandro-app/appscreen-16.webp')}}" alt="App Screens" class="img-fluid"></div>
+            <div class="col-md-3 col-6 mb-3">
+                <img loading="lazy" src="{{asset('images/case-studies/alejandro-app/alejandro-app-app-screen-01.webp')}}" alt="App Screens" class="img-fluid">
+            </div>
+            <div class="col-md-3 col-6 mb-3">
+                <img loading="lazy" src="{{asset('images/case-studies/alejandro-app/alejandro-app-app-screen-02.webp')}}" alt="App Screens" class="img-fluid">
+            </div>
+            <div class="col-md-3 col-6 mb-3">
+                <img loading="lazy" src="{{asset('images/case-studies/alejandro-app/alejandro-app-app-screen-03.webp')}}" alt="App Screens" class="img-fluid">
+            </div>
+            <div class="col-md-3 col-6 mb-3">
+                <img loading="lazy" src="{{asset('images/case-studies/alejandro-app/alejandro-app-app-screen-04.webp')}}" alt="App Screens" class="img-fluid">
+            </div>
+            <div class="col-md-3 col-6 mb-3">
+                <img loading="lazy" src="{{asset('images/case-studies/alejandro-app/alejandro-app-app-screen-05.webp')}}" alt="App Screens" class="img-fluid">
+            </div>
+            <div class="col-md-3 col-6 mb-3">
+                <img loading="lazy" src="{{asset('images/case-studies/alejandro-app/alejandro-app-app-screen-06.webp')}}" alt="App Screens" class="img-fluid">
+            </div>
+            <div class="col-md-3 col-6 mb-3">
+                <img loading="lazy" src="{{asset('images/case-studies/alejandro-app/alejandro-app-app-screen-07.webp')}}" alt="App Screens" class="img-fluid">
+            </div>
+            <div class="col-md-3 col-6 mb-3">
+                <img loading="lazy" src="{{asset('images/case-studies/alejandro-app/alejandro-app-app-screen-08.webp')}}" alt="App Screens" class="img-fluid">
+            </div>
+            <div class="col-md-3 col-6 mb-3">
+                <img loading="lazy" src="{{asset('images/case-studies/alejandro-app/alejandro-app-app-screen-09.webp')}}" alt="App Screens" class="img-fluid">
+            </div>
+            <div class="col-md-3 col-6 mb-3">
+                <img loading="lazy" src="{{asset('images/case-studies/alejandro-app/alejandro-app-app-screen-10.webp')}}" alt="App Screens" class="img-fluid">
+            </div>
+            <div class="col-md-3 col-6 mb-3">
+                <img loading="lazy" src="{{asset('images/case-studies/alejandro-app/alejandro-app-app-screen-11.webp')}}" alt="App Screens" class="img-fluid">
+            </div>
+            <div class="col-md-3 col-6 mb-3">
+                <img loading="lazy" src="{{asset('images/case-studies/alejandro-app/alejandro-app-app-screen-12.webp')}}" alt="App Screens" class="img-fluid">
+            </div>
+            <div class="col-md-3 col-6 mb-3">
+                <img loading="lazy" src="{{asset('images/case-studies/alejandro-app/alejandro-app-app-screen-13.webp')}}" alt="App Screens" class="img-fluid">
+            </div>
+            <div class="col-md-3 col-6 mb-3">
+                <img loading="lazy" src="{{asset('images/case-studies/alejandro-app/alejandro-app-app-screen-14.webp')}}" alt="App Screens" class="img-fluid">
+            </div>
+            <div class="col-md-3 col-6 mb-3">
+                <img loading="lazy" src="{{asset('images/case-studies/alejandro-app/alejandro-app-app-screen-15.webp')}}" alt="App Screens" class="img-fluid">
+            </div>
+            <div class="col-md-3 col-6">
+                <img loading="lazy" src="{{asset('images/case-studies/alejandro-app/alejandro-app-app-screen-16.webp')}}" alt="App Screens" class="img-fluid">
+            </div>
 
         </div>
     </div>
 </section>
-<!-- End App Screens -->
+<!-- End Alejandro App Screens -->
 
-
-<!-- by hassan Tech Behind the App section  -->
-<section class="boujee-beachin-tech royal-relax-spaceing wow fadeIn">
+<!-- Start Alejandro Tech Behind The App -->
+<section class="alejandro-tech py-5">
     <div class="container">
         <div class="common-heading">
-            <h2 class="text-center my-4">Tech Behind the App</h2>
+            <h2 class="text-center mb-4">Tech Behind the App</h2>
         </div>
-
         <div class="row g-4 justify-content-center">
             <div class="col-6 col-md-3 col-lg-2">
                 <div class="tech-card text-center">
                     <h6>Frontend</h6>
-                     <img loading="lazy" src="{{asset('images/case-studies/boujee-beachin/react-native.webp')}}" alt="React Native">
+                     <img loading="lazy" src="{{asset('images/case-studies/react-native.webp')}}" alt="React Native">
                     <p>React Native</p>
                 </div>
             </div>
             <div class="col-6 col-md-3 col-lg-2">
                 <div class="tech-card text-center">
                     <h6>Backend</h6>
-                     <img loading="lazy" src="{{asset('images/case-studies/boujee-beachin/node-js.webp')}}" alt="Node.js">
+                     <img loading="lazy" src="{{asset('images/case-studies/node-js.webp')}}" alt="Node.js">
                     <p>Node.js</p>
                 </div>
             </div>
             <div class="col-6 col-md-3 col-lg-2">
                 <div class="tech-card text-center">
                     <h6>Database</h6>
-                     <img loading="lazy" src="{{asset('images/case-studies/boujee-beachin/mongo-db.webp')}}" alt="MongoDB">
+                     <img loading="lazy" src="{{asset('images/case-studies/mongo-db.webp')}}" alt="MongoDB">
                     <p>MongoDB</p>
                 </div>
             </div>
             <div class="col-6 col-md-3 col-lg-2">
                 <div class="tech-card text-center">
                     <h6>Cloud</h6>
-                     <img loading="lazy" src="{{asset('images/case-studies/boujee-beachin/aws.webp')}}" alt="AWS">
+                     <img loading="lazy" src="{{asset('images/case-studies/aws.webp')}}" alt="AWS">
                     <p>AWS</p>
                 </div>
             </div>
             <div class="col-6 col-md-3 col-lg-2">
                 <div class="tech-card text-center">
                     <h6>Payments</h6>
-                     <img loading="lazy" src="{{asset('images/case-studies/boujee-beachin/payment.png')}}" alt="payment">
+                     <img loading="lazy" src="{{asset('images/case-studies/payment.png')}}" alt="payment">
                     <p>Stripe • G Pay</p>
                 </div>
             </div>
         </div>
     </div>
 </section>
-<!--End hassan Tech Behind the App section  -->
+<!--End Alejandro Tech Behind The App -->
 
- 
-
-
-
-
-
-
-<!--Start UI/UX Design Phase section -->
-<section class="mike-mathis-design-phase wow fadeInUp royal-relax-spaceing">
+<!--Start Alejandro UI/UX Design Phase -->
+<section class="alejandro-design-phase py-5">
     <div class="container">
         <div class="row align-items-center text-center text-md-start">
-
-            <div class="col-12 col-md-12 col-lg-6  ">
-                <div class="Project-Description-content-block">
-
-                    <h2 class="mike-mathis-design-phase-title">UI/UX Design Phase</h2>
-                    <h5 class="mike-mathis-design-phase-title">Prototyping</h5>
-                    <p class="mike-mathis-design-phase-paragraph">
-                       We translated key user flows creating an expense, attaching receipts, and submitting for approval—into low‑fidelity wireframes to validate layout and information hierarchy. After aligning on the flow, we built high‑fidelity prototypes with clear states (draft, submitted, approved/rejected) and minimal steps to reduce friction for frequent users.</p>
-                    <h5 class="mike-mathis-design-phase-title">Testing and Feedback</h5>
-                    <p class="mike-mathis-design-phase-paragraph">
-                     We conducted quick usability checks with 4–6 participants (employees and approvers) to evaluate task completion and clarity of approval status. Feedback helped us improve form field grouping, reduce cognitive load with better labels and helper text, and refine navigation so users could quickly track approvals and reimbursements.
-                    </p>
-
-
+            <div class="col-12 col-md-12 col-lg-6">
+                <div>
+                    <h2>UI/UX Design Phase</h2>
+                    <h5>Prototyping</h5>
+                    <p>We translated key user flows creating an expense, attaching receipts, and submitting for approval—into low‑fidelity wireframes to validate layout and information hierarchy. After aligning on the flow, we built high‑fidelity prototypes with clear states (draft, submitted, approved/rejected) and minimal steps to reduce friction for frequent users.</p>
+                    <h5>Testing and Feedback</h5>
+                    <p >We conducted quick usability checks with 4–6 participants (employees and approvers) to evaluate task completion and clarity of approval status. Feedback helped us improve form field grouping, reduce cognitive load with better labels and helper text, and refine navigation so users could quickly track approvals and reimbursements.</p>
                 </div>
-
-
             </div>
             <div class="col-12 col-md-12 col-lg-6 mb-4 mb-md-0 mike-mathis-design-phase-left-container">
-                 <img loading="lazy" src="{{asset('images/case-studies/alejandro-app/uiux-pase-image.webp')}}" class="img-fluid" alt="project description">
+                 <img loading="lazy" src="{{asset('images/case-studies/alejandro-app/alejandro-app-ui-ux.webp')}}" class="img-fluid" alt="Alejandro UI/UX">
             </div>
-
         </div>
     </div>
 </section>
-<!--End UI/UX Design Phase section -->
+<!--End Alejandro UI/UX Design Phase -->
 
-
-<!-- Start Mockup Section -->
-<section class=" wow fadeIn boujee-beachin-mockup royal-relax-spaceing">
+<!-- Start Alejandro Mockup -->
+<section class="py-5 alejandro-mockup">
     <div class="container">
         <div class="row">
             <div class="col-12 text-center">
-                 <img loading="lazy" src="{{asset('images/case-studies/alejandro-app/morkup.jpg')}}" alt="wood-land morkup" class="img-fluid">
+                 <img loading="lazy" src="{{asset('images/case-studies/alejandro-app/alejandro-app-mockup.jpg')}}" alt="Alejandro Mockup" class="img-fluid">
             </div>
         </div>
     </div>
 </section>
-<!-- End Mockup Section -->
+<!-- End Alejandro Mockup -->
 @endsection

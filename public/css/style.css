@@ -30,6 +30,7 @@
     --blue-color-4: #4A8ADD;
     --blue-color-5: #007599;
     --purple-color-2: #6D5AE6;
+    --purple-color-3: #191463;
     --dur: .15s;
     --delay: .15s;
     --radius: 10px;
@@ -17753,17 +17754,12 @@ textarea::-ms-input-placeholder {
 .case-studies-persona .persona-goals-section ul li::before,
 .case-studies-persona .persona-painpoints-section ul li::before {
     content: "\2022";
-    color: #440414;
     font-weight: bold;
     display: inline-block;
     width: 1em;
     position: absolute;
     left: 0;
     top: 0;
-}
-
-.case-studies-persona .persona-card ul li::before {
-    color: var(--bright-cyan);
 }
 
 .case-studies-testimonial .testimonial-card {
@@ -17877,6 +17873,68 @@ textarea::-ms-input-placeholder {
     margin: 0;
 }
 
+.case-studies-problem .section-wrapper {
+    position: relative;
+    padding-top: 100px;
+}
+
+.case-studies-problem .start-connector {
+    position: absolute;
+    top: 0;
+    /* left: 120px; */
+    z-index: 10;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.case-studies-problem .col-custom {
+    width: 20%;
+    padding: 0 10px;
+}
+
+.case-studies-problem .card-connector-plus {
+    position: absolute;
+    top: 50%;
+    right: -25px;
+    transform: translateY(-50%);
+    width: 30px;
+    height: 30px;
+    background-color: var(--purple-color-2);
+    color: var(--white-color);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    z-index: 5;
+    font-size: 18px;
+}
+
+.case-studies-problem .card-custom {
+    justify-content: center;
+    border: none;
+    border-radius: 15px;
+    padding: 30px 20px;
+    min-height: 420px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    transition: transform 0.3s ease;
+}
+
+.case-studies-problem .number-circle {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 2px solid var(--black-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+    font-size: 18px;
+    margin-bottom: 30px;
+}
 
 /* End Portfolio */
 
@@ -20468,29 +20526,9 @@ textarea::-ms-input-placeholder {
     margin: 0 auto;
 } */
 
-.royal-relax-spa-problem .section-wrapper {
-    position: relative;
-    padding-top: 100px;
-}
-
-.royal-relax-spa-problem .start-connector {
-    position: absolute;
-    top: 0;
-    /* left: 120px; */
-    z-index: 10;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
 .royal-relax-spa-problem .start-plus-circle {
     background-color: var(--purple-color-2);
     color: var(--white-color);
-}
-
-.royal-relax-spa-problem .col-custom {
-    width: 20%;
-    padding: 0 10px;
 }
 
 .royal-relax-spa-problem .section-wrapper::before,
@@ -20499,37 +20537,12 @@ textarea::-ms-input-placeholder {
 }
 
 .royal-relax-spa-problem .card-connector-plus {
-    position: absolute;
-    top: 50%;
-    right: -25px;
-    transform: translateY(-50%);
-    width: 30px;
-    height: 30px;
     background-color: var(--purple-color-2);
     color: var(--white-color);
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-weight: bold;
-    z-index: 5;
-    font-size: 18px;
 }
 
-.royal-relax-spa-problem-solution .card-custom {
-    justify-content: center;
-    border: none;
-    border-radius: 15px;
-    padding: 30px 20px;
-    min-height: 420px;
-    display: flex;
-    flex-direction: column;
-    position: relative;
-    transition: transform 0.3s ease;
-}
-
-.royal-relax-spa-problem-solution .bg-custom-gray {
-    background-color: #6D5AE8;
+.royal-relax-spa-problem .bg-custom-gray {
+    background-color: var(--purple-color-2);
 }
 
 .royal-relax-spa-problem .number-circle {
@@ -20587,6 +20600,126 @@ textarea::-ms-input-placeholder {
 }
 
 /* End Royal Relax Spa */
+
+/* Start Alejandro App */
+
+.alejandro-hero-section {
+    background: url("../images/case-studies/alejandro-app/alejandro-app-hero-background.webp") center/cover no-repeat;
+    text-align: center;
+}
+
+.alejandro-hero-section .bread-titlev2 h1,
+.alejandro-hero-section .bread-titlev2 p {
+    text-align: center;
+    color: var(--white-color);
+}
+
+.alejandro-hero-section .logo {
+    display: block;
+    margin: 10% auto 0 auto;
+    width: 100%;
+    max-width: 120px;
+}
+
+.alejandro-hero-section .hero-img {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1120px;
+    /* margin-top: 1px; */
+}
+
+.alejandro-client-overview .left-border {
+    border-left: 1px solid var(--purple-color-3);
+    margin: 10px 0;
+    padding: 0 0 0 10px;
+}
+
+.alejandro-problem-solution .bg-custom-white {
+    background-color: var(--white-color);
+    color: var(--black-color);
+    border: 1px solid var(--purple-color-3);
+}
+
+.alejandro-problem-solution .bg-custom-gray {
+    background-color: var(--purple-color-3);
+}
+
+.alejandro-problem-solution .start-plus-circle,
+.alejandro-problem-solution .card-connector-plus,
+.alejandro-problem-solution .section-wrapper::before,
+.alejandro-problem-solution .section-wrapper::after {
+    background-color: var(--purple-color-3);
+    color: var(--white-color);
+    z-index: 10;
+}
+
+.alejandro-problem-solution .card-custom {
+    display: flex;
+    justify-content: space-evenly;
+    z-index: 20;
+}
+
+.alejandro-objectives-section {
+    position: relative;
+}
+
+.alejandro-objectives-section .central-line {
+    position: absolute;
+    background-color: #343536;
+    width: 4px;
+    height: 70%;
+    transform: translateX(-50%);
+    top: 160px;
+    bottom: 0;
+    left: 50%;
+    z-index: 999;
+}
+
+.alejandro-objectives-section .feature-box-group .feature-box {
+    border: 1px dotted var(--purple-color-3);
+}
+
+.alejandro-objectives-section .feature-box {
+    background: var(--white-color);
+    border-radius: 12px;
+    padding: 25px;
+    box-shadow: 0 2px 15px rgba(0, 0, 0, 0.05);
+    position: relative;
+    z-index: 2;
+    border: 1px solid var(--gray-color-2);
+}
+
+.alejandro-objectives-section .feature-box-group .text-theme {
+    color: var(--purple-color-3);
+}
+
+.alejandro-spa-persona .persona-card ul li::before {
+    color: var(--purple-color-3);
+}
+
+.alejandro-wireframe {
+    background: url("../images/case-studies/alejandro-app/alejandro-app-wireframe-background.webp") center/cover no-repeat;
+    padding: 20px;
+    color: var(--white-color);
+}
+
+.alejandro-wireframe h2,
+.alejandro-wireframe h4 {
+    color: var(--white-color);
+
+}
+
+.alejandro-Designs-section h2,
+.alejandro-Designs-section p {
+    text-align: center;
+}
+
+.alejandro-Designs-section h2 {
+    color: var(--purple-color-3);
+}
+
+/* End Alejandro App */
 
 /* End Case Studies */
 
@@ -21527,122 +21660,7 @@ textarea::-ms-input-placeholder {
     border-radius: 50%;
 }
 
-.Alejandro-hero-section {
-    background: url("../images/case-studies/Alejandro-app/hero-background.webp") center/cover no-repeat;
-    padding: 20px;
-    text-align: center;
-    font-family: sans-serif;
-}
 
-.Alejandro-hero-section.breadcrumb-areav2 {
-    align-items: start;
-}
-
-
-.Alejandro-hero-section .bread-titlev2 h1,
-.Alejandro-hero-section .bread-titlev2 p {
-    text-align: center;
-    color: var(--white-color);
-}
-
-.Alejandro-hero-section .logo {
-    display: block;
-    margin: 10% auto 0 auto;
-    width: 100%;
-    max-width: 120px;
-
-}
-
-.Alejandro-hero-section .hero-img {
-    display: block;
-    margin: 0 auto;
-    width: 100%;
-    max-width: 1120px;
-    /* margin-top: 1px; */
-}
-
-
-.Alejandro-client-overview .left-border-client-overview {
-    border-left: 1px solid #191463;
-    margin: 10px 0;
-    padding: 0 0 0 10px;
-}
-
-
-.Alejandro-problem-solution .bg-custom-gray {
-    background-color: #191463;
-}
-
-.Alejandro-problem-solution .start-plus-circle,
-.Alejandro-problem-solution .card-connector-plus,
-.Alejandro-problem-solution .section-wrapper::before,
-.Alejandro-problem-solution .section-wrapper::after {
-    background-color: #191463;
-    color: var(--white-color);
-    z-index: 10;
-}
-
-.Alejandro-problem-solution .card-custom {
-    display: flex;
-    justify-content: space-evenly;
-    z-index: 20;
-}
-
-
-.Alejandro-royal-ride-objectives-section {
-    position: relative;
-}
-
-.Alejandro-royal-ride-objectives-section .central-line {
-    position: absolute;
-    background-color: #343536;
-    width: 4px;
-    height: 70%;
-    transform: translateX(-50%);
-    top: 160px;
-    bottom: 0;
-    left: 50%;
-    z-index: 999;
-}
-
-.Alejandro-royal-ride-objectives-section .feature-box-group .feature-box {
-    border: 1px dotted #026DBF;
-}
-
-.Alejandro-royal-ride-objectives-section .feature-box {
-    background: var(--white-color);
-    border-radius: 12px;
-    padding: 25px;
-    box-shadow: 0 2px 15px rgba(0, 0, 0, 0.05);
-    position: relative;
-    z-index: 2;
-    border: 1px solid var(--gray-color-2);
-}
-
-.Alejandro-royal-ride-objectives-section .feature-box-group .text-theme {
-    color: #026DBF;
-}
-
-.Alejandro-wireframe {
-    background: url("../images/case-studies/Alejandro-app/wireFram-background.webp") center/cover no-repeat;
-    padding: 20px;
-    color: var(--white-color);
-}
-
-.Alejandro-wireframe h2,
-.Alejandro-wireframe h4 {
-    color: var(--white-color);
-
-}
-
-.Alejandro-Designs-section h2,
-.Alejandro-Designs-section p {
-    text-align: center;
-}
-
-.Alejandro-Designs-section h2 {
-    color: #191463;
-}
 
 
 /* ===== Start services BANNERS Section ===== */

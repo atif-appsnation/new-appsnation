@@ -3193,7 +3193,6 @@ class HomeController extends Controller
 
     public function boujeeBeachinApp()
     {
-
         $metatag = Metatag::where('slug', 'boujeeBeachinApp')->get();
         $metatitle = Metatitle::where('slug', 'boujeeBeachinApp')->get();
 
@@ -3209,7 +3208,6 @@ class HomeController extends Controller
 
     public function woodLandApp()
     {
-
         $metatag = Metatag::where('slug', 'woodLandApp')->get();
         $metatitle = Metatitle::where('slug', 'woodLandApp')->get();
 
@@ -3225,7 +3223,6 @@ class HomeController extends Controller
 
     public function neuroKnightsApp()
     {
-
         $metatag = Metatag::where('slug', 'neuroKnightsApp')->get();
         $metatitle = Metatitle::where('slug', 'neuroKnightsApp')->get();
 
@@ -3241,7 +3238,6 @@ class HomeController extends Controller
 
     public function mikeMathisApp()
     {
-
         $metatag = Metatag::where('slug', 'mikeMathisApp')->get();
         $metatitle = Metatitle::where('slug', 'mikeMathisApp')->get();
 
@@ -3253,9 +3249,9 @@ class HomeController extends Controller
             ]
         );
     }
-     public function graveLoveApp()
+    
+    public function graveLoveApp()
     {
-
         $metatag = Metatag::where('slug', 'graveLoveApp')->get();
         $metatitle = Metatitle::where('slug', 'graveLoveApp')->get();
 
@@ -3267,9 +3263,9 @@ class HomeController extends Controller
             ]
         );
     }
+
     public function bombDefuse()
     {
-
         $metatag = Metatag::where('slug', 'bombDefuse')->get();
         $metatitle = Metatitle::where('slug', 'bombDefuse')->get();
 
@@ -3281,9 +3277,9 @@ class HomeController extends Controller
             ]
         );
     }
+
     public function coupleApp()
     {
-
         $metatag = Metatag::where('slug', 'coupleApp')->get();
         $metatitle = Metatitle::where('slug', 'coupleApp')->get();
 
@@ -3295,9 +3291,9 @@ class HomeController extends Controller
             ]
         );
     }
+
     public function carMechanic()
     {
-
         $metatag = Metatag::where('slug', 'carMechanic')->get();
         $metatitle = Metatitle::where('slug', 'carMechanic')->get();
 
@@ -3312,7 +3308,6 @@ class HomeController extends Controller
     
     public function toySortPuzzle()
     {
-
         $metatag = Metatag::where('slug', 'toySortPuzzle')->get();
         $metatitle = Metatitle::where('slug', 'toySortPuzzle')->get();
 
@@ -3324,9 +3319,9 @@ class HomeController extends Controller
             ]
         );
     }
+
     public function royalrelaxspa()
     {
-
         $metatag = Metatag::where('slug', 'royalrelaxspa')->get();
         $metatitle = Metatitle::where('slug', 'royalrelaxspa')->get();
 
@@ -3339,9 +3334,8 @@ class HomeController extends Controller
         );
     }
     
-     public function Loadboard()
+    public function Loadboard()
     {
-
         $metatag = Metatag::where('slug', 'Loadboard')->get();
         $metatitle = Metatitle::where('slug', 'Loadboard')->get();
 
@@ -3354,15 +3348,27 @@ class HomeController extends Controller
         );
     }
 
-
-     public function alltraders()
+    public function alltraders()
     {
-
         $metatag = Metatag::where('slug', 'alltraders')->get();
         $metatitle = Metatitle::where('slug', 'alltraders')->get();
 
         return view(
             'alltraders',
+            [
+                'metatitle' => $metatitle,
+                'metatag' => $metatag,
+            ]
+        );
+    }
+
+    public function alejandroApp()
+    {
+        $metatag = Metatag::where('slug', 'alejandroApp')->get();
+        $metatitle = Metatitle::where('slug', 'alejandroApp')->get();
+
+        return view(
+            'alejandro',
             [
                 'metatitle' => $metatitle,
                 'metatag' => $metatag,
