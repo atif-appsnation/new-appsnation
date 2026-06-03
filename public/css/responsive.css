@@ -2427,10 +2427,13 @@
 
 	.case-studies-problem .card-custom {
         min-height: auto;
+    }
+
+	.case-studies-problem .col-custom {
         margin-bottom: 20px;
     }
 
-	.case-studies-problem .card-custom:last-child {
+	.case-studies-problem .col-custom:last-child {
         margin-bottom: 0px;
     }
 
@@ -2440,6 +2443,10 @@
 
 	.case-studies-problem .section-wrapper {
 		padding-top: 20px;
+	}
+
+	.alejandro-hero-section {
+		padding: 150px 0px 0px;
 	}
 	
 }
@@ -3249,8 +3256,8 @@
 	}
 
 	.case-studies-problem .col-custom {
-		width: 49%;
-		padding: 10px 1% 0px;
+		width: 100%;
+        padding: 10px 0px 0px;
 	}
 
 	.case-studies-problem .card-custom {
@@ -3268,6 +3275,10 @@
 
 	.case-studies-problem .section-wrapper {
 		padding-top: 20px;
+	}
+
+	.alejandro-hero-section {
+		padding: 150px 0px 0px;
 	}
 
 }
@@ -3897,6 +3908,10 @@
         padding-left: 50px;
     }
 
+	.alejandro-hero-section {
+		padding: 150px 0px 0px;
+	}
+
 }
 
 @media only screen and (min-width:1440px) and (max-width:1599px) {
@@ -4264,6 +4279,10 @@
 		padding-left: 50px;
 	}
 
+	.alejandro-hero-section {
+		padding: 270px 0px 0px;
+	}
+
 }
 
 @media only screen and (min-width:1600px) and (max-width:1919px) {                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              
@@ -4512,13 +4531,6 @@
 		right: 38.1%;
 	}
 
-	/* start case studys */
-	/* wood land case study start*/
-
-	/* neuro knights app case study start */
-
-
-
 	/* grave love case study start */
 
 	.grave-love-app .logo {
@@ -4542,25 +4554,6 @@
 
 	.grave-love-app .playStore-img img {
 		width: 300px;
-	}
-
-	/* load board case study start */
-	.load-board-hero-section p {
-		letter-spacing: 1px;
-	}
-
-	.load-board-hero-section .logo img {
-		max-width: 230px;
-	}
-
-	.load-board-hero-section .load-board-hero-img img {
-		max-width: 900px;
-	}
-
-	/* Alejandro case study start */
-	.alejandro-hero-section .hero-img {
-		max-width: 950px;
-		margin-top: 86px;
 	}
 
 	/* home bages */
@@ -4617,6 +4610,10 @@
 
 	.case-studies-problem .section-wrapper {
 		padding-left: 50px;
+	}
+
+	.alejandro-hero-section {
+		padding: 240px 0px 0px;
 	}
 
 }
@@ -5249,6 +5246,10 @@
 
 	.case-studies-problem .section-wrapper {
 		padding-left: 50px;
+	}
+
+	.alejandro-hero-section {
+		padding: 150px 0px 0px;
 	}
 }
 
@@ -5936,7 +5937,7 @@
 		text-align: center;
 	}
 
-	.section-wrapper {
+	/* .section-wrapper {
 		padding-top: 20px;
 	}
 
@@ -5952,7 +5953,7 @@
 
 	.number-circle {
 		margin-bottom: 15px;
-	}
+	} */
 
 s
 
@@ -7003,7 +7004,7 @@ s
 	
 }
 
-@media (max-width: 991px) {
+/* @media (max-width: 991px) {
 
     .section-wrapper {
         padding-top: 20px;
@@ -7021,4 +7022,4 @@ s
     .number-circle {
         margin-bottom: 15px;
     }
-}
+} */

@@ -31,6 +31,7 @@
     --blue-color-5: #007599;
     --purple-color-2: #6D5AE6;
     --purple-color-3: #191463;
+    --maron-color: #440414;
     --dur: .15s;
     --delay: .15s;
     --radius: 10px;
@@ -17801,9 +17802,9 @@ textarea::-ms-input-placeholder {
 }
 
 .tech-card img {
-    width: 60px;
+    /* width: 60px;
     height: 60px;
-    object-fit: contain;
+    object-fit: contain; */
     margin-bottom: 8px;
 }
 
@@ -20616,7 +20617,7 @@ textarea::-ms-input-placeholder {
 
 .alejandro-hero-section .logo {
     display: block;
-    margin: 10% auto 0 auto;
+    margin: 0 auto;
     width: 100%;
     max-width: 120px;
 }
@@ -20635,26 +20636,26 @@ textarea::-ms-input-placeholder {
     padding: 0 0 0 10px;
 }
 
-.alejandro-problem-solution .bg-custom-white {
+.alejandro-problem .bg-custom-white {
     background-color: var(--white-color);
     color: var(--black-color);
     border: 1px solid var(--purple-color-3);
 }
 
-.alejandro-problem-solution .bg-custom-gray {
+.alejandro-problem .bg-custom-gray {
     background-color: var(--purple-color-3);
 }
 
-.alejandro-problem-solution .start-plus-circle,
-.alejandro-problem-solution .card-connector-plus,
-.alejandro-problem-solution .section-wrapper::before,
-.alejandro-problem-solution .section-wrapper::after {
+.alejandro-problem .start-plus-circle,
+.alejandro-problem .card-connector-plus,
+.alejandro-problem .section-wrapper::before,
+.alejandro-problem .section-wrapper::after {
     background-color: var(--purple-color-3);
     color: var(--white-color);
     z-index: 10;
 }
 
-.alejandro-problem-solution .card-custom {
+.alejandro-problem .card-custom {
     display: flex;
     justify-content: space-evenly;
     z-index: 20;
@@ -20720,6 +20721,215 @@ textarea::-ms-input-placeholder {
 }
 
 /* End Alejandro App */
+
+/* Start Couple App */
+
+.couple-app-hero-section {
+    background: url("../images/case-studies/couple-app/couple-app-hero-background.webp") center/cover no-repeat;
+}
+
+.couple-app-hero-section .logo {
+    width: 100%;
+    max-width: 150px;
+}
+
+.couple-app-hero-section h1,
+.couple-app-hero-section p {
+    color: var(--white-color);
+    font-weight: bold;
+}
+
+.couple-app-hero-section h1 {
+    font-size: 52px;
+}
+
+.couple-app-hero-section p {
+    line-height: 42px;
+    font-size: 25px;
+    word-spacing: 2px;
+    border-left: 3px solid var(--white-color);
+    padding: 12px 0 12px 19px;
+}
+
+.couple-app-hero-section .couple-tag {
+    background-color: var(--maron-color);
+    color: var(--white-color);
+    display: inline-block;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.couple-app-land-wrapper {
+    background: url("../images/case-studies/couple-app/couple-app-client-overview-background.webp")center/cover no-repeat;
+    background-size: 100% 68%;
+    border-radius: 20px;
+    padding: 45px 0px 44px 15px;
+}
+
+.couple-app-client-overview h2,
+.couple-app-client-overview h6 {
+    color: var(--black-color);
+    padding-top: 10px;
+}
+
+.couple-app-client-overview h2 {
+    color: var(--maron-color);
+    padding-bottom: 10px;
+}
+
+.couple-app-client-overview p {
+    color: var(--black-color);
+    padding-bottom: 13px;
+}
+
+.couple-app-client-overview .left-border-client-overview {
+    padding: 0px 0px 0px 15px;
+    margin: 20px;
+    border-left: 2px solid var(--maron-color);
+}
+
+.couple-app-key-problems .container {
+    background: url("../images/case-studies/couple-app/couple-app-key-problems-background.webp") center/cover no-repeat;
+    border-radius: 30px;
+    padding: 40px 25px;
+}
+
+.couple-app-key-problems h2, .couple-app-key-problems p {
+    color: var(--white-color);
+}
+
+/* .development-challenges-left {
+    border-left: 4px solid #ffffff;
+    padding-left: 15px;
+} */
+
+/* .couple-app-key-problems .info-card3 p {
+    border-left: 2px solid #440414;
+    padding-left: 20px;
+} */
+
+.couple-app-key-problems .info-card {
+    /* height: 240px; */
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background: rgba(255, 255, 255, 0.75);
+    border-radius: 12px;
+    padding: 20px;
+    transition: all 0.3s ease;
+}
+
+.couple-app-key-problems .info-card:hover {
+    background: rgba(255, 255, 255, 0.95);
+    transform: translateY(-5px);
+}
+
+.couple-app-key-problems .info-card .card-number-circle {
+    border: 4px solid var(--maron-color);
+    color: #000;
+    width: 45px;
+    height: 45px;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.couple-app-key-problems .info-card p {
+    color: #000;
+}
+
+.couple-persona-section .persona-card img,
+.couple-persona-section .persona-card h3 {
+    color: #440414;
+    border-color: #440414;
+}
+
+.couple-persona-section .persona-goals-section ul li::before,
+.couple-persona-section .persona-painpoints-section ul li::before {
+    content: "\2022";
+    color: #440414;
+    font-weight: bold;
+    display: inline-block;
+    width: 1em;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.couple-app-uiux-section-wrapper {
+    background: linear-gradient(#F4F4F4 0%, #FFFFFF 100%);
+}
+
+.couple-app-uiux-section-wrapper .royal-ride-problem-section .subtitle {
+    font-size: 22px;
+    color: #440414;
+}
+
+.couple-app-designs .container {
+    position: relative;
+}
+
+.couple-app-designs .common-heading h2 span {
+    color: #BC8A4D;
+}
+
+.couple-app-designs .neuro-night-central-line {
+    position: absolute;
+    width: 4px;
+    background-color: #37424A;
+    top: 14%;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 999;
+}
+
+.couple-app-designs .neuro-night-text-theme {
+    color: var(--white-color);
+    font-weight: 600;
+}
+
+.couple-app-designs .neuro-night-feature-box:hover {
+    box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.15);
+}
+
+.couple-app-designs .left-column-neuro-night .neuro-night-feature-box-group .neuro-night-feature-box {
+    background: #BB8A4D;
+    border-radius: 12px;
+    padding: 25px;
+    box-shadow: 0 2px 15px rgba(0, 0, 0, 0.05);
+    position: relative;
+    z-index: 2;
+    border: 1px solid var(--gray-color-2);
+}
+
+.couple-app-designs .left-column-neuro-night .neuro-night-feature-box-group .neuro-night-feature-box:nth-child(2) {
+    background-color: #440314;
+}
+
+.couple-app-designs .right-column-neuro-night .neuro-night-feature-box-group .neuro-night-feature-box {
+    background: #440314;
+    border-radius: 12px;
+    padding: 25px;
+    box-shadow: 0 2px 15px rgba(0, 0, 0, 0.05);
+    position: relative;
+    z-index: 2;
+    border: 1px solid var(--gray-color-2);
+}
+
+.couple-app-designs .right-column-neuro-night .neuro-night-feature-box-group .neuro-night-feature-box:nth-child(2) {
+    background-color: #BB8A4D;
+}
+
+.couple-app-designs .neuro-night-feature-box-group .neuro-night-feature-box h4,
+.couple-app-designs .left-column-neuro-night .neuro-night-feature-box-group .neuro-night-feature-box p,
+.couple-app-designs .right-column-neuro-night .neuro-night-feature-box-group .neuro-night-feature-box p {
+    color: var(--white-color);
+}
+
+/* End Couple App */
 
 /* End Case Studies */
 
@@ -21097,251 +21307,7 @@ textarea::-ms-input-placeholder {
 /*End bomb defuse section  */
 
 
-/* start couple app case study */
-.couple-app {
-    background: url("../images/case-studies/couple-app/hero-background-couple-app.webp") center/cover no-repeat;
-}
 
-.couple-app .logo {
-    width: 100%;
-    max-width: 150px;
-    margin-bottom: 40px;
-}
-
-.couple-app-hero-img img {
-    width: 100%;
-    display: block;
-    margin: 0 100px auto;
-}
-
-
-.couple-app h1,
-.couple-app p {
-    color: #FFFFFF;
-    font-weight: bold;
-}
-
-.couple-app h1 {
-    font-size: 52px;
-}
-
-.couple-app p {
-    line-height: 42px;
-    font-size: 25px;
-    word-spacing: 2px;
-    border-left: 3px solid #ffffff;
-    padding: 12px 0 12px 19px;
-
-}
-
-.couple-app .couple-tag {
-    background-color: #440414;
-    color: #ffffff;
-    display: inline-block;
-    padding: 10px;
-    border-radius: 10px;
-}
-
-/* End couple app case study */
-
-/* start couple app Client Overview Section */
-.couple-app-land-wrapper {
-    background: url("../images/case-studies/couple-app/client-overview-background.webp")center/cover no-repeat;
-    background-size: 100% 68%;
-    border-radius: 20px;
-    padding: 45px 0px 44px 15px;
-}
-
-.couple-app-client-overview h2,
-.couple-app-client-overview h6 {
-    color: var(--black-color);
-    padding-top: 10px;
-}
-
-.couple-app-client-overview h2 {
-    color: #440414;
-    padding-bottom: 10px;
-}
-
-.couple-app-client-overview p {
-    color: var(--black-color);
-    padding-bottom: 13px;
-}
-
-.couple-app-client-overview .left-border-client-overview {
-    padding: 0px 0px 0px 15px;
-    margin: 20px;
-    border-left: 2px solid #440414;
-}
-
-/* End couple app Client Overview Section */
-
-/*start Key Problems Section*/
-.couple-app-key-problems {
-    background: url("../images/case-studies/couple-app/key-problems-background-img.webp") center/cover no-repeat;
-    border-radius: 30px;
-    padding: 40px 25px;
-}
-
-
-/* .development-challenges-left {
-    border-left: 4px solid #ffffff;
-    padding-left: 15px;
-} */
-
-
-
-
-.couple-app-key-problems .info-card3 p {
-    border-left: 2px solid #440414;
-    padding-left: 20px;
-}
-
-.couple-app-key-problems .info-card3 {
-    height: 240px;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    background: rgba(255, 255, 255, 0.75);
-    border-radius: 12px;
-    padding: 20px;
-    transition: all 0.3s ease;
-}
-
-.couple-app-key-problems .info-card3:hover {
-    background: rgba(255, 255, 255, 0.95);
-    transform: translateY(-5px);
-}
-
-
-.couple-app-key-problems .info-card3 .card-number-circle {
-    border: 4px solid #440414;
-    color: #000;
-    width: 45px;
-    height: 45px;
-    border-radius: 50px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-weight: 700;
-    margin-bottom: 10px;
-}
-
-
-.couple-app-key-problems .info-card3 p {
-    color: #000;
-}
-
-/*End Key Problems Section*/
-
-
-
-/*Start couple persona section */
-.couple-persona-section .persona-card img,
-.couple-persona-section .persona-card h3 {
-    color: #440414;
-    border-color: #440414;
-}
-
-
-.couple-persona-section .persona-goals-section ul li::before,
-.couple-persona-section .persona-painpoints-section ul li::before {
-    content: "\2022";
-    color: #440414;
-    font-weight: bold;
-    display: inline-block;
-    width: 1em;
-    position: absolute;
-    left: 0;
-    top: 0;
-}
-
-/*END couple persona section */
-
-/*Start couple app uiux section */
-.couple-app-uiux-section-wrapper {
-    background: linear-gradient(#F4F4F4 0%, #FFFFFF 100%);
-}
-
-.couple-app-uiux-section-wrapper .royal-ride-problem-section .subtitle {
-    font-size: 22px;
-    color: #440414;
-
-}
-
-/*End couple app uiux section */
-
-
-/*Start designing section */
-
-/* project design goal */
-.couple-app-designs .container {
-    position: relative;
-}
-
-.couple-app-designs .common-heading h2 span {
-    color: #BC8A4D;
-}
-
-.couple-app-designs .neuro-night-central-line {
-    position: absolute;
-    width: 4px;
-    background-color: #37424A;
-    top: 14%;
-    bottom: 0;
-    left: 50%;
-    transform: translateX(-50%);
-    z-index: 999;
-}
-
-.couple-app-designs .neuro-night-text-theme {
-    color: var(--white-color);
-    font-weight: 600;
-}
-
-.couple-app-designs .neuro-night-feature-box:hover {
-    box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.15);
-}
-
-.couple-app-designs .left-column-neuro-night .neuro-night-feature-box-group .neuro-night-feature-box {
-    background: #BB8A4D;
-    border-radius: 12px;
-    padding: 25px;
-    box-shadow: 0 2px 15px rgba(0, 0, 0, 0.05);
-    position: relative;
-    z-index: 2;
-    border: 1px solid var(--gray-color-2);
-}
-
-.couple-app-designs .left-column-neuro-night .neuro-night-feature-box-group .neuro-night-feature-box:nth-child(2) {
-    background-color: #440314;
-}
-
-
-
-.couple-app-designs .right-column-neuro-night .neuro-night-feature-box-group .neuro-night-feature-box {
-    background: #440314;
-    border-radius: 12px;
-    padding: 25px;
-    box-shadow: 0 2px 15px rgba(0, 0, 0, 0.05);
-    position: relative;
-    z-index: 2;
-    border: 1px solid var(--gray-color-2);
-}
-
-
-
-.couple-app-designs .right-column-neuro-night .neuro-night-feature-box-group .neuro-night-feature-box:nth-child(2) {
-    background-color: #BB8A4D;
-}
-
-.couple-app-designs .neuro-night-feature-box-group .neuro-night-feature-box h4,
-.couple-app-designs .left-column-neuro-night .neuro-night-feature-box-group .neuro-night-feature-box p,
-.couple-app-designs .right-column-neuro-night .neuro-night-feature-box-group .neuro-night-feature-box p {
-    color: var(--white-color);
-}
-
-/* End project design goal */
-/* End couple app case study */
 
 
 

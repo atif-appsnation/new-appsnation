@@ -14,8 +14,8 @@
             <div class="col-12">
                 <div class="bread-titlev2">
                     <img loading="lazy" src="{{asset('images/case-studies/alejandro-app/alejandro-app-logo.webp')}}" class="img-fluid logo" alt="Alejandro Logo">
-                    <h1>Effortless Appraisal Management at Your Fingertips</h1>
-                    <p class="pt-3">Schedule, assign, and track appraisal tasks all from a mobile first platform. </p>
+                    <h1 class="pb-3">Effortless Appraisal Management at Your Fingertips</h1>
+                    <p class="pb-3">Schedule, assign, and track appraisal tasks all from a mobile first platform. </p>
                 </div>
                 <img loading="lazy" src="{{asset('images/case-studies/alejandro-app/alejandro-app-hero.webp')}}" class="img-fluid hero-img" alt="Alejandro Hero">
             </div>
@@ -30,7 +30,7 @@
         <div class="row client-wood-land-wrapper">
             <div class="col-lg-6 my-lg-auto ">
                 <div class="common-heading">
-                    <h2>Client Overview</h1>
+                    <h2 class="pb-3">Client Overview</h1>
                     <p>Woodland is a concept-driven mobile app allowing users to dive into books through reading or listening — while connecting with fellow readers. The goal was to create a minimal, distraction-free design that feels personal, modern, and deeply immersive. </p>
                 </div>
                 <div class="left-border">
@@ -46,7 +46,7 @@
                     <p>UX Research, UI Design, Design System, Mobile App UI (iOS + Android)</p>
                 </div>
             </div>
-            <div class="col-lg-6">
+            <div class="col-lg-6 mt-5 mt-lg-0">
                 <img loading="lazy" src="{{asset('images/case-studies/alejandro-app/alejandro-app-clients-overview.webp')}}" alt="Alejandro Client Overview" width="100%" height="100%">
             </div>
         </div>
@@ -55,13 +55,17 @@
 <!--End Client Overview -->
 
 <!-- Start Alejandro Problem Solution -->
-<section class="alejandro-problem-solution case-studies-problem py-5">
+<section class="alejandro-problem case-studies-problem py-5">
     <div class="container">
-        <div class="common-heading text-center">
-            <h2 class="mb-3">Problem Solution</h2>
-            <p>Royal Relax addresses common challenges in spa management by <br> a seamless experience for both clients and service providers.</p>
+        <div class="row">
+            <div class="col-12">
+                <div class="common-heading text-center">
+                    <h2 class="mb-3">Problem Solution</h2>
+                    <p>Royal Relax addresses common challenges in spa management by a seamless experience for both clients and service providers.</p>
+                </div>
+            </div>
         </div>
-        <div class="section-wrapper">
+        <div class="section-wrapper mt-lg-4">
             <div class="start-connector">
                 <div class="start-plus-circle">+</div>
             </div>
@@ -131,15 +135,15 @@
         <div class="row">
             <div class="col-lg-6">
                 <div class="feature-box-group">
-                    <div class="feature-box mb-5 left-item">
+                    <div class="feature-box mb-4 left-item">
                         <h4 class="text-theme mb-3">User-Centric Interface</h4>
                         <p class="text-muted mb-0">Deliver a clean and intuitive UI tailored for both beginner investors and experienced traders.</p>
                     </div>
-                    <div class="feature-box mb-5 left-item">
+                    <div class="feature-box mb-4 left-item">
                         <h4 class="text-theme mb-3">Quick Trade Execution </h4>
                         <p class="text-muted mb-0">Enable users to place buy/sell orders in just a few simple taps, with real-time confirmation.</p>
                     </div>
-                    <div class="feature-box left-item">
+                    <div class="feature-box mb-4 left-item">
                         <h4 class="text-theme mb-3">Simplified Onboarding</h4>
                         <p class="text-muted mb-0">Create a beginner-friendly onboarding process to guide first-time users through key features.</p>
                     </div>
@@ -147,11 +151,11 @@
             </div>
             <div class="col-lg-6 right-column-wrapper">
                 <div class="feature-box-group">
-                    <div class="feature-box mb-5 right-item">
+                    <div class="feature-box mb-4 right-item">
                         <h4 class="text-theme mb-3">Real-Time Market Integration</h4>
                         <p class="text-muted mb-0">Present beach content tailored to users' lifestyle preferences, including luxury, aesthetics, and social relevance.</p>
                     </div>
-                    <div class="feature-box mb-5 right-item">
+                    <div class="feature-box mb-4 right-item">
                         <h4 class="text-theme mb-3">Customizable Portfolio Dashboard</h4>
                         <p class="text-muted mb-0">Allow users to personalize their view of assets, gains, losses, and performance graphs.</p>
                     </div>
@@ -286,22 +290,22 @@
             </div>
         </div>
         <div class="row g-3 grave-love-wireframe-gallery">
-            <div class="col-6 col-md-3 col-xl-2">
+            <div class="col-6 col-md-4 col-xl-2">
                 <img loading="lazy" src="{{asset('images/case-studies/alejandro-app/alejandro-app-wireframe-01.webp')}}" alt="Alejandro Wireframe" class="wire-img">
             </div>
-            <div class="col-6 col-md-3 col-xl-2">
+            <div class="col-6 col-md-4 col-xl-2">
                 <img loading="lazy" src="{{asset('images/case-studies/alejandro-app/alejandro-app-wireframe-02.webp')}}" alt="Alejandro Wireframe" class="wire-img">
             </div>
-            <div class="col-6 col-md-3 col-xl-2">
+            <div class="col-6 col-md-4 col-xl-2">
                 <img loading="lazy" src="{{asset('images/case-studies/alejandro-app/alejandro-app-wireframe-03.webp')}}" alt="Alejandro Wireframe" class="wire-img">
             </div>
-            <div class="col-6 col-md-3 col-xl-2">
+            <div class="col-6 col-md-4 col-xl-2">
                 <img loading="lazy" src="{{asset('images/case-studies/alejandro-app/alejandro-app-wireframe-04.webp')}}" alt="Alejandro Wireframe" class="wire-img">
             </div>
-            <div class="col-6 col-md-3 col-xl-2">
+            <div class="col-6 col-md-4 col-xl-2">
                 <img loading="lazy" src="{{asset('images/case-studies/alejandro-app/alejandro-app-wireframe-05.webp')}}" alt="Alejandro Wireframe" class="wire-img">
             </div>
-            <div class="col-6 col-md-3 col-xl-2">
+            <div class="col-6 col-md-4 col-xl-2">
                 <img loading="lazy" src="{{asset('images/case-studies/alejandro-app/alejandro-app-wireframe-06.webp')}}" alt="Alejandro Wireframe" class="wire-img">
             </div>
         </div>
@@ -312,13 +316,15 @@
 <!-- Start Alejandro Design -->
 <section class="alejandro-designs-section py-5">
     <div class="container">
-        <div class="common-heading my-4">
-            <h2 class="text-center ">Final UI Designs</h2>
-            <p>The final product delivers a seamless and task-focused experience for both admins and field appraisers, optimized for clarity, mobile performance, and operational efficiency.</p>
-        </div>
         <div class="row">
-            <div class="col-12 text-center">
-                 <img loading="lazy" src="{{asset('images/case-studies/alejandro-app/alejandro-app-final-ui-design.webp')}}" alt="Alejandro Design" class="img-fluid">
+            <div class="col-lg-6 my-lg-auto">
+                <div class="common-heading">
+                    <h2 class="text-center text-lg-start mb-3">Final UI Designs</h2>
+                    <p class="text-center text-lg-start">The final product delivers a seamless and task-focused experience for both admins and field appraisers, optimized for clarity, mobile performance, and operational efficiency.</p>
+                </div>
+            </div>
+            <div class="col-lg-6 text-center mt-5 mt-lg-0">
+                <img loading="lazy" src="{{asset('images/case-studies/alejandro-app/alejandro-app-final-ui-design.webp')}}" alt="Alejandro Design" class="img-fluid">
             </div>
         </div>
     </div>
@@ -396,35 +402,35 @@
             <div class="col-6 col-md-3 col-lg-2">
                 <div class="tech-card text-center">
                     <h6>Frontend</h6>
-                     <img loading="lazy" src="{{asset('images/case-studies/react-native.webp')}}" alt="React Native">
+                    <img loading="lazy" src="{{asset('images/case-studies/react-native.webp')}}" alt="React Native">
                     <p>React Native</p>
                 </div>
             </div>
             <div class="col-6 col-md-3 col-lg-2">
                 <div class="tech-card text-center">
                     <h6>Backend</h6>
-                     <img loading="lazy" src="{{asset('images/case-studies/node-js.webp')}}" alt="Node.js">
+                    <img loading="lazy" src="{{asset('images/case-studies/node-js.webp')}}" alt="Node.js">
                     <p>Node.js</p>
                 </div>
             </div>
             <div class="col-6 col-md-3 col-lg-2">
                 <div class="tech-card text-center">
                     <h6>Database</h6>
-                     <img loading="lazy" src="{{asset('images/case-studies/mongo-db.webp')}}" alt="MongoDB">
+                    <img loading="lazy" src="{{asset('images/case-studies/mongo-db.webp')}}" alt="MongoDB">
                     <p>MongoDB</p>
                 </div>
             </div>
             <div class="col-6 col-md-3 col-lg-2">
                 <div class="tech-card text-center">
                     <h6>Cloud</h6>
-                     <img loading="lazy" src="{{asset('images/case-studies/aws.webp')}}" alt="AWS">
+                    <img loading="lazy" src="{{asset('images/case-studies/aws.webp')}}" alt="AWS">
                     <p>AWS</p>
                 </div>
             </div>
             <div class="col-6 col-md-3 col-lg-2">
                 <div class="tech-card text-center">
                     <h6>Payments</h6>
-                     <img loading="lazy" src="{{asset('images/case-studies/payment.png')}}" alt="payment">
+                    <img loading="lazy" src="{{asset('images/case-studies/payment.png')}}" alt="payment">
                     <p>Stripe • G Pay</p>
                 </div>
             </div>
@@ -436,18 +442,18 @@
 <!--Start Alejandro UI/UX Design Phase -->
 <section class="alejandro-design-phase py-5">
     <div class="container">
-        <div class="row align-items-center text-center text-md-start">
+        <div class="row align-items-center text-center text-lg-start">
             <div class="col-12 col-md-12 col-lg-6">
                 <div>
-                    <h2>UI/UX Design Phase</h2>
-                    <h5>Prototyping</h5>
-                    <p>We translated key user flows creating an expense, attaching receipts, and submitting for approval—into low‑fidelity wireframes to validate layout and information hierarchy. After aligning on the flow, we built high‑fidelity prototypes with clear states (draft, submitted, approved/rejected) and minimal steps to reduce friction for frequent users.</p>
-                    <h5>Testing and Feedback</h5>
-                    <p >We conducted quick usability checks with 4–6 participants (employees and approvers) to evaluate task completion and clarity of approval status. Feedback helped us improve form field grouping, reduce cognitive load with better labels and helper text, and refine navigation so users could quickly track approvals and reimbursements.</p>
+                    <h2 class="mb-3">UI/UX Design Phase</h2>
+                    <h5 class="mb-3">Prototyping</h5>
+                    <p class="mb-3">We translated key user flows creating an expense, attaching receipts, and submitting for approval—into low‑fidelity wireframes to validate layout and information hierarchy. After aligning on the flow, we built high‑fidelity prototypes with clear states (draft, submitted, approved/rejected) and minimal steps to reduce friction for frequent users.</p>
+                    <h5 class="mb-3">Testing and Feedback</h5>
+                    <p>We conducted quick usability checks with 4–6 participants (employees and approvers) to evaluate task completion and clarity of approval status. Feedback helped us improve form field grouping, reduce cognitive load with better labels and helper text, and refine navigation so users could quickly track approvals and reimbursements.</p>
                 </div>
             </div>
-            <div class="col-12 col-md-12 col-lg-6 mb-4 mb-md-0 mike-mathis-design-phase-left-container">
-                 <img loading="lazy" src="{{asset('images/case-studies/alejandro-app/alejandro-app-ui-ux.webp')}}" class="img-fluid" alt="Alejandro UI/UX">
+            <div class="col-12 col-md-12 col-lg-6 mt-5 mt-lg-0">
+                <img loading="lazy" src="{{asset('images/case-studies/alejandro-app/alejandro-app-ui-ux.webp')}}" class="img-fluid" alt="Alejandro UI/UX">
             </div>
         </div>
     </div>

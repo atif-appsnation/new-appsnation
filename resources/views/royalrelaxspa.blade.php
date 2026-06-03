@@ -51,7 +51,7 @@
             <h2 class="mb-3">Problem Solution</h2>
             <p class="mb-0">Royal Relax addresses common challenges in spa management by a seamless experience for both clients and service providers.</p>
         </div>
-        <div class="section-wrapper">
+        <div class="section-wrapper mt-lg-4">
             <div class="start-connector">
                 <div class="start-plus-circle">+</div>
             </div>
