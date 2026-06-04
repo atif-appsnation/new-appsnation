@@ -171,7 +171,7 @@
     <div class="container">
         <div class="row">
             <div class="col-12 text-center">
-                <h3 class="mb-4">USER PERSONA</h3>
+                <h2 class="mb-4">USER PERSONA</h2>
             </div>
         </div>
         <div class="container persona-section-wrapper mb-4">

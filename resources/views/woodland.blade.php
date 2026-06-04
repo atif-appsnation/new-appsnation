@@ -322,33 +322,33 @@
         </div>
         <div class="wood-land-central-line"></div>
         <div class="row">
-            <div class="col-lg-6 left-column-wood-land">
+            <div class="col-lg-6 left-column-wrapper">
                 <div class="wood-land-feature-box-group">
-                    <div class="wood-land-feature-box mb-5 left-item">
+                    <div class="wood-land-feature-box mb-3 left-item">
                         <h4 class="wood-land-text-theme  mb-3">User-Centric Interface</h4>
                         <p class="text-muted mb-0">Create a clean, intuitive, and visually aesthetic interface that prioritizes user experience and ease of navigation.</p>
                     </div>
-                    <div class="wood-land-feature-box mb-5 left-item">
+                    <div class="wood-land-feature-box mb-3 left-item">
                         <h4 class="wood-land-text-theme mb-3">Seamless Booking Flow</h4>
                         <p class="text-muted mb-0">Design a simple yet efficient beach reservation system that enables quick planning with minimal steps.</p>
                     </div>
-                    <div class="wood-land-feature-box mb-5 left-item">
+                    <div class="wood-land-feature-box mb-3 md-lg-0 left-item">
                         <h4 class="wood-land-text-theme mb-3">Community Interaction</h4>
                         <p class="text-muted mb-0">Allow users to upload photos, write reviews, and engage with a like-minded beachgoer community.</p>
                     </div>
                 </div>
             </div>
-            <div class="col-lg-6 right-column-wood-land">
+            <div class="col-lg-6 right-column-wrapper">
                 <div class="wood-land-feature-box-group">
-                    <div class="wood-land-feature-box mb-5 right-item">
+                    <div class="wood-land-feature-box mb-3 right-item">
                         <h4 class="wood-land-text-theme mb-3">Lifestyle-Based Curation</h4>
                         <p class="text-muted mb-0">Present beach content tailored to users' lifestyle preferences, including luxury, aesthetics, and social relevance.</p>
                     </div>
-                    <div class="wood-land-feature-box mb-5 right-item">
+                    <div class="wood-land-feature-box mb-3 right-item">
                         <h4 class="wood-land-text-theme mb-3">Style Guidance</h4>
                         <p class="text-muted mb-0">Offer fashion and beachwear recommendations aligned with trends, trip types, and destination vibes.</p>
                     </div>
-                    <div class="wood-land-feature-box mb-5 right-item">
+                    <div class="wood-land-feature-box mb-0 right-item">
                         <h4 class="wood-land-text-theme mb-3">Visual Storytelling</h4>
                         <p class="text-muted mb-0">Use imagery, animations, and transitions to convey luxury and create emotional resonance.</p>
                     </div>

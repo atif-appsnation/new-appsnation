@@ -11,7 +11,7 @@
 
     <div class="container">
         <div class="row">
-            <div class="col-md-6 col-lg-6 my-lg-auto">
+            <div class="col-lg-6 my-lg-auto">
                 <div class="bread-titlev2">
                     <img loading="lazy" src="{{asset('images/case-studies/couple-app/couple-app-logo.webp')}}" class="logo pb-3" alt="Couple App Logo">
                     <h1 class="pb-3">One App, for <br> Both of You </h1>
@@ -19,7 +19,7 @@
                     <h4 class="couple-tag mt-3">Plan Your Dream Wedding Now </h4>
                 </div>
             </div>
-            <div class="col-md-6  col-lg-6 mt-5 mt-lg-0">     
+            <div class="col-lg-6 mt-5 mt-lg-0">     
                 <img loading="lazy" src="{{asset('images/case-studies/couple-app/couple-app-hero.webp')}}" class="img-fluid couple-app-hero-img" alt="Couple App">
             </div>
         </div>
@@ -30,10 +30,10 @@
 <!--Start Couple App Client Overview -->
 <section class="couple-app-client-overview py-5">
     <div class="container">
-        <div class="row couple-app-land-wrapper">
+        <div class="row">
             <div class="col-lg-6 my-lg-auto">
-                <div class="common-heading">
-                    <h2>Client Overview</h1>
+                <div class="common-heading mb-3">
+                    <h2>Client Overview</h2>
                     <p>Wedding Couple App is a concept-based mobile platform designed to help modern couples plan, organize, and celebrate their journey together. From engagements to anniversaries, the app creates a romantic and emotionally meaningful experience that keeps couples connected.</p>
                 </div>
                 <div class="left-border-client-overview">
@@ -49,7 +49,7 @@
                     <p>UX Research, UI Design, Design System, Mobile App UI (iOS + Android)</p>
                 </div>
             </div>
-            <div class="col-lg-6">
+            <div class="col-lg-6 mt-5 mt-lg-0">
                 <img loading="lazy" src="{{asset('images/case-studies/couple-app/couple-app-client-overview.webp')}}" alt="Couple App Client Overview" width="100%" height="100%" class="img-fluid">
             </div>
         </div>
@@ -101,12 +101,12 @@
 <!-- End Couple App Key Problems -->
 
 <!-- Start Couple App Challenges & Iterations -->
-<section class="couple-app-challenges py-5">
+<section class="couple-app-challenges case-studies-challanges py-5">
     <div class="container">
         <div class="row align-items-center">
-            <div class="col-12 col-md-6 mb-4 mb-md-0">
+            <div class="col-12 col-lg-6">
                 <div class="common-heading">
-                    <h2>How Our App Thoughtfully Solves These Problems</h2>
+                    <h2>How Our <span>App</span> Thoughtfully Solves These <span>Problems</span></h2>
                 </div>
                 <div class="challenges">
                     <ul>
@@ -129,7 +129,7 @@
                     </ul>
                 </div>
             </div>
-            <div class="col-12 col-md-6">
+            <div class="col-12 col-lg-6 mt-5 mt-lg-0">
                 <img loading="lazy" class="img-fluid" src="{{asset('images/case-studies/Couple-app/couple-app-app-thoughtfully.webp')}}" alt="Couple App Challanges">
             </div>
         </div>
@@ -138,7 +138,7 @@
 <!-- End Couple App Challenges & Iterations -->
 
 <!-- Start Couple App Wireframes -->
-<section class="couple-app-wireframe ove-app-wireframe-wrapper py-5">
+<section class="couple-app-wireframe py-5">
     <div class="container">
         <div class="row ">
             <div class="col-12">
@@ -148,7 +148,7 @@
                 </div>
             </div>
         </div>
-        <div class="row g-3 love-app-wireframe-gallery">
+        <div class="row g-3">
             <div class="col-6 col-md-3 col-lg-3 col-xl-3">
                 <img loading="lazy" src="{{asset('images/case-studies/couple-app/couple-app-wireframe-01.webp')}}" alt="Couple App Wireframe" class="img-fluid">
             </div>
@@ -175,39 +175,39 @@
         <div class="row">
             <div class="col-12">
                 <div class="common-heading">
-                    <h2 class="text-center">Designing a Thoughtful & Emotion Centered <span> Wedding App </span>Experience</h2>
+                    <h2 class="text-center mb-5">Designing a Thoughtful & Emotion Centered <span> Wedding App </span>Experience</h2>
                 </div>
             </div>
         </div>
         <div class="central-line"></div>
         <div class="row">
-            <div class="col-lg-6 left-column-neuro-night">
+            <div class="col-lg-6 left-column-wrapper">
                 <div class="feature-box-group">
-                    <div class="feature-box mb-5 left-item">
+                    <div class="feature-box mb-3 left-item">
                         <h4 class="text-theme mb-3">Discovery & Research</h4>
                         <p class="mb-0">We identified key challenges couples face during wedding planning and analyzed apps that lacked emotional personalization and shared control.</p>
                     </div>
-                    <div class="feature-box mb-5 left-item">
+                    <div class="feature-box mb-3 left-item">
                         <h4 class="text-theme mb-3">Wireframes & User Flows</h4>
                         <p class="mb-0">Built low-fidelity wireframes and mapped out journeys  from onboarding to guest tracking, task lists, and personal note sharing.</p>
                     </div>
-                    <div class="feature-box mb-5 left-item">
+                    <div class="feature-box mb-3 mb-lg-0 left-item">
                         <h4 class="text-theme mb-3">Feature Integration</h4>
                         <p class="mb-0">Integrated custom features such as love notes, countdowns, budget tracking, and shared to-do lists  all designed to support joint experiences.</p>
                     </div>
                 </div>
             </div>
-            <div class="col-lg-6 right-column-neuro-night">
+            <div class="col-lg-6 right-column-wrapper">
                 <div class="feature-box-group">
-                    <div class="feature-box mb-5 right-item">
+                    <div class="feature-box mb-3 right-item">
                         <h4 class="text-theme mb-3">Defining User Personas</h4>
                         <p class="mb-0">Created realistic personas representing engaged and married couples to better understand their daily rituals, planning behavior, and emotional needs.</p>
                     </div>
-                    <div class="feature-box mb-5 right-item">
+                    <div class="feature-box mb-3 right-item">
                         <h4 class="text-theme mb-3">UI Design Direction</h4>
                         <p class="mb-0">Developed a soft, romantic UI using soothing tones and curved elements to create a sense of warmth, love, and clarity throughout the experience.</p>
                     </div>
-                    <div class="feature-box right-item">
+                    <div class="feature-box mb-0 right-item">
                         <h4 class="text-theme mb-3">Prototyping & Handoff</h4>
                         <p class="mb-0">Created interactive prototypes using Figma, tested with simulated users, and refined interactions for a smooth and emotionally intuitive final product.</p>
                     </div>
@@ -228,35 +228,35 @@
             <div class="col-6 col-md-3 col-lg-2">
                 <div class="tech-card text-center">
                     <h6>Frontend</h6>
-                     <img loading="lazy" src="{{asset('images/case-studies/react-native.webp')}}" alt="React Native">
+                    <img loading="lazy" src="{{asset('images/case-studies/react-native.webp')}}" alt="React Native">
                     <p>React Native</p>
                 </div>
             </div>
             <div class="col-6 col-md-3 col-lg-2">
                 <div class="tech-card text-center">
                     <h6>Backend</h6>
-                     <img loading="lazy" src="{{asset('images/case-studies/node-js.webp')}}" alt="Node.js">
+                    <img loading="lazy" src="{{asset('images/case-studies/node-js.webp')}}" alt="Node.js">
                     <p>Node.js</p>
                 </div>
             </div>
             <div class="col-6 col-md-3 col-lg-2">
                 <div class="tech-card text-center">
                     <h6>Database</h6>
-                     <img loading="lazy" src="{{asset('images/case-studies/mongo-db.webp')}}" alt="MongoDB">
+                    <img loading="lazy" src="{{asset('images/case-studies/mongo-db.webp')}}" alt="MongoDB">
                     <p>MongoDB</p>
                 </div>
             </div>
             <div class="col-6 col-md-3 col-lg-2">
                 <div class="tech-card text-center">
                     <h6>Cloud</h6>
-                     <img loading="lazy" src="{{asset('images/case-studies/aws.webp')}}" alt="AWS">
+                    <img loading="lazy" src="{{asset('images/case-studies/aws.webp')}}" alt="AWS">
                     <p>AWS</p>
                 </div>
             </div>
             <div class="col-6 col-md-3 col-lg-2">
                 <div class="tech-card text-center">
                     <h6>Payments</h6>
-                     <img loading="lazy" src="{{asset('images/case-studies/payment.png')}}" alt="payment">
+                    <img loading="lazy" src="{{asset('images/case-studies/payment.png')}}" alt="payment">
                     <p>Stripe • G Pay</p>
                 </div>
             </div>
@@ -335,7 +335,7 @@
         <div class="persona-card-main">
             <div class="row persona-top-heading">
                 <div class="col-md-12 text-center">
-                    <h3>USER PERSONA</h3>
+                    <h2 class="mb-4">USER PERSONA</h2>
                 </div> 
             </div>
         </div>
@@ -349,7 +349,7 @@
                             <p>Freelance Graphic Designer </p>
                         </div>
                         <div class="persona-background-section mt-auto">
-                            <h3>Background</h3>
+                            <h4>Background</h4>
                             <p>
                                 <b>Age</b>: 28
                             </p>
@@ -382,7 +382,7 @@
                 </div>
             </div>
         </div>
-        <div class="container persona-section-wrapper mb-4">
+        <div class="container persona-section-wrapper">
             <div class="row g-4">
                 <div class="col-md-4">
                     <div class="persona-card persona-left-column-card">
@@ -392,7 +392,7 @@
                             <p>Software Engineer</p>
                         </div>
                         <div class="persona-background-section mt-auto">
-                            <h3>Background</h3>
+                            <h4>Background</h4>
                             <p>
                                 <b>Age</b>: 30
                             </p>
@@ -434,14 +434,14 @@
 <section class="couple-app-uiux-section-wrapper py-5">
     <div class="container">
         <div class="row align-items-center">
-            <div class="col-md-6">
-                <h2>UI/UX Design Phase</h2>
-                <h3>Prototyping</h3>
-                <p>We started by creating low-fidelity wireframes to map out the couple’s journey — from onboarding and event planning to shared tasks and emotional connection features. These early sketches helped define a simple, structured flow tailored to couples’ real needs.</p>
-                <h3>Testing and Feedback</h3>
+            <div class="col-lg-6">
+                <h2 class="mb-3">UI/UX Design Phase</h2>
+                <h5 class="mb-3">Prototyping</h5>
+                <p class="mb-3">We started by creating low-fidelity wireframes to map out the couple’s journey — from onboarding and event planning to shared tasks and emotional connection features. These early sketches helped define a simple, structured flow tailored to couples’ real needs.</p>
+                <h5 class="mb-3">Testing and Feedback</h5>
                 <p>User testing sessions were conducted with both mentors and mentees to evaluate usability and engagement. Feedback highlighted the value of streamlined communication tools and visual progress tracking.  </p>
             </div>
-            <div class="col-md-6">
+            <div class="col-lg-6 mt-5 mt-lg-0">
                 <img loading="lazy" src="{{ asset('images/case-studies/couple-app/couple-app-wedding-concept.webp') }}" alt="Couple App UI/UX Design" class="img-fluid">
             </div>
         </div>

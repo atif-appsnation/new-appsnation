@@ -109,7 +109,7 @@
         </div>
         <div class="central-line"></div>
         <div class="row">
-            <div class="col-lg-6">
+            <div class="col-lg-6 left-column-wrapper">
                 <div class="feature-box-group">
                     <div class="feature-box mb-3 left-item">
                         <h4 class="text-theme-blue mb-3">User-Centric Interface</h4>
@@ -119,7 +119,7 @@
                         <h4 class="text-theme-blue mb-3">Seamless Booking Flow</h4>
                         <p class="text-muted mb-0">Design a simple yet efficient beach reservation system that enables quick planning with minimal steps.</p>
                     </div>
-                    <div class="feature-box mb-3 left-item">
+                    <div class="feature-box mb-3 md-lg-0 left-item">
                         <h4 class="text-theme-blue mb-3">Community Interaction</h4>
                         <p class="text-muted mb-0">Allow users to upload photos, write reviews, and engage with a like-minded beachgoer community.</p>
                     </div>
@@ -135,7 +135,7 @@
                         <h4 class="text-theme-blue mb-3">Style Guidance</h4>
                         <p class="text-muted mb-0">Offer fashion and beachwear recommendations aligned with trends, trip types, and destination vibes.</p>
                     </div>
-                    <div class="feature-box mb-3 right-item">
+                    <div class="feature-box mb-0 right-item">
                         <h4 class="text-theme-blue mb-3">Visual Storytelling</h4>
                         <p class="text-muted mb-0">Use imagery, animations, and transitions to convey luxury and create emotional resonance.</p>
                     </div>
@@ -239,7 +239,7 @@
 <!-- End Target Users Section -->
 
 <!-- Start Challenges & Iterations Section -->
-<section class="boujee-beachin-challenges wow fadeIn py-5">
+<section class="boujee-beachin-challenges case-studies-challanges wow fadeIn py-5">
     <div class="container">
         <div class="row align-items-center">
             <div class="col-12 col-lg-6 mb-4 mb-md-0">

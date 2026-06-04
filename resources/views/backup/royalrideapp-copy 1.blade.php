@@ -264,7 +264,7 @@
 									<p> Lifestyle & Events User</p>
 								</div>
 								<div class="persona-background-section mt-auto">
-									<h3>Background</h3>
+									<h4>Background</h4>
 									<p><b>Age</b>: 28</p>
 									<p><b>Marital status</b>: Married</p>
 									<p><b>Occupation</b>: Lifestyle & Events User</p>
@@ -308,7 +308,7 @@
 								<p>International Visitor </p>
 							</div>
 							<div class="persona-background-section mt-auto">
-								<h3>Background</h3>
+								<h4>Background</h4>
 								<p><b>Age</b>: 41</p>
 								<p><b>Marital status</b>: Married</p>
 								<p><b>Occupation</b>: International Visitor </p>
@@ -351,7 +351,7 @@
 								<p> Corporate Executive</p>
 							</div>
 							<div class="persona-background-section mt-auto">
-								<h3>Background</h3>
+								<h4>Background</h4>
 								<p><b>Age</b>: 39</p>
 								<p><b>Marital status</b>: Single</p>
 								<p><b>Occupation</b>: – Corporate Executive</p>

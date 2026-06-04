@@ -133,17 +133,17 @@
         </div>
         <div class="central-line"></div>
         <div class="row">
-            <div class="col-lg-6">
+            <div class="col-lg-6 left-column-wrapper">
                 <div class="feature-box-group">
-                    <div class="feature-box mb-4 left-item">
+                    <div class="feature-box mb-3 left-item">
                         <h4 class="text-theme mb-3">User-Centric Interface</h4>
                         <p class="text-muted mb-0">Deliver a clean and intuitive UI tailored for both beginner investors and experienced traders.</p>
                     </div>
-                    <div class="feature-box mb-4 left-item">
+                    <div class="feature-box mb-3 left-item">
                         <h4 class="text-theme mb-3">Quick Trade Execution </h4>
                         <p class="text-muted mb-0">Enable users to place buy/sell orders in just a few simple taps, with real-time confirmation.</p>
                     </div>
-                    <div class="feature-box mb-4 left-item">
+                    <div class="feature-box mb-3 md-lg-0 left-item">
                         <h4 class="text-theme mb-3">Simplified Onboarding</h4>
                         <p class="text-muted mb-0">Create a beginner-friendly onboarding process to guide first-time users through key features.</p>
                     </div>
@@ -151,16 +151,16 @@
             </div>
             <div class="col-lg-6 right-column-wrapper">
                 <div class="feature-box-group">
-                    <div class="feature-box mb-4 right-item">
+                    <div class="feature-box mb-3 right-item">
                         <h4 class="text-theme mb-3">Real-Time Market Integration</h4>
                         <p class="text-muted mb-0">Present beach content tailored to users' lifestyle preferences, including luxury, aesthetics, and social relevance.</p>
                     </div>
-                    <div class="feature-box mb-4 right-item">
+                    <div class="feature-box mb-3 right-item">
                         <h4 class="text-theme mb-3">Customizable Portfolio Dashboard</h4>
                         <p class="text-muted mb-0">Allow users to personalize their view of assets, gains, losses, and performance graphs.</p>
                     </div>
-                    <div class="feature-box right-item">
-                        <h4 class="text-theme mb-3">Mobile-First Performance</h4>
+                    <div class="feature-box mb-0 right-item">
+                        <h4 class="text-theme mb-0">Mobile-First Performance</h4>
                         <p class="text-muted mb-0">Optimize layout and flow for speed, responsiveness, and seamless use across all mobile devices. </p>
                     </div>
                 </div>
@@ -176,7 +176,7 @@
         <div class="persona-card-main">
             <div class="row persona-top-heading">
                 <div class="col-12 text-center">
-                    <h3 class="mb-4">USER PERSONA</h3>
+                    <h2 class="mb-4">USER PERSONA</h2>
                 </div>
             </div>
         </div>
@@ -190,7 +190,7 @@
                             <p>Appraisal Firm Owner</p>
                         </div>
                         <div class="persona-background-section mt-auto">
-                            <h3>Background</h3>
+                            <h4>Background</h4>
                             <p>
                                 <b>Age</b>: 42
                             </p>
@@ -227,7 +227,7 @@
                 </div>
             </div>
         </div>
-        <div class="container persona-section-wrapper mb-4">
+        <div class="container persona-section-wrapper">
             <div class="row g-4">
                 <div class="col-md-4">
                     <div class="persona-card persona-left-column-card">

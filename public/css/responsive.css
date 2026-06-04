@@ -2448,6 +2448,10 @@
 	.alejandro-hero-section {
 		padding: 150px 0px 0px;
 	}
+
+	.couple-app-designs .central-line {
+		display: none;
+	}
 	
 }
 
@@ -3279,6 +3283,10 @@
 
 	.alejandro-hero-section {
 		padding: 150px 0px 0px;
+	}
+
+	.couple-app-designs .central-line {
+		display: none;
 	}
 
 }

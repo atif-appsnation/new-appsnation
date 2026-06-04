@@ -816,7 +816,7 @@ class HomeController extends Controller
 
 
         if (request()->has('a')) {
-            $portfolio = Portfolio::where('type', request('a'))->orderBy('lft', 'asc')->paginate(3)->appends('a', request('a'));
+            $portfolio = Portfolio::where('type', request('a'))->orderBy('lft', 'asc')->paginate(6)->appends('a', request('a'));
         } else {
 
             $portfolio = Portfolio::orderBy('lft', 'asc')->paginate(6);

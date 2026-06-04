@@ -131,33 +131,33 @@
         </div>
         <div class="neuro-night-central-line"></div>
         <div class="row">
-            <div class="col-lg-6 left-column-neuro-night">
-                <div class="neuro-night-feature-box-group">
-                    <div class="neuro-night-feature-box mb-4 left-item">
+            <div class="col-lg-6 left-column-wrapper">
+                <div class="feature-box-group">
+                    <div class="feature-box mb-3 left-item">
                         <h4 class="mb-3">Understanding the Challenge</h4>
                         <p class="mb-0">We began by identifying the needs of neurodiverse teens and their caregivers—focusing on emotional safety, accessibility, and the importance of self-expression through therapeutic tools.</p>
                     </div>
-                    <div class="neuro-night-feature-box mb-4 left-item">
+                    <div class="feature-box mb-3 left-item">
                         <h4 class="mb-3">Mapping the User Journey</h4>
                         <p class="mb-0">We crafted multiple user flows tailored to both kids and parents, ensuring that onboarding, tracking, and interaction remained intuitive, engaging, and calm.</p>
                     </div>
-                    <div class="neuro-night-feature-box mb-4 left-item">
+                    <div class="feature-box mb-3 md-lg-0 left-item">
                         <h4 class="mb-3">Defining Core Features</h4>
                         <p class="mb-0">Based on research and expert input, we prioritized features like mood journaling, brain games, assessments, and a parent dashboard—ensuring value for all user roles.</p>
                     </div>
                 </div>
             </div>
-            <div class="col-lg-6 right-column-neuro-night">
-                <div class="neuro-night-feature-box-group">
-                    <div class="neuro-night-feature-box mb-4 right-item">
+            <div class="col-lg-6 right-column-wrapper">
+                <div class="feature-box-group">
+                    <div class="feature-box mb-3 right-item">
                         <h4 class="mb-3">Wireframing & UI/UX Design</h4>
                         <p class="mb-0">Low-fidelity wireframes were created to test structure before shaping a fun, accessible, and adventure-themed interface that stayed aligned with calming, inclusive design.</p>
                     </div>
-                    <div class="neuro-night-feature-box mb-4 right-item">
+                    <div class="feature-box mb-3 right-item">
                         <h4 class="mb-3">Design Iteration & Testing</h4>
                         <p class="mb-0">Offer fashion and beachwear recommendations aligned with trends, trip types, and destination vibes.</p>
                     </div>
-                    <div class="neuro-night-feature-box right-item">
+                    <div class="feature-box mb-0 right-item">
                         <h4 class="mb-3">Polishing & Delivery</h4>
                         <p class="mb-0">Final high-fidelity screens, icons, and interaction flows were prepared. The result was an empowering, gamified mental wellness app designed for emotional growth and safe engagement.</p>
                     </div>

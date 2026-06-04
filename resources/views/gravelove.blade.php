@@ -246,7 +246,7 @@
                             <p>International Visitor </p>
                         </div>
                         <div class="persona-background-section mt-auto">
-                            <h3>Background</h3>
+                            <h4>Background</h4>
                             <p>
                                 <b>Age</b>: 41
                             </p>
@@ -288,7 +288,7 @@
                             <p> Corporate Executive</p>
                         </div>
                         <div class="persona-background-section mt-auto">
-                            <h3>Background</h3>
+                            <h4>Background</h4>
                             <p>
                                 <b>Age</b>: 39
                             </p>
