@@ -162,16 +162,16 @@
         </div>
         <div class="row g-3 mike-mathis-wireframe-gallery">
             <div class="col-6 col-md-6 col-lg-3">
-                <img loading="lazy" src="{{asset('images/case-studies/mike-mathis-app/mike-mathis-wireframe-01.webp')}}" alt="Mike Mathis Wireframe" class="wire-img">
+                <img loading="lazy" src="{{asset('images/case-studies/mike-mathis-app/mike-mathis-wireframe-01.webp')}}" alt="Mike Mathis Wireframe" class="img-fluid">
             </div>
             <div class="col-6 col-md-6 col-lg-3">
-                <img loading="lazy" src="{{asset('images/case-studies/mike-mathis-app/mike-mathis-wireframe-02.webp')}}" alt="Mike Mathis Wireframe" class="wire-img">
+                <img loading="lazy" src="{{asset('images/case-studies/mike-mathis-app/mike-mathis-wireframe-02.webp')}}" alt="Mike Mathis Wireframe" class="img-fluid">
             </div>
             <div class="col-6 col-md-6 col-lg-3">
-                <img loading="lazy" src="{{asset('images/case-studies/mike-mathis-app/mike-mathis-wireframe-03.webp')}}" alt="Mike Mathis Wireframe" class="wire-img">
+                <img loading="lazy" src="{{asset('images/case-studies/mike-mathis-app/mike-mathis-wireframe-03.webp')}}" alt="Mike Mathis Wireframe" class="img-fluid">
             </div>
             <div class="col-6 col-md-6 col-lg-3">
-                <img loading="lazy" src="{{asset('images/case-studies/mike-mathis-app/mike-mathis-wireframe-04.webp')}}" alt="Mike Mathis Wireframe" class="wire-img">
+                <img loading="lazy" src="{{asset('images/case-studies/mike-mathis-app/mike-mathis-wireframe-04.webp')}}" alt="Mike Mathis Wireframe" class="img-fluid">
             </div>
         </div>
     </div>
@@ -182,7 +182,7 @@
 <section class="mike-mathis-apps py-5">
     <div class="container">
         <div class="common-heading">
-            <h2 class="mb-3 text-center">App Screens</h2>
+            <h2 class="mb-5 text-center">App Screens</h2>
         </div>
         <div class="row">
             <div class="col-6 col-md-3 my-3">

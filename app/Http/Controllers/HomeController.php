@@ -3256,7 +3256,7 @@ class HomeController extends Controller
         $metatitle = Metatitle::where('slug', 'graveLoveApp')->get();
 
         return view(
-            'graveloveapp',
+            'gravelove',
             [
                 'metatitle' => $metatitle,
                 'metatag' => $metatag,

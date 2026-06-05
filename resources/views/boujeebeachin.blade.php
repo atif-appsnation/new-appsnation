@@ -448,7 +448,7 @@
 <section class="boujee-beachin-apps py-5 wow fadeIn">
     <div class="container">
         <div class="common-heading">
-            <h2 class="mb-3 text-center">App Screens</h2>
+            <h2 class="mb-5 text-center">App Screens</h2>
         </div>
         <div class="row">
             <div class="col-md-3 col-6 my-3">

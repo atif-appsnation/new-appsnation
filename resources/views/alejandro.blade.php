@@ -291,22 +291,22 @@
         </div>
         <div class="row g-3 grave-love-wireframe-gallery">
             <div class="col-6 col-md-4 col-xl-2">
-                <img loading="lazy" src="{{asset('images/case-studies/alejandro-app/alejandro-app-wireframe-01.webp')}}" alt="Alejandro Wireframe" class="wire-img">
+                <img loading="lazy" src="{{asset('images/case-studies/alejandro-app/alejandro-app-wireframe-01.webp')}}" alt="Alejandro Wireframe" class="img-fluid">
             </div>
             <div class="col-6 col-md-4 col-xl-2">
-                <img loading="lazy" src="{{asset('images/case-studies/alejandro-app/alejandro-app-wireframe-02.webp')}}" alt="Alejandro Wireframe" class="wire-img">
+                <img loading="lazy" src="{{asset('images/case-studies/alejandro-app/alejandro-app-wireframe-02.webp')}}" alt="Alejandro Wireframe" class="img-fluid">
             </div>
             <div class="col-6 col-md-4 col-xl-2">
-                <img loading="lazy" src="{{asset('images/case-studies/alejandro-app/alejandro-app-wireframe-03.webp')}}" alt="Alejandro Wireframe" class="wire-img">
+                <img loading="lazy" src="{{asset('images/case-studies/alejandro-app/alejandro-app-wireframe-03.webp')}}" alt="Alejandro Wireframe" class="img-fluid">
             </div>
             <div class="col-6 col-md-4 col-xl-2">
-                <img loading="lazy" src="{{asset('images/case-studies/alejandro-app/alejandro-app-wireframe-04.webp')}}" alt="Alejandro Wireframe" class="wire-img">
+                <img loading="lazy" src="{{asset('images/case-studies/alejandro-app/alejandro-app-wireframe-04.webp')}}" alt="Alejandro Wireframe" class="img-fluid">
             </div>
             <div class="col-6 col-md-4 col-xl-2">
-                <img loading="lazy" src="{{asset('images/case-studies/alejandro-app/alejandro-app-wireframe-05.webp')}}" alt="Alejandro Wireframe" class="wire-img">
+                <img loading="lazy" src="{{asset('images/case-studies/alejandro-app/alejandro-app-wireframe-05.webp')}}" alt="Alejandro Wireframe" class="img-fluid">
             </div>
             <div class="col-6 col-md-4 col-xl-2">
-                <img loading="lazy" src="{{asset('images/case-studies/alejandro-app/alejandro-app-wireframe-06.webp')}}" alt="Alejandro Wireframe" class="wire-img">
+                <img loading="lazy" src="{{asset('images/case-studies/alejandro-app/alejandro-app-wireframe-06.webp')}}" alt="Alejandro Wireframe" class="img-fluid">
             </div>
         </div>
     </div>

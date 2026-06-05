@@ -119,16 +119,16 @@
         </div>
         <div class="row g-3 wireframe-gallery">
             <div class="col-6 col-md-3 col-xl-3">
-                <img loading="lazy" src="{{asset('images/case-studies/wood-land-app/wood-land-app-wireframe-01.webp')}}" alt="Wood Land Wireframe" class="wire-img">
+                <img loading="lazy" src="{{asset('images/case-studies/wood-land-app/wood-land-app-wireframe-01.webp')}}" alt="Wood Land Wireframe" class="img-fluid">
             </div>
             <div class="col-6 col-md-3 col-xl-3">
-                <img loading="lazy" src="{{asset('images/case-studies/wood-land-app/wood-land-app-wireframe-02.webp')}}" alt="Wood Land Wireframe" class="wire-img">
+                <img loading="lazy" src="{{asset('images/case-studies/wood-land-app/wood-land-app-wireframe-02.webp')}}" alt="Wood Land Wireframe" class="img-fluid">
             </div>
             <div class="col-6 col-md-3 col-xl-3">
-                <img loading="lazy" src="{{asset('images/case-studies/wood-land-app/wood-land-app-wireframe-03.webp')}}" alt="Wood Land Wireframe" class="wire-img">
+                <img loading="lazy" src="{{asset('images/case-studies/wood-land-app/wood-land-app-wireframe-03.webp')}}" alt="Wood Land Wireframe" class="img-fluid">
             </div>
             <div class="col-6 col-md-3 col-xl-3">
-                <img loading="lazy" src="{{asset('images/case-studies/wood-land-app/wood-land-app-wireframe-04.webp')}}" alt="Wood Land Wireframe" class="wire-img">
+                <img loading="lazy" src="{{asset('images/case-studies/wood-land-app/wood-land-app-wireframe-04.webp')}}" alt="Wood Land Wireframe" class="img-fluid">
             </div>
         </div>
     </div>
@@ -180,7 +180,7 @@
 <section class="wood-land-apps py-5">
     <div class="container">
         <div class="common-heading">
-            <h2 class="mb-3 text-center">App Screens</h2>
+            <h2 class="mb-5 text-center">App Screens</h2>
         </div>
         <div class="row">
             <div class="col-md-3 col-6 my-3">

@@ -431,7 +431,7 @@
 <!-- Start Couple App User Persona -->
 
 <!-- Start Couple App UI/UX Design Phase -->
-<section class="couple-app-uiux-section-wrapper py-5">
+<section class="couple-app-ui-ux py-5">
     <div class="container">
         <div class="row align-items-center">
             <div class="col-lg-6">

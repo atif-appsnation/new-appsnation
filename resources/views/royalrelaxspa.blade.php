@@ -284,19 +284,19 @@
         </div>
         <div class="row g-3">
             <div class="col-6 col-md-4 col-xl">
-                <img loading="lazy" src="{{asset('images/case-studies/royal-relax-spa/royal-relax-spa-wireframe-01.webp')}}" alt="Royal Relax Spa Wireframes" class="wire-img img-fluid">
+                <img loading="lazy" src="{{asset('images/case-studies/royal-relax-spa/royal-relax-spa-wireframe-01.webp')}}" alt="Royal Relax Spa Wireframes" class="img-fluid">
             </div>
             <div class="col-6 col-md-4 col-xl">
-                <img loading="lazy" src="{{asset('images/case-studies/royal-relax-spa/royal-relax-spa-wireframe-02.webp')}}" alt="Royal Relax Spa Wireframes" class="wire-img img-fluid">
+                <img loading="lazy" src="{{asset('images/case-studies/royal-relax-spa/royal-relax-spa-wireframe-02.webp')}}" alt="Royal Relax Spa Wireframes" class="img-fluid">
             </div>
             <div class="col-6 col-md-4 col-xl">
-                <img loading="lazy" src="{{asset('images/case-studies/royal-relax-spa/royal-relax-spa-wireframe-03.webp')}}" alt="Royal Relax Spa Wireframes" class="wire-img img-fluid">
+                <img loading="lazy" src="{{asset('images/case-studies/royal-relax-spa/royal-relax-spa-wireframe-03.webp')}}" alt="Royal Relax Spa Wireframes" class="img-fluid">
             </div>
             <div class="col-6 col-md-4 col-xl">
-                <img loading="lazy" src="{{asset('images/case-studies/royal-relax-spa/royal-relax-spa-wireframe-04.webp')}}" alt="Royal Relax Spa Wireframes" class="wire-img img-fluid">
+                <img loading="lazy" src="{{asset('images/case-studies/royal-relax-spa/royal-relax-spa-wireframe-04.webp')}}" alt="Royal Relax Spa Wireframes" class="img-fluid">
             </div>
             <div class="col-6 col-md-4 col-xl">
-                <img loading="lazy" src="{{asset('images/case-studies/royal-relax-spa/royal-relax-spa-wireframe-05.webp')}}" alt="Royal Relax Spa Wireframes" class="wire-img img-fluid">
+                <img loading="lazy" src="{{asset('images/case-studies/royal-relax-spa/royal-relax-spa-wireframe-05.webp')}}" alt="Royal Relax Spa Wireframes" class="img-fluid">
             </div>
         </div>
     </div>

@@ -15074,7 +15074,7 @@ h6 {
     padding-bottom: 30px;
 }
 
-.wire-img {
+.img-fluid {
     width: 100%;
     max-width: 380px;
     border-radius: 12px;
@@ -15083,7 +15083,7 @@ h6 {
     margin: 0 auto;
 }
 
-.wire-img:hover {
+.img-fluid:hover {
     transform: scale(1.09);
     box-shadow: 0 6px 16px rgba(0, 0, 0, 0.15);
 }
@@ -20018,7 +20018,7 @@ textarea::-ms-input-placeholder {
     justify-content: center;
 }
 
-.mike-mathis-wireframe .wire-img {
+.mike-mathis-wireframe .img-fluid {
     width: 100%;
     max-width: 350px;
 }

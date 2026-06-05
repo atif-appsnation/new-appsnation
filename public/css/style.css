@@ -33,6 +33,9 @@
     --purple-color-3: #191463;
     --maron-color: #440414;
     --golden-color-3: #bc8a4d;
+    --yellow-color: #FBF0C4;
+    --grey-color: #373631;
+    --brown-color-2: #42262b;
     --dur: .15s;
     --delay: .15s;
     --radius: 10px;
@@ -17853,7 +17856,7 @@ textarea::-ms-input-placeholder {
 }
 
 .case-studies-goals .brown {
-    background: #42262B;
+    background: var(--brown-color-2);
     border: 1px solid black;
     border-radius: 20px;
 }
@@ -17868,7 +17871,7 @@ textarea::-ms-input-placeholder {
 
 .case-studies-goals .light {
     background: #F1F1F1;
-    border: 1px solid black;
+    border: 1px solid var(--black-color);
     border-radius: 20px;
 }
 
@@ -19220,7 +19223,7 @@ textarea::-ms-input-placeholder {
     padding-bottom: 30px;
 }
 
-.wood-land-wireframe .wire-img {
+.wood-land-wireframe .img-fluid {
     width: 100%;
     max-width: 380px;
     border-radius: 12px;
@@ -19229,7 +19232,7 @@ textarea::-ms-input-placeholder {
     margin: 0 auto;
 }
 
-.wood-land-wireframe .wire-img:hover {
+.wood-land-wireframe .img-fluid:hover {
     transform: scale(1.09);
     box-shadow: 0 6px 16px rgba(0, 0, 0, 0.15);
 }
@@ -19979,7 +19982,7 @@ textarea::-ms-input-placeholder {
     justify-content: center;
 }
 
-.mike-mathis-wireframe .wire-img {
+.mike-mathis-wireframe .img-fluid {
     max-width: 350px;
 }
 
@@ -20905,103 +20908,79 @@ textarea::-ms-input-placeholder {
 
 /* End Couple App */
 
-/* End Case Studies */
+/* Start Grave Love App */
 
-/* start grave love case study */
-/* Start hero section */
 .grave-love-app {
-    background: url("../images/case-studies/grave-love-app/grave-love-hero-backgroung.webp") center/cover no-repeat;
+    background: url("../images/case-studies/grave-love-app/grave-love-app-hero-background.webp") center/cover no-repeat;
 }
 
 .grave-love-app .logo {
-    width: 100%;
     max-width: 200px;
     margin: 0;
 }
 
-.grave-love-hero-img img {
-    margin-left: 122px;
+.grave-love-app  .grave-love-hero-img {
     margin-top: 200px;
-    width: 100%;
 }
 
 
 .grave-love-app h1,
 .grave-love-app h4,
 .grave-love-app p {
-    color: #FBF0C4;
-    font-weight: bold;
+    color: var(--yellow-color);
 }
 
-.grave-love-app .playStore-img img {
+.grave-love-app .playstore {
     width: 300px;
 }
 
-/* End hero section */
-
-/* Start  problem-section  */
 .grave-love-problem-section {
-    background: url("../images/case-studies/grave-love-app/problem-backgrond.webp") center/cover no-repeat;
+    background: url("../images/case-studies/grave-love-app/grave-love-app-problem-background.webp") center/cover no-repeat;
     background-size: 90% 60%;
 }
 
-.grave-love-problem-contant {
-    margin: 10px 10px 10px 10px;
-}
-
-.grave-love-problem-contant h2,
-.grave-love-problem-contant p {
+.grave-love-problem-content h2,
+.grave-love-problem-content p {
     color: var(--white-color);
 }
 
-/* End grave love problem-section  */
-
-
-/* End grave love problem solution  */
-.grave-problem-solution .card-connector-plus,
-.grave-problem-solution .start-plus-circle {
-    background-color: #373631;
+.grave-love-app-problem .card-connector-plus,
+.grave-love-app-problem .start-plus-circle {
+    background-color: var(--grey-color);
     color: var(--white-color);
 }
 
-.grave-problem-solution .section-wrapper::before,
-.grave-problem-solution .section-wrapper::after {
-    background-color: #373631;
+.grave-love-app-problem .section-wrapper::before,
+.grave-love-app-problem .section-wrapper::after {
+    background-color: var(--grey-color);
 }
 
-/* End solution section  */
-
-/* start grave love problem solution  */
-.bg-custom-gray {
-    background-color: #373631;
+.grave-love-app-problem .bg-custom-gray {
+    background-color: var(--grey-color);
     color: var(--white-color);
 }
 
-.bg-custom-gray h4 {
+.grave-love-app-problem .bg-custom-gray h4 {
     color: var(--white-color);
 }
 
-.bg-custom-gray .number-circle {
+.grave-love-app-problem .bg-custom-gray .number-circle {
     border: 2px solid white;
 }
 
-.bg-custom-white {
+.grave-love-app-problem .bg-custom-white {
     background-color: var(--white-color);
     color: var(--black-color);
-    border: 1px solid #373631;
+    border: 1px solid var(--grey-color);
 }
 
-.bg-custom-white h4,
-.bg-custom-white p {
+.grave-love-app-problem .bg-custom-white h4,
+.grave-love-app-problem .bg-custom-white p {
     color: #000;
 }
 
-/* End grave love problem solution  */
-
-/*Start  grave love wireframe */
-
 .grave-love-wireframe {
-    background: url("../images/case-studies/grave-love-app/wireframe-background.webp") center/cover no-repeat;
+    background: url("../images/case-studies/grave-love-app/grave-love-app-wireframe-background.webp") center/cover no-repeat;
     border-radius: 30px;
     padding-top: 60px;
     padding-bottom: 60px;
@@ -21009,112 +20988,110 @@ textarea::-ms-input-placeholder {
     margin-right: 8px;
 }
 
-.grave-love-wireframe p {
+.grave-love-wireframe p, .grave-love-wireframe h2, .grave-love-wireframe h4 {
     color: var(--white-color);
-    padding-bottom: 30px;
-}
-
-.grave-love-wireframe h2,
-.grave-love-wireframe h4 {
-    color: var(--white-color);
-    padding-bottom: 30px;
-}
-
-.grave-love-wireframe-gallery .col-6 {
-    display: flex;
-    justify-content: center;
-}
-
-/*End  grave love wireframe */
-/*Start grave love apps screen */
-.grave-love-apps img {
-    max-width: 290px;
-    width: 100%;
-    margin: 0 auto;
-    display: block;
-}
-
-/*End grave love apps screen */
-
-/* start grave-love project goal */
-.grave-love-project-goals {
-    border-radius: 20px;
 }
 
 .grave-love-project-goals img {
-    object-fit: cover;
-    width: 100%;
     max-width: 400px;
     margin: 0 auto;
     display: block;
 }
 
-
-.grave-love-project-goals .info-card3 {
-
+.grave-love-project-goals .info-card {
     border-radius: 14px;
     padding: 12px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.07);
     transition: all .3s ease;
+    padding: 30px;
 }
 
-.grave-love-project-goals .info-card3:hover {
+.grave-love-project-goals .info-card p {
+    margin: 0px;
+}
+
+.grave-love-project-goals .info-card:hover {
     transform: translateY(-5px);
     box-shadow: 0 8px 22px rgba(0, 0, 0, 0.15);
 }
 
-.grave-love-project-goals .grave-love-project-goals .info-card3 h5 {
+.grave-love-project-goals .info-card h5 {
     font-weight: 700;
     font-size: 18px;
     margin-bottom: 8px;
     color: #2d2926;
 }
 
-/* End grave-love project goal */
+.grave-love-project-goals .grave-light {
+    background: #f1f1f1;
+    border: 1px solid var(--black-color);
+    border-radius: 20px;
+}
 
-/*Start the result Section */
+.grave-love-project-goals .grave-brown {
+    background: var(--brown-color-2);
+    border: 1px solid black;
+    border-radius: 20px;
+}
+
 .grave-result-section {
     background-color: #fafafa;
 }
 
-/* Card */
-.grave-result-card {
+.grave-love-app-result .grave-result-card {
     border-radius: 12px;
     padding: 0.75rem 1.5rem;
     box-shadow: 0 10px 25px rgba(0, 0, 0, 0.06);
     transition: 0.3s ease;
 }
 
-.grave-result-card:hover {
+.grave-love-app-result .grave-result-card:hover {
     transform: translateY(-6px);
     box-shadow: 0 15px 30px rgba(0, 0, 0, 0.08);
 }
 
-.grave-result-card img {
+.grave-love-app-result .grave-result-card img {
     width: 48px;
     margin-bottom: 1rem;
 }
 
-.grave-result-card h6 {
-    font-size: 1.1rem;
+.grave-love-app-result .grave-result-card h6 {
     font-weight: 600;
     margin-bottom: 0.5rem;
 }
 
-.grave-result-card p {
+.grave-love-app-result .grave-result-card p {
     font-size: 0.95rem;
-    color: #555;
+    color: var(--black-color);
 }
 
-/* Image */
-.grave-result-image img {
+.grave-love-app-result .grave-brown {
+    background: var(--brown-color-2);
+    border: 1px solid var(--black-color);
+    border-radius: 20px;
+    color: var(--white-color);
+}
+
+.grave-love-app-result .grave-brown h6, .grave-love-app-result .grave-brown p {
+    color: var(--white-color);
+}
+
+.grave-love-app-result .grave-light {
+    background: #f1f1f1;
+    border: 1px solid var(--black-color);
+    border-radius: 20px;
+}
+
+.grave-love-app-result img {
     width: 100%;
     max-width: 636px;
 }
 
-/*End the result Section */
+/* End Grave Love App */
 
-/* End grave love case study */
+/* End Case Studies */
+
+
 
 /*start bomb defuse section  */
 #bomb-defuse-background {

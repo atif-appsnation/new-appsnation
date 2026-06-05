@@ -14609,7 +14609,7 @@ b {
     padding-bottom: 30px;
 }
     
-.wire-img{
+.img-fluid{
     width: 120%;
     border-radius: 12px;
     transition: transform .3s ease, box-shadow .3s ease;
@@ -14617,7 +14617,7 @@ b {
     margin: 0 auto;
 }
 
-.wire-img:hover {
+.img-fluid:hover {
     transform: scale(1.09);
     box-shadow: 0 6px 16px rgba(0,0,0,0.15);
 }

@@ -106,13 +106,13 @@
         </div>
         <div class="row g-3 wireframe-gallery mt-4">
             <div class="col-12 col-md-4 col-xl-4">
-                <img loading="lazy" src="{{asset('images/case-studies/neuro-knights-app/neuro-knights-app-wireframe-01.webp')}}" alt="Neuro Knights Wireframe" class="wire-img img-fluid">
+                <img loading="lazy" src="{{asset('images/case-studies/neuro-knights-app/neuro-knights-app-wireframe-01.webp')}}" alt="Neuro Knights Wireframe" class="img-fluid">
             </div>
             <div class="col-12 col-md-4 col-xl-4">
-                <img loading="lazy" src="{{asset('images/case-studies/neuro-knights-app/neuro-knights-app-wireframe-02.webp')}}" alt="Neuro Knights Wireframe" class="wire-img img-fluid">
+                <img loading="lazy" src="{{asset('images/case-studies/neuro-knights-app/neuro-knights-app-wireframe-02.webp')}}" alt="Neuro Knights Wireframe" class="img-fluid">
             </div>
             <div class="col-12 col-md-4 col-xl-4">
-                <img loading="lazy" src="{{asset('images/case-studies/neuro-knights-app/neuro-knights-app-wireframe-03.webp')}}" alt="Neuro Knights Wireframe" class="wire-img img-fluid">
+                <img loading="lazy" src="{{asset('images/case-studies/neuro-knights-app/neuro-knights-app-wireframe-03.webp')}}" alt="Neuro Knights Wireframe" class="img-fluid">
             </div>
         </div>
     </div>
@@ -187,7 +187,7 @@
 <section class="neuro-knights-apps py-5">
     <div class="container">
         <div class="common-heading">
-            <h2 class="mb-3 text-center">App Screens</h2>
+            <h2 class="mb-5 text-center">App Screens</h2>
         </div>
         <div class="row">
             <div class="col-md-3 col-6 my-3"><img loading="lazy" src="{{asset('images/case-studies/neuro-knights-app/neuro-knights-app-01.webp')}}" alt="App Screens" class="img-fluid"></div>
