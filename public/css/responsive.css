@@ -1,4 +1,4 @@
-/* Version: 1.3 | Last updated: 14-03-2026 */
+/* Version: 1.5 | Last updated: 08-06-2026 */
 
 @media screen and (max-width:1920px) and (min-width:992px) {
 	.dropdown:hover>.dropdown-menu {
@@ -3089,40 +3089,6 @@
 		right: 38.5%;
 	}
 
-	/* start case studes */
-
-	/* royal ride case study start */
-	.hero-section-royal-ride {
-		margin-top: 0;
-		margin-bottom: 90px;
-
-	}
-
-	.royal-ride-logo h1 {
-		font-size: 50px;
-		line-height: 62px;
-	}
-
-	.royal-ride-logo img {
-		width: 110px;
-	}
-
-	/* royal ride case study start */
-	.problem-section h2 {
-		font-size: 22px;
-	}
-
-	.problem-section p {
-		font-size: 12px;
-	}
-
-	.comp-analysis-title {
-		font-size: 1.4rem;
-	}
-
-	.comp-analysis-image {
-		width: 80%;
-	}
 
 	/* toy sort case study start */
 	#toy-sort-puzzle {
@@ -3785,76 +3751,6 @@
 		right: 30.5%;
 	}
 
-	/* start case studes */
-
-	/* couple app case study */
-	.couple-app-hero-img img {
-		margin: 70px 0 0 0;
-	}
-
-	.couple-app h1 {
-		font-size: 42px;
-	}
-
-	.couple-app p {
-		line-height: 32px;
-		font-size: 20px;
-	}
-
-	.couple-app .couple-tag {
-		font-size: 16px;
-	}
-
-	/* couple app client over view section */
-	.couple-app-land-wrapper {
-		background-size: 100% 83%;
-	}
-
-	/* couple app case study  */
-	.couple-app-key-problems .info-card3 p {
-		color: #000;
-		font-size: 14px;
-		line-height: 27px;
-
-	}
-
-	/* royal ride cse study start */
-	.comp-analysis-title {
-		font-size: 1.6rem;
-	}
-
-	.comp-analysis-image {
-		width: 70%;
-	}
-
-	/* royal relax spa case study */
-	.royal-relax-spaceing {
-		margin: 140px 0 40px 0;
-	}
-
-
-	/* grave love app case study start */
-	.grave-love-app.breadcrumb-areav2 {
-		padding: 150px 0px 00px;
-	}
-
-	.grave-love-app .logo {
-		width: 100%;
-		max-width: 150px;
-	}
-
-	.grave-love-hero-img img {
-		margin-left: 22px;
-		margin-top: 20px;
-		width: 100%;
-		max-width: 590px;
-	}
-
-	.load-board-hero-section .logo img {
-		max-width: 250px;
-		padding-bottom: 10px;
-	}
-
 	.tcd iframe {
 		width: 100%;
 		max-width: 350px;
@@ -4168,64 +4064,6 @@
 		right: 30.5%;
 	}
 
-	/* start case studys */
-
-	/* couple case study */
-	.couple-app-hero-img img {
-		width: 100%;
-		display: block;
-		margin: 0 50px auto;
-	}
-
-
-	/* grave love app case study start  */
-	.grave-love-app .logo {
-		width: 100%;
-		max-width: 150px;
-	}
-
-	.grave-love-hero-img img {
-		margin-left: 22px;
-		margin-top: 12%;
-		width: 100%;
-		max-width: 590px;
-	}
-
-	/* Start  Problem section  */
-
-	.grave-love-problem-contant h2,
-	.grave-love-problem-contant p {
-		color: white;
-		padding-left: 22px;
-	}
-
-	.grave-love-problem-contant p {
-		color: white;
-		padding-left: 22px;
-		font-size: 12px;
-	}
-
-	/* load board case study start */
-	.load-board-hero-section p {
-		letter-spacing: 1px;
-	}
-
-	.load-board-hero-section .logo img {
-		max-width: 210px;
-	}
-
-	.load-board-hero-section .load-board-hero-img img {
-		max-width: 850px;
-	}
-
-	/* all traders case study start */
-	.challenges-turned-section .challenges-turned-box img {}
-
-	/*Alejandro hero section case study start */
-	.alejandro-hero-section .hero-img {
-		max-width: 900px;
-	}
-
 	.home-banner-box-section .banner-box-image {
 		aspect-ratio: 1592 / 600;
 	}
@@ -4537,31 +4375,6 @@
 	.solutions-section .owl-counter {
 		bottom: 16%;
 		right: 38.1%;
-	}
-
-	/* grave love case study start */
-
-	.grave-love-app .logo {
-		width: 100%;
-		max-width: 150px;
-	}
-
-	.grave-love-hero-img img {
-		margin-left: 92px;
-		margin-top: 10%;
-		width: 100%;
-		max-width: 590px;
-	}
-
-
-	.grave-love-app h1,
-	.grave-love-app p {
-		color: #FBF0C4;
-		font-weight: bold;
-	}
-
-	.grave-love-app .playStore-img img {
-		width: 300px;
 	}
 
 	/* home bages */
@@ -5259,6 +5072,11 @@
 	.alejandro-hero-section {
 		padding: 150px 0px 0px;
 	}
+
+	.grave-love-app .grave-love-hero-img {
+		height: 700px;
+		margin-top: 138px !important;
+	}
 }
 
 @media only screen and (min-width:1200px) {
@@ -5268,39 +5086,6 @@
 }
 
 @media (max-width: 1199px) {
-
-	/* start case study */
-	/* couple case study */
-	.couple-app-hero-img img {
-		margin: 130px 0 0 0;
-	}
-
-	.couple-app h1 {
-		font-size: 32px;
-		line-height: 38px;
-		padding-bottom: 15px;
-
-	}
-
-	.couple-app p {
-		line-height: 32px;
-		font-size: 18px;
-	}
-
-	.couple-app .couple-tag {
-		font-size: 16px;
-	}
-
-	/* start couple app Client Overview Section */
-	.couple-app-land-wrapper {
-		background-size: 100% 90%;
-	}
-
-	.couple-app-clint-overview-img img {
-		width: 100%;
-		max-width: 400px;
-	}
-
 
 	.banner-box-image h2 {
 		font-size: 35px;
@@ -5330,22 +5115,7 @@
 		line-height: 33px;
 	}
 
-	/* grave love app case study start */
-	.grave-love-app.breadcrumb-areav2 {
-		padding: 150px 0px 00px;
-	}
 
-	.grave-love-app .logo {
-		width: 100%;
-		max-width: 150px;
-	}
-
-	.grave-love-hero-img img {
-		margin-left: 22px;
-		margin-top: 57px;
-		width: 100%;
-		max-width: 590px;
-	}
 
 	/* bomb defuse case study start */
 	#bomb-defuse-background {
@@ -5419,15 +5189,6 @@
 
 @media (min-width:992px) and (max-width:1199px) {
 
-
-	/* grave love case study */
-	.grave-love-problem-contant h2 {
-		font-size: 32px;
-	}
-
-	.grave-love-problem-contant p {
-		font-size: 12px;
-	}
 
 	/* car-mechanic case study */
 	#car-mechanic-background {
@@ -5509,23 +5270,6 @@
 	}
 }
 
-@media (max-width: 991px) {
-
-
-	.logo-img {
-		max-width: 200px;
-	}
-
-	.hero-main-img {
-		max-width: 100%;
-	}
-
-	/* Alejandro objectives section case study start */
-	.alejandro-objectives-section .central-line {
-		display: none;
-	}
-
-}
 
 @media (max-width: 1400px) {
 
@@ -5563,29 +5307,6 @@
 	}
 
 
-	/* couple app case study */
-	.couple-app {
-		background: url("../images/case-studies/couple-app/hero-background-couple-app.webp")top left/ cover no-repeat;
-
-	}
-
-	.couple-app .logo {
-		max-width: 110px;
-	}
-
-	.couple-app h1 {
-		font-size: 52px;
-		line-height: 65px;
-	}
-
-	.couple-app p {
-		line-height: 29px;
-		font-size: 18px;
-		word-spacing: 2px;
-		border-left: 3px solid #ffffff;
-		padding: 12px 0 12px 19px;
-	}
-
 	/* toy sort puzzle case study start */
 
 	.toy-sort-audience-target .imageFloteRight img,
@@ -5617,29 +5338,6 @@
 		padding: 10px 0 10px 0;
 	}
 
-	/* load board case study start */
-	.load-board-vertical-line {
-		display: none;
-	}
-
-	.load-board-step-left,
-	.load-board-step-right {
-		width: 100% !important;
-		margin-bottom: 20px;
-		text-align: left !important;
-	}
-
-	.load-board-step-left .load-board-step-content,
-	.load-board-step-right .load-board-step-content {
-		margin: 0 !important;
-		text-align: left !important;
-	}
-
-	.load-board-step-left .load-board-step-number,
-	.load-board-step-right .load-board-step-number {
-		display: none;
-	}
-
 }
 
 @media (max-width: 575px) {
@@ -5662,67 +5360,6 @@
 
 @media (max-width: 992px) {
 
-	/* couple app case study  */
-	.couple-app-hero-img img {
-
-		width: 100%;
-		max-width: 500px;
-	}
-
-	.couple-app h1 {
-		font-size: 32px;
-		line-height: 33px;
-		padding-bottom: 15px;
-
-	}
-
-	.couple-app p {
-		line-height: 24px;
-		font-size: 13px;
-		word-spacing: 2px;
-		padding-left: 10px;
-	}
-
-	.couple-app .couple-tag {
-		font-size: 13px;
-	}
-
-	/* start couple app Client Overview Section */
-	.couple-app-land-wrapper {
-		background-size: 100% 100%;
-	}
-
-	.couple-app-clint-overview-img img {
-		width: 100%;
-		max-width: 400px;
-		display: block;
-		margin: 0 auto;
-	}
-
-	.couple-app-key-problems .info-card3 {
-		height: 160px;
-	}
-
-	.couple-app-designs .neuro-night-central-line {
-		display: none;
-	}
-
-	/* royal ride case study start */
-	.Objectives-section h3 {
-		text-align: center;
-		margin-top: 22px;
-	}
-
-	.busniess-img-paytem img,
-	.busniess-img-phone img,
-	.bussness-img-lady img {
-		width: 100%;
-		max-width: 400px;
-		height: auto;
-		margin: 0 auto;
-		display: block;
-		padding-left: 0;
-	}
 
 
 	
@@ -5743,111 +5380,11 @@
 
 
 
-	/* grave love app case study start */
-
-
-	.grave-love-app .logo {
-		width: 100%;
-		max-width: 150px;
-	}
-
-	.grave-love-hero-img img {
-		margin: 0 auto;
-		display: block;
-		width: 100%;
-		max-width: 590px;
-	}
-
-	/* Start  problem-section  */
-	.grave-love-problem-section {
-		background-size: 100% 100%;
-		border-radius: 40px;
-	}
-
-	.grave-love-problem-contant {
-		padding: 22px;
-	}
-
-	.grave-love-problem-img img {
-		width: 100%;
-		max-width: 500px;
-		margin: 0 auto;
-		display: block;
-	}
-
 }
 
 @media (min-width: 992px) {
 
-	.central-line {
-		display: block;
-	}
-
-	.right-column-wrapper {
-		margin-top: 80px;
-	}
-
-	/* .feature-box:hover {
-		transform: scaley(1.2);
-		transition: transform 0.3s ease;
-	} */
-
-	.left-item .feature-box::after {
-		content: '';
-		position: absolute;
-		top: 50%;
-		right: -60px;
-		width: 60px;
-		height: 12px;
-		background-image: linear-gradient(to right, #009FE3 33%, rgba(255, 255, 255, 0) 0%);
-		background-position: bottom;
-		background-size: 16px 2px;
-		background-repeat: repeat-x;
-	}
-
-	.right-item .feature-box::before {
-		content: '';
-		position: absolute;
-		top: 50%;
-		left: -60px;
-		width: 60px;
-		height: 12px;
-		background-image: linear-gradient(to right, #009FE3 33%, rgba(255, 255, 255, 0) 0%);
-		background-position: bottom;
-		background-size: 16px 2px;
-		background-repeat: repeat-x;
-	}
-
-	.couple-app-key-problems .info-card3 p {
-		font-size: 15px;
-	}
-
-	/* royal ride case study start*/
-	.start-connector {
-		left: calc((100% - 1320px) / 226 + 20px);
-	}
-
-	.section-wrapper::before {
-		content: '';
-		position: absolute;
-		top: 60px;
-		left: 50px;
-		width: 2px;
-		height: 150px;
-		background-color: #dcb880;
-		z-index: 0;
-	}
-
-	.section-wrapper::after {
-		content: '';
-		position: absolute;
-		top: 210px;
-		left: 50px;
-		width: 60px;
-		height: 2px;
-		background-color: #dcb880;
-		z-index: 0;
-	}
+	
 }
 
 @media (max-width: 768px) {

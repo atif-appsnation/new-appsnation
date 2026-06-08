@@ -1,4 +1,4 @@
-/* Version: 1.3 | Last updated: 14-03-2026 */
+/* Version: 1.5 | Last updated: 08-06-2026 */
 
 :root {
     --first-color: #0dacaf;
@@ -36,6 +36,7 @@
     --yellow-color: #FBF0C4;
     --grey-color: #373631;
     --brown-color-2: #42262b;
+    --yellow-color: #FAAF3A;
     --dur: .15s;
     --delay: .15s;
     --radius: 10px;
@@ -1547,8 +1548,8 @@ a.play-video::after {
     box-shadow: -30px 30px 60px #f2f2f2, 30px -30px 60px #ffffff;
 }
 
-.breadcrumb-areav2.portfolio-new-section{
-    background: url('../images/banner/Portfolio-banner.png') !important;
+.portfolio-new-section {
+    background: url('../images/banner/portfolio-banner.webp') !important;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -20919,10 +20920,9 @@ textarea::-ms-input-placeholder {
     margin: 0;
 }
 
-.grave-love-app  .grave-love-hero-img {
+/* .grave-love-app  .grave-love-hero-img {
     margin-top: 200px;
-}
-
+} */
 
 .grave-love-app h1,
 .grave-love-app h4,
@@ -20934,13 +20934,14 @@ textarea::-ms-input-placeholder {
     width: 300px;
 }
 
-.grave-love-problem-section {
+.grave-love-problem-section .container {
     background: url("../images/case-studies/grave-love-app/grave-love-app-problem-background.webp") center/cover no-repeat;
-    background-size: 90% 60%;
+    /* background-size: 90% 60%; */
+    border-radius: 10px;
 }
 
-.grave-love-problem-content h2,
-.grave-love-problem-content p {
+.grave-love-problem-section h2,
+.grave-love-problem-section p {
     color: var(--white-color);
 }
 
@@ -20953,6 +20954,10 @@ textarea::-ms-input-placeholder {
 .grave-love-app-problem .section-wrapper::before,
 .grave-love-app-problem .section-wrapper::after {
     background-color: var(--grey-color);
+}
+
+.grave-love-app-problem .card-custom {
+    min-height: 100%;
 }
 
 .grave-love-app-problem .bg-custom-gray {
@@ -21087,26 +21092,29 @@ textarea::-ms-input-placeholder {
     max-width: 636px;
 }
 
+.grave-love-app-persona .persona-card ul li {
+    color: var(--grey-color);
+}
+
+.grave-love-project-goals .info-card {
+    border: 1px solid var(--brown-color-2);
+}
+
 /* End Grave Love App */
 
-/* End Case Studies */
+/* Start Bomb Defuse */
 
-
-
-/*start bomb defuse section  */
 #bomb-defuse-background {
-    background: url("../images/case-studies/bomb-defuse-app/background812.webp")top center/cover no-repeat;
+    background: url("../images/case-studies/bomb-defuse-app/bomb-defuse-app-background.webp")top center/cover no-repeat;
     background-size: 100% 76%;
 }
 
-.bomb-defuse-spaceing {
+.bomb-defuse-spacing {
     margin: 120px 0 120px 0;
 }
 
-/* start hero section bomb defuse */
 .bomb-defuse-app {
     padding: 200px 0px 190px 0px;
-
 }
 
 .bomb-defuse-app .bread-titlev2 {
@@ -21115,28 +21123,19 @@ textarea::-ms-input-placeholder {
 }
 
 .bomb-defuse-app .bread-titlev2 h1 {
-    color: #FAAF3A;
-    margin-top: 20px;
+    color: var(--yellow-color);
 }
 
 .bomb-defuse-app .bread-titlev2 p {
-    margin: 30px;
     font-size: 29px;
-    word-spacing: 2px;
-
 }
 
 .bomb-defuse-app .logo {
-    width: 100%;
     max-width: 500px;
     display: block;
     margin: 0 auto;
 }
 
-/* End hero section bomb defuse */
-
-
-/*Start introduction bomb squad Section*/
 .introduction-bomb-squad .introduction-bomb-squad-content h2 {
     padding-bottom: 20px;
 }
@@ -21144,26 +21143,19 @@ textarea::-ms-input-placeholder {
 .introduction-bomb-squad .introduction-bomb-squad-content h2,
 .introduction-bomb-squad .introduction-bomb-squad-content p {
     color: var(--white-color);
-    margin-bottom: 20px;
 }
 
 .introduction-bomb-squad .introduction-bomb-squad-content h2 span,
 .introduction-bomb-squad .introduction-bomb-squad-content p span {
-    color: #FAAF3A;
+    color: var(--yellow-color);
 }
 
-.introduction-bomb-squad-img img {
-    width: 100%;
+.introduction-bomb-squad-img {
     max-width: 380px;
     display: block;
     margin: 0 auto;
 }
 
-/*End introduction bomb squad Section*/
-
-
-
-/*start project idea bomb defuse squad Section*/
 .project-idea-bomb-defuse .project-idea-content h2 {
     padding-bottom: 20px;
 }
@@ -21175,37 +21167,28 @@ textarea::-ms-input-placeholder {
 
 .project-idea-bomb-defuse .project-idea-content h2 span,
 .project-idea-bomb-defuse .project-idea-content p span {
-    color: #FAAF3A;
+    color: var(--yellow-color);
 }
 
-.project-idea-bomb-defuse-img img {
-    width: 100%;
+.project-idea-bomb-defuse-img {
     max-width: 300px;
     display: block;
     margin: 0 auto;
 }
 
-/*End project idea bomb defuse Section */
-
-
-/*Start bomb defuse Ranking section */
-.bomb-defuse-Ranking-section h2 {
-    color: #FAAF3A;
+.bomb-defuse-ranking h2 {
+    color: var(--yellow-color);
     text-align: center;
-    padding: 50px 0 50px 0;
-
 }
 
-.bomb-defuse-Ranking-section img {
-    width: 100%;
+.bomb-defuse-ranking img {
     max-width: 300px;
     display: block;
     margin: 0 auto;
 }
 
-/* start bomb-defuse-mockup section */
 .bomb-defuse-mockup h2 {
-    color: #FAAF3A;
+    color: var(--yellow-color);
     text-align: center;
     padding: 50px 0 50px 0;
 }
@@ -21215,17 +21198,13 @@ textarea::-ms-input-placeholder {
     margin: 0 auto;
 }
 
-/* End bomb-defuse-mockup section */
-
-
-/* start bomb defuse Achievements section  */
 .achievements-bomb-defuse h2 {
     color: wheat;
     margin: 10px 0 10px 0;
 }
 
 .achievements-bomb-defuse h2 span {
-    color: #FAAF3A;
+    color: var(--yellow-color);
 }
 
 .achievements-bomb-defuse p {
@@ -21233,9 +21212,6 @@ textarea::-ms-input-placeholder {
     line-height: 40px;
 }
 
-/* End bomb defuse Achievements section  */
-
-/*Start bomb defuse result section  */
 .bomb-defuse-result-section {
     text-align: center;
 }
@@ -21245,17 +21221,21 @@ textarea::-ms-input-placeholder {
 }
 
 .bomb-defuse-result-section h2 span {
-    color: #FAAF3A;
+    color: var(--yellow-color);
 }
 
 .bomb-defuse-result-section p {
     color: var(--white-color);
-    line-height: 40px;
+    line-height: 2;
 }
 
-/* 
-    /*End bomb defuse result section  */
-/*End bomb defuse section  */
+/*End Bomb Defuse  */
+
+/* End Case Studies */
+
+
+
+
 
 
 

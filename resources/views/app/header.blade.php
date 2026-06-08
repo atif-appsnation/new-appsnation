@@ -76,8 +76,8 @@
 	<link href="{{asset('css/owl.theme.default.min.css')}}" rel="stylesheet">
 	<link href="{{asset('css/all.min.css')}}" rel="stylesheet">
 	<link href="{{asset('css/manrope.css')}}" rel="stylesheet">
-	<link href="{{asset('css/style.css?v=1.3')}}" rel="stylesheet">
-	<link href="{{asset('css/responsive.css?v=1.3')}}" rel="stylesheet">
+	<link href="{{asset('css/style.css?v=1.5')}}" rel="stylesheet">
+	<link href="{{asset('css/responsive.css?v=1.5')}}" rel="stylesheet">
 	<link href="{{asset('css/darkmode.css')}}" rel="stylesheet">
 	<link href="{{asset('css/image-comparison-slider.css')}}" rel="stylesheet">
 	<link rel="canonical" href="{{url()->current()}}" />

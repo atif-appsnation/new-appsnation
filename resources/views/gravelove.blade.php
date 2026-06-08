@@ -2,7 +2,7 @@
 @section('content')
 
 <!--Breadcrumb Area-->
-<section class=" grave-love-app breadcrumb-areav2">
+<section class="grave-love-app breadcrumb-areav2">
     @if ($errors->has('g-recaptcha-response'))
     <div class="alert alert-danger">
         <strong>{{ $errors->first('g-recaptcha-response') }}</strong>
@@ -20,7 +20,7 @@
                     <img loading="lazy" src="{{asset('images/case-studies/grave-love-app/grave-love-app-download.webp')}}" class="playstore" alt="Download">
                 </div>
             </div>
-            <div class="col-lg-6 mt-5 mt-lg-0">
+            <div class="col-lg-6 mt-5 mt-lg-auto">
                 <img loading="lazy" src="{{asset('images/case-studies/grave-love-app/grave-love-app-hero.webp')}}" class="img-fluid grave-love-hero-img" alt="Grave Love App">
             </div>
         </div>
@@ -30,14 +30,12 @@
 
 <!-- Start Grave Love App Problem -->
 <section class="grave-love-problem-section py-5">
-    <div class="container">
-        <div class="row align-items-center text-center text-md-start">
+    <div class="container p-5">
+        <div class="row align-items-center text-center text-lg-start">
             <div class="col-12 col-md-12 col-lg-6">
-                <div class="grave-love-problem-content">
-                    <h2 class="pb-3">Problem Statement</h2>
-                    <p class="pb-3">Many people are unable to visit the graves of their deceased loved ones due to distance, health, or time constraints. Grave maintenance, cleanliness, or simply a flower can be difficult — yet these gestures hold deep emotional meaning.</p>
-                    <p class="pb-3">There is currently no acces si ble digital platform that allows people to easily schedule grave care services and receive assurance of their fulfillment. </p>
-                </div>
+                <h2 class="pb-3">Problem Statement</h2>
+                <p class="pb-3">Many people are unable to visit the graves of their deceased loved ones due to distance, health, or time constraints. Grave maintenance, cleanliness, or simply a flower can be difficult — yet these gestures hold deep emotional meaning.</p>
+                <p>There is currently no acces si ble digital platform that allows people to easily schedule grave care services and receive assurance of their fulfillment.</p>
             </div>
             <div class="col-12 col-md-12 col-lg-6 mt-5 mt-lg-0">
                 <img loading="lazy" src="{{asset('images/case-studies/grave-love-app/grave-love-app-problem-statment.webp')}}" class="img-fluid" alt="Grave Love App Problem">
@@ -119,16 +117,16 @@
     <div class="container">
         <div class="common-heading text-center">
             <h2 class="pb-3">Target Audience</h2>
-            <p class="pb-5">This app is designed for individuals who wish to honor and care for their loved ones' <br> graves, regardless of distance, time, or physical ability.</p>
+            <p class="pb-5">This app is designed for individuals who wish to honor and care for their loved ones' graves, regardless of distance, time, or physical ability.</p>
         </div>
         <div class="row align-items-center">
-            <div class="col-md-6 mb-4 mb-md-0">
+            <div class="col-md-6">
                 <ul class="user-research-ul">
                     <li>People living away from their loved ones' graves, in other cities or countries.</li>
                     <li>Busy professionals who want to stay connected despite tight schedules.</li>
                 </ul>
             </div>
-            <div class="col-md-6 mb-4 mb-md-0">
+            <div class="col-md-6">
                 <ul class="user-research-ul">
                     <li>Elderly or physically limited individuals unable to visit graves regularly.</li>
                     <li>Emotionally individuals who spiritual acts of remembrance and care.</li>
@@ -301,29 +299,29 @@
             <div class="col-12">
                 <div class="common-heading text-center">
                     <h2 class="pb-3">Wire Frame</h2>
-                    <p class="pb-3">We created low‑fidelity wireframes to map out the complete user flow of Mentoring with the Mentees, focusing on smooth navigation between mentor discovery, chat interaction, and progress tracking. These early sketches helped define a simple, goal‑oriented structure and ensured a clear, engaging experience for both mentors and mentees from the very start..</p>
+                    <p class="pb-3">We created low‑fidelity wireframes to map out the complete user flow of Mentoring with the Mentees, focusing on smooth navigation between mentor discovery, chat interaction, and progress tracking. These early sketches helped define a simple, goal-oriented structure and ensured a clear, engaging experience for both mentors and mentees from the very start.</p>
                     <h4 class="pb-5">App Wireframes</h4>
                 </div>
             </div>
         </div>
         <div class="row g-3 grave-love-wireframe-gallery">
             <div class="col-6 col-md-4 col-xl-2">
-                 <img loading="lazy" src="{{asset('images/case-studies/grave-love-app/grave-love-app-wireframe-01.webp')}}" alt="Boujee Beachin Wireframe" class="img-fluid">
+                <img loading="lazy" src="{{asset('images/case-studies/grave-love-app/grave-love-app-wireframe-01.webp')}}" alt="Boujee Beachin Wireframe" class="img-fluid">
             </div>
             <div class="col-6 col-md-4 col-xl-2">
-                 <img loading="lazy" src="{{asset('images/case-studies/grave-love-app/grave-love-app-wireframe-02.webp')}}" alt="Boujee Beachin Wireframe" class="img-fluid">
+                <img loading="lazy" src="{{asset('images/case-studies/grave-love-app/grave-love-app-wireframe-02.webp')}}" alt="Boujee Beachin Wireframe" class="img-fluid">
             </div>
             <div class="col-6 col-md-4 col-xl-2">
-                 <img loading="lazy" src="{{asset('images/case-studies/grave-love-app/grave-love-app-wireframe-03.webp')}}" alt="Boujee Beachin Wireframe" class="img-fluid">
+                <img loading="lazy" src="{{asset('images/case-studies/grave-love-app/grave-love-app-wireframe-03.webp')}}" alt="Boujee Beachin Wireframe" class="img-fluid">
             </div>
             <div class="col-6 col-md-4 col-xl-2">
-                 <img loading="lazy" src="{{asset('images/case-studies/grave-love-app/grave-love-app-wireframe-04.webp')}}" alt="Boujee Beachin Wireframe" class="img-fluid">
+                <img loading="lazy" src="{{asset('images/case-studies/grave-love-app/grave-love-app-wireframe-04.webp')}}" alt="Boujee Beachin Wireframe" class="img-fluid">
             </div>
             <div class="col-6 col-md-4 col-xl-2">
-                 <img loading="lazy" src="{{asset('images/case-studies/grave-love-app/grave-love-app-wireframe-05.webp')}}" alt="Boujee Beachin Wireframe" class="img-fluid">
+                <img loading="lazy" src="{{asset('images/case-studies/grave-love-app/grave-love-app-wireframe-05.webp')}}" alt="Boujee Beachin Wireframe" class="img-fluid">
             </div>
             <div class="col-6 col-md-4 col-xl-2">
-                 <img loading="lazy" src="{{asset('images/case-studies/grave-love-app/grave-love-app-wireframe-06.webp')}}" alt="Boujee Beachin Wireframe" class="img-fluid">
+                <img loading="lazy" src="{{asset('images/case-studies/grave-love-app/grave-love-app-wireframe-06.webp')}}" alt="Boujee Beachin Wireframe" class="img-fluid">
             </div>
         </div>
     </div>
@@ -377,10 +375,10 @@
             <h2 class="mb-5">Project Goals</h2>
         </div>
         <div class="row align-items-start">
-            <div class="col-lg-6 mb-md-4 mt-5 mt-lg-0">
+            <div class="col-lg-6 mb-md-4">
                 <img loading="lazy" src="{{asset('images/case-studies/grave-love-app/grave-love-app-project-goal.webp')}}" class="img-fluid" alt="Project Goals">
             </div>
-            <div class="col-lg-6 my-auto">
+            <div class="col-lg-6 my-auto mt-5">
                 <div class="row">
                     <div class="col-12 col-lg-10">
                         <div class="info-card light">
