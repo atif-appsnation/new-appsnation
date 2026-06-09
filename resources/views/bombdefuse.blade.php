@@ -29,15 +29,15 @@
 <!-- Start Bomb Defuse Introduction -->
 <section class="introduction-bomb-squad py-5">
     <div class="container">
-        <div class="row align-items-center text-center text-md-start">
-            <div class="col-12 col-md-12 col-lg-6  ">
+        <div class="row align-items-center text-center text-lg-start">
+            <div class="col-12 col-md-12 col-lg-6">
                 <div class="introduction-bomb-squad-content">
                     <h2 class="pb-3">Introduction<span> Bomb Squad</span></h2>
                     <p class="pb-3"> Bomb Squad: Defuse the Bomb 3D is a high-intensity mobile game developed by <span>Appex Games</span>  that immerses players into the role of a bomb disposal expert. With its realistic 3D visuals, detailed mechanics, and time-sensitive challenges, the game provides a gripping simulation of real-world bomb defusal. Players must stay calm under pressure, solve intricate wiring puzzles, and make split-second decisions — all while a countdown clock ticks away, creating a tense and thrilling experience.
                     </p>
                 </div>
             </div>
-              <div class="col-12 col-md-12 col-lg-6 mt-5 mt-md-0">
+              <div class="col-12 col-md-12 col-lg-6 mt-5 mt-lg-0">
                 <img loading="lazy" src="{{asset('images/case-studies/bomb-defuse-app/bomb-defuse-app-bomb-squad.webp')}}" class="img-fluid introduction-bomb-squad-img" alt="Introduction">
             </div>
         </div>
@@ -48,15 +48,13 @@
 <!-- Start Bomb Defuse Project -->
 <section class="project-idea-bomb-defuse bomb-defuse-spacing">
     <div class="container">
-        <div class="row align-items-center text-center text-md-start">
-            <div class="col-12 col-md-12 col-lg-6 mb-4 mb-md-0">
+        <div class="row align-items-center text-center text-lg-start">
+            <div class="col-12 col-md-12 col-lg-6">
                 <img loading="lazy" src="{{asset('images/case-studies/bomb-defuse-app/bomb-defuse-app-project-idea.webp')}}" class="img-fluid project-idea-bomb-defuse-img" alt="project description">
             </div>
-            <div class="col-12 col-md-12 col-lg-6  ">
-                <div class="project-idea-content">
-                    <h2 class="bomb-defuse-title">Project <span> Idea</span></h2>
-                    <p class="bomb-defuse-paragraph">The core idea behind this project was to develop a realistic and strategic game that mimics the life-or-death pressure of bomb defusal scenarios. <span> AppexGames</span> aimed to go beyond casual entertainment by offering users an experience that tests their mental agility and composure under pressure. The goal was to design gameplay that includes a variety of bomb models, multiple defusal tools, and puzzle logic — all integrated into an interactive 3D environment that keeps users fully engaged.</p>
-                </div>
+            <div class="col-12 col-md-12 col-lg-6 mt-5 mt-lg-0">
+                <h2>Project <span> Idea</span></h2>
+                <p>The core idea behind this project was to develop a realistic and strategic game that mimics the life-or-death pressure of bomb defusal scenarios. <span> AppexGames</span> aimed to go beyond casual entertainment by offering users an experience that tests their mental agility and composure under pressure. The goal was to design gameplay that includes a variety of bomb models, multiple defusal tools, and puzzle logic — all integrated into an interactive 3D environment that keeps users fully engaged.</p>
             </div>
         </div>
     </div>
@@ -66,17 +64,17 @@
 <!-- Start Bomb Defuse Ranking -->
 <section class="bomb-defuse-ranking bomb-defuse-spacing">
     <div class="container">
-        <div class="common-heading  mb-5">
+        <div class="common-heading mb-4">
 			<h2>Rewards, Milestones & Rankings</h1>
 		</div>
         <div class="row">
-            <div class="col-md-4">
+            <div class="col-lg-4">
                 <img loading="lazy" src="{{asset('images/case-studies/bomb-defuse-app/bomb-defuse-app-ranking-01.webp')}}" class="img-fluid" alt="Bomb Defuse Ranking">
             </div>
-            <div class="col-md-4">
+            <div class="col-lg-4 mt-4 mt-lg-0">
                 <img loading="lazy" src="{{asset('images/case-studies/bomb-defuse-app/bomb-defuse-app-ranking-02.webp')}}" class="img-fluid" alt="Bomb Defuse Ranking">
             </div>
-            <div class="col-md-4">
+            <div class="col-lg-4 mt-4 mt-lg-0">
                 <img loading="lazy" src="{{asset('images/case-studies/bomb-defuse-app/bomb-defuse-app-ranking-03.webp')}}" class="img-fluid" alt="Bomb Defuse Ranking">
             </div>
         </div>
@@ -87,17 +85,17 @@
 <!-- Start Bomb Defuse Character -->
 <section class="bomb-defuse-ranking bomb-defuse-spacing">
     <div class="container">
-        <div class="common-heading mb-5">
+        <div class="common-heading mb-4">
 			<h2>Character</h1>
 		</div>
         <div class="row">
-            <div class="col-md-4">
+            <div class="col-lg-4">
                 <img loading="lazy" src="{{asset('images/case-studies/bomb-defuse-app/bomb-defuse-app-character-01.webp')}}" class="img-fluid" alt="Bomb Defuse Character">
             </div>
-            <div class="col-md-4">
+            <div class="col-lg-4 mt-4 mt-lg-0">
                 <img loading="lazy" src="{{asset('images/case-studies/bomb-defuse-app/bomb-defuse-app-character-02.webp')}}" class="img-fluid" alt="Bomb Defuse Character">
             </div>
-            <div class="col-md-4">
+            <div class="col-lg-4 mt-4 mt-lg-0">
                 <img loading="lazy" src="{{asset('images/case-studies/bomb-defuse-app/bomb-defuse-app-character-03.webp')}}" class="img-fluid" alt="Bomb Defuse Character">
             </div>
         </div>
@@ -107,8 +105,8 @@
 
 <!-- Start Bomb Defuse Elements -->
 <section class="bomb-defuse-mockup bomb-defuse-spacing">
-    <div class="container mb-5">
-        <div class="row">
+    <div class="container">
+        <div class="row mb-4">
             <div class="col-12">
                 <h2>Elements</h2>
             </div>
@@ -127,12 +125,12 @@
     <div class="container">
         <div class="row align-items-center text-center text-lg-start">
             <div class="col-12 col-md-12 col-lg-6">
-                <h2><span>Achievements</span></h2>
+                <h2 class="mb-4 mb-lg-0"><span>Achievements</span></h2>
                 <img loading="lazy" src="{{asset('images/case-studies/bomb-defuse-app/bomb-defuse-app-achievements.webp')}}" class="img-fluid" alt="project description">
             </div>
             <div class="col-12 col-md-12 col-lg-6 mt-5 mt-lg-0">
                 <div class="project-idea-content">
-                    <h2>Target <span> Audience</span></h2>
+                    <h2 class="mb-4">Target <span> Audience</span></h2>
                     <p>The game was developed for players between the ages of 13 and 40 who enjoy strategic, puzzle-based, and simulation games. It appeals particularly to those who are fans of escape room challenges, brain games, or suspense-driven experiences. Whether casual gamers looking for something different or puzzle enthusiasts craving a realistic challenge, Bomb Squad offers a rewarding experience for users who enjoy solving problems under pressure.</p>
                 </div>
             </div>

@@ -2452,6 +2452,15 @@
 	.couple-app-designs .central-line {
 		display: none;
 	}
+
+	.bomb-defuse-app .logo {
+		max-width: 350px;
+	}
+
+	.bomb-defuse-app .bread-titlev2 p {
+		font-size: 16px;
+	}
+
 	
 }
 
@@ -5103,25 +5112,6 @@
 
 	/*End banners section*/
 
-	/* royal relax spa case study start*/
-	.royal-relax-spa h1 {
-		color: black;
-		font-weight: bold;
-		font-size: 40px;
-		line-height: 50px;
-	}
-
-	.royal-relax-spa p {
-		line-height: 33px;
-	}
-
-
-
-	/* bomb defuse case study start */
-	#bomb-defuse-background {
-		background-size: 100% 72%;
-	}
-}
 
 
 
@@ -5315,29 +5305,6 @@
 	}
 
 
-	/* bomb defuse case study start */
-	#bomb-defuse-background {
-		background-size: 100% 70%;
-	}
-
-
-	.bomb-defuse-app {
-		padding: 150px 0px 60px 0px;
-	}
-
-	.bomb-defuse-app .bread-titlev2 p {
-		font-size: 29px;
-	}
-
-	.bomb-defuse-app .logo {
-		max-width: 350px;
-	}
-
-
-	.bomb-defuse-Ranking-section img {
-		padding: 10px 0 10px 0;
-	}
-
 }
 
 @media (max-width: 575px) {
@@ -5500,12 +5467,8 @@
 		margin-bottom: 15px;
 	} */
 
-s
 
-	/* bomb defuse case study start*/
-	#bomb-defuse-background {
-		background-size: 100% 69%;
-	}
+
 }
 
 @media (max-width: 768px) {
@@ -5572,26 +5535,6 @@ s
 
 	.user-testing-img img {
 		width: 55px;
-	}
-
-	/* car mechanic case study*/
-	#car-mechanic-background {
-		background-size: 100% 59.4%;
-	}
-
-	.car-mechanic .bread-titlev2 h1 {
-		font-size: 33px;
-	}
-
-	.car-mechanic .bread-titlev2 p {
-
-		font-size: 18px;
-		word-spacing: 1px;
-
-	}
-
-	.bomb-defuse-spaceing {
-		margin: 50px 0 50px 0;
 	}
 }
 
@@ -5725,41 +5668,6 @@ s
 	#toy-sort-puzzle {
 		background-size: 100% 55.3%;
 
-	}
-	
-	/* bomb defuse case study start */
-	#bomb-defuse-background {
-		background-size: 100% 69%;
-	}
-
-	/* responsive bomb defuse hero */
-	.bomb-defuse-app {
-		padding: 170px 0px 90px 0px;
-
-	}
-
-	.bomb-defuse-app .bread-titlev2 {
-		text-align: center;
-		color: white;
-	}
-
-	.bomb-defuse-app .bread-titlev2 h1 {
-		color: #FAAF3A;
-		margin-top: 20px;
-	}
-
-	.bomb-defuse-app .bread-titlev2 p {
-		margin: 7px 0 7px 0;
-		font-size: 14px;
-		word-spacing: 2px;
-
-	}
-
-	.bomb-defuse-app .logo {
-		width: 100%;
-		max-width: 500px;
-		display: block;
-		margin: 0 auto;
 	}
 
 

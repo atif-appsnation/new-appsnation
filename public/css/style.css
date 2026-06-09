@@ -37,6 +37,7 @@
     --grey-color: #373631;
     --brown-color-2: #42262b;
     --yellow-color: #FAAF3A;
+    --orange-color-2: #FF5E00;
     --dur: .15s;
     --delay: .15s;
     --radius: 10px;
@@ -21110,7 +21111,7 @@ textarea::-ms-input-placeholder {
 }
 
 .bomb-defuse-spacing {
-    margin: 120px 0 120px 0;
+    padding: 60px 0px;
 }
 
 .bomb-defuse-app {
@@ -21156,17 +21157,17 @@ textarea::-ms-input-placeholder {
     margin: 0 auto;
 }
 
-.project-idea-bomb-defuse .project-idea-content h2 {
+.project-idea-bomb-defuse h2 {
     padding-bottom: 20px;
 }
 
-.project-idea-bomb-defuse .project-idea-content h2,
-.project-idea-bomb-defuse .project-idea-content p {
+.project-idea-bomb-defuse h2,
+.project-idea-bomb-defuse p {
     color: var(--white-color);
 }
 
-.project-idea-bomb-defuse .project-idea-content h2 span,
-.project-idea-bomb-defuse .project-idea-content p span {
+.project-idea-bomb-defuse h2 span,
+.project-idea-bomb-defuse p span {
     color: var(--yellow-color);
 }
 
@@ -21190,7 +21191,6 @@ textarea::-ms-input-placeholder {
 .bomb-defuse-mockup h2 {
     color: var(--yellow-color);
     text-align: center;
-    padding: 50px 0 50px 0;
 }
 
 .bomb-defuse-mockup img {
@@ -21200,7 +21200,6 @@ textarea::-ms-input-placeholder {
 
 .achievements-bomb-defuse h2 {
     color: wheat;
-    margin: 10px 0 10px 0;
 }
 
 .achievements-bomb-defuse h2 span {
@@ -21231,28 +21230,23 @@ textarea::-ms-input-placeholder {
 
 /*End Bomb Defuse  */
 
-/* End Case Studies */
+/* Start Car Mechanic App */
 
+.car-mechanic {
+    padding: 60px 0px;
+}
 
+.car-mechanic-app {
+    padding: 200px 0px 100px 0px;
+}
 
-
-
-
-
-
-
-
-
-/* start car mechanic case study Section*/
 #car-mechanic-background {
-    background: url("../images/case-studies/car-mechanic-app/background-car-mechanic.webp")top center / cover no-repeat;
+    background: url("../images/case-studies/car-mechanic-app/car-mechanic-app-background.webp")top center / cover no-repeat;
     background-size: 100% 78%;
 }
 
-/* start hero car mechanic */
-.car-mechanic {
-    padding: 200px 0px 190px 0px;
-
+.car-mechanic h2, .car-mechanic p, .car-mechanic h5 {
+    color: var(--white-color);
 }
 
 .car-mechanic .bread-titlev2 {
@@ -21262,18 +21256,10 @@ textarea::-ms-input-placeholder {
 
 .car-mechanic .bread-titlev2 h1 {
     color: var(--white-color);
-    margin-top: 20px;
-}
-
-.car-mechanic .bread-titlev2 p {
-    margin: 30px;
-    font-size: 29px;
-    word-spacing: 2px;
-
 }
 
 .car-mechanic .bread-titlev2 h1 span {
-    color: #FF5E00;
+    color: var(--orange-color-2);
 }
 
 .car-mechanic .logo {
@@ -21285,7 +21271,7 @@ textarea::-ms-input-placeholder {
 
 .car-mechanic .car-mechanic-hero-tag {
     background-color: var(--white-color);
-    color: #FF5E00;
+    color: var(--orange-color-2);
     padding: 20px 10px 20px 10px;
     text-align: center;
     display: inline-block;
@@ -21293,70 +21279,14 @@ textarea::-ms-input-placeholder {
     font-weight: bold;
 }
 
-
-/* Start introduction bomb squad Section   */
-.car-mehanic .car-mehanic-content h2 {
-    padding-bottom: 20px;
+.car-mechanic h2 span,
+.car-mechanic p span {
+    color: var(--orange-color-2);
 }
 
-.car-mehanic .car-mehanic-content h2,
-.car-mehanic .car-mehanic-content p {
-    color: var(--white-color);
-    margin-bottom: 20px;
-}
+/* End Car Mechanic App */
 
-.car-mehanic .car-mehanic-content h2 span,
-.car-mehanic .car-mehanic-content p span {
-    color: #FF5E00;
-}
-
-.car-mehanic-img img {
-    width: 100%;
-    max-width: 380px;
-    display: block;
-    margin: 0 auto;
-}
-
-/* Start introduction bomb squad Section   */
-
-
-
-/*start project idea car mechanic Section*/
-.project-idea-car-mechanic .project-idea-content h2 {
-    padding-bottom: 20px;
-}
-
-.project-idea-car-mechanic .project-idea-content h2,
-.project-idea-car-mechanic .project-idea-content p {
-    color: var(--white-color);
-}
-
-.project-idea-car-mechanic .project-idea-content h2 span,
-.project-idea-car-mechanic .project-idea-content p span {
-    color: #FF5E00;
-}
-
-.project-idea-car-mechanic-img img {
-    width: 100%;
-    max-width: 380px;
-    display: block;
-    margin: 0 auto;
-}
-
-/*End project idea car mechanic Section*/
-.car-mechanic-result-section h2,
-.car-mechanic-result-section p {
-    color: var(--white-color);
-    text-align: center;
-}
-
-.car-mechanic-result-section h2 span,
-.car-mechanic-result-section p span {
-    color: #FF5E00;
-}
-
-/* End car mechanic case study Section*/
-
+/* End Case Studies */
 
 
 
