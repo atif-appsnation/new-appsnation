@@ -38,6 +38,7 @@
     --brown-color-2: #42262b;
     --yellow-color: #FAAF3A;
     --orange-color-2: #FF5E00;
+    --yellow-color-2: #FFEC00;
     --dur: .15s;
     --delay: .15s;
     --radius: 10px;
@@ -21286,34 +21287,29 @@ textarea::-ms-input-placeholder {
 
 /* End Car Mechanic App */
 
-/* End Case Studies */
+/* Start Toy Sort Puzzle */
 
-
-
-/* start toy sort puzzle case studys section  */
 #toy-sort-puzzle {
     background: url("../images/case-studies/toy-sort-puzzle/toy-sort-puzzle-background.webp")top center / cover no-repeat;
     background-size: 100% 76.1%;
-
+    padding: 220px 0px 180px 0px;
 }
 
-/*Start toy sort hero section */
-.toy-sort-puzzle {
-    padding: 220px 0px 235px 0px;
+.toy-sort-puzzle h1, .toy-sort-puzzle h2, .toy-sort-puzzle p {
+    color: var(--white-color);
+}
 
+.toy-sort-puzzle h2 span, .toy-sort-puzzle p span {
+    color: var(--yellow-color-2);
 }
 
 .toy-sort-puzzle .bread-titlev2 h1,
 .toy-sort-puzzle .bread-titlev2 p {
     text-align: center;
     color: var(--white-color);
-
 }
 
-/* ===== Floating Animation ===== */
-.imageFloteLeft img,
-.imageFloteRight img {
-    width: 100%;
+.animate {
     max-width: 80px;
     height: auto;
     animation: floatY 3s ease-in-out infinite;
@@ -21356,7 +21352,7 @@ textarea::-ms-input-placeholder {
 
 .toy-sort-introduction .toy-sort-title span,
 .toy-sort-introduction .toy-sort-paragraph span {
-    color: #FFEC00;
+    color: #fff;
     text-align: start;
 }
 
@@ -21438,6 +21434,12 @@ textarea::-ms-input-placeholder {
 }
 
 /*End toy sort player feedback section */
+
+/* End Case Studies */
+
+
+
+
 
 
 

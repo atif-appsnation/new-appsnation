@@ -3,311 +3,213 @@
 @section('content')
 
 <!--Breadcrumb Area-->
-<!--start hero section bomb defuse -->
-<section class="toy-sort-puzzle wow fadeIn">
+<section class="toy-sort-puzzle">
     @if ($errors->has('g-recaptcha-response'))
     <div class="alert alert-danger">
         <strong>{{ $errors->first('g-recaptcha-response') }}</strong>
     </div>
     @endif
 
-    <div class="container wow fadeIn" data-wow-delay="0.2s">
+    <div class="container">
         <div class="row align-items-center">
-
             <div class="col-md-3 text-center text-md-start">
-                <div class="imageFloteLeft wow fadeInLeft" data-wow-delay="0.6s">
-                    <img loading="lazy" src="{{asset('images/case-studies/toy-sort-puzzle/puzzle.webp')}}" alt="Puzzle Toy">
-                </div>
+                <img loading="lazy" src="{{asset('images/case-studies/toy-sort-puzzle/toy-sort-puzzle-puzzle.webp')}}" alt="Toy Sort Puzzle" class="img-fluid animate">
             </div>
-
             <div class="col-md-6 text-center">
-                <img loading="lazy" src="{{asset('images/case-studies/toy-sort-puzzle/logo.webp')}}" class="logo" alt="Toy Sort Puzzle Logo">
+                <img loading="lazy" src="{{asset('images/case-studies/toy-sort-puzzle/toy-sort-puzzle-logo.webp')}}" class="logo img-fluid" alt="Toy Sort Puzzle Logo">
             </div>
-
             <div class="col-md-3 text-center text-md-end">
-                <div class="imageFloteRight wow fadeInRight" data-wow-delay="0.6s">
-                    <img loading="lazy" src="{{asset('images/case-studies/toy-sort-puzzle/duck.webp')}}" alt="Duck Toy">
-                </div>
+                <img loading="lazy" src="{{asset('images/case-studies/toy-sort-puzzle/toy-sort-puzzle-duck.webp')}}" alt="Toy Sort Puzzle Duck" class="img-fluid animate">
             </div>
-
         </div>
-
         <div class="row">
             <div class="col-lg-12 ">
                 <div class="bread-titlev2 mt-4 text-center">
                     <h1>Sort, Match & Play!</h1>
                     <p class="p-3"><b>Now Available on iOS & Google Play</b></p>
-
-
                 </div>
             </div>
         </div>
         <div class="row">
-            <div class="col-md-4 toy-sort-playstore">
-                <div class="imageFloteLeft wow fadeInLeft" data-wow-delay="0.6s ">
-                    <img loading="lazy" src="{{asset('images/case-studies/toy-sort-puzzle/car.webp')}}" alt="Duck Toy">
-                </div>
+            <div class="col-md-4">
+                <img loading="lazy" src="{{asset('images/case-studies/toy-sort-puzzle/toy-sort-puzzle-car.webp')}}" alt="Toy Sort Puzzle Card" class="img-fluid animate">
             </div>
             <div class="col-md-4">
-                <img loading="lazy" src="{{asset('images/case-studies/bomb-defuse-app/appstore.webp')}}" class="logo" alt="App Store">
-
+                <img loading="lazy" src="{{asset('images/case-studies/play-and-app-store.webp')}}" class="logo img-fluid" alt="App & Play Store">
             </div>
             <div class="col-md-4"></div>
         </div>
     </div>
 </section>
-
-<!--End hero section bomb defuse -->
 <!-- End Breadcrumb Area-->
 
-<!--start toy sort introduction  -->
-<section class="toy-sort-introduction  py-5  wow fadeIn">
-    <div class="container wow fadeInUp">
-        <div class="row align-items-center text-center text-md-start">
-            <div class="col-12 col-md-12 col-lg-6 mb-4 mb-md-4 car-mehanic-img  order-1 order-md-1 order-lg-1 ">
-                <img loading="lazy" src="{{asset('images/case-studies/toy-sort-puzzle/Introduction-img-1.webp')}}" class="img-fluid" alt="project description">
+<!--Start Toy Sort Puzzle Introduction -->
+<section class="toy-sort-introduction toy-sort-puzzle py-5">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-12 col-lg-6 text-center order-1 order-md-1 order-lg-1 ">
+                <img loading="lazy" src="{{asset('images/case-studies/toy-sort-puzzle/toy-sort-puzzle-introduction-01.webp')}}" class="img-fluid" alt="Toy Sort Puzzle Introduction">
             </div>
-            <div class="col-12 col-md-12 col-lg-6 order-2 order-md-2 order-lg-2">
-                <div class="car-mehanic-content">
-                  <div class="row">
-                      <div class="col-8">
-                          <h2 class="toy-sort-title">Introduction<span> Play Sort Fun 3D</span></h2>
-                        </div>
-                        <div class="col-4">
-                            <div class="imageFloteRight wow fadeInRight" data-wow-delay="0.6s">
-                        <img loading="lazy" src="{{asset('images/case-studies/toy-sort-puzzle/Introduction-img-2.webp')}}" alt="Duck Toy">
-                    </div>
-                        </div>
-                    </div>
-                    <p class="toy-sort-paragraph">
-                       Play Sort Fun 3D is a visually immersive and mentally engaging puzzle game developed by <span>AppexGames,</span> where players match and sort realistic 3D objects to clear levels. The game is designed for casual players who enjoy tidying, organizing, and solving matching challenges. With smooth mechanics, satisfying visual effects, and hundreds of fun levels, it offers a perfect balance of brain training and relaxation.
-                    </p>
-                </div>
-
-
-            </div>
-
-
-        </div>
-    </div>
-</section>
-<!--End toy sort introduction -->
-
-
-<!--start project idea toy sort puzzle Section -->
-<section class="toy-sort-project-idea container wow fadeInUp">
-    <div class="row align-items-center text-center text-md-start">
-
-        <!-- Content Column -->
-        <div class="col-12 col-md-12 col-lg-6 order-2 order-md-2 order-lg-1">
-            <div class="car-mehanic-content">
+            <div class="col-12 col-lg-6 mt-5 mt-lg-0 order-2 order-md-2 order-lg-2">
                 <div class="row">
                     <div class="col-8">
-                        <h2 class="toy-sort-title">Project <span>Idea</span></h2>
+                        <h2>Introduction<span> Play Sort Fun 3D</span></h2>
                     </div>
                     <div class="col-4">
-                        <div class="imageFloteRight wow fadeInLeft" data-wow-delay="0.6s">
-                            <img loading="lazy" src="{{asset('images/case-studies/toy-sort-puzzle/taddy.webp')}}" alt="Duck Toy">
-                        </div>
+                        <img loading="lazy" src="{{asset('images/case-studies/toy-sort-puzzle/toy-sort-puzzle-introduction-02.webp')}}" alt="Toy Sort Puzzle Introduction" class="img-fluid animate">
                     </div>
                 </div>
-                <p class="toy-sort-paragraph">
-                    The core idea behind Play Sort Fun 3D was to create a tactile, satisfying sorting experience that would feel like digital decluttering. 
-                    <span>AppexGames</span> aimed to introduce gameplay that involves dragging, rotating, and matching 3D items—like fruits, toys, animals, and everyday objects—against the clock. 
-                    The game was designed to be relaxing, yet stimulating, with the right amount of challenge to keep players engaged while providing a sense of order and achievement.
-                </p>
-                <div class="imageFloteLeft wow fadeInLeft" data-wow-delay="0.6s">
-                    <img loading="lazy" src="{{asset('images/case-studies/toy-sort-puzzle/red-doll.webp')}}" alt="Duck Toy">
-                </div>
+                <p> Play Sort Fun 3D is a visually immersive and mentally engaging puzzle game developed by <span>AppexGames,</span> where players match and sort realistic 3D objects to clear levels. The game is designed for casual players who enjoy tidying, organizing, and solving matching challenges. With smooth mechanics, satisfying visual effects, and hundreds of fun levels, it offers a perfect balance of brain training and relaxation. </p>
             </div>
         </div>
-
-        <!-- Image Column -->
-        <div class="col-12 col-md-12 col-lg-6 mb-4 mb-md-4 car-mehanic-img order-1 order-md-1 order-lg-2">
-            <img loading="lazy" src="{{asset('images/case-studies/toy-sort-puzzle/project-idea-img.webp')}}" class="img-fluid" alt="project description">
-        </div>
-
     </div>
 </section>
+<!--End Toy Sort Puzzle Introduction -->
 
-<!--End project idea toy sort puzzle Section -->
-
-
-<!--start  game goal  section -->
-
-<section class="toy-sort-project-idea container wow fadeInUp">
-    <div class="row align-items-center text-center text-md-start">
-
-        <!-- Image Column -->
-        <div class="col-12 col-md-12 col-lg-6 mb-4 mb-md-4 car-mehanic-img
-                      order-1 order-md-1 order-lg-1 ">
-            <img loading="lazy" src="{{asset('images/case-studies/toy-sort-puzzle/game-goal-img.webp')}}"
-                 class="img-fluid" alt="project description">
+<!-- Start Toy Sort Puzzle Project Idea -->
+<section class="toy-sort-project-idea toy-sort-puzzle py-5">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-12 col-md-12 col-lg-6 order-2 order-md-2 order-lg-1">
+                <div class="row">
+                    <div class="col-8">
+                        <h2>Project <span>Idea</span></h2>
+                    </div>
+                    <div class="col-4">
+                        <img loading="lazy" src="{{asset('images/case-studies/toy-sort-puzzle/toy-sort-puzzle-bear.webp')}}" alt="Toy Sort Puzzle Bear" class="img-fluid animate">
+                    </div>
+                    <p>The core idea behind Play Sort Fun 3D was to create a tactile, satisfying sorting experience that would feel like digital decluttering. <span>AppexGames</span> aimed to introduce gameplay that involves dragging, rotating, and matching 3D items—like fruits, toys, animals, and everyday objects—against the clock. The game was designed to be relaxing, yet stimulating, with the right amount of challenge to keep players engaged while providing a sense of order and achievement.</p>
+                    <img loading="lazy" src="{{asset('images/case-studies/toy-sort-puzzle/toy-sort-puzzle-red-doll.webp')}}" alt="Toy Sort Puzzle Red Doll" class="img-fluid animate">
+                </div>
+            </div>
+            <div class="col-12 col-md-12 col-lg-6 mb-4 mb-md-4 order-1 order-md-1 order-lg-2 text-center">
+                <img loading="lazy" src="{{asset('images/case-studies/toy-sort-puzzle/toy-sort-puzzle-project-idea.webp')}}" class="img-fluid" alt="Toy Sort Puzzle Project">
+            </div>
         </div>
+    </div>
+</section>
+<!-- End Toy Sort Puzzle Project Idea -->
 
-        <!-- Content Column -->
-        <div class="col-12 col-md-12 col-lg-6
-                    order-2 order-md-2 order-lg-2">
-            <div class="car-mehanic-content">
-
+<!-- Start Toy Sort Puzzle Goals -->
+<section class="toy-sort-project-idea toy-sort-puzzle py-5">
+    <div class="container">
+        <div class="row align-items-center text-center">
+            <div class="col-12 col-md-12 col-lg-6 mb-4 mb-md-4 order-1 order-md-1 order-lg-1 ">
+                <img loading="lazy" src="{{asset('images/case-studies/toy-sort-puzzle/toy-sort-puzzle-game-goal.webp')}}" class="img-fluid" alt="Toy Sort Puzzle Game Goal">
+            </div>
+            <div class="col-12 col-md-12 col-lg-6 order-2 order-md-2 order-lg-2">
                 <div class="row">
                     <div class="offset-8 col-4">
-                        <div class="imageFloteRight wow fadeInLeft" data-wow-delay="0.6s">
-                            <img loading="lazy" src="{{asset('images/case-studies/toy-sort-puzzle/white-doll.webp')}}"
-                                 alt="Duck Toy">
-                        </div>
+                        <img loading="lazy" src="{{asset('images/case-studies/toy-sort-puzzle/toy-sort-puzzle-white-doll.webp')}}" alt="Toy Sort Puzzle White Doll" class="img-fluid animate">
                     </div>
                 </div>
-
-                <h2 class="toy-sort-title text-lg-end text-start">
-                    Game <span>Goal</span>
-                </h2>
-
-                <p class="toy-sort-paragraph">
-                    <span>AppexGames</span> set out to design a game that could improve focus,
-                    memory, and visual recognition through simple, clutter-clearing mechanics.
-                    The main goals were intuitive 3D interactions, colorful objects, and
-                    gradually increasing difficulty without pressure.
-                </p>
-
+                <h2 class="text-lg-end text-start"> Game <span>Goal</span> </h2>
+                <p><span>AppexGames</span> set out to design a game that could improve focus, memory, and visual recognition through simple, clutter-clearing mechanics. The main goals were intuitive 3D interactions, colorful objects, and gradually increasing difficulty without pressure. </p>
             </div>
         </div>
-
     </div>
 </section>
-
-<!-- End  game goal  section -->
+<!-- End Toy Sort Puzzle Goals -->
  
-<!-- start audience target section -->
- <section class="toy-sort-audience-target bomb-defuse-spaceing  wow fadeIn text-center">
+<!-- Start Toy Sort Puzzle Target Audience -->
+ <section class="toy-sort-audience-target toy-sort-puzzle py-5">
     <div class="container">
         <div class="row">
             <div class="col-md-12">
                 <div class="row">
                     <div class="col-md-4">
-                         <div class="imageFloteLeft wow fadeInLeft" data-wow-delay="0.6s">
-                    <img loading="lazy" src="{{asset('images/case-studies/toy-sort-puzzle/robot.webp')}}" alt="Duck Toy">
-                </div>
+                        <img loading="lazy" src="{{asset('images/case-studies/toy-sort-puzzle/toy-sort-puzzle-robot.webp')}}" alt="Toy Sort Puzzle Robot" class="img-fluid animate">
                     </div>
                     <div class="col-md-4">
-                <h2 class="bomb-defuse-title">Target  <span>Audience</span></h2>
-
+                        <h2>Target  <span>Audience</span></h2>
                     </div>
-                    <div class="offset-md-2 col-md-2 ">
-                         <div class="imageFloteRight wow fadeInRight " data-wow-delay="0.6s">
-                    <img loading="lazy" src="{{asset('images/case-studies/toy-sort-puzzle/plane.webp')}}" alt="Duck Toy">
-                </div>
+                    <div class="col-md-4 text-lg-end">
+                        <img loading="lazy" src="{{asset('images/case-studies/toy-sort-puzzle/toy-sort-puzzle-plane.webp')}}" alt="Toy Sort Puzzle Plane" class="img-fluid animate">
                     </div>
                 </div>
-                <p class="bomb-defuse-paragraph">The game is tailored for casual mobile gamers of all ages, particularly those who enjoy sorting, organizing, or playing visually satisfying games like ASMR or minimal puzzlers. It’s ideal for kids, adults, and elderly players alike who want to relax and sharpen their focus during short breaks or daily downtime.</p>
+                <p>The game is tailored for casual mobile gamers of all ages, particularly those who enjoy sorting, organizing, or playing visually satisfying games like ASMR or minimal puzzlers. It’s ideal for kids, adults, and elderly players alike who want to relax and sharpen their focus during short breaks or daily downtime.</p>
             </div>
         </div>
-             <div class="row mt-4">
-            <div class="col-12 text-center toy-sort-target-audience-img">
-                <img loading="lazy" src="{{asset('images/case-studies/toy-sort-puzzle/morkup.webp')}}" alt="wood-land morkup" class="img-fluid">
+        <div class="row mt-4">
+            <div class="col-12 text-center">
+                <img loading="lazy" src="{{asset('images/case-studies/toy-sort-puzzle/toy-sort-puzzle-mockup.webp')}}" alt="Toy Sort Puzzle Mockup" class="img-fluid">
             </div>
         </div>
-
     </div>
 </section>
 <!-- End audience target section -->
 
-
-<!-- start toy sort puzzle Elements section -->
-<section class="toy-sort-Element wow fadeIn  bomb-defuse-spaceing  wow fadeIn">
+<!-- Start Toy Sort Puzzle Target Element -->
+<section class="toy-sort-element toy-sort-puzzle py-5">
     <div class="container">
-         <div class="row">
-                    <div class="col-md-4">
-                         <div class="imageFloteLeft wow fadeInLeft" data-wow-delay="0.6s">
-                    <img loading="lazy" src="{{asset('images/case-studies/toy-sort-puzzle/elefent.webp')}}" alt="Duck Toy">
-                </div>
-                    </div>
-                    <div class="col-md-4">
-                <h2 class="bomb-defuse-title mb-sm-4">Elements </h2>
-
-                    </div>
-                    <div class="offset-md-2 col-md-2 ">
-                        
-                    </div>
-                </div>
-        <div class="row ">
-            <div class="col-12 text-center">
-                <img loading="lazy" src="{{asset('images/case-studies/toy-sort-puzzle/element-img.webp')}}" alt="wood-land morkup" class="img-fluid">
+         <div class="row mb-4">
+            <div class="col-md-4">
+                <img loading="lazy" src="{{asset('images/case-studies/toy-sort-puzzle/toy-sort-puzzle-elephant.webp')}}" alt="Toy Sort Puzzle Elephant" class="img-fluid animate">
             </div>
+            <div class="col-md-4">
+                <h2>Elements</h2>
+            </div>
+            <div class="offset-md-2 col-md-4"></div>
         </div>
-    </div>
-</section>
-<!-- End toy sort puzzle Elements section -->
-
-
-<!-- start toy sort player feedback section  -->
-<section class="toy-sort-player-feedback wow fadeIn  bomb-defuse-spaceing  wow fadeIn">
-    <div class="container">
-         <div class="row">
-                    <div class="col-md-4">
-                         <div class="imageFloteLeft wow fadeInLeft" data-wow-delay="0.6s">
-                    <img loading="lazy" src="{{asset('images/case-studies/toy-sort-puzzle/boll.webp')}}" alt="Duck Toy">
-                </div>
-                    </div>
-                    <div class="col-md-4">
-                <h2 class="bomb-defuse-title mb-sm-4">Player Feedback </h2>
-
-                    </div>
-                    <div class="offset-md-2 col-md-2 ">
-                         <div class="imageFloteRight wow fadeInRight" data-wow-delay="0.6s">
-                    <img loading="lazy" src="{{asset('images/case-studies/toy-sort-puzzle/dog.webp')}}" alt="Duck Toy">
-                </div>
-                    </div>
-                </div>
-        <div class="row toy-sort-user-feedback-img">
-            <div class="col-4 text-center">
-                <img loading="lazy" src="{{asset('images/case-studies/toy-sort-puzzle/screen1.webp')}}" alt="wood-land morkup" class="img-fluid">
-            </div>
-            <div class="col-4 text-center">
-                <img loading="lazy" src="{{asset('images/case-studies/toy-sort-puzzle/screen2.webp')}}" alt="wood-land morkup" class="img-fluid">
-            </div>
-            <div class="col-4 text-center">
-                <img loading="lazy" src="{{asset('images/case-studies/toy-sort-puzzle/screen3.webp')}}" alt="wood-land morkup" class="img-fluid">
-            </div>
-        </div>
-    </div>
-</section>
-<!-- End toy sort player feedback section  -->
-
- 
-
-<!-- start audience target section -->
- <section class="toy-sort-audience-target bomb-defuse-spaceing  wow fadeIn">
-    <div class="container">
         <div class="row">
+            <div class="col-12 text-center">
+                <img loading="lazy" src="{{asset('images/case-studies/toy-sort-puzzle/toy-sort-puzzle-element.webp')}}" alt="Toy Sort Puzzle Element" class="img-fluid">
+            </div>
+        </div>
+    </div>
+</section>
+<!-- End Toy Sort Puzzle Target Element -->
+
+<!-- Start Toy Sort Puzzle Feedback -->
+<section class="toy-sort-player-feedback toy-sort-puzzle py-5">
+    <div class="container">
+        <div class="row mb-4">
+            <div class="col-md-4">
+                <img loading="lazy" src="{{asset('images/case-studies/toy-sort-puzzle/toy-sort-puzzle-ball.webp')}}" alt="Toy Sort Puzzle Ball" class="img-fluid animate">
+            </div>
+            <div class="col-md-4">
+                <h2>Player Feedback</h2>
+            </div>
+            <div class="offset-md-2 col-md-2 ">
+                <img loading="lazy" src="{{asset('images/case-studies/toy-sort-puzzle/toy-sort-puzzle-dog.webp')}}" alt="Toy Sort Puzzle Dog" class="img-fluid animate">
+            </div>
+        </div>
+        <div class="row toy-sort-user-feedback-img">
+            <div class="col-6 col-lg-4 text-center">
+                <img loading="lazy" src="{{asset('images/case-studies/toy-sort-puzzle/toy-sort-puzzle-screen-01.webp')}}" alt="Toy Sort Puzzle Screen" class="img-fluid">
+            </div>
+            <div class="col-6 col-lg-4 text-center">
+                <img loading="lazy" src="{{asset('images/case-studies/toy-sort-puzzle/toy-sort-puzzle-screen-02.webp')}}" alt="Toy Sort Puzzle Screen" class="img-fluid">
+            </div>
+            <div class="col-6 col-lg-4 text-center">
+                <img loading="lazy" src="{{asset('images/case-studies/toy-sort-puzzle/toy-sort-puzzle-screen-03.webp')}}" alt="Toy Sort Puzzle Screen" class="img-fluid">
+            </div>
+        </div>
+    </div>
+</section>
+<!-- End Toy Sort Puzzle Feedback -->
+
+<!-- Start Toy Sort Puzzle Result -->
+ <section class="toy-sort-result toy-sort-puzzle py-5">
+    <div class="container">
+        <div class="row mb-4">
             <div class="col-md-12">
                 <div class="row">
                     <div class="col-md-4">
-                         <div class="imageFloteLeft wow fadeInLeft" data-wow-delay="0.6s">
-                    <img loading="lazy" src="{{asset('images/case-studies/toy-sort-puzzle/ring-puzzle.webp')}}" alt="Duck Toy">
-                </div>
+                        <img loading="lazy" src="{{asset('images/case-studies/toy-sort-puzzle/toy-sort-puzzle-ring-puzzle.webp')}}" alt="Toy Sort Puzzle Ring Puzzle" class="img-fluid animate">
                     </div>
                     <div class="col-md-4 text-center">
-                <h2 class="bomb-defuse-title">Results<span> & Impact  </span></h2>
-
+                        <h2>Results<span> & Impact </span></h2>
                     </div>
-                    <div class="offset-md-2 col-md-2 ">
-                         <div class="imageFloteRight wow fadeInRight " data-wow-delay="0.6s">
-                    <img loading="lazy" src="{{asset('images/case-studies/toy-sort-puzzle/truck.webp')}}" alt="Duck Toy">
-                </div>
+                    <div class="col-md-4 text-lg-end">
+                        <img loading="lazy" src="{{asset('images/case-studies/toy-sort-puzzle/toy-sort-puzzle-truck.webp')}}" alt="Toy Sort Puzzle Truck" class="img-fluid animate">
                     </div>
                 </div>
-                <p class="bomb-defuse-paragraph">Play Sort Fun 3D has received strong user retention and positive feedback, especially for its satisfying gameplay and clean design. Players appreciated how the game balances relaxation and challenge, offering a therapeutic yet stimulating experience. Many users report improved concentration and memory through regular play, aligning with the game’s brain-training goals. With growing downloads and high engagement metrics, the title continues to thrive among casual gamers.</p>
+                <p class="text-center">Play Sort Fun 3D has received strong user retention and positive feedback, especially for its satisfying gameplay and clean design. Players appreciated how the game balances relaxation and challenge, offering a therapeutic yet stimulating experience. Many users report improved concentration and memory through regular play, aligning with the game’s brain-training goals. With growing downloads and high engagement metrics, the title continues to thrive among casual gamers.</p>
             </div>
-        </div>
-              
-
+        </div>   
     </div>
 </section>
-<!-- End audience target section -->
+<!-- End Toy Sort Puzzle Result -->
 
-
-<!-- start
- 
- 
 @endsection
