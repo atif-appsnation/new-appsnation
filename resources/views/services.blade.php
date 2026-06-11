@@ -10,7 +10,6 @@
 	<div class="container">
 		<div class="row justify-content-between">
 			<div class="col-md-12 col-lg-6 order-2 order-lg-1 my-auto wow fadeIn">
-
 				<div class="bread-titlev2">
 					<h1 class="banner-heading pt-3" data-wow-delay=".2s">Empower Your Business with Next-Gen Digital Services</h1>
 					<p class="mt20 text-white" data-wow-delay=".4s">Here at <a href="{{url('/')}}" target="_blank"> AppsNation</a>, we love creating experiences that really
@@ -28,7 +27,6 @@
 				</div>
 			</div>
 			<div class="col-md-12 col-lg-4 order-1 order-lg-2 wow fadeIn">
-
 				<div class="niwax23form shadow">
 					<div class="common-heading text-l">
 						{!! NoCaptcha::renderJs() !!}
@@ -76,7 +74,7 @@
 				</div>
 			</div>
 		</div>
-
+	</div>
 </section>
 <!--End Breadcrumb-->
 
@@ -102,74 +100,54 @@
 		</div>
 	</div>
 </section> -->
+<!--End About-->
 
-
-<section id="mycounterSection" class="py-5 scale-up-services-section">
+<!-- Start Scale Up -->
+<section id="mycounterSection" class="py-5 scale-up-services">
 	<div class="container">
-		<div class="row">
-
-			<!-- Left Content -->
-			<div class="col-lg-7 col-md-12 order-2 order-lg-1 d-flex align-items-center">
-
-				<div>
-					<div data-text=" " class="light-bg-text bg-text">
-						<h2> <span class="flup-theme">AppsNation</span></h2>
+		<div class="row align-items-center">
+			<div class="col-lg-7 col-md-12 order-2 order-lg-1">
+				<div data-text="" class="light-bg-text bg-text">
+					<h2><span class="flup-theme">AppsNation</span></h2>
+				</div>
+				<div data-text="" class="light-bg-text bg-text">
+					<h2>Scale-Up With Our Services</h2>
+				</div>
+				<p>AppsNation offers end-to-end digital solutions designed to help businesses scale. From mobile app development and web solutions to UI/UX design, data analytics, and digital marketing, our expert teams deliver high-performance, scalable, and results-driven services across industries.</p>
+				<div class="square mt-4">
+					<a data-bs-toggle="modal" data-bs-target="#menu-popup" class="btn-br bg-btn3 bg-btn-scalup btshad-b2 lnk">Book Mobile App Consultation
+						<span class="circle"> </span>
+					</a>
+				</div>
+				<div class="row justify-content-center achievements-count mt-3">
+					<div class="col-6 col-sm-6 col-md-3 pb-3 pb-md-3 pb-lg-0">
+						<h2 id="count1" class="numbers-count">10+</h2>
+						<p class="numbers-about">Years On The market</p>
 					</div>
-					<div data-text="" class="light-bg-text bg-text">
-						<h2>Scale-Up With Our Services</h2>
+					<div class="col-6 col-sm-6 col-md-3 pb-3 pb-md-3 pb-lg-0">
+						<h2 id="count2" class="numbers-count">900+</h2>
+						<p class="numbers-about">People On Board</p>
 					</div>
-
-
-					<p>
-						AppsNation offers end-to-end digital solutions designed to help businesses scale. From mobile app development and web solutions to UI/UX design, data analytics, and digital marketing, our expert teams deliver high-performance, scalable, and results-driven services across industries.
-					</p>
-
-					<!-- Button -->
-					<div class="square mt-4">
-
-
-
-						<a data-bs-toggle="modal" data-bs-target="#menu-popup" class="btn-br bg-btn3 bg-btn-scalup btshad-b2 lnk">Book Mobile App Consultation
-							<span class="circle"> </span>
-						</a>
+					<div class="col-6 col-sm-6 col-md-3 pt-3 pt-md-0 pb-3 pb-md-3 pb-lg-0">
+						<h2 id="count3" class="numbers-count">10k</h2>
+						<p class="numbers-about">Projects Delivered</p>
 					</div>
-
-					<!-- Counters -->
-					<div class="row justify-content-center   wow fadeIn  achievements-count mt-3 " style="visibility: visible; animation-name: fadeIn;">
-						<div class="col-6 col-sm-6 col-md-3 pb-3 pb-md-3 pb-lg-0">
-							<h2 id="count1" class="numbers-count">10+</h2>
-							<p class="numbers-about">Years On The market</p>
-						</div>
-						<div class="col-6 col-sm-6 col-md-3 pb-3 pb-md-3 pb-lg-0">
-							<h2 id="count2" class="numbers-count">900+</h2>
-							<p class="numbers-about">People On Board</p>
-						</div>
-						<div class="col-6 col-sm-6 col-md-3 pt-3 pt-md-0 pb-3 pb-md-3 pb-lg-0">
-							<h2 id="count3" class="numbers-count">10k</h2>
-							<p class="numbers-about">Projects Delivered</p>
-						</div>
-						<div class="col-6 col-sm-6 col-md-3 pt-3 pt-md-0 pb-3 pb-md-3 pb-lg-0">
-							<h2 id="count4" class="numbers-count">67</h2>
-							<p class="numbers-about">Our Current NPS Score</p>
-						</div>
+					<div class="col-6 col-sm-6 col-md-3 pt-3 pt-md-0 pb-3 pb-md-3 pb-lg-0">
+						<h2 id="count4" class="numbers-count">67</h2>
+						<p class="numbers-about">Our Current NPS Score</p>
 					</div>
 				</div>
 			</div>
-
-			<!-- Right Image -->
 			<div class="col-lg-5 col-md-12 text-center order-1 order-lg-2">
-
-				<div class="image-block wow fadeIn">
-
+				<div class="image-block">
 					<img loading="lazy" data-text="Appsnation" src="images/service/services-imgs.png" alt="Android App Development" class="img-fluid no-shadow mx-auto" />
 				</div>
 			</div>
-
 		</div>
 	</div>
 </section>
+<!-- End Scale Up -->
 
-<!--End About-->
 
 <!--Start Service-->
 <!-- <section class="service-section-app py-5 dark-bg2">
@@ -669,7 +647,6 @@
 		</div>
 	</div>
 </section>
-
 
 <!--start banner section  -->
 <section class="services-box-section p-100 text-white my-5 py-5">

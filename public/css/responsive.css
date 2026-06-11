@@ -2303,7 +2303,6 @@
 		left: 55%
 	}
 
-
 	.cost-calculator .wizard-form .book-a-consultant-now .text-cont {
 		margin-left: 35%;
 	}
@@ -2461,7 +2460,15 @@
 		font-size: 16px;
 	}
 
-	
+	.animate-right, .animate-left {
+		display: block;
+		margin: 0 auto;
+	}
+
+	#toy-sort-puzzle {
+		background-size: 100% 55.9%;
+	}
+
 }
 
 @media screen and (max-width: 767px) {
@@ -3098,24 +3105,6 @@
 		right: 38.5%;
 	}
 
-
-	/* toy sort case study start */
-	#toy-sort-puzzle {
-		background-size: 100% 71%;
-
-	}
-
-	/* royal relax case study start */
-	.royal-relax-spaceing {
-		margin: 95px 0 80px 0;
-	}
-
-	/* load board case study start */
-	.load-board-hero-section .logo img {
-		max-width: 220px;
-		padding-bottom: 10px;
-	}
-
 	/* map section */
 	.distribution-map .map-point i {
 		font-size: 20px;
@@ -3262,6 +3251,15 @@
 
 	.couple-app-designs .central-line {
 		display: none;
+	}
+
+	.animate-right, .animate-left {
+		display: block;
+		margin: 0 auto;
+	}
+
+	#toy-sort-puzzle {
+		background-size: 100% 64.4%;
 	}
 
 }
@@ -3825,6 +3823,20 @@
 		padding: 150px 0px 0px;
 	}
 
+	.animate-right {
+		display: block;
+		margin-left: auto;
+	}
+
+	.animate-left {
+		display: block;
+		margin-right: auto;
+	}
+
+	#toy-sort-puzzle {
+		background-size: 100% 70.0%;
+	}
+
 }
 
 @media only screen and (min-width:1440px) and (max-width:1599px) {
@@ -4136,6 +4148,20 @@
 
 	.alejandro-hero-section {
 		padding: 270px 0px 0px;
+	}
+
+	.animate-right {
+		display: block;
+		margin-left: auto;
+	}
+
+	.animate-left {
+		display: block;
+		margin-right: auto;
+	}
+
+	#toy-sort-puzzle {
+		background-size: 100% 75.5%;
 	}
 
 }
@@ -5113,7 +5139,7 @@
 	/*End banners section*/
 
 
-
+}
 
 @media (max-width: 767px) {
 	/* start case studys */
@@ -5297,13 +5323,6 @@
 	}
 
 
-	/* toy sort puzzle case study start */
-
-	.toy-sort-audience-target .imageFloteRight img,
-	.toy-sort-player-feedback .imageFloteRight img {
-		display: none;
-	}
-
 
 }
 
@@ -5317,11 +5336,6 @@
 	.case-tag {
 		padding: 6px 16px;
 		font-size: 0.9rem;
-	}
-
-	/* car mechanic case study */
-	#car-mechanic-background {
-		background-size: 100% 54.4%;
 	}
 }
 
@@ -5442,12 +5456,6 @@
 		border-radius: 10px;
 	}
 
-	/* toy sort puzzle case study */
-	.imageFloteLeft,
-	.imageFloteRight {
-		margin-bottom: 20px;
-		text-align: center;
-	}
 
 	/* .section-wrapper {
 		padding-top: 20px;
@@ -5542,12 +5550,6 @@
 
 @media (max-width: 576px) {
 
-	/* toy sort puzzle case study */
-	.imageFloteLeft img,
-	.imageFloteRight img {
-		max-width: 50px;
-		animation-duration: 2s;
-	}
 	
 
 
@@ -5573,33 +5575,6 @@
 	}
 
 
-	/* toy sort case study start */
-	#toy-sort-puzzle {
-		background-size: 100% 67%;
-
-	}
-
-	.toy-sort-puzzle .imageFloteRight {
-		margin-top: 52px;
-	}
-
-	.toy-sort-playstore .imageFloteLeft img {
-		display: none;
-	}
-
-
-	/* mike mathis completed */
-	
-
-
-	/* mike mathis project decribtion section */
-	.Project-Description-title {
-		font-size: 30px;
-	}
-
-	.Project-Description-titleparagraph {
-		font-size: 18px;
-	}
 
 }
 
@@ -5647,28 +5622,6 @@
 		font-size: 24px;
 	}
 
-
-	/* couple app case study */
-	.couple-app {
-		background: url("../images/case-studies/couple-app/hero-background-couple-app.webp")center center/cover no-repeat;
-
-	}
-
-	.couple-app .logo {
-		max-width: 110px;
-		margin: 0;
-	}
-
-	.couple-app h1 {
-		font-size: 52px;
-		line-height: 65px;
-	}
-
-	/* toy sort case study start */
-	#toy-sort-puzzle {
-		background-size: 100% 55.3%;
-
-	}
 
 
 	.tcd iframe {
