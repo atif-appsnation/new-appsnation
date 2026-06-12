@@ -167,7 +167,43 @@
             },
             768: {
                 items: 2,
+            },
+            1200: {
+                items: 3
+            },
+            1400: {
+                items: 3
+            },
+            1600: {
+                items: 3
+            },
+        }
+    });
 
+    var owl = $('.services-card');
+    owl.owlCarousel({
+        items: 9,
+        loop: true,
+        autoplay: true,
+        centre: true,
+        margin: 45,
+        nav: false,
+        dots: true,
+        autoplayTimeout: 9000,
+        autoplayHoverPause: true,
+        smartSpeed: 6000,
+        responsiveClass: true,
+        rewind: true,
+        responsive: {
+            0: {
+                items: 1
+            },
+            520: {
+                items: 1,
+
+            },
+            768: {
+                items: 2,
             },
             1200: {
                 items: 3
