@@ -11085,7 +11085,7 @@ button:not(:disabled) {
 
 .ai-services .service-one .card:hover {
     background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../images/services-banner/ar-app-development.webp") center /cover no-repeat;
-    /* background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../images/services-banner/web-app-development.webp") center /cover no-repeat; */
+    
 }
 
 .ai-services .service-two .card:hover {
@@ -11135,7 +11135,7 @@ button:not(:disabled) {
 }
 
 .design-services .service-three .card:hover {
-    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../images/services-banner/3d-Interior.webp") center /cover no-repeat;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../images/services-banner/3d-interior.webp") center /cover no-repeat;
 }
 
 .design-services .service-four .card:hover {
@@ -11150,8 +11150,34 @@ button:not(:disabled) {
     background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../images/services-banner/3d-art.webp") center /cover no-repeat;
 }
 
-.services-card .servive-card-col.e-commerce-service .card:hover {
-    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../images/services-banner/e-commerce-service.jpg") center /cover no-repeat;
+.web-development-services .service-one .card:hover {
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../images/services-banner/web-portal-development.webp") center /cover no-repeat;
+}
+
+.web-development-services .service-two .card:hover {
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../images/services-banner/e-commerce-app-development.webp") center /cover no-repeat;
+}
+
+.web-development-services .service-three .card:hover {
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../images/services-banner/web-app-development.webp") center /cover no-repeat;
+}
+
+.services-box .service-seven {
+    background-image: url("../images/services-banner/iot-app-development-background.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.services-box .service-eight {
+    background-image: url("../images/services-banner/vr-app-development-background.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.services-box .service-nine {
+    background-image: url("../images/services-banner/web-app-development-background.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 /* .services-card .card:hover .services-image {
@@ -11165,25 +11191,25 @@ button:not(:disabled) {
 .services-card .card .services-text p {
     color: var(--black-color);
     font-weight: 500;
-    word-spacing: 2px;
+    padding-top: 10px;
+    /* word-spacing: 2px; */
 }
 
 .services-card .card:hover .services-text p {
     color: var(--white-color);
     font-weight: 500;
-    word-spacing: 2px;
+    /* word-spacing: 2px; */
 }
 
 .services-card .card:hover .service-heading h3 {
-    font-size: 34px;
+    /* font-size: 34px; */
     line-height: 40px;
     color: var(--white-color);
 }
 
-.service-card:hover .service-heading h3 {
+/* .service-card:hover .service-heading h3 {
      color: var(--white-color);
-}
-
+} */
 
 
 .scale-up-services {
@@ -11232,8 +11258,6 @@ button:not(:disabled) {
 .service-section-app .owl-theme .owl-nav .owl-next {
     right: -1255px;
     font-size: 60px;
-
-
 }
 
 
@@ -11253,6 +11277,8 @@ button:not(:disabled) {
     transform: rotateZ(-45deg);
     transition: 0.3s;
 }
+
+/* End Services Page */
 
 /* New */
 

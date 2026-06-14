@@ -9,7 +9,7 @@
 	@endif
 	<div class="container">
 		<div class="row justify-content-between">
-			<div class="col-md-12 col-lg-6 order-2 order-lg-1 my-auto">
+			<div class="col-md-12 col-lg-6 my-auto">
 				<div class="bread-titlev2">
 					<h1 class="banner-heading pt-3" data-wow-delay=".2s">Empower Your Business with Next-Gen Digital Services</h1>
 					<p class="mt20 text-white" data-wow-delay=".4s">Here at <a href="{{url('/')}}" target="_blank"> AppsNation</a>, we love creating experiences that really make a difference and help businesses thrive. We're all about fresh ideas and making sure our clients are happy, which helps you tackle the tricky bits of the digital world. We get things done that truly count and make a real impact</p>
@@ -21,7 +21,7 @@
 					</ul>
 				</div>
 			</div>
-			<div class="col-md-12 col-lg-4 order-1 order-lg-2">
+			<div class="col-md-12 col-lg-4">
 				<div class="niwax23form shadow">
 					<div class="common-heading text-l">
 						{!! NoCaptcha::renderJs() !!}
@@ -224,7 +224,7 @@
 		<div class="service-banner-slider owl-carousel owl-theme">
 			<div class="banner-box-image service-one">
 				<div class="h-100 align-items-center row">
-					<div class="col-xxl-5 col-xl-6 col-lg-6 col-md-8 col-12">
+					<div class="col-12 col-md-8 col-lg-6 col-xl-6 col-xxl-5">
 						<h2><span>AR App </span>Development Services</h2>
 						<p>We design interactive AR apps that blend digital factors with the actual world. Our AR app improvement complements consumer engagement, boosts emblem enjoy, and creates immersive solutions for advertising and marketing, gaming, and schooling.</p>
 						<div class="banner-btn">
@@ -236,7 +236,7 @@
 			</div>
 			<div class="banner-box-image service-two">
 				<div class="h-100 align-items-center row">
-					<div class="col-xxl-5 col-xl-6 col-lg-6 col-md-8 col-12">
+					<div class="col-12 col-md-8 col-lg-6 col-xl-6 col-xxl-5">
 						<h2><span>Android App </span>Development Services</h2>
 						<p>A luxurious well-being destination designed to rejuvenate your body and mind with premium treatments and tranquil ambiance. From soothing therapies to personalized care, Royal Spa is built to deliver unparalleled relaxation and pure serenity.</p>
 						<div class="banner-btn">
@@ -248,7 +248,7 @@
 			</div>
 			<div class="banner-box-image service-three">
 				<div class="h-100 align-items-center row">
-					<div class="col-xxl-5 col-xl-6 col-lg-6 col-md-8 col-12">
+					<div class="col-12 col-md-8 col-lg-6 col-xl-6 col-xxl-5">
 						<h2><span>Cross Platform App </span>Development Services</h2>
 						<p>Our move-platform app improvement lets you attain Android and iOS customers with one effective answer. We build price-effective, rapid, and scalable apps that supply steady performance across all devices.</p>
 						<div class="banner-btn">
@@ -425,7 +425,7 @@
 		<div class="service-banner-slider owl-carousel owl-theme">
 			<div class="banner-box-image service-four">
 				<div class="h-100 align-items-center row">
-					<div class="col-xxl-5 col-xl-6 col-lg-6 col-md-8 col-12">
+					<div class="col-12 col-md-8 col-lg-6 col-xl-6 col-xxl-5">
 						<h2><span>E-Commerce App</span>Development Services</h2>
 						<p>We expand stable and consumer-pleasant e-commerce apps that force income and customer loyalty. From clean checkout to clever product management, our e-commerce app development helps develop your on-line commercial enterprise.</p>
 						<div class="banner-btn">
@@ -437,7 +437,7 @@
 			</div>
 			<div class="banner-box-image service-five">
 				<div class="h-100 align-items-center row">
-					<div class="col-xxl-5 col-xl-6 col-lg-6 col-md-8 col-12">
+					<div class="col-12 col-md-8 col-lg-6 col-xl-6 col-xxl-5">
 						<h2><span>Game App </span>Development Services</h2>
 						<p>We create attractive and outstanding sport apps with immersive visuals, smooth controls, and addictive gameplay. From informal to competitive video games, our recreation app development turns thoughts into experiences players love.</p>
 						<div class="banner-btn">
@@ -449,7 +449,7 @@
 			</div>
 			<div class="banner-box-image service-six">
 				<div class="h-100 align-items-center row">
-					<div class="col-xxl-5 col-xl-6 col-lg-6 col-md-8 col-12">
+					<div class="col-12 col-md-8 col-lg-6 col-xl-6 col-xxl-5">
 						<h2><span>IOS App </span>Development Services</h2>
 						<p>Our iOS app development can provide smooth, stable, and excessive-acting apps for iPhone and iPad. We recognition on smooth layout, smooth navigation, and Apple standards to assist your brand stand out in the App Store.</p>
 						<div class="banner-btn">
@@ -602,22 +602,20 @@
 </section>
 <!-- End Design Devices Services -->
 
-<section class="service-section-app py-5 mt-4 dark-bg2">
+<!-- Start Web Development Services -->
+<section class="web-development-services py-5">
 	<div class="container">
 		<div class="row justify-content-center">
 			<div class="col-12 my-5">
 				<div data-text="Web service" class="light-bg-text bg-text text-start">
 					<div class="sctxt">Web Development Service</div>
 				</div>
-
 			</div>
 		</div>
-
-		<div class="row  mt-5">
+		<div class="row mt-5">
 			<div class="services-card owl-carousel owl-theme">
-
-				<div class="col-12 animation-services">
-					<div class="card  ">
+				<div class="col-12 service-one">
+					<div class="card">
 						<div class="card-body">
 							<div class="services-title">
 								<div class="services-image">
@@ -636,8 +634,8 @@
 						</div>
 					</div>
 				</div>
-				<div class="col-12  e-commerce-service">
-					<div class="card  ">
+				<div class="col-12 service-two">
+					<div class="card">
 						<div class="card-body">
 							<div class="services-title">
 								<div class="services-image">
@@ -648,9 +646,7 @@
 								</div>
 							</div>
 							<div class="services-text">
-								<p>E-commerce app development services for secure, scalable, and user-friendly web apps. Custom design, fast performance, and seamless payment integration.
-
-								</p>
+								<p>E-commerce app development services for secure, scalable, and user-friendly web apps. Custom design, fast performance, and seamless payment integration.</p>
 								<a href="{{url('/e-commerce-app-development')}}" class="mt20 link-prbs">
 									<i class="fa-solid fa-arrow-right"></i>
 								</a>
@@ -658,7 +654,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="col-12  service-five">
+				<div class="col-12 service-three">
 					<div class="card">
 						<div class="card-body">
 							<div class="services-title">
@@ -679,82 +675,60 @@
 						</div>
 					</div>
 				</div>
-
 			</div>
 		</div>
 	</div>
 </section>
+<!-- End Web Development Services -->
 
-<section class="services-box-section p-100 text-white my-5 py-5">
+<!-- Start Services -->
+<section class="services-box p-100 text-white py-5">
 	<div class="h-100 container">
-		<div class="mb-4 row">
-			<div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6 col-12">
-			</div>
-		</div>
-
 		<div class="service-banner-slider owl-carousel owl-theme">
-
-			<div class="banner-box-image" style="background-image: url(images/services-banner/iot-app-development-background.png); background-repeat: no-repeat; background-size: cover;">
+			<div class="banner-box-image service-seven">
 				<div class="h-100 align-items-center row">
-					<div class="col-xxl-5 col-xl-6 col-lg-6 col-md-8 col-12">
+					<div class="col-12 col-md-8 col-lg-6 col-xl-6 col-xxl-5">
 						<h2><span>IoT App </span>Development Services</h2>
-						<p>We create smart IoT apps that connect gadgets, facts, and customers seamlessly. Our IoT app development allows you monitor, manipulate, and automate structures in real time for better performance and smarter selections.
-
-
-						</p>
+						<p>We create smart IoT apps that connect gadgets, facts, and customers seamlessly. Our IoT app development allows you monitor, manipulate, and automate structures in real time for better performance and smarter selections.</p>
 						<div class="banner-btn">
-							<a
-								href="{{url('/iot-app-development')}}" target="_blank" aria-label="Appsnation Contact">Explore Our Services</a>
+							<a href="{{url('/iot-app-development')}}" target="_blank" aria-label="Appsnation Contact">Explore Our Services</a>
 							<a data-bs-toggle="modal" data-bs-target="#menu-popup" class="process-btn-effect" class="active">Request A Quote</a>
 						</div>
 					</div>
 				</div>
 			</div>
-			<div class="banner-box-image" style="background-image: url(images/services-banner/vr-app-development-background.png); background-repeat: no-repeat; background-size: cover;">
+			<div class="banner-box-image service-eight">
 				<div class="h-100 align-items-center row">
-					<div class="col-xxl-5 col-xl-6 col-lg-6 col-md-8 col-12">
+					<div class="col-12 col-md-8 col-lg-6 col-xl-6 col-xxl-5">
 						<h2><span>VR App </span>Development Services</h2>
-						<p>Our VR app improvement brings thoughts to lifestyles via immersive virtual experiences. From gaming to education apps, we build remarkable VR answers that experience real, attractive, and future-ready.
-
-						</p>
+						<p>Our VR app improvement brings thoughts to lifestyles via immersive virtual experiences. From gaming to education apps, we build remarkable VR answers that experience real, attractive, and future-ready.</p>
 						<div class="banner-btn">
-							<a
-								href="{{url('/vr-app-development')}}" target="_blank" aria-label="Appsnation Contact">Explore Our Services</a>
+							<a href="{{url('/vr-app-development')}}" target="_blank" aria-label="Appsnation Contact">Explore Our Services</a>
 							<a data-bs-toggle="modal" data-bs-target="#menu-popup" class="process-btn-effect" class="active">Request A Quote</a>
 						</div>
 					</div>
 				</div>
 			</div>
-			<div class="banner-box-image" style="background-image: url(images/services-banner/web-app-development-background.png); background-repeat: no-repeat; background-size: cover;">
+			<div class="banner-box-image service-nine">
 				<div class="h-100 align-items-center row">
-					<div class="col-xxl-5 col-xl-6 col-lg-6 col-md-8 col-12">
+					<div class="col-12 col-md-8 col-lg-6 col-xl-6 col-xxl-5">
 						<h2><span>Web App </span>Development Services</h2>
-						<p>Our web app development makes a speciality of rapid, responsive, and scalable solutions. We construct modern-day internet apps with clean UI, sturdy security, and clean performance to help your commercial enterprise boom on-line.
-
-						</p>
+						<p>Our web app development makes a speciality of rapid, responsive, and scalable solutions. We construct modern-day internet apps with clean UI, sturdy security, and clean performance to help your commercial enterprise boom on-line.</p>
 						<div class="banner-btn">
-							<a
-								href="{{url('/web-app-development	t')}}" target="_blank" aria-label="Appsnation Contact">Explore Our Services</a>
+							<a href="{{url('/web-app-development')}}" target="_blank" aria-label="Appsnation Contact">Explore Our Services</a>
 							<a data-bs-toggle="modal" data-bs-target="#menu-popup" class="process-btn-effect" class="active">Request A Quote</a>
 						</div>
 					</div>
 				</div>
 			</div>
-
-
-
 		</div>
-
-
-
-		>
-	</div>
 	</div>
 </section>
+<!-- End Services -->
+
 <!--Start Let's Work Together-->
 <section class="my-4">
 	<div class="container">
-
 		<div class="row py-5 justify-content-center hire-developer">
 			<div class="col-lg-9">
 				<div class="free-cta-title v-center">

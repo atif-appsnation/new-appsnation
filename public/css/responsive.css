@@ -2360,6 +2360,11 @@
 		padding: 24px 0 23px 63px;
 	}
 
+	.services-box .banner-box-image {
+		border-radius: 30px;
+		padding: 24px 0 23px 63px;
+	}
+
 	.hero-section-royal-ride {
         background: linear-gradient(to bottom, #C39449 0%, #C39449 5%, transparent 10%);
         padding-top: 100px;
@@ -2469,6 +2474,26 @@
 		background-size: 100% 55.9%;
 	}
 
+	.services-box .banner-box-image {
+		aspect-ratio: 531 / 549;
+		border-radius: 30px;
+		padding: 23px;
+	}
+
+	.services-box .owl-theme .owl-nav.disabled+.owl-dots {
+		margin-top: -28px;
+	}
+
+	.services-box .owl-theme .owl-dots .owl-dot span {
+		height: 0.3em;
+		width: 0.3em;
+		margin: 3px;
+	}
+
+	#car-mechanic-background {
+		background-size: 100% 54.6%;
+	}
+
 }
 
 @media screen and (max-width: 767px) {
@@ -2524,6 +2549,16 @@
 @media (max-width: 991px) {
 	.boujee-beachin-designs .central-line {
 		display: none;
+	}
+
+	.services-box .owl-theme .owl-nav.disabled+.owl-dots {
+		margin-top: -28px;
+	}
+
+	.services-box .owl-theme .owl-dots .owl-dot span {
+		height: 0.3em;
+		width: 0.3em;
+		margin: 3px;
 	}
 }
 
@@ -3262,6 +3297,10 @@
 		background-size: 100% 64.4%;
 	}
 
+	#car-mechanic-background {
+        background-size: 100% 64.5%;
+    }
+
 }
 
 @media only screen and (min-width:1024px) and (max-width:1439px) {
@@ -3837,6 +3876,10 @@
 		background-size: 100% 70.0%;
 	}
 
+	#car-mechanic-background {
+		background-size: 100% 69.7%;
+	}
+
 }
 
 @media only screen and (min-width:1440px) and (max-width:1599px) {
@@ -4164,6 +4207,10 @@
 		background-size: 100% 75.5%;
 	}
 
+	#car-mechanic-background {
+		background-size: 100% 69.7%;
+	}
+
 }
 
 @media only screen and (min-width:1600px) and (max-width:1919px) {                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              
@@ -4470,6 +4517,11 @@
 
 	.alejandro-hero-section {
 		padding: 240px 0px 0px;
+	}
+
+	#car-mechanic-background {
+		background: url(../images/case-studies/car-mechanic-app/car-mechanic-app-background.webp) top center / cover no-repeat;
+		background-size: 100% 76.7%;
 	}
 
 }
@@ -5120,33 +5172,11 @@
 	}
 }
 
-@media (max-width: 1199px) {
-
-	.banner-box-image h2 {
-		font-size: 35px;
-	}
-
-	.banner-box-image p {
-		font-size: 13px;
-		word-spacing: 1.5px;
-	}
-
-	.banner-box-image .banner-btn a {
-		font-size: 12px;
-		line-height: 6px;
-	}
-
-	/*End banners section*/
-
-
-}
 
 @media (max-width: 767px) {
 	/* start case studys */
 	/* car mechanic case study */
-	#car-mechanic-background {
-		background-size: 100% 58.7%;
-	}
+	
 
 	/* awards section */
 
@@ -5186,10 +5216,7 @@
 	}
 
 
-	/* car mechanic case study */
-	#car-mechanic-background {
-		background-size: 100% 66.4%;
-	}
+
 
 
 	/* hero bages slider start */
@@ -5207,10 +5234,7 @@
 
 
 	/* car-mechanic case study */
-	#car-mechanic-background {
-		background-size: 100% 72%;
 	
-	}
 
 
 
@@ -5286,146 +5310,7 @@
 	}
 }
 
-
-@media (max-width: 1400px) {
-
-
-	.logo-img {
-		max-width: 120px;
-	}
-
-	.case-tag {
-		padding: 8px 20px;
-		font-size: 1rem;
-	}
-
-	.hero-main-img {
-		margin-top: 20px;
-	}
-}
-
-
-@media (max-width: 767px) {
-
-
-
-	.logo-img {
-		max-width: 170px;
-	}
-
-	.case-tag {
-		padding: 8px 20px;
-		font-size: 1rem;
-	}
-
-	.hero-main-img {
-		margin-top: 20px;
-	}
-
-
-
-}
-
-@media (max-width: 575px) {
-
-	.logo-img {
-		max-width: 150px;
-	}
-
-
-	.case-tag {
-		padding: 6px 16px;
-		font-size: 0.9rem;
-	}
-}
-
-@media (max-width: 992px) {
-
-
-
-	
-
-
-	/* start tech-img-box */
-
-	.col-12.d-flex {
-		flex-direction: column;
-		gap: 20px;
-	}
-
-	.tech-img-box {
-		width: 100%;
-		justify-content: flex-start;
-		padding: 15px 10px;
-	}
-
-
-
-}
-
-@media (min-width: 992px) {
-
-	
-}
-
-@media (max-width: 768px) {
-	.wireframes-section {
-		text-align: center;
-	}
-
-	.wireframes-section ul {
-		flex-direction: column;
-		align-items: center;
-		gap: 10px;
-	}
-
-	.wireframes-section ul li {
-		width: 100%;
-		max-width: 320px;
-		text-align: center;
-	}
-
-
-}
-
-@media (max-width: 1400px) {
-	.challenges-heading span {
-		font-size: 24px;
-	}
-
-	.challenges-section {
-		padding: 40px 0;
-	}
-
-	.challenges ul li {
-		align-items: center;
-	}
-
-	.challenges-img {
-		margin-top: 20px;
-	}
-
-	.challenges-img img {
-		width: 100%;
-		max-width: 510px;
-
-	}
-}
-
 @media (max-width: 991px) {
-	/*Start services section banner */
-
-	.services-box-section .owl-theme .owl-nav.disabled+.owl-dots {
-		margin-top: -28px;
-	}
-
-	.services-box-section .owl-theme .owl-dots .owl-dot span {
-		height: 0.3em;
-		width: 0.3em;
-		margin: 3px;
-	}
-
-	/*end services section banner */
 	/* home  */
 	.portfolio-wide-image img {
 		display: block;
@@ -5433,28 +5318,6 @@
 		margin: 0 auto;
 	}
 
-	.challenges-heading span {
-		font-size: 24px;
-	}
-
-	.challenges-section {
-		padding: 40px 0;
-	}
-
-	.challenges ul li {
-		align-items: center;
-		font-size: 20px;
-	}
-
-	.challenges-img {
-		margin-top: 20px;
-	}
-
-	.challenges-img img {
-		width: 100%;
-		max-width: 480px;
-		border-radius: 10px;
-	}
 
 
 	/* .section-wrapper {
@@ -5479,31 +5342,6 @@
 
 }
 
-@media (max-width: 768px) {
-	.challenges-heading span {
-		font-size: 24px;
-	}
-
-	.challenges-section {
-		padding: 40px 0;
-	}
-
-	.challenges ul li {
-		align-items: center;
-	}
-
-	.challenges-img {
-		margin-top: 20px;
-	}
-
-	.challenges-img img {
-		width: 100%;
-		max-width: 480px;
-		border-radius: 10px;
-	}
-
-
-}
 
 @media (max-width: 768px) {
 		.user-testing-img {
@@ -5529,11 +5367,7 @@
 
 
 	/*start service pages banner section */
-	.services-box-section .banner-box-image {
-		aspect-ratio: 531 / 549;
-		border-radius: 30px;
-		padding: 24px 0 23px 63px;
-	}
+	
 
 	/*End service pages banner section */
 
@@ -5560,23 +5394,6 @@
 
 }
 
-@media (max-width: 768px) {
-	.conclusion-heading {
-		font-size: 26px;
-		text-align: center;
-	}
-
-	.conclusion-paragraph {
-		text-align: center;
-	}
-
-	.conclusion-right img {
-		margin-top: 15px;
-	}
-
-
-
-}
 
 @media (max-width: 480px) {
 
@@ -5595,9 +5412,6 @@
 		right: 42.1%;
 	}
 
-	.conclusion-heading {
-		font-size: 24px;
-	}
 
 	.portfolio-main-tag {
 		display: flex;
@@ -5616,10 +5430,6 @@
 	.persona-left-column-card {
 		height: 100%;
 
-	}
-
-	.conclusion-heading {
-		font-size: 24px;
 	}
 
 
@@ -6080,10 +5890,6 @@
 
 	}
 
-	.btn-close {
-		filter: invert(1);
-	}
-
 	.video-container iframe {
 		position: absolute;
 		top: 0;
@@ -6093,12 +5899,7 @@
 	}
 }
 
-@media (max-width:1200px) {
 
-	.btn-close {
-		filter: invert(1);
-	}
-}
 
 @media (max-width: 768px) {
     .video-card iframe {

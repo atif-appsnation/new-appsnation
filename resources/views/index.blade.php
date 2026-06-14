@@ -34,7 +34,7 @@
 		<div class="row align-items-center">
 			<div class="col-sm-12 col-md-12 col-lg-8 v-center" data-rellax-speed="-3">
 				<div class="hero-heading-sec2 niwax" data-rellax-speed="3">
-					<h1 class="wow fadeIn cd-headline clip">Top Rated
+					<h1 class="wowcd-headline clip">Top Rated
 						<span class="cd-words-wrapper">
 							<b class="is-visible">Mobile App</b>
 							<b>Android App</b>
@@ -104,13 +104,13 @@
 					<h3 class="key-numbers text-center mt-5">Our Work In Numbers</h3>
 				</div>
 			</div>
-			<div class="col-lg-8 wow fadeIn mt-3">
+			<div class="col-lg-8 wowmt-3">
 				<p class="key-desc text-center">With the help of <strong>50 plus</strong> highly trained professional team we're able to achieve these amazing numbers which is enough proof of our success. We do not speak about our success, our work speaks about our success.</p>
 			</div>
 		</div> -->
 		<div class="row">
 			<div class="col-sm-12 col-md-12 col-lg-4">
-				<div class="common-heading ptag fadeIn py-5">
+				<div class="common-heading ptagpy-5">
 					<div data-text="Goals" class="light-bg-text bg-text">
 						<h2>Our <span>Progress </span> </h2>
 					</div>
@@ -120,7 +120,7 @@
 			<div class="col-sm-12 col-md-12 col-lg-8">
 
 
-				<div class="row justify-content-center   wow fadeIn achievements-count m-3">
+				<div class="row justify-content-center   wowachievements-count m-3">
 					<div class="col-6 col-sm-6 col-md-3 pb-3 pb-md-3 pb-lg-0">
 						<h2 id="count1" class="numbers-count">0+</h2>
 						<p class="numbers-about">Years On The market</p>
@@ -198,7 +198,7 @@
 <section class="service-section-app py-5 dark-bg2">
 	<div class="container">
 		<div class="row justify-content-center">
-			<div class="col-12 fadeIn my-5">
+			<div class="col-12my-5">
 				<div data-text="Our Services" class="light-bg-text bg-text text-start">
 					<div class="sctxt">Our Expertise</div>
 				</div>
@@ -206,7 +206,7 @@
 		</div>
 		<div class="row mt-md-5 wow fadeIn">
 			<div class="services-card-rows owl-carousel owl-theme">
-				<div class="col-12 fadeIn servive-card-col service-one">
+				<div class="col-12 service-card-col service-one">
 					<div class="card">
 						<div class="card-body">
 							<div class="services-tital">
@@ -226,7 +226,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="col-12  fadeIn servive-card-col service-two">
+				<div class="col-12 service-card-col service-two">
 					<div class="card  ">
 						<div class="card-body">
 							<div class="services-tital">
@@ -246,7 +246,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="col-12  fadeIn servive-card-col service-three">
+				<div class="col-12 service-card-col service-three">
 					<div class="card">
 						<div class="card-body">
 							<div class="services-tital ">
@@ -266,7 +266,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="col-12 wow fadeIn servive-card-col service-four">
+				<div class="col-12 service-card-col service-four">
 					<div class="card">
 						<div class="card-body">
 							<div class="services-tital">
@@ -286,7 +286,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="col-12 wow fadeIn servive-card-col service-five">
+				<div class="col-12 service-card-col service-five">
 					<div class="card">
 						<div class="card-body">
 							<div class="services-tital">
@@ -306,7 +306,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="col-12 wow fadeIn servive-card-col service-six">
+				<div class="col-12 service-card-col service-six">
 					<div class="card ">
 						<div class="card-body">
 							<div class="services-tital">
@@ -326,7 +326,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="col-12 fadeIn servive-card-col service-seven">
+				<div class="col-12 service-card-col service-seven">
 					<div class="card">
 						<div class="card-body">
 							<div class="services-tital">
@@ -346,7 +346,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="col-12 fadeIn servive-card-col service-eight">
+				<div class="col-12 service-card-col service-eight">
 					<div class="card">
 						<div class="card-body">
 							<div class="services-tital">
@@ -366,7 +366,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="col-12 fadeIn servive-card-col service-nine">
+				<div class="col-12 service-card-col service-nine">
 					<div class="card">
 						<div class="card-body">
 							<div class="services-tital">
@@ -749,7 +749,7 @@
 						<h2 class="text-white">Hire Developers For <span>Custom IT Projects</span></h2>
 					</div>
 					<p class="pt-2 text-white">Our team of skilled and experienced developers specializes in creating tailored IT solutions that perfectly align with your business requirements. From software development to web applications, mobile apps, database management, and more, we have the expertise to deliver innovative solutions that meet your unique needs.</p>
-					<a href="{{url('/contact-us')}}" class="niwax-btn button-arounder btn wow fadeIn mt-3 py-2 px-3" data-wow-delay="0.8s">Get Consultation <i class="fas fa-chevron-right fa-ani"></i></a>
+					<a href="{{url('/contact-us')}}" class="niwax-btn button-arounder btn wowmt-3 py-2 px-3" data-wow-delay="0.8s">Get Consultation <i class="fas fa-chevron-right fa-ani"></i></a>
 				</div>
 			</div>
 			<div class="col-xl-6 mt-3">
@@ -1729,7 +1729,7 @@
 				</div>
 			</div>
 		</div>
-		<div class="row justify-content-center wow fadeIn mt-xl-5">
+		<div class="row justify-content-center wowmt-xl-5">
 			<div class="col-lg-12">
 				<div class="client-logoset">
 					<div class="row">
