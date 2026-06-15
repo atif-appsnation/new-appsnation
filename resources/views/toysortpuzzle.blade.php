@@ -103,7 +103,7 @@
                 <div class="col-md-2 mb-4 mb-lg-0">
                     <img loading="lazy" src="{{asset('images/case-studies/toy-sort-puzzle/toy-sort-puzzle-robot.webp')}}" alt="Toy Sort Puzzle Robot" class="img-fluid animate animate-left">
                 </div>
-                <div class="col-md-8 mb-5 mb-lg-0">
+                <div class="col-md-8 mb-5 mb-lg-0 text-center">
                     <h2>Target <span>Audience</span></h2>
                 </div>
                 <div class="col-md-2 text-lg-end mb-4 mb-lg-0">

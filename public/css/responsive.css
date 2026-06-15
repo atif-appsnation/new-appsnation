@@ -2494,6 +2494,10 @@
 		background-size: 100% 54.6%;
 	}
 
+	#bomb-defuse-background {
+        background-size: 100% 67%;
+    }
+
 }
 
 @media screen and (max-width: 767px) {
@@ -3301,6 +3305,10 @@
         background-size: 100% 64.5%;
     }
 
+	#bomb-defuse-background {
+        background-size: 100% 67%;
+    }
+
 }
 
 @media only screen and (min-width:1024px) and (max-width:1439px) {
@@ -3880,6 +3888,10 @@
 		background-size: 100% 69.7%;
 	}
 
+	#bomb-defuse-background {
+		background-size: 100% 79%;
+	}
+
 }
 
 @media only screen and (min-width:1440px) and (max-width:1599px) {
@@ -4211,6 +4223,10 @@
 		background-size: 100% 69.7%;
 	}
 
+	#bomb-defuse-background {
+		background-size: 100% 86%;
+	}
+
 }
 
 @media only screen and (min-width:1600px) and (max-width:1919px) {                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              
@@ -4520,8 +4536,11 @@
 	}
 
 	#car-mechanic-background {
-		background: url(../images/case-studies/car-mechanic-app/car-mechanic-app-background.webp) top center / cover no-repeat;
 		background-size: 100% 76.7%;
+	}
+
+	#bomb-defuse-background {
+		background-size: 100% 86%;
 	}
 
 }
