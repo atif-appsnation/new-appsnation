@@ -5412,8 +5412,9 @@ h3 a {
 .link-prbs {
     display: block;
     color: var(--black-color);
-    font-size: 36px;
+    /* font-size: 36px; */
     /* font-family: var(--font-family); */
+    font-size: 16px;
 }
 
 .link-prbs i {
@@ -5630,7 +5631,7 @@ body .bg-text:after {
     font-size: 190px;
     font-style: normal;
     font-weight: 700;
-    left: 0;
+    left: 20px;
     letter-spacing: -.03em;
     line-height: 0px;
     position: absolute;
@@ -5646,9 +5647,9 @@ body .dark-bg-text:after {
     opacity: .05;
 }
 
-body .bg-text:hover:after {
+/* body .bg-text:hover:after {
     animation: hoverFx 1s infinite;
-}
+} */
 
 .testimonials-section-app .bg-text,
 .technologies .bg-text,
@@ -5670,7 +5671,7 @@ body .bg-text:hover:after {
     top: 0px;
 }
 
-@keyframes hoverFx {
+/* @keyframes hoverFx {
     0% {
         bottom: 0;
         left: 0
@@ -5700,7 +5701,7 @@ body .bg-text:hover:after {
         bottom: 0;
         left: 0
     }
-}
+} */
 
 .business-startup {
     background: url(images/hero/wave-hero.svg);
@@ -8105,6 +8106,7 @@ a.smllbtnn {
 .pbwide {
     position: relative;
     /* padding: 0 50px; */
+    padding: 50px;
     border-radius: 8px;
     display: grid;
     grid-template-columns: auto 55%;
@@ -8113,14 +8115,14 @@ a.smllbtnn {
 }
 
 .portfolio-item-info-tt p {
-    font-size: 14px;
-    word-spacing: 3px;
+    /* font-size: 14px;
+    word-spacing: 3px; */
     font-weight: 500;
     color: var(--black-color);
 }
 
 .info-list-ul {
-    /* display: grid; */
+    display: grid;
     grid-template-columns: repeat(2, minmax(0, 1fr));
 }
 
@@ -8159,10 +8161,10 @@ a.smllbtnn {
 
 .portfolio-item-info-tt h3 {
     font-size: 50px;
-    line-height: 40px;
+    line-height: 50px;
     font-weight: 900;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: #314252;
+    /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
+    color: var(--black-color);
 }
 
 .desktopblock {
@@ -14537,6 +14539,8 @@ textarea::-ms-input-placeholder {
     position: relative;
     padding: 100px 0px;
     margin: 200px 0px 150px;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .lets-connect-img {

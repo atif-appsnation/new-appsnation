@@ -2498,6 +2498,19 @@
         background-size: 100% 67%;
     }
 
+	.awards-slider .owl-item .card img {
+		max-width: 150px;
+	}
+
+	.hero-slider .hero-bage-p {
+		margin-top: -7%;
+		border-right: none;
+		line-height: 100px;
+		font-weight: 800;
+		font-size: 24px;
+
+	}
+
 }
 
 @media screen and (max-width: 767px) {
@@ -3308,6 +3321,18 @@
 	#bomb-defuse-background {
         background-size: 100% 67%;
     }
+
+	.awards-slider .owl-item .card img {
+		max-width: 150px;
+	}
+
+	.hero-slider .hero-bage-p {
+		margin-top: 9%;
+		line-height: 100px;
+		font-weight: 800;
+		font-size: 12px;
+
+	}
 
 }
 
@@ -5191,91 +5216,6 @@
 	}
 }
 
-
-@media (max-width: 767px) {
-	/* start case studys */
-	/* car mechanic case study */
-	
-
-	/* awards section */
-
-
-	.awards-slider .owl-item .card img {
-		max-width: 150px;
-	}
-
-	.award-item h5 {
-		font-size: 16px;
-		padding: 0 50px 0 50px;
-	}
-
-
-	/* hero bages slider start */
-	.hero-slider .hero-bage-p {
-		margin-top: -7%;
-		border-right: none;
-		line-height: 100px;
-		font-weight: 800;
-		font-size: 24px;
-
-	}
-}
-
-@media (min-width: 768px) and (max-width: 991px) {
-
-	/* start case studys */
-	/* awards section */
-	.awards-slider .owl-item .card img {
-		max-width: 133px;
-	}
-
-	.award-item h5 {
-		font-size: 16px;
-		padding: 0 50px 0 50px;
-	}
-
-
-
-
-
-	/* hero bages slider start */
-	.hero-slider .hero-bage-p {
-		margin-top: 9%;
-		line-height: 100px;
-		font-weight: 800;
-		font-size: 12px;
-
-	}
-
-}
-
-@media (min-width:992px) and (max-width:1199px) {
-
-
-	/* car-mechanic case study */
-	
-
-
-
-	/* awards section */
-	.awards-slider .owl-item .card img {
-		max-width: 165px;
-	}
-
-	.award-item h5 {
-		font-size: 16px;
-		padding: 0 50px 0 50px;
-	}
-
-	/* hero bages slider start */
-	.hero-slider .hero-bage-p {
-		margin-top: 9%;
-		line-height: 100px;
-		font-weight: 800;
-		font-size: 12px;
-
-	}
-}
 
 @media (min-width:1200px) and (max-width:1399px) {
 
