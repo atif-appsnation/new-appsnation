@@ -8147,12 +8147,14 @@ a.smllbtnn {
 .portfolio-wide-image img {
     display: block;
     width: 100%;
-    margin: 0px 10px 30px -94px;
+    /* margin: 0px 10px 30px -94px; */
+    margin: 0px 10px 30px 0px;
 }
 
 .img-wide-blocktt {
     position: relative;
-    right: -80px;
+    /* right: -80px; */
+    right: 0px;
 }
 
 .portfolio-item-info-tt {
@@ -11235,43 +11237,21 @@ button:not(:disabled) {
     right: 15px;
 }
 
-.service-section-app .card .card-body {
-    display: flex;
-    flex-direction: column;
-    gap: 30px;
-    /* margin-top: 60px; */
-}
-
 .services-title {
     display: flex;
     flex-direction: column;
 }
 
-.service-section-app .owl-theme .owl-nav {
-    position: absolute;
-    top: 40%;
-}
 
-.service-section-app .owl-theme .owl-nav .owl-prev {
-    left: -55px;
-    font-size: 60px;
-}
-
-.service-section-app .owl-theme .owl-nav .owl-next {
-    right: -1255px;
-    font-size: 60px;
-}
-
-
-/* .service-section-app .card:hover {
+/* .home-services .card:hover {
     background-color: var(--first-color);
 }
 
-.service-section-app .card:hover img {
+.home-services .card:hover img {
     filter: invert(1);
 } */
 
-/* .service-section-app .card:hover h4, .service-section-app .card:hover p, .service-section-app .card:hover a {
+/* .home-services .card:hover h4, .home-services .card:hover p, .home-services .card:hover a {
     color: var(--white-color);
 } */
 
@@ -11848,7 +11828,7 @@ i.fa-brands.fa-instagram {
     align-items: center;
 } */
 
-/* .service-section-app .common-heading h2, .service-section-app .common-heading p {
+/* .home-services .common-heading h2, .home-services .common-heading p {
     color: var(--white-color);
 } */
 
@@ -12248,6 +12228,69 @@ i.fa-brands.fa-instagram {
     background-image: url(../images/banner/royal-spa-banner.png);
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+.home-services .card .card-body {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    /* margin-top: 60px; */
+}
+
+.services-title {
+    display: flex;
+    flex-direction: column;
+}
+
+.home-services .owl-theme .owl-nav {
+    position: absolute;
+    top: 40%;
+}
+
+.home-services .owl-theme .owl-nav .owl-prev {
+    left: -55px;
+    font-size: 60px;
+}
+
+.home-services .owl-theme .owl-nav .owl-next {
+    right: -1255px;
+    font-size: 60px;
+}
+
+.home-service .service-one .card:hover {
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../images/services-banner/android-app-development.webp) center / cover no-repeat;
+}
+
+.home-service .service-two .card:hover {
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../images/services-banner/ios-app-development.webp) center / cover no-repeat;
+}
+
+.home-service .service-three .card:hover {
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../images/services-banner/cross-platform-app-development.webp) center / cover no-repeat;
+}
+
+.home-service .service-four .card:hover {
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../images/services-banner/game-app-development.webp) center / cover no-repeat;
+}
+
+.home-service .service-five .card:hover {
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../images/services-banner/web-app-development.webp) center / cover no-repeat;
+}
+
+.home-service .service-six .card:hover {
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../images/services-banner/wearable-app-development.webp) center / cover no-repeat;
+}
+
+.home-service .service-seven .card:hover {
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../images/services-banner/ar-app-development.webp) center / cover no-repeat;
+}
+
+.home-service .service-eight .card:hover {
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../images/services-banner/vr-app-development.webp) center / cover no-repeat;
+}
+
+.home-service .service-nine .card:hover {
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../images/services-banner/mr-app-development.webp) center / cover no-repeat;
 }
 
 /* End Home Page */
@@ -21406,18 +21449,16 @@ textarea::-ms-input-placeholder {
     margin-top: 45px;
 }
 
-.hero-slider {}
+
 
 .hero-slider .hero-bage-p {
     margin-top: 7%;
     border-right: 2px solid var(--first-color);
-    line-height: 100px;
+    /* line-height: 100px; */
     color: var(--white-color);
     font-weight: 800;
     font-size: 18px;
 }
-
-
 
 
 .hero-bages-slider .h-img img {
@@ -21428,7 +21469,6 @@ textarea::-ms-input-placeholder {
     -webkit-backdrop-filter: blur(11px);
     border-radius: 16px;
     /* padding: 12px 8px;
-    
     box-shadow:
         0 8px 32px rgba(0, 0, 0, 0.35),
         inset 0 0 0.5px rgba(255, 255, 255, 0.6); */
@@ -21441,9 +21481,6 @@ textarea::-ms-input-placeholder {
 .about-bages-slides-div {
     margin-top: 45px;
 }
-
-
-
 
 .about-bages-slider .h-img {
     width: 100%;

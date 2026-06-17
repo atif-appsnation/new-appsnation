@@ -944,39 +944,31 @@
 		<div class="row">
 			<div class="col-md-12 col-lg-4">
 				<div class="process-btns">
-
 					<button class="tabBtn active" onclick="openTab('tab1',this)">
 						<i class="fa-solid fa-chart-line"></i>
 						<span>Project Analysis of Requirements</span>
 					</button>
-
 					<button class="tabBtn" onclick="openTab('tab2',this)">
 						<i class="fa-solid fa-pen-ruler"></i>
 						<span>Wireframing & Designing</span>
 					</button>
-
 					<button class="tabBtn" onclick="openTab('tab3',this)">
 						<i class="fa-solid fa-mobile-screen-button"></i>
 						<span>App Development</span>
 					</button>
-
 					<button class="tabBtn" onclick="openTab('tab4',this)">
 						<i class="fa-solid fa-check-to-slot"></i>
 						<span>App Testing</span>
 					</button>
-
 					<button class="tabBtn" onclick="openTab('tab5',this)">
 						<i class="fa-solid fa-cloud-arrow-up"></i>
 						<span>App Deployment</span>
 					</button>
-
 					<button class="tabBtn" onclick="openTab('tab6',this)">
 						<i class="fa-solid fa-wrench"></i>
 						<span>Maintenance</span>
 					</button>
-
 				</div>
-
 			</div>
 			<div class="col-md-12 col-lg-8">
 				<div class="process-tabs">

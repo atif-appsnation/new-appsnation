@@ -34,7 +34,7 @@
 		<div class="row align-items-center">
 			<div class="col-sm-12 col-md-12 col-lg-8 v-center" data-rellax-speed="-3">
 				<div class="hero-heading-sec2 niwax" data-rellax-speed="3">
-					<h1 class="wowcd-headline clip">Top Rated
+					<h1 class="wow cd-headline clip">Top Rated
 						<span class="cd-words-wrapper">
 							<b class="is-visible">Mobile App</b>
 							<b>Android App</b>
@@ -55,12 +55,10 @@
 						<i class="fas fa-chevron-right fa-icon"></i>
 						<span class="circle"></span>
 					</a>
-
 					<div class="row hero-bages-slides-div">
-						<div class="col-md-4">
+						<div class="col-md-4 my-auto">
 							<p class="hero-bage-p">Recognized for Excellence</p>
 						</div>
-
 						<div class="col-md-8">
 							<div class="hero-bages-slider owl-carousel owl-theme wow fadeIn">
 								<div class="h-img">
@@ -88,7 +86,7 @@
 </section>
 
 <!-- Start Key Highlights -->
-<section id="mycounterSection" class="key-highlights my-5">
+<section id="mycounterSection" class="key-highlights mt-5 py-5">
 	<div class="container">
 		<!-- <div class="row justify-content-center">
 			<div class="col-12 fadeIn">
@@ -113,8 +111,6 @@
 				</div>
 			</div>
 			<div class="col-sm-12 col-md-12 col-lg-8">
-
-
 				<div class="row justify-content-center   wowachievements-count m-3">
 					<div class="col-6 col-sm-6 col-md-3 pb-3 pb-md-3 pb-lg-0">
 						<h2 id="count1" class="numbers-count">0+</h2>
@@ -140,7 +136,7 @@
 <!-- End Key Highlights -->
 
 <!-- Start Case Studies -->
-<section class="banner-box-section home-banner-box-section text-white py-5">
+<section class="home-banner-box-section text-white py-5">
 	<div class="h-100 container">
 		<div class="mb-4 row">
 			<div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6 col-12">
@@ -190,7 +186,7 @@
 <!-- End Case Studies -->
 
 <!--Start Service-->
-<section class="service-section-app py-5 dark-bg2">
+<section class="home-service py-5">
 	<div class="container">
 		<div class="row justify-content-center">
 			<div class="col-12my-5">
@@ -199,183 +195,183 @@
 				</div>
 			</div>
 		</div>
-		<div class="row mt-md-5 wow fadeIn">
-			<div class="services-card-rows owl-carousel owl-theme">
-				<div class="col-12 service-card-col service-one">
+		<div class="row mt-5">
+			<div class="services-card owl-carousel owl-theme">
+				<div class="col-12 service-one">
 					<div class="card">
 						<div class="card-body">
-							<div class="services-tital">
-								<div class="services-img-div">
+							<div class="services-title">
+								<div class="services-image">
 									<img loading="lazy" src="images/home/android-app-development-icon.svg" alt="Android App Development" class="img-fluid" width="100%" height="100%">
 								</div>
 								<div class="service-heading">
 									<h3>Android App Development</h3>
 								</div>
 							</div>
-							<div class="services-text-div">
+							<div class="services-text">
 								<p>Our Android app developers use the most up-to-date technologies to produce native apps with strong and adaptive architecture.</p>
 								<a href="{{url('/mr-app-development')}}" class="mt20 link-prbs">
-									<i class="fa-solid fa-arrow-right" style="color: #b6c0c8;"></i>
+									<i class="fa-solid fa-arrow-right"></i>
 								</a>
 							</div>
 						</div>
 					</div>
 				</div>
-				<div class="col-12 service-card-col service-two">
-					<div class="card  ">
+				<div class="col-12 service-two">
+					<div class="card ">
 						<div class="card-body">
-							<div class="services-tital">
-								<div class="services-img-div">
+							<div class="services-title">
+								<div class="services-image">
 									<img loading="lazy" src="images/home/ios-app-development-icon.svg" alt="iOS App Development" class="img-fluid" width="100%" height="100%">
 								</div>
 								<div class="service-heading">
 									<h3>iOS App Development</h3>
 								</div>
 							</div>
-							<div class="services-text-div">
+							<div class="services-text">
 								<p>We specialize in developing full-featured iOS mobile apps that are reliable, scalable, and compatible with iPhone, iPad, Apple TV, and Apple Watch.</p>
 								<a href="{{url('/mr-app-development')}}" class="mt20 link-prbs">
-									<i class="fa-solid fa-arrow-right" style="color: #b6c0c8;"></i>
+									<i class="fa-solid fa-arrow-right"></i>
 								</a>
 							</div>
 						</div>
 					</div>
 				</div>
-				<div class="col-12 service-card-col service-three">
+				<div class="col-12 service-three">
 					<div class="card">
 						<div class="card-body">
-							<div class="services-tital ">
-								<div class="services-img-div">
+							<div class="services-title ">
+								<div class="services-image">
 									<img loading="lazy" src="images/home/cross-platform-app-development-icon.svg" alt="Cross Platform App Development" class="img-fluid" width="100%" height="100%">
 								</div>
 								<div class="service-heading">
 									<h3>Cross-Platform App Development</h3>
 								</div>
 							</div>
-							<div class="services-text-div">
+							<div class="services-text">
 								<p>We create cross-platform and hybrid apps that help you save money by using a single code base and reducing time to market.</p>
 								<a href="{{url('/mr-app-development')}}" class="mt20 link-prbs">
-									<i class="fa-solid fa-arrow-right" style="color: #b6c0c8;"></i>
+									<i class="fa-solid fa-arrow-right"></i>
 								</a>
 							</div>
 						</div>
 					</div>
 				</div>
-				<div class="col-12 service-card-col service-four">
+				<div class="col-12 service-four">
 					<div class="card">
 						<div class="card-body">
-							<div class="services-tital">
-								<div class="services-img-div">
+							<div class="services-title">
+								<div class="services-image">
 									<img loading="lazy" src="images/home/game-app-development-icon.svg" alt="Game App Development" class="img-fluid" width="100%" height="100%">
 								</div>
 								<div class="service-heading">
 									<h3>Game App Development</h3>
 								</div>
 							</div>
-							<div class="services-text-div">
+							<div class="services-text">
 								<p>We have the top mobile game app developers working for us, and they've created a wide range of highly entertaining games.</p>
 								<a href="{{url('/mr-app-development')}}" class="mt20 link-prbs">
-									<i class="fa-solid fa-arrow-right" style="color: #b6c0c8;"></i>
+									<i class="fa-solid fa-arrow-right"></i>
 								</a>
 							</div>
 						</div>
 					</div>
 				</div>
-				<div class="col-12 service-card-col service-five">
+				<div class="col-12 service-five">
 					<div class="card">
 						<div class="card-body">
-							<div class="services-tital">
-								<div class="services-img-div">
+							<div class="services-title">
+								<div class="services-image">
 									 <img loading="lazy" src="images/home/web-app-development-icon.svg" alt="Web App Development" class="img-fluid" width="100%" height="100%">
 								</div>
 								<div class="service-heading">
 									<h3>Web App Development</h3>
 								</div>
 							</div>
-							<div class="services-text-div">
+							<div class="services-text">
 								<p>Our web app development services assist with the design, development, and evolution of web-based software. </p>
 								<a href="{{url('/mr-app-development')}}" class="mt20 link-prbs">
-									<i class="fa-solid fa-arrow-right" style="color: #b6c0c8;"></i>
+									<i class="fa-solid fa-arrow-right"></i>
 								</a>
 							</div>
 						</div>
 					</div>
 				</div>
-				<div class="col-12 service-card-col service-six">
+				<div class="col-12 service-six">
 					<div class="card ">
 						<div class="card-body">
-							<div class="services-tital">
-								<div class="services-img-div">
+							<div class="services-title">
+								<div class="services-image">
 									<img loading="lazy" src="images/home/wearable-app-development-icon.svg" alt="Wearable App Development" class="img-fluid" width="100%" height="100%">
 								</div>
 								<div class="service-heading">
 									<h3>Wearable App Development</h3>
 								</div>
 							</div>
-							<div class="services-text-div">
+							<div class="services-text">
 								<p>Our wearable device app development services are powered by new technology, allowing us to create amazing wearable apps for both iOS and Android.</p>
 								<a href="{{url('/mr-app-development')}}" class="mt20 link-prbs">
-									<i class="fa-solid fa-arrow-right" style="color: #b6c0c8;"></i>
+									<i class="fa-solid fa-arrow-right"></i>
 								</a>
 							</div>
 						</div>
 					</div>
 				</div>
-				<div class="col-12 service-card-col service-seven">
+				<div class="col-12 service-seven">
 					<div class="card">
 						<div class="card-body">
-							<div class="services-tital">
-								<div class="services-img-div">
+							<div class="services-title">
+								<div class="services-image">
 									 <img loading="lazy" src="images/home/ar-app-development-icon.svg" alt="AR App Development" class="img-fluid" width="100%" height="100%">
 								</div>
 								<div class="service-heading">
 									<h3>AR App Development</h3>
 								</div>
 							</div>
-							<div class="services-text-div">
+							<div class="services-text">
 								<p>We create high-end augmented reality applications with an emphasis on 3D model design and algorithm implementation for overlaying the best virtual content.</p>
 								<a href="{{url('/mr-app-development')}}" class="mt20 link-prbs">
-									<i class="fa-solid fa-arrow-right" style="color: #b6c0c8;"></i>
+									<i class="fa-solid fa-arrow-right"></i>
 								</a>
 							</div>
 						</div>
 					</div>
 				</div>
-				<div class="col-12 service-card-col service-eight">
+				<div class="col-12 service-eight">
 					<div class="card">
 						<div class="card-body">
-							<div class="services-tital">
-								<div class="services-img-div">
+							<div class="services-title">
+								<div class="services-image">
 									 <img loading="lazy" src="images/home/vr-app-development-icon.svg" alt="VR App Development" class="img-fluid" width="100%" height="100%">
 								</div>
 								<div class="service-heading">
 									<h3>VR App Development</h3>
 								</div>
 							</div>
-							<div class="services-text-div">
+							<div class="services-text">
 								<p>We focus on the construction of software that allows users to interact with simulated worlds and deliver competitive VR apps with high and swift user adoption.</p>
 								<a href="{{url('/mr-app-development')}}" class="mt20 link-prbs">
-									<i class="fa-solid fa-arrow-right" style="color: #b6c0c8;"></i>
+									<i class="fa-solid fa-arrow-right"></i>
 								</a>
 							</div>
 						</div>
 					</div>
 				</div>
-				<div class="col-12 service-card-col service-nine">
+				<div class="col-12 service-nine">
 					<div class="card">
 						<div class="card-body">
-							<div class="services-tital">
-								<div class="services-img-div">
+							<div class="services-title">
+								<div class="services-image">
 									 <img loading="lazy" src="images/home/mr-app-development-icon.svg" alt="MR App Development" class="img-fluid" width="100%" height="100%">
 								</div>
 								<div class="service-heading">
 									<h3>MR App Development</h3>
 								</div>
 							</div>
-							<div class="services-text-div">
+							<div class="services-text">
 								<p>We are at the forefront of pioneering MR App development, crafting cutting-edge software that enables users to seamlessly interact with immersive digital worlds.</p>
 								<a href="{{url('/mr-app-development')}}" class="mt20 link-prbs">
-									<i class="fa-solid fa-arrow-right" style="color: #b6c0c8;"></i>
+									<i class="fa-solid fa-arrow-right"></i>
 								</a>
 							</div>
 						</div>
@@ -498,34 +494,27 @@
 						<i class="fa-solid fa-chart-line"></i>
 						<span>Project Analysis of Requirements</span>
 					</button>
-
 					<button class="tabBtn" onclick="openTab('tab2',this)">
 						<i class="fa-solid fa-pen-ruler"></i>
 						<span>Wireframing & Designing</span>
 					</button>
-
 					<button class="tabBtn" onclick="openTab('tab3',this)">
 						<i class="fa-solid fa-mobile-screen-button"></i>
 						<span>App Development</span>
 					</button>
-
 					<button class="tabBtn" onclick="openTab('tab4',this)">
 						<i class="fa-solid fa-check-to-slot"></i>
 						<span>App Testing</span>
 					</button>
-
 					<button class="tabBtn" onclick="openTab('tab5',this)">
 						<i class="fa-solid fa-cloud-arrow-up"></i>
 						<span>App Deployment</span>
 					</button>
-
 					<button class="tabBtn" onclick="openTab('tab6',this)">
 						<i class="fa-solid fa-wrench"></i>
 						<span>Maintenance</span>
 					</button>
-
 				</div>
-
 			</div>
 			<div class="col-md-12 col-lg-8">
 				<div class="process-tabs">
@@ -538,7 +527,6 @@
 								<li>Choose appropriate typography for the app.</li>
 								<li>Select the right technology stack.</li>
 							</ul>
-
 							<a data-bs-toggle="modal" data-bs-target="#menu-popup" class="process-btn-effect">Call a Schedule
 								<i class="fa-solid fa-angles-right vibrate-arrow"></i>
 							</a>

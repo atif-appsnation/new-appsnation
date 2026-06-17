@@ -18,10 +18,7 @@
 						<p class="pt-3 text-white">AppsNation is a software and mobile app development company with a world-class team of talented data scientists, developers, designers, mathematicians, engineers, and creative artists. We are motivated to build elegant and functional digital products that solve complex problems.</p>
 					</div>
 				</div>
-
 				<div class="row about-bages-slides-div">
-
-
 					<div class="col-md-8">
 						<div class="about-bages-slider owl-carousel owl-theme wow fadeIn">
 							<div class="h-img">
@@ -49,7 +46,6 @@
 				</div>
 			</div>
 			<div class="col-md-12 col-lg-4 order-1 order-lg-2 wow fadeIn">
-
 				<div class="niwax23form shadow">
 					<div class="common-heading text-l">
 						{!! NoCaptcha::renderJs() !!}
@@ -97,19 +93,14 @@
 				</div>
 			</div>
 		</div>
-
 </section>
-
 <!--End Breadcrumb Area-->
 
- 
 <section id="mycounterSection" class="py-5 scale-up-services-section">
 	<div class="container">
 		<div class="row">
-
 			<!-- Left Content -->
 			<div class="col-lg-7 col-md-12 order-2 order-lg-1 d-flex align-items-center">
-
 				<div>
 					<div data-text=" " class="light-bg-text bg-text">
 						<h2> <span class="flup-theme">AppsNation</span></h2>
@@ -117,42 +108,21 @@
 					<div data-text="" class="light-bg-text bg-text">
 						<h2>NOT JUST WELL-KNOWN WE’LL MAKE YOU FAMOUS</h2>
 					</div>
-
-
-					<p>
-						AppsNation is a leading USA mobile app development company delivering iOS, Android, IoT, AR/VR, game, cross-platform, wearable, and eCommerce solutions. We provide QA testing and design consultancy, managing projects from idea to launch with expert teams across 50+ industries at competitive prices.
-
-					</p>
+					<p>AppsNation is a leading USA mobile app development company delivering iOS, Android, IoT, AR/VR, game, cross-platform, wearable, and eCommerce solutions. We provide QA testing and design consultancy, managing projects from idea to launch with expert teams across 50+ industries at competitive prices.</p>
 					<br>
-					<p>
-						In only a few years, AppsNation has earned the agree with of a hundred businesses global. We concentrate on method, product improvement, and layout for startups and enterprises. By combining deep know-how with proven layout practices, we construct secure, remarkable mobile apps that boost up time to marketplace and reduce charges.
-
-					</p>
-
-					<!-- Button -->
+					<p>In only a few years, AppsNation has earned the agree with of a hundred businesses global. We concentrate on method, product improvement, and layout for startups and enterprises. By combining deep know-how with proven layout practices, we construct secure, remarkable mobile apps that boost up time to marketplace and reduce charges.</p>
 					<div class="square mt-4">
-
-
-
 						<a data-bs-toggle="modal" data-bs-target="#menu-popup" class="btn-br bg-btn3 bg-btn-scalup btshad-b2 lnk">Let's Connect
 							<span class="circle"> </span>
 						</a>
 					</div>
-
-					<!-- Counters -->
-
 				</div>
 			</div>
-
-			<!-- Right Image -->
 			<div class="col-lg-5 col-md-12 text-center order-1 order-lg-2">
-
 				<div class="wow fadeIn">
-
 					 <img loading="lazy" src="images/about-us/a.png" width="auto" height="auto" alt="About Us" class="img-fluid block mx-auto ">
 				</div>
 			</div>
-
 		</div>
 		<div class="row justify-content-center   wow fadeIn  achievements-count mt-3 " style="visibility: visible; animation-name: fadeIn;">
 			<div class="col-6 col-sm-6 col-md-3 pb-3 pb-md-3 pb-lg-0">
@@ -175,7 +145,6 @@
 	</div>
 </section>
 
-
 <!--Start why-choose-->
 <section class="why-choose-us py-5">
 	<div class="container">
@@ -195,8 +164,7 @@
 						 <img loading="lazy" src="images/about-us/client-first.svg" width="100%" height="100%" alt="service" class="img-fluid about-icon">
 					</div>
 					<h3 class="mb-2 mt-3">Client First</h3>
-					<p>Clients are central to every successful business. As a leading web and mobile app development company, we go beyond expectations analyzing your vision and end-user pain points to deliver strategic solutions that drive measurable growth.
-					</p>
+					<p>Clients are central to every successful business. As a leading web and mobile app development company, we go beyond expectations analyzing your vision and end-user pain points to deliver strategic solutions that drive measurable growth.</p>
 				</div>
 			</div>
 			<div class="col-lg-4 col-sm-6 mt30">
@@ -205,8 +173,7 @@
 						 <img loading="lazy" src="images/about-us/effective-synergy.svg" width="100%" height="100%" alt="service" class="img-fluid about-icon">
 					</div>
 					<h3 class="mb-2 mt-2">Effective Synergy</h3>
-					<p>Effective communication way know how what’s unsaid. We frequently over-talk, ensuring readability and transparency. Our improvement team remains connected throughout all channels and time zones, fixing actual-global issues effectively.
-					</p>
+					<p>Effective communication way know how what’s unsaid. We frequently over-talk, ensuring readability and transparency. Our improvement team remains connected throughout all channels and time zones, fixing actual-global issues effectively.</p>
 				</div>
 			</div>
 			<div class="col-lg-4 col-sm-6 mt30">
@@ -215,10 +182,7 @@
 						 <img loading="lazy" src="images/about-us/on-time-delivery.svg" width="100%" height="100%" alt="service" class="img-fluid about-icon">
 					</div>
 					<h3 class="mb-2 mt-3">On Time Delivery</h3>
-					<p>We don’t just promise we over-deliver. With a decade of IT software experience and robust internal frameworks, we consistently deliver high-quality solutions, avoiding errors and repeating success every time.
-
-
-					</p>
+					<p>We don’t just promise we over-deliver. With a decade of IT software experience and robust internal frameworks, we consistently deliver high-quality solutions, avoiding errors and repeating success every time.</p>
 				</div>
 			</div>
 			<div class="col-lg-4 col-sm-6 mt30">
@@ -227,8 +191,7 @@
 						 <img loading="lazy" src="images/about-us/strong-experties.svg" width="100%" height="100%" alt="service" class="img-fluid about-icon">
 					</div>
 					<h3 class="mb-2 mt-3">Strong Expertise</h3>
-					<p>Specializing in Ruby on Rails, Angular, and React, our experts stay ahead of tech trends, delivering high-quality solutions with full ownership, efficiency, and best practices always prioritizing value over quantity.
-					</p>
+					<p>Specializing in Ruby on Rails, Angular, and React, our experts stay ahead of tech trends, delivering high-quality solutions with full ownership, efficiency, and best practices always prioritizing value over quantity.</p>
 				</div>
 			</div>
 			<div class="col-lg-4 col-sm-6 mt30">
@@ -237,8 +200,7 @@
 						 <img loading="lazy" src="images/about-us/total-ownership-and-feedback-based.svg" width="100%" height="100%" alt="service" class="img-fluid about-icon">
 					</div>
 					<h3 class="mb-2 mt-3">Total Ownership &amp; Feedback Based</h3>
-					<p>We take complete possession of every undertaking, actively incorporating remarks from clients, their customers, and stakeholders. By prioritizing input, we make certain the product stays at the right song, saving what virtually topics.
-					</p>
+					<p>We take complete possession of every undertaking, actively incorporating remarks from clients, their customers, and stakeholders. By prioritizing input, we make certain the product stays at the right song, saving what virtually topics.</p>
 				</div>
 			</div>
 			<div class="col-lg-4 col-sm-6 mt30">
@@ -280,9 +242,9 @@
 			<div class="tab-pane fade show active" id="mission">
 				<div class="row align-items-center g-4">
 					<div class="col-lg-6">
-						<h2 class="vision-title">Our Mission</h2>
-						<h3 class="vision-title">Complete Digital Solutions Under One Roof</h3>
-						<p class="vision-text">At AppsNation, our challenge is to provide end-to-give up digital services which include App Development, Web Development, digital marketing, and many more. We construct modern, scalable, and performance-pushed solutions tailor-made to each commercial enterprise need. Our aim is to empower startups and organizations with generation that drives increase, strengthens emblem effect, and provides measurable lengthy-time period success.</p>
+						<h2 class="vision-title text-center text-lg-start">Our Mission</h2>
+						<h3 class="vision-title text-center text-lg-start">Complete Digital Solutions Under One Roof</h3>
+						<p class="vision-text text-center text-lg-start">At AppsNation, our challenge is to provide end-to-give up digital services which include App Development, Web Development, digital marketing, and many more. We construct modern, scalable, and performance-pushed solutions tailor-made to each commercial enterprise need. Our aim is to empower startups and organizations with generation that drives increase, strengthens emblem effect, and provides measurable lengthy-time period success.</p>
 					</div>
 					<div class="col-lg-6 text-center">
 						 <img loading="lazy" src="images/about-us/mission.png" class="img-fluid vision-img" alt="Mission">
