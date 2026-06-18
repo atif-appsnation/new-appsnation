@@ -5500,7 +5500,7 @@ h3 a {
     width: 100%;
     max-width: 350px;
     display: block;
-    margin: 0 auto;
+    margin: 0 auto 20px;
     border-radius: 20px;
     border: none;
     outline: none;
@@ -9021,6 +9021,14 @@ html .mt15 {
     padding-top: 15px;
 }
 
+.services-text-div p {
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 5;
+    line-clamp: 5;
+    -webkit-box-orient: vertical;
+}
+
 .features-tab {
     border-color: var(--white-color);
 }
@@ -11231,11 +11239,11 @@ button:not(:disabled) {
     border-radius: 30px;
 }
 
-.link-prbs {
+/* .link-prbs {
     position: absolute;
     bottom: 15px;
     right: 15px;
-}
+} */
 
 .services-title {
     display: flex;

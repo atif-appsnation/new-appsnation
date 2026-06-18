@@ -820,42 +820,19 @@
             </div>
         </div>
 		
-		
        <div class="testimonial-card-a owl-carousel owl-theme">
 			@foreach($testimonials as $key => $item)
-
 			<div class="tcd card h-100">
 				<div class="row">
 					<div class="col-lg-6 position-relative">
-
-						<!-- Overlay -->
-						<div class="video-overlay"
-							data-target="player-{{$key}}"
-							style="position:absolute;top:0;left:0;width:100%;height:100%;cursor:pointer;z-index:2;">
-						</div>
-
-						<!-- YouTube Video -->
-						<iframe
-							id="player-{{$key}}"
-							class="youtube-player testimonial-video"
-							loading="lazy"
-						src="{{$item['comments']}}"	
-						title="Client Testimonial"
-
-							frameborder="0"
-							allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-							referrerpolicy="strict-origin-when-cross-origin"
-							allowfullscreen>
-						</iframe>
-
+						<div class="video-overlay" data-target="player-{{$key}}" style="position:absolute;top:0;left:0;width:100%;height:100%;cursor:pointer;z-index:2;"></div>
+						<iframe id="player-{{$key}}" class="youtube-player testimonial-video" loading="lazy" src="{{$item['comments']}}"	 title="Client Testimonial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen> </iframe>
 					</div>
-
 					<div class="col-lg-6">
 						<div class="testimonial-card card-body">
-							<div class="tt-text">
+							<div class="tt-text text-center text-lg-start">
 								<p>{{$item['title']}}</p>
 							</div>
-
 							<div class="client-thumbs mt30">
 								<div class="media v-center upset">
 									<div class="media-body user-info v-center">
@@ -867,10 +844,8 @@
 							</div>
 						</div>
 					</div>
-
 				</div>
 			</div>
-
 			@endforeach
 		</div>
         <div class="row mt-5">
@@ -891,8 +866,8 @@
 						<div class="card h-100">
 							<div class="card-body">
 								<a href="https://www.bark.com/en/us/company/appsnation/wGVQn/" target="_blank">
-									 <img loading="lazy" src="images/reviews/bark.webp" class="img-fluid d-block mx-auto" alt="Bark" width="auto" height="auto">
-									 <img loading="lazy" src="images/reviews/star.webp" class="img-fluid d-block mx-auto" alt="Star" width="auto" height="auto">
+									<img loading="lazy" src="images/reviews/bark.webp" class="img-fluid d-block mx-auto" alt="Bark" width="auto" height="auto">
+									<img loading="lazy" src="images/reviews/star.webp" class="img-fluid d-block mx-auto" alt="Star" width="auto" height="auto">
 									<p class="text-center pt-2 text-black">Recognized as Top App Developers by Bark</p>
 								</a>
 							</div>
@@ -902,8 +877,8 @@
 						<div class="card h-100">
 							<div class="card-body">
 								<a href="https://www.designrush.com/agency/profile/appsnation" target="_blank">
-									 <img loading="lazy" src="images/reviews/designrush.webp" class="img-fluid d-block mx-auto" alt="DesignRush" width="auto" height="auto">
-									 <img loading="lazy" src="images/reviews/star.webp" class="img-fluid d-block mx-auto" alt="Star" width="auto" height="auto">
+									<img loading="lazy" src="images/reviews/designrush.webp" class="img-fluid d-block mx-auto" alt="DesignRush" width="auto" height="auto">
+									<img loading="lazy" src="images/reviews/star.webp" class="img-fluid d-block mx-auto" alt="Star" width="auto" height="auto">
 									<p class="text-center pt-2 text-black">Recognized as Top App Developers by DesignRush</p>
 								</a>
 							</div>
@@ -913,8 +888,8 @@
 						<div class="card h-100">
 							<div class="card-body">
 								<a href="https://www.goodfirms.co/company/appsnation-co" target="_blank">
-									 <img loading="lazy" src="images/reviews/goodfirms.webp" class="img-fluid d-block mx-auto" alt="GoodFirms" width="auto" height="auto">
-									 <img loading="lazy" src="images/reviews/star.webp" class="img-fluid d-block mx-auto" alt="Star" width="auto" height="auto">
+									<img loading="lazy" src="images/reviews/goodfirms.webp" class="img-fluid d-block mx-auto" alt="GoodFirms" width="auto" height="auto">
+									<img loading="lazy" src="images/reviews/star.webp" class="img-fluid d-block mx-auto" alt="Star" width="auto" height="auto">
 									<p class="text-center pt-2 text-black">Recognized as Top App Developers by GoodFirms</p>
 								</a>
 							</div>
@@ -924,8 +899,8 @@
 						<div class="card h-100">
 							<div class="card-body">
 								<a href="https://www.trustpilot.com/review/appsnation.co" target="_blank">
-									 <img loading="lazy" src="images/reviews/trustpilot.webp" class="img-fluid d-block mx-auto" alt="Trustpilot" width="auto" height="auto">
-									 <img loading="lazy" src="images/reviews/star.webp" class="img-fluid d-block mx-auto" alt="Star" width="auto" height="auto">
+									<img loading="lazy" src="images/reviews/trustpilot.webp" class="img-fluid d-block mx-auto" alt="Trustpilot" width="auto" height="auto">
+									<img loading="lazy" src="images/reviews/star.webp" class="img-fluid d-block mx-auto" alt="Star" width="auto" height="auto">
 									<p class="text-center pt-2 text-black">Recognized as Top App Developers by Trustpilot</p>
 								</a>
 							</div>
@@ -935,8 +910,8 @@
 						<div class="card h-100">
 							<div class="card-body">
 								<a href="https://www.sortlist.com/agency/appsnation" target="_blank">
-									 <img loading="lazy" src="images/reviews/sortlist.webp" class="img-fluid d-block mx-auto" alt="Sortlist" width="auto" height="auto">
-									 <img loading="lazy" src="images/reviews/star.webp" class="img-fluid d-block mx-auto" alt="Star" width="auto" height="auto">
+									<img loading="lazy" src="images/reviews/sortlist.webp" class="img-fluid d-block mx-auto" alt="Sortlist" width="auto" height="auto">
+									<img loading="lazy" src="images/reviews/star.webp" class="img-fluid d-block mx-auto" alt="Star" width="auto" height="auto">
 									<p class="text-center pt-2 text-black">Recognized as Top App Developers by Sortlist</p>
 								</a>
 							</div>
@@ -946,8 +921,8 @@
 						<div class="card h-100">
 							<div class="card-body">
 								<a href="https://upcity.com/profiles/appsnation" target="_blank">
-									 <img loading="lazy" src="images/reviews/upcity.webp" class="img-fluid d-block mx-auto" alt="UpCity" width="auto" height="auto">
-									 <img loading="lazy" src="images/reviews/star.webp" class="img-fluid d-block mx-auto" alt="Star" width="auto" height="auto">
+									<img loading="lazy" src="images/reviews/upcity.webp" class="img-fluid d-block mx-auto" alt="UpCity" width="auto" height="auto">
+									<img loading="lazy" src="images/reviews/star.webp" class="img-fluid d-block mx-auto" alt="Star" width="auto" height="auto">
 									<p class="text-center pt-2 text-black">Recognized as Top App Developers by UpCity</p>
 								</a>
 							</div>
@@ -957,8 +932,8 @@
 						<div class="card h-100">
 							<div class="card-body">
 								<a href="https://www.sitejabber.com/reviews/appsnation.co" target="_blank">
-									 <img loading="lazy" src="images/reviews/sitejabber.webp" class="img-fluid d-block mx-auto" alt="SiteJabber" width="auto" height="auto">
-									 <img loading="lazy" src="images/reviews/star.webp" class="img-fluid d-block mx-auto" alt="Star" width="auto" height="auto">
+									<img loading="lazy" src="images/reviews/sitejabber.webp" class="img-fluid d-block mx-auto" alt="SiteJabber" width="auto" height="auto">
+									<img loading="lazy" src="images/reviews/star.webp" class="img-fluid d-block mx-auto" alt="Star" width="auto" height="auto">
 									<p class="text-center pt-2 text-black">Recognized as Top App Developers by SiteJabber</p>
 								</a>
 							</div>
@@ -996,7 +971,7 @@
 					<div class="container">
 						<div class="row">
 							<div class="col-lg-6">
-									<img loading="lazy" src="images/locations/booking-app/booking-app-1.webp" alt="Booking App" class="img-fluid d-block mx-auto" width="100%" height="100%">
+								<img loading="lazy" src="images/locations/booking-app/booking-app-1.webp" alt="Booking App" class="img-fluid d-block mx-auto" width="100%" height="100%">
 							</div>
 							<div class="col-lg-6 my-auto">
 								<h3 class="mb-4 text-white">Booking App</h3>
@@ -1013,7 +988,7 @@
 					<div class="container">
 						<div class="row">
 							<div class="col-lg-6">
-									<img loading="lazy" src="images/locations/fitness-app/fitness-app-1.webp" alt="Fitness App" class="img-fluid d-block mx-auto" width="100%" height="100%">
+								<img loading="lazy" src="images/locations/fitness-app/fitness-app-1.webp" alt="Fitness App" class="img-fluid d-block mx-auto" width="100%" height="100%">
 							</div>
 							<div class="col-lg-6 my-auto">
 								<h3 class="mb-4 text-white">Fitness App</h3>
@@ -1030,7 +1005,7 @@
 					<div class="container">
 						<div class="row">
 							<div class="col-lg-6">
-									<img loading="lazy" src="images/locations/loyalty-app/loyalty-app-1.webp" alt="Loyalty App" class="img-fluid d-block mx-auto" width="100%" height="100%">
+								<img loading="lazy" src="images/locations/loyalty-app/loyalty-app-1.webp" alt="Loyalty App" class="img-fluid d-block mx-auto" width="100%" height="100%">
 							</div>
 							<div class="col-lg-6 my-auto">
 								<h3 class="mb-4 text-white">Loyalty App</h3>
@@ -1047,7 +1022,7 @@
 					<div class="container">
 						<div class="row">
 							<div class="col-lg-6">
-									<img loading="lazy" src="images/locations/mover-app/mover-app-1.webp" alt="Mover App" class="img-fluid d-block mx-auto" width="100%" height="100%">
+								<img loading="lazy" src="images/locations/mover-app/mover-app-1.webp" alt="Mover App" class="img-fluid d-block mx-auto" width="100%" height="100%">
 							</div>
 							<div class="col-lg-6 my-auto">
 								<h3 class="mb-4 text-white">Mover App</h3>
@@ -1064,7 +1039,7 @@
 					<div class="container">
 						<div class="row">
 							<div class="col-lg-6">
-									<img loading="lazy" src="images/locations/real-estate-app/real-estate-app-1.webp" alt="Real Estate App" class="img-fluid d-block mx-auto" width="100%" height="100%">
+								<img loading="lazy" src="images/locations/real-estate-app/real-estate-app-1.webp" alt="Real Estate App" class="img-fluid d-block mx-auto" width="100%" height="100%">
 							</div>
 							<div class="col-lg-6 my-auto">
 								<h3 class="mb-4 text-white">Real Estate App</h3>

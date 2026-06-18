@@ -55,26 +55,26 @@
 						<i class="fas fa-chevron-right fa-icon"></i>
 						<span class="circle"></span>
 					</a>
-					<div class="row hero-bages-slides-div">
+					<div class="row hero-bages-slides-div mt-lg-5">
 						<div class="col-md-4 my-auto">
 							<p class="hero-bage-p">Recognized for Excellence</p>
 						</div>
 						<div class="col-md-8">
 							<div class="hero-bages-slider owl-carousel owl-theme wow fadeIn">
 								<div class="h-img">
-									 <img loading="lazy" src="images/reviews/bb1.png" alt="">
+									<img loading="lazy" src="images/reviews/bb1.png" alt="Badges" class="img-fluid">
 								</div>
 								<div class="h-img">
-									 <img loading="lazy" src="images/reviews/bb2.png" alt="">
+									<img loading="lazy" src="images/reviews/bb2.png" alt="Badges" class="img-fluid">
 								</div>
 								<div class="h-img">
-									 <img loading="lazy" src="images/reviews/bb3.png" alt="">
+									<img loading="lazy" src="images/reviews/bb3.png" alt="Badges" class="img-fluid">
 								</div>
 								<div class="h-img">
-									 <img loading="lazy" src="images/reviews/bb4.png" alt="">
+									<img loading="lazy" src="images/reviews/bb4.png" alt="Badges" class="img-fluid">
 								</div>
 								<div class="h-img">
-									 <img loading="lazy" src="images/reviews/bb5.png" alt="">
+									<img loading="lazy" src="images/reviews/bb5.png" alt="Badges" class="img-fluid">
 								</div>
 							</div>
 						</div>
@@ -883,14 +883,14 @@
 				<a class="nav-link" data-bs-toggle="pill" href="#web">Web</a>
 			</li>
 			<!-- <li class="nav-item">
-					<a class="nav-link" data-bs-toggle="pill" href="#mobile-apps">Mobile Apps</a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link" data-bs-toggle="pill" href="#website">Website</a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link" data-bs-toggle="pill" href="#design">Design</a>
-				</li> -->
+				<a class="nav-link" data-bs-toggle="pill" href="#mobile-apps">Mobile Apps</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" data-bs-toggle="pill" href="#website">Website</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" data-bs-toggle="pill" href="#design">Design</a>
+			</li> -->
 		</ul>
 		<div class="tab-content mt-5 wow fadeIn">
 			<div id="app" class="tab-pane active">

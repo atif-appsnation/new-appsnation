@@ -9,7 +9,7 @@
 	@endif
 	<div class="container">
 		<div class="row justify-content-between">
-			<div class="col-md-12 col-lg-6 my-auto">
+			<div class="col-md-12 col-lg-6 my-auto wow fadeIn">
 				<div class="bread-titlev2">
 					<h1 class="banner-heading pt-3" data-wow-delay=".2s">Empower Your Business with Next-Gen Digital Services</h1>
 					<p class="mt20 text-white" data-wow-delay=".4s">Here at <a href="{{url('/')}}" target="_blank"> AppsNation</a>, we love creating experiences that really make a difference and help businesses thrive. We're all about fresh ideas and making sure our clients are happy, which helps you tackle the tricky bits of the digital world. We get things done that truly count and make a real impact</p>
@@ -21,7 +21,7 @@
 					</ul>
 				</div>
 			</div>
-			<div class="col-md-12 col-lg-4">
+			<div class="col-md-12 col-lg-4 wow fadeIn">
 				<div class="niwax23form shadow">
 					<div class="common-heading text-l">
 						{!! NoCaptcha::renderJs() !!}
@@ -77,7 +77,7 @@
 <section id="mycounterSection" class="py-5 scale-up-services">
 	<div class="container">
 		<div class="row align-items-center">
-			<div class="col-lg-7 col-md-12 order-2 order-lg-1">
+			<div class="col-lg-7 col-md-12 order-2 order-lg-1 wow fadeIn">
 				<div data-text="" class="light-bg-text bg-text">
 					<h2><span class="flup-theme">AppsNation</span></h2>
 				</div>
@@ -109,7 +109,7 @@
 					</div>
 				</div>
 			</div>
-			<div class="col-lg-5 col-md-12 text-center order-1 order-lg-2">
+			<div class="col-lg-5 col-md-12 text-center order-1 order-lg-2 wow fadeIn">
 				<div class="image-block">
 					<img loading="lazy" data-text="Appsnation" src="images/services/services.webp" alt="Android App Development" class="img-fluid no-shadow mx-auto" />
 				</div>
@@ -122,14 +122,14 @@
 <!--Start App Service-->
 <section class="app-services py-5" id="app">
 	<div class="container">
-		<div class="row justify-content-center">
+		<div class="row justify-content-center wow fadeIn">
 			<div class="col-12 my-5">
 				<div data-text="App Services" class="light-bg-text bg-text text-start">
 					<div class="sctxt">Mobile App Development</div>
 				</div>
 			</div>
 		</div>
-		<div class="row mt-5">
+		<div class="row mt-5 wow fadeIn">
 			<div class="services-card owl-carousel owl-theme">
 				<div class="col-12 service-one">
 					<div class="card">
@@ -219,7 +219,7 @@
 <!--End App Service-->
 
 <!-- Start Services -->
-<section class="services-box p-100 text-white py-5">
+<section class="services-box p-100 text-white py-5 wow fadeIn">
 	<div class="h-100 container">
 		<div class="service-banner-slider owl-carousel owl-theme">
 			<div class="banner-box-image service-one">
@@ -264,7 +264,7 @@
 <!-- End Services -->
 
 <!-- Start AI Services -->
-<section class="ai-services py-5" id="ai">
+<section class="ai-services py-5 wow fadeIn" id="ai">
 	<div class="container">
 		<div class="row justify-content-center">
 			<div class="col-12 my-5">
@@ -342,7 +342,7 @@
 <!-- End AI Services -->
 
 <!-- Start Connected Devices Services -->
-<section class="connected-services py-5" id="digital">
+<section class="connected-services py-5 wow fadeIn" id="digital">
 	<div class="container">
 		<div class="row justify-content-center">
 			<div class="col-12 my-5">
@@ -420,7 +420,7 @@
 <!-- End Connected Devices Services -->
 
 <!-- Start Services -->
-<section class="services-box p-100 text-white py-5">
+<section class="services-box p-100 text-white py-5 wow fadeIn">
 	<div class="h-100 container">
 		<div class="service-banner-slider owl-carousel owl-theme">
 			<div class="banner-box-image service-four">
@@ -465,7 +465,7 @@
 <!-- End Services -->
 
 <!-- Start Design Devices Services -->
-<section class="design-services py-5" id="design">
+<section class="design-services py-5 wow fadeIn" id="design">
 	<div class="container">
 		<div class="row justify-content-center">
 			<div class="col-12 my-5">
@@ -603,7 +603,7 @@
 <!-- End Design Devices Services -->
 
 <!-- Start Web Development Services -->
-<section class="web-development-services py-5">
+<section class="web-development-services py-5 wow fadeIn">
 	<div class="container">
 		<div class="row justify-content-center">
 			<div class="col-12 my-5">
@@ -682,7 +682,7 @@
 <!-- End Web Development Services -->
 
 <!-- Start Services -->
-<section class="services-box p-100 text-white py-5">
+<section class="services-box p-100 text-white py-5 wow fadeIn">
 	<div class="h-100 container">
 		<div class="service-banner-slider owl-carousel owl-theme">
 			<div class="banner-box-image service-seven">
@@ -727,7 +727,7 @@
 <!-- End Services -->
 
 <!--Start Let's Work Together-->
-<section class="my-4">
+<section class="py-5 wow fadeIn">
 	<div class="container">
 		<div class="row py-5 justify-content-center hire-developer">
 			<div class="col-lg-9">
@@ -751,7 +751,7 @@
 <!--End Let's Work Together-->
 
 <!--Start Why Choose-->
-<section class="why-choose bg-gradient3 py-5">
+<section class="why-choose bg-gradient3 py-5 wow fadeIn">
 	<div class="container">
 		<div class="row">
 			<div class="col-12">
@@ -759,9 +759,7 @@
 					<div data-text="Choose Us" class="dark-bg-text bg-text">
 						<h2 class="text-white">Why Choose <span>AppsNation</span></h2>
 					</div>
-					<p class="text-white">We help you make the most of Android's unique features by
-						combining them with the latest tech like Augmented Reality,
-						Virtual Reality, Mixed Reality, and Blockchain.</p>
+					<p class="text-white">We help you make the most of Android's unique features by combining them with the latest tech like Augmented Reality, Virtual Reality, Mixed Reality, and Blockchain.</p>
 				</div>
 			</div>
 		</div>
@@ -772,8 +770,7 @@
 						<img loading="lazy" src="images/why-choose/free-mobile-app-consultation.svg" alt="Free Mobile App Consultation" class="img-fluid">
 					</div>
 					<h3 class="title">Free Mobile App Consultation</h3>
-					<p class="description">AppsNation offers you the chance to chart your path to success
-						without spending a dime</p>
+					<p class="description">AppsNation offers you the chance to chart your path to success without spending a dime</p>
 				</div>
 			</div>
 			<div class="col-12 col-md-6 col-lg-4 mt-3 mt-md-0">
@@ -782,8 +779,7 @@
 						<img loading="lazy" src="images/why-choose/50+-expert-android-developers.svg" alt="50+ Expert Android Developers" class="img-fluid">
 					</div>
 					<h3 class="title">50+ Expert Android Developers</h3>
-					<p class="description">Unlock your full potential by teaming up with the world's top
-						Android developers.</p>
+					<p class="description">Unlock your full potential by teaming up with the world's top Android developers.</p>
 				</div>
 			</div>
 			<div class="col-12 col-md-6 col-lg-4 mt-3 mt-lg-0">
@@ -792,9 +788,7 @@
 						<img loading="lazy" src="images/why-choose/flexible-hiring-models.svg" alt="Flexible Hiring Models" class="img-fluid">
 					</div>
 					<h3 class="title">Flexible Hiring Models</h3>
-					<p class="description">AppsNation offers personalized pricing packages, making it
-						accessible to everyone, no matter the size of your business or the
-						industry you're in.</p>
+					<p class="description">AppsNation offers personalized pricing packages, making it accessible to everyone, no matter the size of your business or the industry you're in.</p>
 				</div>
 			</div>
 			<div class="col-12 col-md-6 col-lg-4 mt-3">
@@ -803,8 +797,7 @@
 						<img loading="lazy" src="images/why-choose/247-technical-support.svg" alt="24/7 Technical Support" class="img-fluid">
 					</div>
 					<h3 class="title">24/7 Technical Support</h3>
-					<p class="description">Don't stress, our tech team is there for you around the clock to
-						sort out any problems you might have with the app.</p>
+					<p class="description">Don't stress, our tech team is there for you around the clock to sort out any problems you might have with the app.</p>
 				</div>
 			</div>
 			<div class="col-12 col-md-6 col-lg-4 mt-3">
@@ -813,8 +806,7 @@
 						<img loading="lazy" src="images/why-choose/100-transparency.svg" alt="100% Transparency" class="img-fluid">
 					</div>
 					<h3 class="title">100% Transparency</h3>
-					<p class="description">We prioritize customer satisfaction above all else, maintaining
-						transparency with our clients to foster trust in our app.
+					<p class="description">We prioritize customer satisfaction above all else, maintaining transparency with our clients to foster trust in our app.
 					</p>
 				</div>
 			</div>
@@ -824,9 +816,7 @@
 						<img loading="lazy" src="images/why-choose/3-months-free-delivery.svg" alt="3-Months Free Support After Delivery" class="img-fluid">
 					</div>
 					<h3 class="title">3-Months Free Support After Delivery</h3>
-					<p class="description">For three months following the app's release, we provide
-						complimentary support to maintain its stability and proper
-						functioning.</p>
+					<p class="description">For three months following the app's release, we provide complimentary support to maintain its stability and proper functioning.</p>
 				</div>
 			</div>
 		</div>
@@ -929,7 +919,7 @@
 		</div>
 	</div>
 </section> -->
-<section class="py-5 process-tabs-section">
+<section class="py-5 process-tabs-section wow fadeIn">
 	<div class="container">
 		<div class="row my-5">
 			<div class="col-12">
@@ -972,7 +962,7 @@
 			</div>
 			<div class="col-md-12 col-lg-8">
 				<div class="process-tabs">
-					<div id="tab1" class="tabs ">
+					<div id="tab1" class="tabs">
 						<div class="tabs-inner">
 							<h2>Project Analysis of Requirements</h2>
 							<ul>
@@ -981,7 +971,6 @@
 								<li>Choose appropriate typography for the app.</li>
 								<li>Select the right technology stack.</li>
 							</ul>
-
 							<a data-bs-toggle="modal" data-bs-target="#menu-popup" class="process-btn-effect">Call a Schedule
 								<i class="fa-solid fa-angles-right vibrate-arrow"></i>
 							</a>
@@ -1014,7 +1003,6 @@
 								<li>Use sketching to explore ideas beyond tracking movements.</li>
 								<li>Refine concepts and arrange all design components properly.</li>
 							</ul>
-
 							<a data-bs-toggle="modal" data-bs-target="#menu-popup" class="process-btn-effect">Call a Schedule
 								<i class="fa-solid fa-angles-right vibrate-arrow"></i>
 							</a>
@@ -1079,7 +1067,6 @@
 								<li>Gather feedback from beta users.</li>
 								<li>Ensure app functions correctly in real-world scenarios.</li>
 							</ul>
-
 							<a data-bs-toggle="modal" data-bs-target="#menu-popup" class="process-btn-effect">Call a Schedule
 								<i class="fa-solid fa-angles-right vibrate-arrow"></i>
 							</a>
@@ -1112,8 +1099,6 @@
 								<li>Deploy the app to production or beta environment.</li>
 								<li>Go live and monitor initial performance.</li>
 							</ul>
-
-
 							<a data-bs-toggle="modal" data-bs-target="#menu-popup" class="process-btn-effect">Call a Schedule
 								<i class="fa-solid fa-angles-right vibrate-arrow"></i>
 							</a>
@@ -1146,9 +1131,7 @@
 								<li>Offer top-quality options and services.</li>
 								<li>Ensure smooth app performance and updates.</li>
 							</ul>
-
-							<a data-bs-toggle="modal" data-bs-target="#menu-popup
-							" class="process-btn-effect">Call a Schedule
+							<a data-bs-toggle="modal" data-bs-target="#menu-popup" class="process-btn-effect">Call a Schedule
 								<i class="fa-solid fa-angles-right vibrate-arrow"></i>
 							</a>
 							<div class="tabs-icons">
@@ -1178,11 +1161,9 @@
 </section>
 <!--End Process-->
 
-
 <!--Start Let's Work Together-->
-<section class="my-4">
+<section class="py-5 wow fadeIn">
 	<div class="container">
-
 		<div class="row py-5 justify-content-center hire-developer">
 			<div class="col-lg-8">
 				<div class="free-cta-title v-center">
@@ -1201,13 +1182,11 @@
 			</div>
 		</div>
 	</div>
-
 </section>
-
 <!--End Let's Work Together-->
 
 <!-- Start Technologies -->
-<section class="technologies certificates py-5">
+<section class="technologies certificates py-5 wow fadeIn">
 	<div class="container">
 		<div class="row fadeIn">
 			<div class="col-12">
@@ -1249,7 +1228,7 @@
 <!-- End Technologies -->
 
 <!--Start Badges-->
-<section class="badges-section py-5">
+<section class="badges-section py-5 wow fadeIn">
 	<div class="container">
 		<div class="row fadeIn">
 			<div class="col-12">
@@ -1332,10 +1311,9 @@
 <!--End Badges-->
 
 <!--Start Let's Work Together-->
-<section class="my-4">
+<section class="py-5 wow fadeIn">
 	<div class="container">
-
-		<div class="row py-5 justify-content-center hire-developer">
+		<div class="row justify-content-center hire-developer">
 			<div class="col-lg-12">
 				<div class="free-cta-title v-center">
 					<div class="row justify-content-center">
@@ -1357,7 +1335,7 @@
 <!--End Let's Work Together-->
 
 <!--Start Testinomial-->
-<section class="testimonials-section-app pt100 pb-5">
+<section class="testimonials-section-app pt100 pb-5 wow fadeIn">
 	<div class="container">
 		<div class="row">
 			<div class="col-12">
@@ -1369,44 +1347,19 @@
 				</div>
 			</div>
 		</div>
-
-
 		<div class="testimonial-card-a owl-carousel owl-theme">
 			@foreach($testimonials as $key => $item)
-
 			<div class="tcd card h-100">
 				<div class="row">
 					<div class="col-lg-6 position-relative">
-
-						<!-- Overlay -->
-						<div class="video-overlay"
-							data-target="player-{{$key}}"
-							style="position:absolute;top:0;left:0;width:100%;height:100%;cursor:pointer;z-index:2;">
-						</div>
-
-						<!-- YouTube Video -->
-						<iframe
-							id="player-{{$key}}"
-							class="youtube-player testimonial-video"
-							loading="lazy"
-
-							src="{{$item['comments']}}"
-							title="Client Testimonial"
-
-							frameborder="0"
-							allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-							referrerpolicy="strict-origin-when-cross-origin"
-							allowfullscreen>
-						</iframe>
-
+						<div class="video-overlay" data-target="player-{{$key}}" style="position:absolute;top:0;left:0;width:100%;height:100%;cursor:pointer;z-index:2;"></div>
+						<iframe id="player-{{$key}}" class="youtube-player testimonial-video" loading="lazy" src="{{$item['comments']}}" title="Client Testimonial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 					</div>
-
 					<div class="col-lg-6">
 						<div class="testimonial-card card-body">
 							<div class="tt-text">
 								<p>{{$item['title']}}</p>
 							</div>
-
 							<div class="client-thumbs mt30">
 								<div class="media v-center upset">
 									<div class="media-body user-info v-center">
@@ -1418,10 +1371,8 @@
 							</div>
 						</div>
 					</div>
-
 				</div>
 			</div>
-
 			@endforeach
 		</div>
 		<div class="row mt-5">
@@ -1528,7 +1479,7 @@
 <!--End Testinomial-->
 
 <!-- Start FAQS-->
-<section class="faq-section py-5" id="faqs">
+<section class="faq-section py-5 wow fadeIn" id="faqs">
 	<div class="container">
 		<div class="row">
 			<div class="col-lg-6">
@@ -1551,11 +1502,7 @@
 						<div id="collapse-1a" class="accordion-collapse collapse" aria-labelledby="heading-b" data-bs-parent="#accordionExample-a">
 							<div class="accordion-body">
 								<div class="data-reqs">
-									<p>A Non-Disclosure Agreement, or NDA, is a legal contract we use
-										when collaborating on different projects. Its purpose is to
-										safeguard your concepts, preventing them from being copied or
-										disclosed to competitors.
-									</p>
+									<p>A Non-Disclosure Agreement, or NDA, is a legal contract we use when collaborating on different projects. Its purpose is to safeguard your concepts, preventing them from being copied or disclosed to competitors. </p>
 								</div>
 							</div>
 						</div>
@@ -1569,11 +1516,7 @@
 						<div id="collapse-2a" class="accordion-collapse collapse" aria-labelledby="heading-c" data-bs-parent="#accordionExample-a">
 							<div class="accordion-body">
 								<div class="data-reqs">
-									<p>We see resource allocation as both a craft and a systematic
-										process. That's why we dive deep into understanding your
-										company, your competitors, your target audience, and what
-										makes them tick. This allows us to create an app that does its job
-										effectively.</p>
+									<p>We see resource allocation as both a craft and a systematic process. That's why we dive deep into understanding your company, your competitors, your target audience, and what makes them tick. This allows us to create an app that does its job effectively.</p>
 								</div>
 							</div>
 						</div>
@@ -1587,8 +1530,7 @@
 						<div id="collapse-3a" class="accordion-collapse collapse" aria-labelledby="heading-c" data-bs-parent="#accordionExample-a">
 							<div class="accordion-body">
 								<div class="data-reqs">
-									<p>At AppsNation, our team of developers utilizes cutting-edge
-										technologies and tools to build your perfect Android application.</p>
+									<p>At AppsNation, our team of developers utilizes cutting-edge technologies and tools to build your perfect Android application.</p>
 									<p class="pt-2">Mobile Frontend</p>
 									<ul class="ps-5">
 										<li>Native (Java/Kotlin)</li>
@@ -1642,10 +1584,7 @@
 						<div id="collapse-4a" class="accordion-collapse collapse" aria-labelledby="heading-c" data-bs-parent="#accordionExample-a">
 							<div class="accordion-body">
 								<div class="data-reqs">
-									<p>We see getting your Android app onto Google Play as a key piece
-										of our overall Android app development puzzle. At AppsNation,
-										we've spent years mastering the art of launching Android apps on
-										the Play Store, always playing by their rules.</p>
+									<p>We see getting your Android app onto Google Play as a key piece of our overall Android app development puzzle. At AppsNation, we've spent years mastering the art of launching Android apps on the Play Store, always playing by their rules.</p>
 								</div>
 							</div>
 						</div>
@@ -1659,10 +1598,7 @@
 						<div id="collapse-5a" class="accordion-collapse collapse" aria-labelledby="heading-c" data-bs-parent="#accordionExample-a">
 							<div class="accordion-body">
 								<div class="data-reqs">
-									<p>We offer a fantastic mobile app development service, complete
-										with a free 3-month support and maintenance package. This
-										ensures your app runs smoothly by addressing any hiccups based
-										on user feedback, setting you up for success.</p>
+									<p>We offer a fantastic mobile app development service, complete with a free 3-month support and maintenance package. This ensures your app runs smoothly by addressing any hiccups based on user feedback, setting you up for success.</p>
 								</div>
 							</div>
 						</div>
@@ -1676,11 +1612,7 @@
 						<div id="collapse-6a" class="accordion-collapse collapse" aria-labelledby="heading-c" data-bs-parent="#accordionExample-a">
 							<div class="accordion-body">
 								<div class="data-reqs">
-									<p>The cost of developing an Android app can vary quite a bit, mostly
-										depending on how complex the app is. Usually, companies figure
-										out the price by looking at how many APIs and screens the app
-										will have. In contrast, a pretty basic app might set you back
-										$5,000 or higher.</p>
+									<p>The cost of developing an Android app can vary quite a bit, mostly depending on how complex the app is. Usually, companies figure out the price by looking at how many APIs and screens the app will have. In contrast, a pretty basic app might set you back $5,000 or higher.</p>
 								</div>
 							</div>
 						</div>
@@ -1694,12 +1626,7 @@
 						<div id="collapse-7a" class="accordion-collapse collapse" aria-labelledby="heading-c" data-bs-parent="#accordionExample-a">
 							<div class="accordion-body">
 								<div class="data-reqs">
-									<p>Businesses generally favor the Android app since it enables them
-										to connect with a vast customer base through specialized
-										applications, ultimately expanding their operations. Developing
-										an Android app can assist a firm in connecting with a larger
-										audience, driving up sales, enhancing brand reputation, and
-										cultivating a dedicated customer following.
+									<p>Businesses generally favor the Android app since it enables them to connect with a vast customer base through specialized applications, ultimately expanding their operations. Developing an Android app can assist a firm in connecting with a larger audience, driving up sales, enhancing brand reputation, and cultivating a dedicated customer following.
 									</p>
 								</div>
 							</div>
@@ -1714,25 +1641,7 @@
 						<div id="collapse-8a" class="accordion-collapse collapse" aria-labelledby="heading-c" data-bs-parent="#accordionExample-a">
 							<div class="accordion-body">
 								<div class="data-reqs">
-									<p>Employing the best Android developers can help you create an
-										exceptional app that stands out and brings in a good profit. Let's
-										look at how to find one.
-										Developers need to be proficient in essential programming areas
-										like syntax and basics, frameworks, multithreading and
-										concurrency, functional programming, and generics.
-										To speed up development, your developers should use an SDK.
-										Make sure they're familiar with Android SDKs.
-										They must know how to use Android Studio.
-										APIs are crucial as they connect apps to external services or
-										applications, so the developer needs to be well-acquainted with
-										them.
-										Developers must understand how to work with databases to
-										handle large amounts of data and interact with a database
-										outside of the phone.
-										It's important for developers to grasp the logic behind your
-										business decisions. This understanding will help them pinpoint
-										essential features, streamline the development process, and
-										deliver a mobile app that fully meets your business needs.</p>
+									<p>Employing the best Android developers can help you create an exceptional app that stands out and brings in a good profit. Let's look at how to find one. Developers need to be proficient in essential programming areas like syntax and basics, frameworks, multithreading and concurrency, functional programming, and generics. To speed up development, your developers should use an SDK. Make sure they're familiar with Android SDKs. They must know how to use Android Studio. APIs are crucial as they connect apps to external services or applications, so the developer needs to be well-acquainted with them. Developers must understand how to work with databases to handle large amounts of data and interact with a database outside of the phone. It's important for developers to grasp the logic behind your business decisions. This understanding will help them pinpoint essential features, streamline the development process, and deliver a mobile app that fully meets your business needs.</p>
 									{{-- <ul class="ps-5">
 										<li>Developers must be conversant with fundamental programming languages such as syntax and basics, frameworks, multithreading and concurrency, functional programming, and generics.</li>
 										<li>To accelerate development processes, your developers will need to employ an SDK. Ascertain that they are familiar with Android SDKs.</li>
@@ -1754,9 +1663,7 @@
 						<div id="collapse-9a" class="accordion-collapse collapse" aria-labelledby="heading-c" data-bs-parent="#accordionExample-a">
 							<div class="accordion-body">
 								<div class="data-reqs">
-									<p>We use an agile approach to Android app development, making it
-										as easy as possible for our clients to work with us. This process
-										includes:</p>
+									<p>We use an agile approach to Android app development, making it as easy as possible for our clients to work with us. This process includes:</p>
 									<ul class="ps-5">
 										<li>Figuring out exactly what's needed.</li>
 										<li>Planning the app's development.</li>
@@ -1778,12 +1685,7 @@
 						<div id="collapse-10a" class="accordion-collapse collapse" aria-labelledby="heading-c" data-bs-parent="#accordionExample-a">
 							<div class="accordion-body">
 								<div class="data-reqs">
-									<p>AppsNation boasts a team brimming with tech enthusiasts who
-										are always eager to expand their knowledge and skills. In their
-										free time, they dive into self-study, demonstrating their high level
-										of engagement and drive. This passion fuels their desire for
-										constant improvement, ensuring they stay abreast of the latest
-										advancements in native Android app development.</p>
+									<p>AppsNation boasts a team brimming with tech enthusiasts who are always eager to expand their knowledge and skills. In their free time, they dive into self-study, demonstrating their high level of engagement and drive. This passion fuels their desire for constant improvement, ensuring they stay abreast of the latest advancements in native Android app development.</p>
 								</div>
 							</div>
 						</div>
@@ -1797,25 +1699,14 @@
 						<div id="collapse-11a" class="accordion-collapse collapse" aria-labelledby="heading-c" data-bs-parent="#accordionExample-a">
 							<div class="accordion-body">
 								<div class="data-reqs">
-									<p>At AppsNation, we boast a team of highly skilled Android
-										developers with extensive experience creating apps across a
-										variety of sectors. We've brought them together to leverage their
-										expertise and build the perfect Android app for you. On top of
-										that, we provide our clients with some compelling advantages,
-										including:</p>
+									<p>At AppsNation, we boast a team of highly skilled Android developers with extensive experience creating apps across a variety of sectors. We've brought them together to leverage their expertise and build the perfect Android app for you. On top of that, we provide our clients with some compelling advantages, including:</p>
 									<ul class="ps-5">
-										<li>Complimentary Consultation: We offer free initial
-											consultations.</li>
-										<li>A Roster of Over 50 Android Specialists: We have more than
-											50 expert Android developers on staf</li>
-										<li>Adaptable Staffing Options: We provide flexible hiring
-											models to suit your needs.</li>
-										<li>Dedicated Technical Assistance: You'll receive ongoing
-											technical support from our team.</li>
-										<li>Complete Openness and Clarity: We maintain 100%
-											transparency throughout the process.</li>
-										<li>Ongoing Support Following Launch: We include a 3-month
-											support period after your app's delivery.</li>
+										<li>Complimentary Consultation: We offer free initial consultations.</li>
+										<li>A Roster of Over 50 Android Specialists: We have more than 50 expert Android developers on staf</li>
+										<li>Adaptable Staffing Options: We provide flexible hiring models to suit your needs.</li>
+										<li>Dedicated Technical Assistance: You'll receive ongoing technical support from our team.</li>
+										<li>Complete Openness and Clarity: We maintain 100% transparency throughout the process.</li>
+										<li>Ongoing Support Following Launch: We include a 3-month support period after your app's delivery.</li>
 									</ul>
 								</div>
 							</div>
@@ -1830,9 +1721,7 @@
 						<div id="collapse-12a" class="accordion-collapse collapse" aria-labelledby="heading-c" data-bs-parent="#accordionExample-a">
 							<div class="accordion-body">
 								<div class="data-reqs">
-									<p>We're super accessible, just a tap away! Click on the chat button
-										now or ask for a free quote by filling out the form with your
-										specific needs for your custom Android app.</p>
+									<p>We're super accessible, just a tap away! Click on the chat button now or ask for a free quote by filling out the form with your specific needs for your custom Android app.</p>
 								</div>
 							</div>
 						</div>

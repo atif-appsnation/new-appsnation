@@ -32,8 +32,7 @@
 			</div>
 			<div class="col-lg-6 col-xl-4">
 				<div class="hero-image">
-					<img src="images/team/1.png" alt="img" class=" wow img-custom-anim-left"
-						data-wow-duration="1.5s" data-wow-delay="0.3s" loading="lazy">
+					<img src="images/team/1.png" alt="img" class=" wow img-custom-anim-left" data-wow-duration="1.5s" data-wow-delay="0.3s" loading="lazy">
 					<div class="bg-shape">
 						<img src="images/hero/bg-shape.png" alt="img" loading="lazy">
 					</div>

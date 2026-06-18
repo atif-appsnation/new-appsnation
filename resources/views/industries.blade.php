@@ -452,32 +452,30 @@
 
 <!--Start Let's Work Together-->
 <section>
-
 	<div class="container">
-	<div class="row py-5 justify-content-center hire-developer">
-		<div class="col-lg-8">
-			<div class="free-cta-title v-center wow fadeIn">
-				<div class="row justify-content-center">
-					<div class="col-lg-7 my-auto">
-						<p class="text-center text-lg-start">We Promise. <span>We Deliver.</span> </p>
-					</div>
-					<div class="col-lg-5 text-center text-lg-start mt-5 mt-lg-0">
-						<a href="{{url('/contact-us')}}" class="btn-main button-arounder lnk">Let's Work Together
-							<i class="fas fa-chevron-right fa-icon"></i>
-							<span class="circle"></span>
-						</a>
+		<div class="row py-5 justify-content-center hire-developer">
+			<div class="col-lg-8">
+				<div class="free-cta-title v-center wow fadeIn">
+					<div class="row justify-content-center">
+						<div class="col-lg-7 my-auto">
+							<p class="text-center text-lg-start">We Promise. <span>We Deliver.</span> </p>
+						</div>
+						<div class="col-lg-5 text-center text-lg-start mt-5 mt-lg-0">
+							<a href="{{url('/contact-us')}}" class="btn-main button-arounder lnk">Let's Work Together
+								<i class="fas fa-chevron-right fa-icon"></i>
+								<span class="circle"></span>
+							</a>
+						</div>
 					</div>
 				</div>
 			</div>
 		</div>
 	</div>
-	</div>
 </section>
-
 <!--End Let's Work Together-->
 
 <!--Start Testinomial-->
-<section class="testimonials-section-app pt100 pb-5">
+<section class="testimonials-section-app pt100 pb-5 wow fadeIn">
     <div class="container">
         <div class="row">
             <div class="col-12">
@@ -489,9 +487,7 @@
                 </div>
             </div>
         </div>
-		
-		
-      <div class="testimonial-card-a owl-carousel owl-theme">
+      	<div class="testimonial-card-a owl-carousel owl-theme">
 			@foreach($testimonials as $key => $item)
 
 			<div class="tcd card h-100">

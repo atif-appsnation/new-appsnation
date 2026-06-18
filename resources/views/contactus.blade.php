@@ -24,9 +24,8 @@
 </section>
 <!-- End Breadcrumb -->
 
-<!-- map -->
-
-<div class="container my-5 ">
+<!-- Start Locations -->
+<div class="container py-5 wow fadeIn">
 	<div class="common-heading text-l text-center">
 		<!-- <span>Contact Now</span> -->
 		{!! NoCaptcha::renderJs() !!}
@@ -145,7 +144,9 @@
 		</div>
 	</div>
 </section>
-<!-- map -->
+<!-- End Locations -->
+
+<!-- Start Why Choose -->
 <section class="why-choose-section py-5">
 	<div class="container">
 		<div class="row justify-content-center wow fadeIn">
@@ -203,7 +204,7 @@
 		</div>
 	</div>
 </section>
-
+<!-- End Why Choose -->
 
 <!--Start Enquire Form-->
 <!-- <section class="contact-page py-5">
